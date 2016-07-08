@@ -1,3 +1,3 @@
-# My Awesome Book
+# Cadasta Platform User Guide
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This guide serves to help users get started on the Cadasta Foundation’s land and resource rights management system. 
