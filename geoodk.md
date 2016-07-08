@@ -1,3 +1,3 @@
 # GeoODK User Guide
 
-This is where the GeoODK guide goes
+This is where the GeoODK guide 
