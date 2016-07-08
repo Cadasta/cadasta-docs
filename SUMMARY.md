@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [First Chapter](gettingstarted.md)
-* [Second Chapter](chapter2.md)
+* [Second Chapter](geoodk.md)
 
