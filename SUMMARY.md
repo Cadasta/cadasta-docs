@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](gettingstarted.md)
+* [Getting Started](gettingstarted.md)
 * [Second Chapter](geoodk.md)
 
