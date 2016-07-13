@@ -6,6 +6,5 @@
 * [Projects](projects.md)
 * [Records](records.md)
 * [GeoODK](geoodk.md)
-* 
+* [Downloading Data](download.md)
 * [Creating Custom forms for Data Collection](XLSForms.md)
-* [Creating Custom Forms](XLSForms.md)
