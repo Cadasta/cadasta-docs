@@ -2,5 +2,10 @@
 
 * [Introduction](README.md)
 * [Getting Started](gettingstarted.md)
+* [Organizations](organizations.md)
+* [Projects](projects.md)
+* [Records](records.md)
 * [GeoODK](geoodk.md)
-* [XLSForms](XLSForms.md)
+* 
+* [Creating Custom forms for Data Collection](XLSForms.md)
+* [Creating Custom Forms](XLSForms.md)
