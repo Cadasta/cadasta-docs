@@ -8,3 +8,4 @@
 * [GeoODK](geoodk.md)
 * [Downloading Data](download.md)
 * [Creating Custom forms for Data Collection](XLSForms.md)
+* [Custom Forms](XLSForms.md)
