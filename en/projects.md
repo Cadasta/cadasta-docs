@@ -38,5 +38,6 @@ To add a project, either proceed directly from adding your organization, or navi
   6. Project contacts.
 
 
-  ---------------------------------------------
+
+---
 
