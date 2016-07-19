@@ -8,9 +8,9 @@ To add a project, either proceed directly from adding your organization, or navi
 
   ![](/assets/AddProject.png)
 
-1. The first step will be to define a project location, in other words, where the field data collection activities will take place.
+2. The first step will be to define a project location, in other words, where the field data collection activities will take place.
 
-2. To find the project location, you might use a couple of approaches, as depicted in the image below, you might:
+3. To find the project location, you might use a couple of approaches, as depicted in the image below, you might:
 
   1. Zoom directly to the project location using the OpenStreetMap layer \(see A below for zoom tools\)’.
 
@@ -20,9 +20,10 @@ To add a project, either proceed directly from adding your organization, or navi
 
     ![](/assets/AddNewProject_Map.png)
 
-3. After selecting the project area, either through creating a polygon or drawing a rectangle, please select “Save and Continue.” _note: the project area does not need to be precisely defined, just make sure you’ve covered all areas you may be working leaving a comfortable buffer on the margins._
 
-4. You will now be asked to fill out “General Information” regarding the project; including
+4. After selecting the project area, either through creating a polygon or drawing a rectangle, please select “Save and Continue.” _note: the project area does not need to be precisely defined, just make sure you’ve covered all areas you may be working leaving a comfortable buffer on the margins._
+
+5. You will now be asked to fill out “General Information” regarding the project; including
 
   1. Project name;
 
@@ -37,4 +38,5 @@ To add a project, either proceed directly from adding your organization, or navi
   6. Project contacts.
 
 
+  ---------------------------------------------
 
