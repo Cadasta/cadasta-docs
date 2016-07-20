@@ -17,7 +17,7 @@ The first step in defining the spatial details of a location for which a right i
 4. Select save and your first location has been recorded.
 
 
-![](/assets/Records_Digitizing.png)
+![](/assets/records_digitizing.png)
 
 ### Relationship Information
 
@@ -25,8 +25,8 @@ Now that the spatial details have been recorded, its now necessary to establish 
 
 1. From the Project Overview page, select "Relationships" and then "Add Relationship."
 
-![](/assets/Records_Relationships.png)
-1. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\)![](/assets/Records_RelationshipType&Party.png)
+![](/assets/records_relationships.png)
+1. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\)![](/assets/records_relationship_type_and_party.png)
 
 3.
 
@@ -36,11 +36,9 @@ Now that we have added locations and established relationship with right holders
 
 1. Select Resources from the overview page. 
 
-![](/assets/Records_ResourceFiles.png)
+![](/assets/records_resourcefiles.png)
 
 1. Now you can either upload resources directly, or add from the resource library if you have already saved to the project.  The Resource File will now be associated with the property in question.
 
-
-1. ![](/assets/Records_ResourFilesAddition.png)
-
+1. ![](/assets/records_resource_files_addition.png)
 
