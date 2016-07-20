@@ -6,14 +6,15 @@
 
 2. Select “Register” from the upper right of the screen.
 
-  ![](/en/assets/login_page.png)
 
-3. Input a Username, valid email address, password and your full name.
+1. Input a Username, valid email address, password and your full name.
 
-  ![](/en/assets/register.png)
 
-4. Select Register.
+
+2. Select Register.
 
 
 After a successful login, you will return to the home screen, from which you can view public projects and organizations, as well as the details of projects and organizations with which you are associated.
+
+![](/en/assets/login_page.png)
 
