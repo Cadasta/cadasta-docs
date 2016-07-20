@@ -6,7 +6,7 @@ To add a project, either proceed directly from adding your organization, or navi
 
 1. From the Organization Overview page, select “Add a new project.”
 
-  ![](/en/assets/add_project.png)
+  ![](/assets/en/add_project.png)
 
 2. The first step will be to define a project location, in other words, where the field data collection activities will take place.
 
@@ -18,7 +18,7 @@ To add a project, either proceed directly from adding your organization, or navi
 
   3. Search a geographic place name.
 
-    ![](/en/assets/add_new_project_map.png)
+    ![](/assets/en/add_new_project_map.png)
 
 
 
