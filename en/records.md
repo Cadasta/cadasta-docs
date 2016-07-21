@@ -26,7 +26,7 @@ Now that the spatial details have been recorded, its now necessary to establish 
 1. From the Project Overview page, select "Relationships" and then "Add Relationship."
 
 ![](/assets/Records_Relationships.png)
-1. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\)![](/assets/Records_RelationshipType&Party.png)
+2. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\)![](/assets/Records_RelationshipType&Party.png)
 
 3.
 
@@ -39,8 +39,5 @@ Now that we have added locations and established relationship with right holders
 ![](/assets/Records_ResourceFiles.png)
 
 1. Now you can either upload resources directly, or add from the resource library if you have already saved to the project.  The Resource File will now be associated with the property in question.
-
-
-1. ![](/assets/Records_ResourFilesAddition.png)
-
+  ![](/assets/Records_ResourFilesAddition.png)
 
