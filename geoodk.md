@@ -24,9 +24,18 @@ If this is the first time you have used GeoODK with the Cadasta platform, you wi
 
 1. Please also enter the Username and Password utilized with the Cadasta platform.
 
-2. Select the Back button three times to return to the GeoODK Main Menu. 
+2. Select the Back button three times to return to the GeoODK Main Menu.
+
 
 Now GeoODK is configured for data collection that will feed directly to the Cadasta platform.
 
 ## Loading your Form
+
+Now we need to load the forms posted to the Cadasta Platform to the device.
+
+1. Select _Settings_ from the home page.
+
+2. Select _Form Management._
+
+3. Place a checkmark next to the form you would like to download and select _Get Selected._
 
