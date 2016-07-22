@@ -6,13 +6,13 @@ To create a new organization:
 
 1. On the project index page select the “Organization” button.
 
-  ![](/assets/Organization.png)
+  ![](/assets/organization.png)
 
 2. At this page you will be able to view public projects, as well as add your own by selecting the “Add” button.
 
-  ![](/assets/Add new org.png)
+  ![](/assets/add_new_org.png)
 
-3. 3. After selecting “Add” within the Organization page, you will need to fill out relevant details about the organization.
+3. 1. After selecting “Add” within the Organization page, you will need to fill out relevant details about the organization.
 
 
 Congratulations! You’ve established an organization within the Cadasta platform!
