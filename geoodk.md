@@ -16,20 +16,19 @@ If this is the first time you have used GeoODK with the Cadasta platform, you wi
 3. Next select _General Settings._
 
 ![](/assets/geoodk_settings3.png)
-1. Now select _Configure Platform Settings._
+4. Now select _Configure Platform Settings._
   INSERT IMAGE
-2. On this screen you will need to enter the nessecary url:
-  1. http:\/\/platform.cadasta.org \(if for production\); or
-  2. http:\/\/demo.cadasta.org \(if for testing\)
+5. On this screen you will need to enter the nessecary url:
+  i. http:\/\/platform.cadasta.org \(if for production\); or
+  ii. http:\/\/demo.cadasta.org \(if for testing\)
 
-3. Please also enter the Username and Password utilized with the Cadasta platform.
-4. Select the Back button three times to return to the GeoODK Main Menu. 
+1. Please also enter the Username and Password utilized with the Cadasta platform.
+
+
+1. Select the Back button three times to return to the GeoODK Main Menu. 
 
 
 Now GeoODK is configured for data collection that will feed directly to the Cadasta platform.
 
-
 ## Loading your Form
-
-
 
