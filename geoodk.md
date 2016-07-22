@@ -24,9 +24,7 @@ If this is the first time you have used GeoODK with the Cadasta platform, you wi
 
 1. Please also enter the Username and Password utilized with the Cadasta platform.
 
-
-1. Select the Back button three times to return to the GeoODK Main Menu. 
-
+2. Select the Back button three times to return to the GeoODK Main Menu. 
 
 Now GeoODK is configured for data collection that will feed directly to the Cadasta platform.
 
