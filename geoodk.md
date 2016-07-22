@@ -19,8 +19,8 @@ If this is the first time you have used GeoODK with the Cadasta platform, you wi
 4. Now select _Configure Platform Settings._
   INSERT IMAGE
 5. On this screen you will need to enter the nessecary url:
-  i. http:\/\/platform.cadasta.org \(if for production\); or
-  ii. http:\/\/demo.cadasta.org \(if for testing\)
+  i. http:\/\/platform.cadasta.org\/collect \(if for production\); or
+  ii. http:\/\/demo.cadasta.org\/collect \(if for testing\)
 
 1. Please also enter the Username and Password utilized with the Cadasta platform.
 
@@ -38,4 +38,26 @@ Now we need to load the forms posted to the Cadasta Platform to the device.
 2. Select _Form Management._
 
 3. Place a checkmark next to the form you would like to download and select _Get Selected._
+
+
+## Data Collection
+
+Now it’s time to collect some data!
+
+1. From the Geo ODK Main Menu select Collect Data \(from the main screen\) or the Clipboard \(from the map screen\).
+
+2. Select the relevant form for data collection
+
+3. Swipe left twice to get started completing the form 
+
+4. Continue answering all the survey questions until you reach the "end of survey" message 
+
+5. Select the Mark form as Finalized checkbox 
+
+6. Select the Save Form button 
+
+7. When ready to submit data \(via WiFi or over the mobile network, select “Send Data” 
+
+8. After data is confirmed as sent, and you have received a confirmation message, you can delete the forms you’ve already used. 
+
 
