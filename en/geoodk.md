@@ -1,6 +1,6 @@
 # Open Data Kit \(ODK\) Collect User Guide
 
-Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to easily accommodate a variety of tools for data collection, allowing for easy ingestion of data. This guide will show you how to use ODKfor data collection and to streamline the process of getting accurate geospatially enabled data into the platform.
+Field data collection is an important part of the land and resource rights documentation process. Cadasta Platform is designed to easily accommodate a variety of tools for data collection, allowing for easy ingestion of data. This guide will show you how to use ODK for data collection and to streamline the process of getting accurate geospatially enabled data into the platform.
 
 ODK is a free, open source mobile data collection application for Android devices \(sorry Apple fans\). To get started, please [download ODK.](/ http://geomarvel-projects.s3.amazonaws.com/cadasta/collect-cadasta-dev.apk) Note that we have a customized ODK Collect version that we host ourselves, so if you already have installed, you will need to replace with this version.
 
@@ -12,17 +12,17 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
 2. Select _General Settings_ from the home page using the menu key.
 
   ![](/assets/odk_homepage.png)
+
 3. Now select _Configure Platform Settings._
 
-
-  ![](/assets/odk_configuresettings.png)
+![](/assets/odk_configuresettings.png)
 4. On this screen you will need to enter the nessecary url:
   i. http:\/\/platform.cadasta.org\/collect \(if for production\); or
   ii. http:\/\/demo.cadasta.org\/collect \(if for testing\)
 
-5. Please also enter the Username and Password utilized with the Cadasta platform.
+1. Please also enter the Username and Password utilized with the Cadasta platform.
 
-6. Select the Back button two times to return to the ODK Main Menu.
+2. Select the Back button two times to return to the ODK Main Menu.
 
 
 Now ODK is configured for data collection that will feed directly to the Cadasta Platform.
