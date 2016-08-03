@@ -47,6 +47,7 @@ Now we need to load the forms posted to the Cadasta Platform to the device.
 Now it’s time to collect some data!
 
 1. From the ODK Main Menu select **Fill Blank Form**.
+
 ![](/assets/odk_homepage_fill_blank_form.png)
 
 2. Select the relevant form for data collection
@@ -58,9 +59,11 @@ Now it’s time to collect some data!
 5. Select **Mark Form as Finalized** checkbox
 
 6. Click **Save Form and Exit**
+
 ![](/assets/odk_questionnaire_marked.png)
 
 7. When ready to submit data \(via WiFi or over the mobile network\), click **Send Finalized Form**.
+
 ![](/assets/odk_send_form_marked.png)
 
 8. After data is confirmed as sent, and you have received a confirmation message, the used form can be deleted.
