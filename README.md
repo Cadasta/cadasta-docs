@@ -6,5 +6,5 @@ An estimated 70% of land in emerging economies is unregistered. For those citize
 
 With the Cadasta Platform we invite users to use our open, cloud based platform to setup and manage their own communities rights. Our tools for data collection, platform for managing data and expertise in helping partners think through approaches make the Platform easy to use for all.
 
-Please give the platform a try and begin to document the rights of those in your community.
+Please give the platform a try and begin to document the rights of those in your community. 
 
