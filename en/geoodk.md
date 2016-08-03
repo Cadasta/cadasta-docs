@@ -18,8 +18,8 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
   ![](/assets/odk_generalsettings_marked.jpg)
 
 4. On this screen you will need to enter the necessary URL:
-  1. http:\/\/platform.cadasta.org/collect \(if for production\); or
-  2. http:\/\/demo.cadasta.org/collect  \(if for testing\)
+  1. http://platform.cadasta.org/collect \(if for production\); or
+  2. http://demo.cadasta.org/collect  \(if for testing\)
 
 5. Please also enter the Username and Password utilized with the Cadasta platform
 
@@ -38,8 +38,9 @@ Now we need to load the forms posted to the Cadasta Platform to the device.
 
 2. Enter the Cadasta Platform Username and Password if prompted.
 
-3. Place a checkmark next to the form you would like to download and select _Get Selected._
+3. Place a checkmark next to the form you would like to download and select **Get Selected**.
 
+![](/assets/odk_get_forms.png)
 
 ## Data Collection
 
