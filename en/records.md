@@ -34,10 +34,8 @@ Now that the spatial details have been recorded, its now necessary to establish 
 Now that we have added locations and established relationships with right holders, it may be useful to provide evidence of the rights.  This might vary to include pictures of properties, right holders or documentation attesting to rights \(transfer documents, tax payments receipts, etc\), or video or audio files detailing agreements on rights and boundaries.
 
 1. Select **Resources** from the overview page. 
-
 ![](/assets/records_resourcefiles.png)
-
-1. Now you can either upload resources directly, or add them from the resource library if you have already saved to the project. The Resource File will now be associated with the property in question.
+2. Now you can either upload resources directly, or add them from the resource library if you have already saved to the project. The Resource File will now be associated with the property in question.
 
 ![](/assets/records_resource_files_addition.png)
 
