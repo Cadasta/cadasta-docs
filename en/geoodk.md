@@ -15,6 +15,7 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
 
 3. Now select _Configure Platform Settings._
 
+
 ![](/assets/odk_configuresettings.png)
 4. On this screen you will need to enter the nessecary url:
   i. http:\/\/platform.cadasta.org\/collect \(if for production\); or
