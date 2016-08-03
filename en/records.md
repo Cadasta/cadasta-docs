@@ -10,7 +10,7 @@ The first step in defining the spatial details of a location for which a right i
 
 1. After logging into the Platform and navigating to your project, click **Add a location** to begin data entry.
 
-  ![](/assets/addlocation.jpg)
+  ![](/assets/addlocation2.jpg)
 
 2. You can then use the drawing tools \(see label A in the image below\) to draw the location on the map as a point, line, or polygon, and if imagery is needed, remember that you can change the background by switching the map layers \(see B below\). Also note the boundary of the project area shaded in a dotted line as defined during the creation of the project \(see C below\).
 
@@ -26,10 +26,7 @@ The first step in defining the spatial details of a location for which a right i
 Now that the spatial details have been recorded, its now necessary to establish a relationship between the right holder and the location.
 
 1. From the Project Overview page, select **Relationships** and then **Add Relationship**.
-
-![](/assets/records_relationships.png)
-
-1. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\). 
+  ****You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\). 
 
 ![](/assets/records_relationship_type_and_party.png)
 
