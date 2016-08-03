@@ -19,7 +19,6 @@ To add a project, either proceed directly from adding your organization, or navi
   3. Search a geographic place name \(see label C\)
     ![](/assets/add_new_project_map.png)
 
-
 4. After selecting the project area, either through creating a polygon or drawing a rectangle, please select **Save and Continue**.
 
   _Note: the project area does not need to be precisely defined, just make sure you have covered all areas you may be working, leaving a comfortable buffer on the margins._
@@ -37,7 +36,6 @@ To add a project, either proceed directly from adding your organization, or navi
   5. The questionnaire \(see next section for details\);and
 
   6. Project contacts
-
 
 6. Now that the General Information of the project is defined, you will be asked to **Assign Permissions to Members**. These permissions will define user accesses and privileges for using the platform. Currently, there are five types of users, defined below with details regarding access rights:
   1. **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data. 
