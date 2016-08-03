@@ -21,10 +21,9 @@ To add a project, either proceed directly from adding your organization, or navi
     ![](/assets/add_new_project_map.png)
 
 
-
 4. After selecting the project area, either through creating a polygon or drawing a rectangle, please select “Save and Continue.” _note: the project area does not need to be precisely defined, just make sure you’ve covered all areas you may be working leaving a comfortable buffer on the margins._
 
-2. You will now be asked to fill out “General Information” regarding the project; including
+5. You will now be asked to fill out “General Information” regarding the project; including
 
   1. Project name;
 
