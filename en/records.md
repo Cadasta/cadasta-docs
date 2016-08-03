@@ -26,7 +26,7 @@ The first step in defining the spatial details of a location for which a right i
 Now that the spatial details have been recorded, its now necessary to establish a relationship between the right holder and the location.
 
 1. From the Project Overview page, select **Relationships** and then **Add Relationship**.
-  ****You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\). 
+  ![](/assets/records_relationships.png)You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\). 
 
 ![](/assets/records_relationship_type_and_party.png)
 
