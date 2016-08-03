@@ -51,13 +51,9 @@ Now it’s time to collect some data!
 ![](/assets/odk_homepage_fill_blank_form.png)
 
 2. Select the relevant form for data collection
-
 3. Swipe left twice to get started completing the form
-
 4. Continue answering all the survey questions until you reach the "End of survey" message
-
 5. Select **Mark Form as Finalized** checkbox
-
 6. Click **Save Form and Exit**
 
 ![](/assets/odk_questionnaire_marked.png)
