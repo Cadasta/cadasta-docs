@@ -8,13 +8,13 @@ The first step in defining the spatial details of a location for which a right i
 
 ### Location Information
 
-1. After logging into the Platform and navigating to your project, select "Add a Location" to begin data entry.
+1. After logging into the Platform and navigating to your project, click **Add a location** to begin data entry.
 
-2. You can then use the drawing tools \(see A below\) to draw the location on the map as a point, line, or polygon.  If imagery is needed, remember that you can change the background by switching the map layers \(see B below\). Also note the boundary of the project area shaded in a dotted line as defined during the creationn of the project \(see C below\).
+  ![](/assets/addlocation.jpg)
+2. You can then use the drawing tools \(see label A in the image below\) to draw the location on the map as a point, line, or polygon, and if imagery is needed, remember that you can change the background by switching the map layers \(see B below\). Also note the boundary of the project area shaded in a dotted line as defined during the creation of the project \(see C below\).
+3. Now fill out all property details as defined in the Excel Form \(see [Custom Data Collection Section](http://docs.cadasta.org/en/XLSForms.html) for details\) submittted during project setup \(see D below\).
 
-3. Now fill out all property details as defined in the Excel Form \(see Custom Data Section for details\) submittted during project setup \(see D below\).
-
-4. Select save and your first location has been recorded.
+4. Click **Save** and your first location has been recorded.
 
 
 ![](/assets/records_digitizing.png)
@@ -26,7 +26,7 @@ Now that the spatial details have been recorded, its now necessary to establish 
 1. From the Project Overview page, select "Relationships" and then "Add Relationship."
 
 ![](/assets/records_relationships.png)
-1. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\)![](/assets/records_relationship_type_and_party.png) 
+1. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\)![](/assets/records_relationship_type_and_party.png)
 
 3.
 
@@ -36,4 +36,5 @@ Now that we have added locations and established relationship with right holders
 
 1. Select Resources from the overview page. 
 
-![](/assets/records_resourcefiles.png) 1. Now you can either upload resources directly, or add from the resource library if you have already saved to the project. The Resource File will now be associated with the property in question. 1. ![](/assets/records_resource_files_addition.png) 
+![](/assets/records_resourcefiles.png) 1. Now you can either upload resources directly, or add from the resource library if you have already saved to the project. The Resource File will now be associated with the property in question. 1. ![](/assets/records_resource_files_addition.png)
+
