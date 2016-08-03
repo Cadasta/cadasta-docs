@@ -42,5 +42,5 @@ Now that we have added locations and established relationships with right holder
 ![](/assets/records_resourcefiles.png)
 
 1. Now you can either upload resources directly, or add from the resource library if you have already saved to the project. The Resource File will now be associated with the property in question.
-   ![](/assets/records_resource_files_addition.png)
+  ![](/assets/records_resource_files_addition.png)
 
