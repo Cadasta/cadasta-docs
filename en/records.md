@@ -29,7 +29,7 @@ Now that the spatial details have been recorded, its now necessary to establish 
 
 ![](/assets/records_relationships.png)
 
-2. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\). 
+1. You will be prompted to define your tenure type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\). 
 
 ![](/assets/records_relationship_type_and_party.png)
 
@@ -41,7 +41,7 @@ Now that we have added locations and established relationships with right holder
 
 ![](/assets/records_resourcefiles.png)
 
-2. Now you can either upload resources directly, or add from the resource library if you have already saved to the project. The Resource File will now be associated with the property in question.
+1. Now you can either upload resources directly, or add from the resource library if you have already saved to the project. The Resource File will now be associated with the property in question.
 
 ![](/assets/records_resource_files_addition.png)
 
