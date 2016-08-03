@@ -8,9 +8,9 @@ For more information on XLSForms and details on how to get started, visit XLSFor
 
 We have also provided a "starter" form that is the basis for man of our programs, and which can [be accessed here](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit).
 
-Stay tuned as we will be adding additional generic forms in the near future.  
+Stay tuned as we will be adding additional generic forms in the near future.
 
 If you need help with your form, don't hesitate to contact us!
 
-https:\/\/docs.google.com\/spreadsheets\/d\/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA\/edit
+
 
