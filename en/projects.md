@@ -14,7 +14,7 @@ To add a project, either proceed directly from adding your organization, or navi
 
   1. Zoom directly to the project location using the OpenStreetMap layer \(see label A in the image below for zoom tools\).
 
-  2. Turn on the satellite imagery to help identify the project location \(see label B\). 
+  2. Turn on the satellite imagery to help identify the project location \(see label B\).
 
   3. Search a geographic place name \(see label C\).
 
@@ -22,7 +22,7 @@ To add a project, either proceed directly from adding your organization, or navi
 
 
 
-1. After selecting the project area, either through creating a polygon or drawing a rectangle, please select “Save and Continue.” _note: the project area does not need to be precisely defined, just make sure you’ve covered all areas you may be working leaving a comfortable buffer on the margins._
+4. After selecting the project area, either through creating a polygon or drawing a rectangle, please select “Save and Continue.” _note: the project area does not need to be precisely defined, just make sure you’ve covered all areas you may be working leaving a comfortable buffer on the margins._
 
 2. You will now be asked to fill out “General Information” regarding the project; including
 
