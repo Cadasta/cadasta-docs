@@ -15,15 +15,16 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
 
 3. Now click **Configure Platform Settings**_._
 
-  ![](/assets/odk_generalsettings-marked.jpg)
+  ![](/assets/odk_generalsettings_marked.jpg)
 
 4. On this screen you will need to enter the necessary URL:
-  1. [http:\/\/platform.cadasta.org\/collect](http://platform.cadasta.org/collect) \(if for production\); or
-  2. [http:\/\/demo.cadasta.org\/collect](http://demo.cadasta.org/collect) \(if for testing\)
+  1. [http://platform.cadasta.org\/collect](http://platform.cadasta.org/collect) \(if for production\); or
+  2. [http://demo.cadasta.org\/collect](http://demo.cadasta.org/collect) \(if for testing\)
 
 5. Please also enter the Username and Password utilized with the Cadasta platform
 
 6. Select the Back button two times to return to the ODK Main Menu.
+
 
 Now ODK is configured for data collection that will feed directly to the Cadasta Platform.
 
