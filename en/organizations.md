@@ -6,11 +6,11 @@ To create a new organization:
 
 1. On the project index page select **Organizations**.
 
-  ![](/en/assets/organization.png)
+  ![](/assets/organization.png)
 
 2. At this page you will be able to view public projects, as well as add your own by clicking **Add**.
 
-  ![](/en/assets/add_new_org.png)
+  ![](/assets/add_new_org.png)
 
 3. After selecting **Add** within the Organizations page, you will need to fill out relevant details about the organization.
 
