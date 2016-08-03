@@ -14,7 +14,7 @@ To add a project, either proceed directly from adding your organization, or navi
 
   1. Zoom directly to the project location using the OpenStreetMap layer \(see label A in the image below for zoom tools\).
 
-  2. Turn on the satellite imagery to help identify the project location \(see label B\). 
+  2. Turn on the satellite imagery to help identify the project location \(see label B\).
 
   3. Search a geographic place name \(see label C\)
     ![](/en/assets/add_new_project_map.png)
@@ -37,7 +37,6 @@ To add a project, either proceed directly from adding your organization, or navi
   5. The questionnaire \(see next section for details\);and
 
   6. Project contacts
-
 
 
 6. Now that the General Information of the project is defined, you will be asked to **Assign Permissions to Members**. These permissions will define user accesses and privileges for using the platform. Currently, there are four types of users, defined below with details regarding access rights:
