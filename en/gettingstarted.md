@@ -2,7 +2,7 @@
 
 **To create a new account**
 
-1. Navigate to http://demo.cadasta.org
+1. Navigate to [http:\/\/demo.cadasta.org](http://demo.cadasta.org)
 2. Select **Register** from the upper right of the screen
 3. Input a Username, valid email address, password and your full name
 4. Select **Register**
