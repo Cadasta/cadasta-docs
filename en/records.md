@@ -10,7 +10,7 @@ The first step in defining the spatial details of a location for which a right i
 
 1. After logging into the Platform and navigating to your project, click **Add a location** to begin data entry.
 
-  ![](/assets/addlocation2.jpg)
+  ![](/assets/addlocation.jpg)
 
 2. You can then use the drawing tools \(see label A in the image below\) to draw the location on the map as a point, line, or polygon, and if imagery is needed, remember that you can change the background by switching the map layers \(see B below\). Also note the boundary of the project area shaded in a dotted line as defined during the creation of the project \(see C below\).
 
