@@ -2,21 +2,21 @@
 
 Once that you have established an organization it is now time to set up your project\(s\). As noted in the introduction, an organization might have multiple projects for data collection. These could be different in geographical area, scope, community, etc.
 
-To add a project, either proceed directly from adding your organization, or navigate to your newly established organization by clicking "Organizations" the organization at the top of the page and locating your organization.
+To add a project, either proceed directly from adding your organization, or navigate to your newly established organization by clicking **Organizations** at the top of the page and locating your organization.
 
-1. From the Organization Overview page, select “Add a new project.”
+1. From the **Organization Overview** page, select **Add a new project**
 
   ![](/assets/add_project.png)
 
 2. The first step will be to define a project location, in other words, where the field data collection activities will take place.
 
-3. To find the project location, you might use a couple of approaches, as depicted in the image below, you might:
+3. To find the project location, it is possible use a couple of approaches, as depicted in the image below, you might:
 
-  1. Zoom directly to the project location using the OpenStreetMap layer \(see A below for zoom tools\)’.
+  1. Zoom directly to the project location using the OpenStreetMap layer \(see label A in the image below for zoom tools\).
 
-  2. Turn on the satellite imagery to help identify the project location;
+  2. Turn on the satellite imagery to help identify the project location \(see label B\). 
 
-  3. Search a geographic place name.
+  3. Search a geographic place name \(see label C\).
 
     ![](/assets/add_new_project_map.png)
 
