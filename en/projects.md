@@ -1,8 +1,8 @@
 # Establishing a Project
 
-Now that you have established an organization it is now time to set up your project\(s\). As noted in the introduction, an organization might have multiple projects for data collection. These could be different in geographical area, scope, community, etc.
+Once that you have established an organization it is now time to set up your project\(s\). As noted in the introduction, an organization might have multiple projects for data collection. These could be different in geographical area, scope, community, etc.
 
-To add a project, either proceed directly from adding your organization, or navigate to your newly established organization by clicking the organization ta at the top of the page and locating your organization.
+To add a project, either proceed directly from adding your organization, or navigate to your newly established organization by clicking "Organizations" the organization at the top of the page and locating your organization.
 
 1. From the Organization Overview page, select “Add a new project.”
 

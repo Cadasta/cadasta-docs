@@ -4,16 +4,15 @@ As a first time user, your priority may be to set up an organizational account t
 
 To create a new organization:
 
-1. On the project index page select the “Organizations” button.
+1. On the project index page select **Organizations**.
 
   ![](/assets/organization.png)
 
-2. At this page you will be able to view public projects, as well as add your own by selecting the “Add” button.
+2. At this page you will be able to view public projects, as well as add your own by clicking **Add**.
 
   ![](/assets/add_new_org.png)
 
-3. After selecting “Add” within the Organization page, you will need to fill out relevant details about the organization.
-
+3. After selecting **Add** within the Organizations page, you will need to fill out relevant details about the organization.
 
 
 Congratulations! You’ve established an organization within the Cadasta platform!
