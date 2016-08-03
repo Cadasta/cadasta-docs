@@ -9,6 +9,7 @@ The first step in defining the spatial details of a location for which a right i
 ### Location Information
 
 1. After logging into the Platform and navigating to your project, click **Add a location** to begin data entry.
+ ![](/assets/add_project.png)
 
   ![](/assets/addlocation3.jpg)
 
