@@ -9,5 +9,5 @@
 
 After a successful login, you will return to the home screen, from which you can view public projects and organizations, as well as the details of projects and organizations with which you are associated.
 
-![](/assets/login_page.png)
+![](/en/assets/login_page.png)
 
