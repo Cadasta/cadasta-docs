@@ -9,9 +9,9 @@ The process of downloading project data is straightforward.
   ![](/assets/DownloadingData_selectdownload1.png)
 
 2. Next, you will be asked to select the file format; as a user you have the option to download the:
-  1. Details of the locations, relationships and parties as an XLS file;
-  2. A zip file containing all resources files (images, videos, audio and other associated files);
-  3. A zip file containing both the details of all locations, relationships and parties as well as the resource files.
+  * Details of the locations, relationships and parties as an XLS file;
+  * A zip file containing all resources files (images, videos, audio and other associated files); or
+  * A zip file containing both the details of all locations, relationships and parties as well as the resource files.
     ![](/assets/DownloadingData_DownloadProjectData2.png)
 
 3. Select Download and the file will be downloaded to your downloads folder.
