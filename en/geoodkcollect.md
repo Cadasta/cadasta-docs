@@ -1,6 +1,6 @@
 # Geographical Open Data Kit \(GeoODK\) Collect User Guide
 
-As well as with ODK as described in the section before, it is also possible to collect data using Geographical ODK application for Android devices (unfortunately not available yet for Apple devices). To get started, please [download GeoODK Collect](https://play.google.com/store/apps/details?id=com.geoodk.collect.android) from the Google Play Store, or wherever you acquire your applications.
+In addition to ODK Collect, it is also possible to collect data using the GeoODK application for Android devices (unfortunately not available yet for Apple devices). To get started, please [download GeoODK Collect](https://play.google.com/store/apps/details?id=com.geoodk.collect.android) from the Google Play Store, or wherever you acquire your applications.
 
 ## **Initial Setup**
 
@@ -27,7 +27,7 @@ Now GeoODK is configured for data collection that will feed directly to the Cada
 
 ## Loading your Form
 
-Now we need to load the forms posted to the Cadasta Platform to the device.
+Now we need to load the form posted to the Cadasta Platform to the device.
 
 1. Select **Form Management** from the **Settings** menu.
 
@@ -47,11 +47,11 @@ Now it’s time to collect some data!
 
 ![](/assets/geoodk_home_screen_collectdata.png)
 
-2. Select the relevant form for data collection
-3. Swipe left twice to get started completing the form
-4. Continue answering all the survey questions until you reach the "End of survey" message
-5. Select **Mark Form as finalized** checkbox
-6. Click **Save Form and Exit**
+2. Select the relevant form for data collection.
+3. Swipe left twice to get started completing the form.
+4. Continue answering all the survey questions until you reach the "End of survey" message.
+5. Select **Mark Form as finalized** checkbox.
+6. Click **Save Form and Exit**.
 
 ![](/assets/geoodk_sendform.png)
 
