@@ -15,7 +15,7 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
 
 3. Now click **Configure Platform Settings**_._
 
-  ![](/assets/odk_generalsettings_marked.jpg)
+  ![](/assets/odk_generalsettings_marked.png)
 
 4. On this screen you will need to enter the necessary URL:
   1. http://platform.cadasta.org/collect \(if for production\); or
@@ -34,13 +34,13 @@ Now we need to load the forms posted to the Cadasta Platform to the device.
 
 1. Select **Get Blank Form** from the home page.
 
-  ![](/assets/odk_homepage_getblankform2.jpg)
+  ![](/assets/odk_homepage_getblankform2.png)
 
 2. Enter the Cadasta Platform Username and Password if prompted.
 
 3. Place a checkmark next to the form you would like to download and select **Get Selected**.
 
-![](/assets/odk_get_forms.png)
+![](/assets/odk_get_forms2.png)
 
 ## Data Collection
 
@@ -48,7 +48,7 @@ Now it’s time to collect some data!
 
 1. From the ODK Main Menu select **Fill Blank Form**.
 
-![](/assets/odk_homepage_fill_blank_form.png)
+![](/assets/odk_homepage_fill_blank_form2.png)
 
 2. Select the relevant form for data collection
 3. Swipe left twice to get started completing the form
@@ -56,11 +56,11 @@ Now it’s time to collect some data!
 5. Select **Mark Form as Finalized** checkbox
 6. Click **Save Form and Exit**
 
-![](/assets/odk_questionnaire_marked.png)
+![](/assets/odk_questionnaire_marked2.png)
 
 7. When ready to submit data \(via WiFi or over the mobile network\), click **Send Finalized Form**.
 
-![](/assets/odk_send_form_marked.png)
+![](/assets/odk_send_form_marked2.png)
 
 8. After data is confirmed as sent, and you have received a confirmation message, the used form can be deleted.
 
