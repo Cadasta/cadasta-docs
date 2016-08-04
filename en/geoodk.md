@@ -6,7 +6,7 @@ ODK is a free, open source mobile data collection application for Android device
 
 ## **Initial Setup**
 
-If this is the first time you have used ODK with the Cadasta Platform, you will need to configure ODK for direct syncing with the  Platform. In order to do this, you will first need to setup your Cadasta account if you haven't already \(see getting started\).
+If this is the first time you have used ODK with the Cadasta Platform, you will need to configure ODK for direct syncing with the  Platform. In order to do this, you will first need to setup your Cadasta account if you haven't already \(see Getting Started\).
 
 1. Once you have installed ODK, please open the application.
 2. Select **General Settings** from the home page using the menu key.
@@ -15,7 +15,7 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
 
 3. Now click **Configure Platform Settings**_._
 
-  ![](/assets/odk_generalsettings_marked.png)
+  ![](/assets/odk_generalsettings_marked.jpg)
 
 4. On this screen you will need to enter the necessary URL:
   1. http://platform.cadasta.org/collect \(if for production\); or
@@ -34,7 +34,7 @@ Now we need to load the forms posted to the Cadasta Platform to the device.
 
 1. Select **Get Blank Form** from the home page.
 
-  ![](/assets/odk_homepage_getblankform2.png)
+  ![](/assets/odk_homepage_getblankform2.jpg)
 
 2. Enter the Cadasta Platform Username and Password if prompted.
 
