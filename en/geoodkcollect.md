@@ -7,11 +7,11 @@ As well as with ODK as described in the section before, it is also possible to c
 If this is the first time you have used GeoODK with the Cadasta Platform, you will need to configure GeoODK for direct syncing with the  Platform. In order to do this, you will first need to setup your Cadasta account if you haven't already \(see Getting Started\).
 
 1. Once you have installed GeoODK, please open the application.
-2. Select **General Settings** from the home page using the menu key.
+2. Select **Settings** from the home page using the menu key.
 
   ![](/assets/geoodk_home_screen_settings.png)
 
-3. Now click **Configure Platform Settings**.
+3. Now click **Configure platform settings**.
 
   ![](/assets/GeoODK_configuresettings.png)
 
@@ -55,7 +55,7 @@ Now it’s time to collect some data!
 
 ![](/assets/geoodk_sendform.png)
 
-7. When ready to submit data \(via WiFi or over the mobile network\), click **Send Finalized Form**.
+7. When ready to submit data \(via WiFi or over the mobile network\), click **Send Data** and then confirm the form sending. 
 
 ![](/assets/geoodk_home_screen_send_data.png)
 
