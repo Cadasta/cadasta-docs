@@ -2,7 +2,9 @@
 
 Now that you have set up your organization and project, it's time to start recording land information.
 
-The first step is defining the spatial details of a location for which a relationship is to be assigned.  Defining the location can be done in a number of ways - collecting coordinates from a GPS unit, utilizing Field Papers and tracing boundaries, direct data collection from GeoODK or ODK, or digitizing from imagery.  We will begin with digitizing from imagery.
+The first step is defining the spatial details of a location for which a relationship is to be assigned.  Defining the location can be done in a number of ways - currently we allow for direct data collection from OpenDataKit (ODK Collect) or GeoODK (Described in a subsuquent section), or digitizing from imagery.  In the coming months we will be adding functionality to allow for entering GPS coordinates and utilizing the Field Papers application.
+
+Let's begin by looking at digitizing from imagery.
 
 ## Digitizing from Imagery
 
