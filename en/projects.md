@@ -42,12 +42,12 @@ To add a project, either proceed directly from adding your organization, or navi
   2. **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
   3. **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data. 
   4. **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data. 
-  5. **Public User**. A Public User can only view data that is made publicly available.
+  5. **Public User**. A Public User can view only data that is publicly available.
 
 
 ![](/assets/assign_permissions.png)
 
-Congratulations, you've successfully created a project!
+Congratulations, you've created a project!
 
 ---
 
