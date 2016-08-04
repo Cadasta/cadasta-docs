@@ -5,7 +5,7 @@
 * [Organizations](organizations.md)
 * [Projects](projects.md)
 * [Records](records.md)
-* [ODK](geoodk.md)
+* [ODK](odkcollect.md)
 * [Downloading Data](download.md)
 * [Custom Data Collection](XLSForms.md)
 
