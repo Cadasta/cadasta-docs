@@ -1,6 +1,6 @@
 # Open Data Kit \(ODK\) Collect User Guide
 
-Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to easily accommodate a variety of tools for data collection, allowing for ingestion of data. This guide will show you how to use ODK for data collection and to streamline the process of getting accurate geospatially enabled data into the platform.
+Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to easily accommodate a variety of tools for data collection, allowing for ingestion of data. This guide will show you how to use ODK for data collection and to streamline the process of getting accurate geospatially enabled data directly into the platform.
 
 ODK is a free, open source mobile data collection application for Android devices \(sorry Apple fans\). To get started, please [download ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en) from the Google Play Store, or wherever you acquire your applications.
 
@@ -18,8 +18,8 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
   ![](/assets/odk_generalsettings_marked.png)
 
 4. On this screen you will need to enter the necessary URL:
-  1. http://platform.cadasta.org/collect \(if for production\); or
-  2. http://demo.cadasta.org/collect  \(if for testing\)
+  1. https://platform.cadasta.org/collect \(if for production\); or
+  2. https://demo.cadasta.org/collect  \(if for testing\)
 
 5. Please also enter the Username and Password utilized with the Cadasta platform
 
