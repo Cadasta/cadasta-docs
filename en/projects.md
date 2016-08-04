@@ -37,7 +37,7 @@ To add a project, either proceed directly from adding your organization, or navi
 
   6. Project contacts
 
-6. Now that the General Information of the project is defined, you will be asked to **Assign Permissions to Members**. These permissions will define user accesses and privileges for using the platform. Currently, there are five types of users, defined below with details regarding access rights:
+6. Now that the General Information of the project is defined, you will be asked to **Assign Permissions to Members**. These permissions will define user accesses and privileges for using the platform. Currently, there are five user roles, defined below with details regarding access rights:
   1. **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data. 
   2. **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
   3. **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data. 
