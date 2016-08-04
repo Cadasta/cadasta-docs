@@ -1,6 +1,6 @@
 # Establishing a Project
 
-Once that you have established an organization it is now time to set up your project\(s\). As noted in the introduction, an organization might have multiple projects for data collection. These could be different in geographical area, scope, community, etc.
+Once you have established an organization it is now time to set up your project\(s\). As noted in the introduction, an organization might have multiple projects for data collection. These could be different in geographical area, scope, community of interest, etc.
 
 To add a project, either proceed directly from adding your organization, or navigate to your newly established organization by clicking **Organizations** at the top of the page and locating your organization.
 
@@ -33,16 +33,16 @@ To add a project, either proceed directly from adding your organization, or navi
 
   4. The Project URL
 
-  5. The questionnaire \(see next section for details\);and
+  5. The questionnaire \(see the custom data selection section for details\); and
 
   6. Project contacts
 
 6. Now that the General Information of the project is defined, you will be asked to **Assign Permissions to Members**. These permissions will define user accesses and privileges for using the platform. Currently, there are five types of users, defined below with details regarding access rights:
   1. **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data. 
-  2. **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and seeting access rights.
+  2. **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
   3. **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data. 
   4. **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data. 
-  5. **Public User**. A Public User can only view data that is made publically available.
+  5. **Public User**. A Public User can only view data that is made publicly available.
 
 
 ![](/assets/assign_permissions.png)
