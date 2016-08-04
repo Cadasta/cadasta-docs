@@ -15,7 +15,7 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
 
 3. Now click **Configure Platform Settings**_._
 
-  ![](/assets/odk_generalsettings_marked.jpg)
+  ![](/assets/odk_generalsettings_marked.png)
 
 4. On this screen you will need to enter the necessary URL:
   1. http://platform.cadasta.org/collect \(if for production\); or
@@ -34,7 +34,7 @@ Now we need to load the forms posted to the Cadasta Platform to the device.
 
 1. Select **Get Blank Form** from the home page.
 
-  ![](/assets/odk_homepage_getblankform2.jpg)
+  ![](/assets/odk_homepage_getblankform2.png)
 
 2. Enter the Cadasta Platform Username and Password if prompted.
 
