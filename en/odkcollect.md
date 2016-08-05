@@ -1,6 +1,6 @@
 # Open Data Kit \(ODK\) Collect User Guide
 
-Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to easily accommodate a variety of tools for data collection, allowing for ingestion of data. This guide will show you how to use ODK for data collection and to streamline the process of getting accurate geospatially enabled data directly into the platform.
+Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to easily accommodate a variety of tools for data collection, allowing for ingestion of data. This guide will show you how to use ODK Collecte for data collection and to streamline the process of getting accurate geospatially enabled data directly into the platform.
 
 ODK is a free, open source mobile data collection application for Android devices \(sorry Apple fans\). To get started, please [download ODK Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en) from the Google Play Store, or wherever you acquire your applications.
 
@@ -26,7 +26,7 @@ If this is the first time you have used ODK with the Cadasta Platform, you will 
 6. Select the Back button two times to return to the ODK Main Menu.
 
 
-Now ODK is configured for data collection that will feed directly to the Cadasta Platform.
+Now ODK is configured for data collection that will feed directly to the relavent project within the Cadasta Platform.
 
 ## Loading your Form
 
@@ -50,11 +50,13 @@ Now it’s time to collect some data!
 
 ![](/assets/odk_homepage_fill_blank_form2.png)
 
+
 2. Select the relevant form for data collection
 3. Swipe left twice to get started completing the form
 4. Continue answering all the survey questions until you reach the "End of survey" message
 5. Select **Mark Form as Finalized** checkbox
 6. Click **Save Form and Exit**
+
 
 ![](/assets/odk_questionnaire_marked2.png)
 
