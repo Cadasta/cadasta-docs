@@ -1,6 +1,6 @@
 # Establishing a Project
 
-Once you have established an organization it is now time to set up your project\(s\). As noted in the introduction, an organization might have multiple projects for data collection. These could be different in geographical area, scope, community of interest, etc.
+Once you have established an organization it is now time to set up your project\(s\). As noted in the introduction, an organization may have multiple projects for data collection. These could be different in geographical area, scope, community of interest, etc.
 
 To add a project, either proceed directly from adding your organization, or navigate to your newly established organization by clicking **Organizations** at the top of the page and locating your organization.
 
@@ -16,7 +16,7 @@ To add a project, either proceed directly from adding your organization, or navi
 
   2. Turn on the satellite imagery to help identify the project location \(see label B\).
 
-  3. Search a geographic place name \(see label C\)
+  3. Search a geographic place name \(see label C\).
     ![](/assets/add_new_project_map.png)
 
 4. After selecting the project area, either through creating a polygon or drawing a rectangle, please select **Save and Continue**.
