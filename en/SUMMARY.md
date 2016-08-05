@@ -9,4 +9,5 @@
 * [GeoODK](geoodkcollect.md)
 * [Downloading Data](download.md)
 * [Custom Data Collection](XLSForms.md)
+* [Translation](/en/translation.md)
 
