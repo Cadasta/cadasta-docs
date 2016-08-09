@@ -1,6 +1,10 @@
 # Cadasta Platform User Guide
 
+### Welcome!
+
 This guide serves to help users get started working with the Cadasta Foundation’s land and resource rights management system.
+
+### What is the Cadasta Foundation's land and resource rights management system?
 
 An estimated 70% of land in emerging economies remains undocumented.  For those citizens left out of the formal system their is often still a need to record what rights exist, where they are and to whom they apply. Customary groups, slum dwellers associations and small municipalities, to name a few, are among the types of organizations that would like to better document property rights.  Unfortunately however the cost and complexity of the tools and technology required to manage land information often put them out of reach for many.
 
