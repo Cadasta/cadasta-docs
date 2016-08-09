@@ -2,13 +2,29 @@
 
 ### Welcome!
 
-This guide serves to help users get started working with the Cadasta Foundation’s land and resource rights management system.
+We're glad you've found the Cadasta Platorm – a land and resource rights management system developed by the Cadasta Foundation. Our goal is to empower people understand their land rights, a goal that this mapping platform helps to fulfill.
 
-### What is the Cadasta Foundation's land and resource rights management system?
+### Contents
 
-An estimated 70% of land in emerging economies remains undocumented.  For those citizens left out of the formal system their is often still a need to record what rights exist, where they are and to whom they apply. Customary groups, slum dwellers associations and small municipalities, to name a few, are among the types of organizations that would like to better document property rights.  Unfortunately however the cost and complexity of the tools and technology required to manage land information often put them out of reach for many.
+* [Getting Started](gettingstarted.md)
+* [Organizations](organizations.md)
+* [Projects](projects.md)
+* [Records](records.md)
+* [ODK](odkcollect.md)
+* [GeoODK](geoodkcollect.md)
+* [Downloading Data](download.md)
+* [Custom Data Collection](XLSForms.md)
+* [Translation](/en/translation.md)
 
-With the Cadasta Platform we invite users to use our open, cloud based platform to manage their own land and resource rights. Our tools for data collection and management combined with our expertise in helping partners think through approaches make the Platform easy to use for all.
+### Why we do what we do
 
-Please give the platform a try and begin to document the rights of those in your community. Thank you!
+As the human population continues to grow – and as land and resources become more and more scarce – land rights become increasingly important. An estimated 70% of land in the developing world remains undocumented or unregistered. This can pose serious problems for people who rely on that land but don't have the information or resources they need to formally document their right to use it. 
+
+Land rights are also incredibly complicated, which is why organizations like customary groups, slum dwellers' associations, and small municipalities seek to help these citizens. Unfortunately, the cost and complexity of the tools and technology required to manage land information are often out of reach. 
+
+This is why we at the Cadasta Foundation have developed this open, cloud-based Platform to manage land and resource rights. We invite you to give it a try! 
+
+If you need help thinking through how the Cadasta Platform can help your organization, [please get in touch. ](http://cadasta.org/contact/)
+
+We're excited to help you document the rights of those in your community. 
 
