@@ -6,11 +6,11 @@ While anyone can use the Cadasta Platform, it's designed primarily for organizat
 
 ### How to Get Started
 
-1. [**Create your new account**](#createnewaccount)**[.](#createnewaccount)**** **Once you have a new account, you can create your organization and projects, or be added to an organization. Once you're attached to an organization, you become a **member** of that organization and can be added to projects.
+1. **[Create your new account](#createnewaccount)**[**. **](#createnewaccount)Once you have a new account, you can create your organization and projects, or be added to an organization. Once you're attached to an organization, you become a **member** of that organization and can be added to projects.
 
-2. [**Create your organization**](/en/organizations.md)**[.](/en/organizations.md)**** Organizations **are made up of organization members, which must be Cadasta Platform users. The user who creates the organization becomes its administrator by default. Administrators can do things like add members to the organization, create projects, and set member permissions for projects.
+2. **[Create your organization](/en/organizations.md)**[**.**](/en/organizations.md) **Organizations** are made up of organization members, which must be Cadasta Platform users. The user who creates the organization becomes its administrator by default. Administrators can do things like add members to the organization, create projects, and set member permissions for projects.
 
-3. **[Create your fist project.](/en/projects.md)**** Projects **are specific land rights or land management initiatives, and they must belong to an organization. Projects are made up of team members, project contacts, resources \(like photos or other documentation\), and a map.
+3. [**Create your fist project.**](/en/projects.md) **Projects** are specific land rights or land management initiatives, and they must belong to an organization. Projects are made up of team members, project contacts, resources \(like photos or other documentation\), and a map.
 
 
 ### **Creating a New Account**
