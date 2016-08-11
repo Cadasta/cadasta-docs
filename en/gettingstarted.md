@@ -15,7 +15,7 @@ While anyone can use the Cadasta Platform, it's designed primarily for organizat
 
 ### **Creating a New Account**
 
-![](/en/assets/sign-in-register-arrow.png)
+![](/assets/sign-in-register-2.png)
 
 The first thing you need to do to get started with Cadasta is create a user account.
 
