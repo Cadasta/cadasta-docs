@@ -1,8 +1,8 @@
 # Organizations
 
-As a first time user, your priority may be to set up an organizational account to manage projects, users and data collection forms.
+If your organization doesn't already exist in the Cadasta platform, then one of the first things you need to do is set up your organization's account. You'll use your organizational account to manage projects, organization members, data collection forms, and more. 
 
-To create a new organization:
+### Creating a New Organization
 
 1. On the project index page select **Organizations**.
 
