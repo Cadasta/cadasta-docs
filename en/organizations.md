@@ -1,19 +1,30 @@
 # Organizations
 
-If your organization doesn't already exist in the Cadasta platform, then one of the first things you need to do is set up your organization's account. You'll use your organizational account to manage projects, organization members, data collection forms, and more. 
+If your organization doesn't already exist in the Cadasta platform, then one of the first things you need to do is set up your organization's account. You'll use your organizational account to manage projects, organization members, data collection forms, and more.
 
 ### Creating a New Organization
 
-1. On the project index page select **Organizations**.
+##### 1. Log in & Select "Organizations"
 
-  ![](/assets/organization.png)
+Log into your account, which will take you to the main Cadasta Platform page. In the upper right, select the _Organizations_ button.
 
-2. At this page you will be able to view public projects, as well as add your own by clicking **Add**.
+![](/assets/cadasta-main-platform-organization-button.png)
 
-  ![](/assets/add_new_org.png)
+##### 2. Add Your Organization
 
-3. After selecting **Add** within the Organizations page, you will need to fill out relevant details about the organization.
+On the next page, you'll see an index of all the organizations using the Cadasta Platform. Select **Add** on the upper right to add your organization.
 
+![](/assets/add-organization-button.png)
 
-Congratulations! You’ve established an organization within the Cadasta platform!
+##### 3. Enter Your Organization's Information
+
+On the page that follows, provide your organization name, a brief description, the URL for your organization's website and your own contact information as well. If you'd like, you can also add additional contacts on this page.
+
+![](/assets/add-organization-info.png)
+
+Once you hit save...
+
+##### Congratulations!
+
+You've established an organization within the Cadasta Platform!
 
