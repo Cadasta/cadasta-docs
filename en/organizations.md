@@ -2,6 +2,9 @@
 
 * [Creating a New Organization](#creating-a-new-organization)
 * [Editing Your Organization's Information](#editing-your-organizations-information)
+* [Adding Organization Members](#adding-organization-members)
+* [Editing Organization Member Permissions](#editing-member-organization-permissions)
+* [Removing Organization Members](#removing-organization-members)
 
 ### Creating a New Organization {#creating-a-new-organization}
 
@@ -43,5 +46,38 @@ Administrators may also archive their organization by selecting **Archive organi
 
 ![](/assets/organization-overview-edit-org.png)
 
+### Adding Organization Members
 
+Once an organization is set up, the administrator can add organization. Members must already have accounts set up on the Cadasta Platform.
+
+To add an organization member, click **View All **from the Organization Overview page.
+
+> \[add image\]
+
+Then, click **Add**, in the upper right hand corner.
+
+> \[add image\]
+
+A pop-up window will appear. Here, add the member's username or email and click save.
+
+> \[add image\]
+
+### Editing Member Organization Permissions {#editing-member-organization-permissions}
+
+At the organizational level, there are two levels of permissions: Administrator and Member.
+
+* Administrators can edit and archive the organization, as well as add, delete, and edit permissions for organization members.
+
+* Members can be added to projects within the organization.
+
+
+Administrators may change the permissions of an organization member from the Member Profile page using the drop-down menu towards the left side of the page. 
+
+> \[add image\]
+
+### Removing Organization Members {#removing-organization-members}
+
+Administrators may also remove organization members by clicking the **Remove member** button on the the Member Profile page.
+
+> \[add image\]
 
