@@ -1,7 +1,6 @@
 # Organizations
 
 * [Creating a New Organization](#creating-a-new-organization)
-* Adding Members to Your Organization
 * [Editing Your Organization's Information](#editing-your-organizations-information)
 
 ### Creating a New Organization {#creating-a-new-organization}
@@ -24,7 +23,7 @@ On the next page, you'll see an index of all the organizations using the Cadasta
 
 On the page that follows, provide your organization name, a brief description, the URL for your organization's website and your own contact information as well. If you'd like, you can add additional contacts for your organization here as well.
 
-**_NOTE!_** _Adding someones contact information here does not create user accounts for them within the Cadasta Platform. _
+_**NOTE!**_ _Adding someones contact information here does not create user accounts for them within the Cadasta Platform. _
 
 ![](/assets/add-organization-info.png)
 
@@ -43,4 +42,6 @@ Administrators can edit an organization's information from the Organization Over
 Administrators may also archive their organization by selecting **Archive organization **from the same menu.
 
 ![](/assets/organization-overview-edit-org.png)
+
+
 
