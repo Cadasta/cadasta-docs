@@ -1,6 +1,7 @@
 # Organizations
 
 * [Creating a New Organization](#creating-a-new-organization)
+* Adding Members to Your Organization
 * [Editing Your Organization's Information](#editing-your-organizations-information)
 
 ### Creating a New Organization {#creating-a-new-organization}
@@ -23,7 +24,7 @@ On the next page, you'll see an index of all the organizations using the Cadasta
 
 On the page that follows, provide your organization name, a brief description, the URL for your organization's website and your own contact information as well. If you'd like, you can add additional contacts for your organization here as well.
 
-_**NOTE!**__ Adding someones contact information here does not create user accounts for them within the Cadasta Platform._
+**_NOTE!_** _Adding someones contact information here does not create user accounts for them within the Cadasta Platform. _
 
 ![](/assets/add-organization-info.png)
 
@@ -31,11 +32,15 @@ Once you hit save...
 
 ##### Congratulations!
 
-You've established an organization within the Cadasta Platform! 
+You've established an organization within the Cadasta Platform!
 
-As the person who has created the organization, you are now the organization's administrator by default. The administrator can 
+As the person who has created the organization, you are now the organization's administrator by default.
 
 ### Editing Your Organization's Information {#editing-your-organizations-information}
 
-If at any time you need to edit your organization's information, the Administrator can do so from the organization overview page. Click on the three dots in the upper right corner of the page, select Edit organization, 
+Administrators can edit an organization's information from the Organization Overview page. Click on the three dots in the upper right corner of the page, select **Edit organization**, and then modify the information as needed.
+
+Administrators may also archive their organization by selecting **Archive organization **from the same menu.
+
+![](/assets/organization-overview-edit-org.png)
 
