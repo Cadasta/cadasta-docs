@@ -6,27 +6,61 @@
 
 ### Setting Up a New Project {#setting-up-new-project}
 
-Once you have established an organization it is now time to set up your project\(s\). As noted in the introduction, an organization may have multiple projects for data collection. These could be different in geographical area, scope, community of interest, etc.
+Once you've created your organization, you can start to add projects. 
 
-To add a project, either proceed directly from adding your organization, or navigate to your newly established organization by clicking **Organizations** at the top of the page and locating your organization.
+#####1. Navigate to the "Add project" button. 
 
-1. From **Organization Overview** page, select **Add a new project**.
+You can find the **Add project** button in one of two ways. The first way is from your Organization Overview page:
 
-2. The first step will be to define a project location, in other words, where the field data collection activities will take place.
+> [add image]
 
-3. To find the project location, it is possible use a couple of approaches, as depicted in the image below, you might:
+And the second way is by clicking the **Project** button at the top of the page, and then clicking **Add**. 
 
-  1. Zoom directly to the project location using the OpenStreetMap layer \(see label A in the image below for zoom tools\).
+> [add image]
 
-  2. Turn on the satellite imagery to help identify the project location \(see label B\).
+#####2. Navigate to your project location
 
-  3. Search a geographic place name \(see label C\).
+Your project location is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
+
+#####a. Zooming from the map
+
+> [add diagram overview of Map View to this section.]
+
+From the map view, use the `+` and `-` signs on the upper left to zoom in and out. 
+
+In the upper right, you can choose from a couple of different layers depending on what kind of map you need. 
+
+The default layer is the graphic OpenStreetMap layer, shown above. You can also select the DigitalGlobe Satellite layer:
+
+> [add image]
+
+#####b. Search by a geographic Place Name
+
+Click on the magnifying glass in the upper left to search for your location by name. 
+
+> [add image]
+
+#####3. Create your project area. 
+
+To create your project area, you can draw either a rectangle or a polygon. 
+
+To draw a **polygon**, click the polygon button. Then, start clicking points on the map to draw your shape. 
+
+> [add image]
+
+You can edit your polygon by clicking the Edit button. 
+
+> [add image]
+
+From there, you can drag each point on your polygon to its intended location.
+
+Note that your project area does not need to be exact. To ensure full coverage, you may want to add a little bit of of space outside the area where you'll be working. 
+
+#####4. Save your work!
 
 
 
-1. After selecting the project area, either through creating a polygon or drawing a rectangle, please select **Save and Continue**.
-
-  _Note: the project area does not need to be precisely defined, just make sure you have covered all areas you may be working, leaving a comfortable buffer on the margins._
+#####5. Provide some general information about the project. 
 
 2. You will now be asked to fill out **General Information** regarding the project, including:
 
