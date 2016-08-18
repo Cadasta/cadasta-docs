@@ -1,8 +1,17 @@
 # Projects
 
+* [Overview](#overview)
 * [Setting Up a New Project](#setting-up-new-project)
-* Editing a Project
+* [Editing a Project](#editing-a-project)
 * [Project Members & Member Permissions](#project-members-member-permissions)
+
+### Overview {#overview}
+
+Projects are the cornerstone of the Cadasta Platform, and they are made up of the following:
+
+* Project Location
+* Project Members
+* Project Resources
 
 ### Setting Up a New Project {#setting-up-new-project}
 
@@ -22,7 +31,7 @@ And the second way is by clicking the **Project** button at the top of the page,
 
 Your project location is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
 
-#####a. Zooming from the map
+######a. Zooming from the map
 
 > [add diagram overview of Map View to this section.]
 
@@ -34,7 +43,7 @@ The default layer is the graphic OpenStreetMap layer, shown above. You can also 
 
 > [add image]
 
-#####b. Search by a geographic Place Name
+######b. Search by a geographic Place Name
 
 Click on the magnifying glass in the upper left to search for your location by name. 
 
@@ -44,7 +53,9 @@ Click on the magnifying glass in the upper left to search for your location by n
 
 To create your project area, you can draw either a rectangle or a polygon. 
 
-To draw a **polygon**, click the polygon button. Then, start clicking points on the map to draw your shape. 
+Note that your project area does not need to be exact. To ensure full coverage, add a little bit of space outside the area where you'll be working. 
+
+**To draw a polygon**, click the polygon button. Then, start clicking points on the map to draw your shape. 
 
 > [add image]
 
@@ -52,29 +63,46 @@ You can edit your polygon by clicking the Edit button.
 
 > [add image]
 
-From there, you can drag each point on your polygon to its intended location.
+From there, you can click to add each point of your polygon to its intended location. To close the polygon, click on the first point that you added.  
 
-Note that your project area does not need to be exact. To ensure full coverage, you may want to add a little bit of of space outside the area where you'll be working. 
+**To draw a rectangle**, select the rectangle icon. Then, click and drag over your project area on the map. 
+
+> [add image]
+
+**To edit your project area**, select the edit icon. Then, click and drag the points on your polygon or rectangle to their correct location. When you're done, click the gray Save button on the left.
 
 #####4. Save your work!
 
-
+Once you've drawn your project area to your satisfaction, click the green **Save and continue** button on the right. 
 
 #####5. Provide some general information about the project. 
 
-2. You will now be asked to fill out **General Information** regarding the project, including:
+At this stage, you will be asked to fill out some General Information regarding the project, including:
 
-  1. Project name
+*  **Project name**
 
-  2. Whether the project will be Public or Private
+*  **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to your organization.
 
-  3. The Project description
+* **Project description**
 
-  4. The Project URL
+* **Project URL**, which must start with _http://_.
 
-  5. The questionnaire \(see the custom data selection section for details\); and
+* **Project Questionnaire**, which is the spreadsheet you'll use as the basis for [custom data collection](/en/XLSForms.md). 
 
-  6. Project contacts
+> Note: add direct links to publicly available questionnaires.
+
+* **Project contacts**, if any. Note that project contacts are not necessarily the same thing as project members.
+
+If you're adding a project by navigating from the Project page, you'll also be asked to select the **Project's organization** from a dropdown menu at the top. 
+
+#####6. Add project members
+
+When you're done adding your general information, you can add project members to the project. 
+
+> A
+
+
+### Editing a Created Project {#editing-a-project}
 
 
 
