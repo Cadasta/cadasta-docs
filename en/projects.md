@@ -3,108 +3,111 @@
 * [Overview](#overview)
 * [Setting Up a New Project](#setting-up-new-project)
 * [Editing a Project](#editing-a-project)
-* [Project Members & Member Permissions](#project-members-member-permissions)
+* [Project Members & Member Permissions](#project-members-member-permissions
 
 ### Overview {#overview}
 
-Projects are the cornerstone of the Cadasta Platform, and they are made up of the following:
+Projects are the cornerstone of the Cadasta Platform, putting many of your project's assets into one place, including:
 
-* Project Location
-* Project Members
+* Project Locations
+* Project Members, and 
 * Project Resources
 
 ### Setting Up a New Project {#setting-up-new-project}
 
-Once you've created your organization, you can start to add projects. 
+Once you've created your organization, you can start to add projects.
 
-#####1. Navigate to the "Add project" button. 
+#### 1. Navigate to the "Add project" button.
 
 You can find the **Add project** button in one of two ways. The first way is from your Organization Overview page:
 
-> [add image]
+> \[add image\]
 
-And the second way is by clicking the **Project** button at the top of the page, and then clicking **Add**. 
+And the second way is by clicking the **Project** button at the top of the page, and then clicking **Add**.
 
-> [add image]
+> \[add image\]
 
-#####2. Navigate to your project location
+#### 2. Navigate to your project location
 
 Your project location is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
 
-######a. Zooming from the map
+##### a. Zooming from the map
 
-> [add diagram overview of Map View to this section.]
+> \[add diagram overview of Map View to this section.\]
 
-From the map view, use the `+` and `-` signs on the upper left to zoom in and out. 
+From the map view, use the `+` and `-` signs on the upper left to zoom in and out.
 
-In the upper right, you can choose from a couple of different layers depending on what kind of map you need. 
+In the upper right, you can choose from a couple of different layers depending on what kind of map you need.
 
 The default layer is the graphic OpenStreetMap layer, shown above. You can also select the DigitalGlobe Satellite layer:
 
-> [add image]
+> \[add image\]
 
-######b. Search by a geographic Place Name
+##### b. Search by a geographic Place Name
 
-Click on the magnifying glass in the upper left to search for your location by name. 
+Click on the magnifying glass in the upper left to search for your location by name.
 
-> [add image]
+> \[add image\]
 
-#####3. Create your project area. 
+#### 3. Create your project area.
 
-To create your project area, you can draw either a rectangle or a polygon. 
+To create your project area, you can draw either a rectangle or a polygon.
 
-Note that your project area does not need to be exact. To ensure full coverage, add a little bit of space outside the area where you'll be working. 
+Note that your project area does not need to be exact. To ensure full coverage, add a little bit of space outside the area where you'll be working.
 
-**To draw a polygon**, click the polygon button. Then, start clicking points on the map to draw your shape. 
+**To draw a polygon**, click the polygon button. Then, start clicking points on the map to draw your shape.
 
-> [add image]
+> \[add image\]
 
-You can edit your polygon by clicking the Edit button. 
+You can edit your polygon by clicking the Edit button.
 
-> [add image]
+> \[add image\]
 
-From there, you can click to add each point of your polygon to its intended location. To close the polygon, click on the first point that you added.  
+From there, you can click to add each point of your polygon to its intended location. To close the polygon, click on the first point that you added.
 
-**To draw a rectangle**, select the rectangle icon. Then, click and drag over your project area on the map. 
+**To draw a rectangle**, select the rectangle icon. Then, click and drag over your project area on the map.
 
-> [add image]
+> \[add image\]
 
 **To edit your project area**, select the edit icon. Then, click and drag the points on your polygon or rectangle to their correct location. When you're done, click the gray Save button on the left.
 
-#####4. Save your work!
+#### 4. Save your work!
 
-Once you've drawn your project area to your satisfaction, click the green **Save and continue** button on the right. 
+Once you've drawn your project area to your satisfaction, click the green **Save and continue** button on the right.
 
-#####5. Provide some general information about the project. 
+#### 5. Provide some general information about the project.
 
 At this stage, you will be asked to fill out some General Information regarding the project, including:
 
-*  **Project name**
+* **Project name**
 
-*  **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to your organization.
+* **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to your organization.
 
 * **Project description**
 
-* **Project URL**, which must start with _http://_.
+* **Project URL**, which must start with _http:\/\/_.
 
-* **Project Questionnaire**, which is the spreadsheet you'll use as the basis for [custom data collection](/en/XLSForms.md). 
+* **Project Questionnaire**, which is the spreadsheet you'll use as the basis for [custom data collection](/en/XLSForms.md).
 
 > Note: add direct links to publicly available questionnaires.
 
 * **Project contacts**, if any. Note that project contacts are not necessarily the same thing as project members.
 
-If you're adding a project by navigating from the Project page, you'll also be asked to select the **Project's organization** from a dropdown menu at the top. 
+If you're adding a project by navigating from the Project page, you'll also be asked to select the **Project's organization** from a dropdown menu at the top.
 
-#####6. Add project members
+#### 6. Add project members
 
-When you're done adding your general information, you can add project members to the project. 
+When you're done adding your general information, you can add project members.
 
-> A
+> [add image]
 
+#### 7. Add project locations {#add-project-locations}
+
+Within any given project, you may be working with lots of different locations. For example, within a forested area, there may be a national park boundary or building that you'll need to track.
+
+Locations come in three diffe  
 
 ### Editing a Created Project {#editing-a-project}
-
-
 
 ### Project Members & Member Permissions {#project-members-member-permissions}
 
