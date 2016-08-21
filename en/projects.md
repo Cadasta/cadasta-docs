@@ -3,7 +3,11 @@
 * [Overview](#overview)
 * [Setting Up a New Project](#setting-up-new-project)
 * [Editing a Project](#editing-a-project)
-* [Project Members & Member Permissions](#project-members-member-permissions
+* [Project Members & Member Permissions](#project-members-member-permissions)
+* [Project Locations & Location Types](#project-locations)
+* [Location Relationships & Tenure Types](#location-relationships)
+* [Project Resources](#project-resources)
+
 
 ### Overview {#overview}
 
@@ -99,15 +103,86 @@ If you're adding a project by navigating from the Project page, you'll also be a
 
 When you're done adding your general information, you can add project members.
 
+_[More about project members](#project-members-member-permissions)_
+
 > [add image]
 
 #### 7. Add project locations {#add-project-locations}
 
 Within any given project, you may be working with lots of different locations. For example, within a forested area, there may be a national park boundary or building that you'll need to track.
 
-Locations come in three diffe  
+Select whether your location is to be displayed as a point, line, polygon, or rectangle, and then draw it on the map. 
+
+> [add diagram]
+
+Then add some information about this location, including:
+
+* Location Type
+* Name of Location
+* Spacial Unit Quality
+* How Location was Acquired, and
+* Any other information about the location. 
+
+> Note: get more information about each of these specifics and how they relate to uploading data from a questionnaire
+
+_[More about project locations](#project-locations)_
+
+####8. Add location relationship(s)
+
+Each location may have a relationship with a person or group of people. To log those in the Cadasta Platform, click on the Relationships tab on the location overview page, then click **Add Relationship.**
+
+> [add image]
+
+In the pop-up that follows, click **Add new party** and then add some descriptive information, including:
+
+* **Name**
+* **Party Type** - whether it's an individual, corporation, or group. Corporations typically have some kind of formal organizational structure, whereas a group does not. 
+* **Default Party Notes** - or notes about the party. 
+* **Tenure Type** - what kind of rights the party has to the land, and
+* **Tenure Notes** - any notes about the tenure. 
+
+Add as many relationships as you need for the project location!
+
+_[More about Relationships & Tenure Types]_
+
+####9. Add location resources
+
+Land rights projects can come with all kinds of documentation - including legal documents, letters, pictures and more.
+
+Projects can have two types of resources: 
+
+* Resources that relate to the project generally, and
+* Resources that relate to a specific location. 
+
+To add resources specific to your project location, click on the Resources tab in the Location Overview page. 
+
+> [add image]
+
+From there, you can either add items from your library of resources or upload them directly from your computer. 
+
+Accepted file types are .pdf, .mp3, .mp4, .doc, .docx, .jpg and .png. If you'd like, give your resource a name and a brief descripton. 
+
+####10. Add General project resources
+
+Last but not least, add all of your non-location-specific project resources, if any. 
+
+To add them, select the **Resources** button on the left. 
+
+> [add image]
+
+In the page that follows, click the green **Add** button in the upper left. 
+
+> [add image]
+
+Next you can either add resource from you library or upload one from your computer. Again, if you'd like, you can give your resources a name and a brief description.
+
+When you're done with this step...
+
+**Congratulations!** You've created your first project. 
 
 ### Editing a Created Project {#editing-a-project}
+
+
 
 ### Project Members & Member Permissions {#project-members-member-permissions}
 
@@ -119,9 +194,13 @@ Locations come in three diffe
   5. **Public User**. A Public User can view only data that is publicly available.
 
 
-![](/assets/assign_permissions.png)
+### Project Locations & Location Types {#project-locations}
 
-Congratulations, you've created a project!
 
-###  {#editing-a-project}
+### Location Relationships & Tenure Types {#location-relationships}
+
+
+### Project Resources {#project-resources}
+
+
 
