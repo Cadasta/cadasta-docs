@@ -1,6 +1,15 @@
-# Custom Data Collection
+# Questionnaires & Custom Data Collection
 
-The Cadasta platform allows partners to define their own data collection schema, as we know that data needs vary with the context.  Our platform structures the data around three core entities: the _Party _\(a person, family, community or organization\), the _Place_ and the _Relationship_ \(rights, restrictions and responsibilities\) connecting the Party to the Place.
+## Overview
+
+Every data collection project is different, meaning they each need different fields for data collection.
+
+The Cadasta platform allows you to define your own data collection schema, as we know that data needs vary with the context.  
+
+Our platform structures the data around three core entities: 
+* the **Party** \(a person, family, community or organization\), 
+* the **Place** and 
+* the **Relationship** \(rights, restrictions and responsibilities connecting the Party to the Place\).
 
 In order to define the data collection parameter of your organization, we utilize the [XLSForm](http://xlsform.org/) format as an easy way to set how the data is collected, managed and queried.  XLSForm is a form standard based on authoring forms using a spreadsheet.  The forms are easy to use, while also allowing more complex forms and dependencies for those more familiar with XLSForms.
 
