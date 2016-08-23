@@ -6,8 +6,8 @@ We're glad you've found the Cadasta Platorm – a land and resource rights manag
 
 ### Contents
 
-* [Getting Started](gettingstarted.md)
-* [Organizations](organizations.md)
+* [Getting Started](1-gettingstarted.md)
+* [Organizations](2-organizations.md)
 * [Projects](projects.md)
 * [Records](records.md)
 * [ODK](odkcollect.md)
