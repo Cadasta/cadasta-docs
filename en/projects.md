@@ -180,18 +180,58 @@ When you're done with this step...
 
 **Congratulations!** You've created your first project. 
 
-### Editing a Created Project {#editing-a-project}
+### Editing a Project {#editing-a-project}
+
+Once you've created a project, you may find that you need to make some changes. There are three aspects of a project that you can change:
+
+* Project Location
+* Project Details, and
+* Member Permissions. 
+
+To change any of these aspects of your project, navigate to your project page, and then click the three dots on the upper right of your screen. 
+
+> [add image]
+
+From there, select the item that needs to be changed. 
+
+#### Editing Project Location
 
 
+Once you've navigated to the Edit Project Location page, you can use the tools on the left of the map to make your project location changes changes. 
+
+You can either click the edit icon and drag your boundary points as needed:
+
+> [add image]
+
+Or you can select the polygon or rectangle tools to draw completely new boundaries. 
+
+When you're done, click the **gray Save button** on the left to save your shape, and the **green Save button** on the right to save your project location. 
+
+####Editing Project Details
+
+Once you've navigated to the Project Details page, you can edit information like the name, description, questionnaire or privacy settings. When you're done, save your changes by clicking the **Save** button at the bottom of the page. 
+
+####Editing Member Permissions
+
+Once you've navigated to the Edit Member Permissions page, you can change your member permissions by using the drop-down menu for each member. 
+
+> [add image]
+
+To learn more about member permissions and what they mean, read on to the next section.
 
 ### Project Members & Member Permissions {#project-members-member-permissions}
 
-1. Now that the General Information of the project is defined, you will be asked to **Assign Permissions to Members**. These permissions will define user accesses and privileges for using the platform. Currently, there are five user roles, defined below with details regarding access rights:
-  1. **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data. 
-  2. **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
-  3. **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data. 
-  4. **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data. 
-  5. **Public User**. A Public User can view only data that is publicly available.
+When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for using the platform. Currently, there are five user roles, defined below with details regarding access rights:
+
+*  **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data. 
+
+* **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
+
+* **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data. 
+
+* **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data. 
+
+* **Public User**. A Public User can view only data that is publicly available.
 
 
 ### Project Locations & Location Types {#project-locations}
