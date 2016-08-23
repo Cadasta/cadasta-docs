@@ -3,11 +3,6 @@
 * [Overview](#overview)
 * [Setting Up a New Project](#setting-up-new-project)
 * [Editing a Project](#editing-a-project)
-* [Project Members & Member Permissions](#project-members-member-permissions)
-* [Project Locations & Location Types](#project-locations)
-* [Location Relationships & Tenure Types](#location-relationships)
-* [Project Resources](#project-resources)
-
 
 ### Overview {#overview}
 
@@ -218,29 +213,4 @@ Once you've navigated to the Edit Member Permissions page, you can change your m
 > [add image]
 
 To learn more about member permissions and what they mean, read on to the next section.
-
-### Project Members & Member Permissions {#project-members-member-permissions}
-
-When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for using the platform. Currently, there are five user roles, defined below with details regarding access rights:
-
-*  **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data. 
-
-* **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
-
-* **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data. 
-
-* **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data. 
-
-* **Public User**. A Public User can view only data that is publicly available.
-
-
-### Project Locations & Location Types {#project-locations}
-
-
-### Location Relationships & Tenure Types {#location-relationships}
-
-
-### Project Resources {#project-resources}
-
-
 
