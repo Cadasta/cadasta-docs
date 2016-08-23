@@ -1,4 +1,4 @@
 * [English](en/)
-* [Castellano](es/)
+* [Español](//es)
 * [Bahasa Indonesia](/id)
 
