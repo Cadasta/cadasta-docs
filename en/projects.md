@@ -27,7 +27,7 @@ You can find the **Add project** button in one of two ways. The first way is fro
 
 > \[add image\]
 
-And the second way is by clicking the **Project** button at the top of the page, and then clicking **Add**.
+And the second way is by clicking the **Projects** button at the top of the page, and then clicking **Add**.
 
 > \[add image\]
 
@@ -89,7 +89,7 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project description**
 
-* **Project URL**, which must start with _http:\/\/_.
+* **Project URL**, which must start with _http://_.
 
 * **Project Questionnaire**, which is the spreadsheet you'll use as the basis for [custom data collection](/en/XLSForms.md).
 
