@@ -1,4 +1,4 @@
-# Record Management
+# Organizing Project Members, Locations, Relationships, and Resources
 
 * [Overview](#overview)
 * [Project Members & Member Permissions](#project-members-member-permissions)
@@ -7,9 +7,39 @@
 * [Project Resources](#project-resources)
 
 
-## Overview{#overview}
+## Overview {#overview}
 
-Now that you have set up your organization and project, it's time to start recording land information.
+Once you've set up your organization and project, you can start gathering the information you need to organize your project. 
+
+To do this effectively, it's important to understand the structure of a Cadasta project and how everything works together. 
+
+* A **project** coveres a specific geographic area. Within that area, there can be numerous project **locations**. A project may also have multiple **members**, all of whom need to have an account in the Cadasta system. 
+
+* The structure of the data you're collecting for your project depends on how you've structured your **questionnaire**, which is required to set up your project. To learn more about how questionnaires work, [read this section](08-XLSForms.md).
+
+* Each project also tracks the **relationships** that a party may have to one of it's locations. In addition, each location may also need to track specific **resources** - like deeds or images of the location - that can help with land rights documentation. All of the location resources are stored in the project **library**. 
+
+If you were to view all these parts as an outline, it would look something like this:
+
+* Organization
+    * Organization Members
+    * Project
+        * Project Members
+        * Project Locations
+            * Overview (determined by the structure of the questionnaire)
+            * Relationships
+            * Resources
+
+Typically data for each project is collected in the field using mobile devices. The Cadasta Platform supports two mobile data collection platforms:
+
+* **Open Data Kit (ODK)**, and
+* **Geo Open Data Kit (GeoOKD)**.
+
+Both of these platforms integrate with your questionnaire, ensuring that the data you're collecting is in your desired format.
+
+Whenever you need your data, all you have to do is organize it. 
+
+
 
 The first step is defining the spatial details of a location for which a relationship is to be assigned.  Defining the location can be done in a number of ways - currently we allow for direct data collection from OpenDataKit \(ODK Collect\) or GeoODK \(Described in a subsequent section\), or digitizing from imagery.  In the coming months we will be adding functionality to allow for entering GPS coordinates and utilizing the Field Papers application.
 
