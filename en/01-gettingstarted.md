@@ -3,7 +3,7 @@
 * [How Cadasta is Structured](#how-cadasta-is-organized)
 * [Quick Guide to Getting Started](#quick-guide-to-getting-started)
 
-## How Cadasta is Structured {#how-cadasta-is-organized}
+### How Cadasta is Structured {#how-cadasta-is-organized}
 
 While anyone can use the Cadasta Platform, it's designed primarily for organizations who are doing projects to help people document their land rights. The platform is primarily designed to fit their needs and is structured accordingly.
 
@@ -30,8 +30,6 @@ If you were to view all these parts as an outline, it would look something like 
       * Resources
 
 
-
-
 Typically data for each project is collected in the field using mobile devices. The Cadasta Platform supports two mobile data collection platforms:
 
 * **[Open Data Kit \(ODK\)](05-odkcollect.md)**, and
@@ -41,16 +39,20 @@ Both of these platforms integrate with your questionnaire, ensuring that the dat
 
 Whenever you need to get your data and resources out of the Cadasta platform, all you have to do is [download it](07-download.md).
 
-## Quick Guide to Getting Started {#quick-guide-to-getting-started}
+### Quick Guide to Getting Started {#quick-guide-to-getting-started}
 
-1. [**Create your new account**](#createnewaccount)**[. ](#createnewaccount)**Once you have a new account, you can create your organization and projects, or be added to an organization. Once you're attached to an organization, you become a **member** of that organization and can be added to projects.
+To get started, follow the steps below! For more information and images, follow the links.
 
-2. **[Create your organization](/2-organizations.md)****[.](02-organizations.md)** **Organizations** are made up of organization members, which must be Cadasta Platform users. The user who creates the organization becomes its administrator by default. Administrators can do things like add members to the organization, create projects, and set member permissions for projects.
+1. **[Create your new account](#createnewaccount)** by clicking **register** and entering your name, email, and a few other key pieces of information. 
 
-3. **[Create your fi](/projects.md)**[**r**](projects.md)**[st project.](/projects.md)** **Projects** are specific land rights or land management initiatives, and they must belong to an organization. Projects are made up of team members, project contacts, resources \(like photos or other documentation\), and a map.
+2. **[Create your organization](02-organizations.md)** by selecting the **Organizations** button and then **Add**. You'll be asked to enter some basic information about your organization and save it. Once you've made your organization, you become the organization's administrator. 
+
+3. The next thing you need to do is **[create your first project](03-projects.md).** As part of the project creation process, you'll be asked to upload a questionnaire, which creates the structure for your location data collection. If you don't have one of your own, you can use either this [minimal questionnaire](/en/assets/Minimum_cadasta_questionnaire_0.2.xlsx) or this [standard questionnaire](/en/assets/standard_cadasta_questionnaire_0.2.xlsx). You'll also need to add project members, project locations, and project resources as needed. 
+
+4. Start gathering data! If you need to collect data in the field, you can use either [ODK](/en/05-odkcollect.md) or [GeoODK](/en/06-geoodkcollect.md).
 
 
-### **Creating a New Account**
+### **Creating a New Account** {#createnewaccount}
 
 ![](/assets/sign-in-register-arrow.png)
 
