@@ -1,6 +1,6 @@
 # Questionnaires & Custom Data Collection
 
-## Overview
+### Overview {#overview}
 
 Every data collection project is different, meaning they each need different fields for data collection.
 
@@ -17,12 +17,17 @@ The fields defined within the form are associated with either the Place, Party o
 
 We have provided a couple of forms to help our partners get started:
 
-* [A basic form](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796) for the bare minimum of data needed to be successfully linked to the platform and which users can add to; and
-* An [expanded form](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796) that is the starting point for many of our partners.
+* [A minimalist form](assets/Minimum_cadasta_questionnaire_0.2.xlsx) for the bare minimum of data needed to be successfully linked to the platform and which users can add to; and
+* A [standard form](assets/standard_cadasta_questionnaire_0.2.xlsx) that is the starting point for many of our partners.
 
-Stay tuned as we will be adding additional generic forms in the near future.
+You can use either of these forms as starting points for your own custom data collection. 
 
-For more information on XLSForms and details on how to get started, visit XLSForm.org
+To learn more about what these forms are, read on! If you have questions about these forms, [contact us](cadasta.org/contact/) at any time. 
 
-If you need help with your form, don't hesitate to contact us!
+### The Standard Form {#standard-form}
+
+The 
+
+### Customizing Your Form {#customizing-your-form}
+
 
