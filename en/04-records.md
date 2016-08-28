@@ -1,12 +1,15 @@
 # Record Management: Locations, Relationships, and Resources
 
-* [Project Locations & Location Types](#project-locations)
+* [Project Locations, Location Types, and Location Acquisition](#project-locations)
     * [Adding a Location](#adding-a-location)
     * [Location Types](#location-types)
 * [Location Relationships & Tenure Types](#location-relationships)
-* [Project Resources](#project-resources)
+    * [Relationships](#relationships) 
+    * [Adding a New Relationship](#adding-a-new-relationship)
+    * [Tenure Types](#tenure-types)
+* [Project & Location Resources](#project-resources)
 
-### Project Locations & Location Types {#project-locations}
+### Project Locations, Location Types, & Location Aquisition {#project-locations}
 
 #### Adding a Location {#adding-a-location}
 
@@ -32,72 +35,113 @@ To access this location, click on it from the main project page.
 
 #### Location Types {#location-types}
 
-The first step is defining the spatial details of a location for which a relationship is to be assigned.  Defining the location can be done in a number of ways - currently we allow for direct data collection from OpenDataKit \(ODK Collect\) or GeoODK \(Described in a subsequent section\), or digitizing from imagery.  In the coming months we will be adding functionality to allow for entering GPS coordinates and utilizing the Field Papers application.
+Location types define the type of location you're uploading. The following are defined in the [starndard questionnaire](assets/standard_cadasta_questionnaire_0.2.xlsx):
 
-Let's begin by looking at digitizing from the imagery provided by the Cadasta platform.
+* **Parcel** - a plot of land.
+* **Community Boundary** - a formal or informal boundary between two groups of people.
+* **Building** - any kind of structure.
+* **Apartment** - an apartment or apartment building.
+* **Project Extent** - the full boundary of the project.
+* **Right-of-Way** - an easement that allows a person or group of people to pass throuh another's land.
+* **Utility Corridor** - a passage, either overground or underground, meant to carry utility lines like electricity and water. 
+* **National Park Boundary** - the boundary between a national park and another kind of land. 
+* **Miscellaneous** - another kind of location that doesn't fit into any of your categories.
 
-#### Digitizing from Imagery
+To change the location types that you're using, [edit your questionnaire](08-XLSForms.md). 
 
-### Location Information
+### Location Relationships & Tenure Types
 
-1. After logging into the Platform and navigating to your project, click **Add a location** to begin data entry.
-  ![](/assets/addlocation.png)
-2. You can then use the drawing tools \(see label A in the image below\) to draw the location on the map as a point, line, or polygon, and if imagery is needed, remember that you can change the background by switching the map layers \(see B below\). Also note the boundary of the project area shaded in a dotted line as defined during the creation of the project \(see C below\).
+#### Relationships {#relationships}
 
-3. Now fill out all property details as defined in the Excel Form \(see [Custom Data Collection Section](http://docs.cadasta.org/en/XLSForms.html) for details\) submitted during project setup \(see D below\).
+Any given location has a relationship to a number of parties. For example, a municipality may own a utility corridor, which certain communities may use as a right-of-way. 
 
-4. Click **Save** and your first location has been recorded.
+#### Adding a New Relationship {#adding-a-new-relationship}
 
+To add a new relationship for a project location, click **Add relationship** from the main project page. 
 
-![](/assets/records_digitizing.png)
+> [add image]
 
-### Relationship Information
+In the pop-up that follows, you'll be asked to add a party. If the party hasn't already been logged, click **Add party**.
 
-Now that the spatial details have been recorded, its now necessary to establish a relationship between the person or party, and the location.
+> [add image]
 
-1. From the Project Overview page, select **Relationships** and then **Add Relationship**.
-  ![](/assets/records_relationships.png)
-2. You will be prompted to define the relationship, or tenure, type \(see A below\) as defined by the Excel form, and then prompted to add a party with which the relationship will be established \(see B below\). 
+There, you can add the party name, party type (Individual, Group or Corporation), and any notes you have about the party.
 
-![](/assets/records_relationship_type_and_party.png)
+> [add image]
 
-### Associating Resource Files
+Next, you'll be asked to add relationship details, including the tenure type and notes about the tenure. 
 
-Now that we have added locations and established relationships with a party, it may be useful to provide evidence of the rights.  This might vary to include pictures of properties, right holders or documentation attesting to rights \(transfer documents, tax payments receipts, etc\), or video or audio files detailing agreements on rights and\/or boundaries.
+#### Tenure Type {#tenure-type}
 
-1. Select **Resources** from the overview page. 
-  ![](/assets/records_resourcefiles.png)
-2. Now you can either upload resources directly, or add them from the resource library if you have already saved to the project. The Resource File will be associated with the location in question.
+**Tenure type** refers to the type of ownership or right that a party may have with regards to a location. In the Cadasta Platform, you can define a party's tenure type in a variety of ways. 
 
-![](/assets/records_resource_files_addition.png)
+* Carbon Rights
+* Concessionary Rights
+* Customary Rights
+* Easement
+* Equitable Servitude
+* Freehold
+* Grazing Rights
+* Hunting / Fishing / Harvest rights
+* Indigneous Land Rights
+* Joint Tenancy
+* Leasehold
+* Longterm Leasehold
+* Mineral Rights
+* Occupancy (No documented rights)
+* Tenancy (Documented Sub-Lease)
+* Tenancy in Common
+* Undivided Co-Ownership
+* Water Rights
 
-***
+To learn more about many of these terms, check out the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e ). 
 
+### Project & Location Resources {#project-resources}
 
+Each project may have many locations, and each location may have its own set of documentation or resources about it. Some of that documentation may relate to multiple locations within a project, or it may just relate to the project itself. 
 
+The Cadasta Platform is set up to handle this complexity. As a result, resources like photos, letters, deeds, or anything else related to your project can be organized as you need. 
 
+####Adding a New Resources {#adding-new-resource}
 
+There are a few ways to add a new resource, as resources can be assigned to a few different aspects of a project:
 
+* a project location
+* a location relationship, and
+* the project in general.  
 
+If you're adding a resource related to a specific project location, select the **Resources tab** from the location overview page, and then **Add new resource.**
 
+> Add image
 
+To add a resource related to a relationship, navigate to the **Relationships tab** and click on the party that the documenation relates to. From there, you can click the **Add** button. 
 
+> Add image
 
+To add a resource that's mainly for the project overall, go to the project's overview page by clicking **Overview**.
 
-### Location Relationships & Tenure Types {#location-relationships}
+> Add image
 
+Then, click **Resources.** Clicking on resources from the project overview page will take you to your project library, which will have all of the resources related to your project.
 
+> Add image
 
+From the library, click **Add**. 
 
+> Add image
 
-### Project Resources {#project-resources}
+From any of these starting points, you 'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
 
+> Add image
 
+Acceptable file types include:
 
+* .pdf
+* .mp3
+* .mp4
+* .doc
+* .docx
+* .jpg
+* .png
 
-
-
-
-
-
-
+Resources will be connected to relationships and locations depending on where they're uploaded from. 

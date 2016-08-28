@@ -121,6 +121,8 @@ _[More about project locations](04-records.md)_
 
 ####8. Add location relationship(s)
 
+> edit to match new release
+
 Each location may have a relationship with a person or group of people. To log those in the Cadasta Platform, click on the Relationships tab on the location overview page, then click **Add Relationship.**
 
 > [add image]
