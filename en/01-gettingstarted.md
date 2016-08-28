@@ -9,13 +9,13 @@ While anyone can use the Cadasta Platform, it's designed primarily for organizat
 
 Before jumping in, it's important to understand this structure and how everything works together.
 
-* At the core of the Cadasta platform are a series of [**projects**](/en/03-projects.md). A project covers a specific geographic area. Within that area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
+* At the core of the Cadasta platform are a series of **[projects](03-projects.md)**. A project covers a specific geographic area. Within that area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
 
-* Each project must belong to an [**organization**](/en/02-organizations.md), which is made up of **organization members**.
+* Each project must belong to an **[organization](02-organizations.md)**, which is made up of **organization members**.
 
-* The structure of the data you're collecting for your project depends on how you've structured your [**questionnaire**](/en/08-XLSForms.md), which is required to set up your project. 
+* The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](08-XLSForms.md)**, which is required to set up your project.
 
-* In addition to storing geographic data, each project is also meant to store a series of [**records**](/en/04-records.md). These records may include **resources** about the location, such as deeds, images, or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various parties may have to one of it's locations. 
+* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as deeds, images, or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various parties may have to one of it's locations.
 
 
 If you were to view all these parts as an outline, it would look something like this:
@@ -34,20 +34,20 @@ If you were to view all these parts as an outline, it would look something like 
 
 Typically data for each project is collected in the field using mobile devices. The Cadasta Platform supports two mobile data collection platforms:
 
-* [**Open Data Kit \(ODK\)**](/en/05-odkcollect.md), and
-* [**Geo Open Data Kit \(GeoOKD\)**](/en/06-geoodkcollect.md).
+* **[Open Data Kit \(ODK\)](05-odkcollect.md)**, and
+* **[Geo Open Data Kit \(GeoOKD\)](06-geoodkcollect.md)**.
 
 Both of these platforms integrate with your questionnaire, ensuring that the data you're collecting is in your desired format.
 
-Whenever you need your data, all you have to do is download it.
+Whenever you need to get your data and resources out of the Cadasta platform, all you have to do is [download it](07-download.md).
 
 ## Quick Guide to Getting Started {#quick-guide-to-getting-started}
 
-1. **[Create your new account](#createnewaccount)**[**. **](#createnewaccount)Once you have a new account, you can create your organization and projects, or be added to an organization. Once you're attached to an organization, you become a **member** of that organization and can be added to projects.
+1. [**Create your new account**](#createnewaccount)**[. ](#createnewaccount)**Once you have a new account, you can create your organization and projects, or be added to an organization. Once you're attached to an organization, you become a **member** of that organization and can be added to projects.
 
-2. [**Create your organization**](/2-organizations.md)[**.**](/2-organizations.md) **Organizations** are made up of organization members, which must be Cadasta Platform users. The user who creates the organization becomes its administrator by default. Administrators can do things like add members to the organization, create projects, and set member permissions for projects.
+2. **[Create your organization](/2-organizations.md)****[.](02-organizations.md)** **Organizations** are made up of organization members, which must be Cadasta Platform users. The user who creates the organization becomes its administrator by default. Administrators can do things like add members to the organization, create projects, and set member permissions for projects.
 
-3. [**Create your fi**](/projects.md)**[r](/en/projects.md)**[**st project.**](/projects.md) **Projects** are specific land rights or land management initiatives, and they must belong to an organization. Projects are made up of team members, project contacts, resources \(like photos or other documentation\), and a map.
+3. **[Create your fi](/projects.md)**[**r**](projects.md)**[st project.](/projects.md)** **Projects** are specific land rights or land management initiatives, and they must belong to an organization. Projects are made up of team members, project contacts, resources \(like photos or other documentation\), and a map.
 
 
 ### **Creating a New Account**
@@ -61,5 +61,5 @@ The first thing you need to do to get started with Cadasta is create a user acco
 3. Input a username, valid email address, password and your full name.
 4. Select **Register.**
 
-After a successful login, you will return to the home screen, where you can view public projects and organizations, as well as the details of associated projects and organizations.
+After a successful login, you'll return to the home screen, where you can view public projects and organizations.
 
