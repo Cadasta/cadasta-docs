@@ -2,7 +2,7 @@
 
 * [Project Locations & Location Types](#project-locations)
     * [Adding a Location](#adding-a-location)
-    * 
+    * [Location Types](#location-types)
 * [Location Relationships & Tenure Types](#location-relationships)
 * [Project Resources](#project-resources)
 
@@ -30,7 +30,7 @@ To access this location, click on it from the main project page.
 
 > [add image]
 
-#### Location Types
+#### Location Types {#location-types}
 
 The first step is defining the spatial details of a location for which a relationship is to be assigned.  Defining the location can be done in a number of ways - currently we allow for direct data collection from OpenDataKit \(ODK Collect\) or GeoODK \(Described in a subsequent section\), or digitizing from imagery.  In the coming months we will be adding functionality to allow for entering GPS coordinates and utilizing the Field Papers application.
 
