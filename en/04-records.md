@@ -1,51 +1,42 @@
-# Organizing Project Members, Locations, Relationships, and Resources
+# Record Management: Locations, Relationships, and Resources
 
-* [Overview](#overview)
-* [Project Members & Member Permissions](#project-members-member-permissions)
 * [Project Locations & Location Types](#project-locations)
+    * [Adding a Location](#adding-a-location)
+    * 
 * [Location Relationships & Tenure Types](#location-relationships)
 * [Project Resources](#project-resources)
 
+### Project Locations & Location Types {#project-locations}
 
-## Overview {#overview}
+#### Adding a Location {#adding-a-location}
 
-Once you've set up your organization and project, you can start gathering the information you need to organize your project. 
+Within any given project, you may be working with lots of different locations. For example, within a forested area, there may be a national park boundary or building that you'll need to track.
 
-To do this effectively, it's important to understand the structure of a Cadasta project and how everything works together. 
+Select whether your location is to be displayed as a point, line, polygon, or rectangle, and then draw it on the map.
 
-* A **project** coveres a specific geographic area. Within that area, there can be numerous project **locations**. A project may also have multiple **members**, all of whom need to have an account in the Cadasta system. 
+> [add diagram]
 
-* The structure of the data you're collecting for your project depends on how you've structured your **questionnaire**, which is required to set up your project. To learn more about how questionnaires work, [read this section](08-XLSForms.md).
+Depending on the structure of your [questionnaire](/08-XLSForms.md), you'll be asked to add some information about your location. At the bare minimum (using the [minimal questionnaire](assets/Minimum_cadasta_questionnaire_0.2.xlsx)) you'll need to indicate the type of location. Using the [standard questionnaire](assets/standard_cadasta_questionnaire_0.2.xlsx), you'll be asked to specify the following:
 
-* Each project also tracks the **relationships** that a party may have to one of it's locations. In addition, each location may also need to track specific **resources** - like deeds or images of the location - that can help with land rights documentation. All of the location resources are stored in the project **library**. 
+* Location Type
+* Name of Location
+* Spacial Unit Quality
+* How Location was Acquired, and
+* Any other information about the location.
 
-If you were to view all these parts as an outline, it would look something like this:
+When you're done, save your location. 
 
-* Organization
-    * Organization Members
-    * Project
-        * Project Members
-        * Project Locations
-            * Overview (determined by the structure of the questionnaire)
-            * Relationships
-            * Resources
+To access this location, click on it from the main project page. 
 
-Typically data for each project is collected in the field using mobile devices. The Cadasta Platform supports two mobile data collection platforms:
+> [add image]
 
-* **Open Data Kit (ODK)**, and
-* **Geo Open Data Kit (GeoOKD)**.
-
-Both of these platforms integrate with your questionnaire, ensuring that the data you're collecting is in your desired format.
-
-Whenever you need your data, all you have to do is organize it. 
-
-
+#### Location Types
 
 The first step is defining the spatial details of a location for which a relationship is to be assigned.  Defining the location can be done in a number of ways - currently we allow for direct data collection from OpenDataKit \(ODK Collect\) or GeoODK \(Described in a subsequent section\), or digitizing from imagery.  In the coming months we will be adding functionality to allow for entering GPS coordinates and utilizing the Field Papers application.
 
 Let's begin by looking at digitizing from the imagery provided by the Cadasta platform.
 
-## Digitizing from Imagery
+#### Digitizing from Imagery
 
 ### Location Information
 
@@ -82,37 +73,12 @@ Now that we have added locations and established relationships with a party, it 
 
 ***
 
-### Project Members & Member Permissions {#project-members-member-permissions}
-
-
-
-When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for using the platform. Currently, there are five user roles, defined below with details regarding access rights:
-
-
-
-* **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data.
-
-
-
-* **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
-
-
-
-* **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data.
-
-
-
-* **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data.
-
-
-
-* **Public User**. A Public User can view only data that is publicly available.
 
 
 
 
 
-### Project Locations & Location Types {#project-locations}
+
 
 
 

@@ -1,16 +1,9 @@
 # Projects
 
-* [Overview](#overview)
 * [Setting Up a New Project](#setting-up-new-project)
+* [Project Members & Member Permissions](#project-members-member-permissions)
 * [Editing a Project](#editing-a-project)
 
-### Overview {#overview}
-
-Projects are the cornerstone of the Cadasta Platform, putting many of your project's assets into one place, including:
-
-* Project Locations
-* Project Members, and 
-* Project Resources
 
 ### Setting Up a New Project {#setting-up-new-project}
 
@@ -106,21 +99,25 @@ _[More about project members](#project-members-member-permissions)_
 
 Within any given project, you may be working with lots of different locations. For example, within a forested area, there may be a national park boundary or building that you'll need to track.
 
-Select whether your location is to be displayed as a point, line, polygon, or rectangle, and then draw it on the map. 
+Select whether your location is to be displayed as a point, line, polygon, or rectangle, and then draw it on the map.
 
 > [add diagram]
 
-Then add some information about this location, including:
+Depending on the structure of your [questionnaire](/08-XLSForms.md), you'll be asked to add some information about your location. At the bare minimum (using the [minimal questionnaire](assets/Minimum_cadasta_questionnaire_0.2.xlsx)) you'll need to indicate the type of location. Using the [standard questionnaire](assets/standard_cadasta_questionnaire_0.2.xlsx), you'll be asked to specify the following:
 
 * Location Type
 * Name of Location
 * Spacial Unit Quality
 * How Location was Acquired, and
-* Any other information about the location. 
+* Any other information about the location.
 
-> Note: get more information about each of these specifics and how they relate to uploading data from a questionnaire
+When you're done, save your location.
 
-_[More about project locations](#project-locations)_
+To access this location, click on it from the main project page.
+
+> [add image]
+
+_[More about project locations](04-records.md)_
 
 ####8. Add location relationship(s)
 
@@ -175,6 +172,21 @@ When you're done with this step...
 
 **Congratulations!** You've created your first project. 
 
+### Project Members & Member Permissions {#project-members-member-permissions}
+
+When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for using the platform. Currently, there are five user roles, defined below with details regarding access rights:
+
+* **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data.
+
+* **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
+
+* **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data.
+
+* **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data.
+
+* **Public User**. A Public User can view only data that is publicly available.
+
+
 ### Editing a Project {#editing-a-project}
 
 Once you've created a project, you may find that you need to make some changes. There are three aspects of a project that you can change:
@@ -189,8 +201,7 @@ To change any of these aspects of your project, navigate to your project page, a
 
 From there, select the item that needs to be changed. 
 
-#### Editing Project Location
-
+#### Editing a Project Location
 
 Once you've navigated to the Edit Project Location page, you can use the tools on the left of the map to make your project location changes changes. 
 
