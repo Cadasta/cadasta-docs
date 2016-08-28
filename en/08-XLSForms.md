@@ -26,7 +26,7 @@ To learn more about what these forms are, read on! If you have questions about t
 
 ### The Standard Form {#standard-form}
 
-The 
+
 
 ### Customizing Your Form {#customizing-your-form}
 
