@@ -1,6 +1,6 @@
-# Downloading Data
+#Downloading Data
 
-We realize that our partners might have a need to download their data - whether for analysis using 3rd party software, having a localized backup, or migrating data to another platform.
+At some point during the project, you may need to download your data. We realize that our partners might have a need to download their data - whether for analysis using 3rd party software, having a localized backup, or migrating data to another platform.
 
 The process of downloading project data is straightforward.
 
