@@ -5,7 +5,7 @@
 
 ### How Cadasta is Structured {#how-cadasta-is-organized}
 
-While anyone can use the Cadasta Platform, it's designed primarily for organizations who are doing projects to help people document their land rights. The platform is primarily designed to fit their needs and is structured accordingly.
+While anyone can use the Cadasta Platform, it's designed primarily for organizations doing projects to help people document their land rights. The Platform is primarily designed to fit their needs and is structured accordingly.
 
 Before jumping in, it's important to understand this structure and how everything works together.
 
@@ -41,7 +41,7 @@ Whenever you need to get your data and resources out of the Cadasta platform, al
 
 ### Quick Guide to Getting Started {#quick-guide-to-getting-started}
 
-To get started, follow the steps below! For more information and images, follow the links.
+To get started, follow the steps below! For more information and images, follow the links on each step.* 
 
 1. **[Create your new account](#createnewaccount)** by clicking **register** and entering your name, email, and a few other key pieces of information. 
 
@@ -51,6 +51,7 @@ To get started, follow the steps below! For more information and images, follow 
 
 4. Start gathering data! If you need to collect data in the field, you can use either [ODK](/en/05-odkcollect.md) or [GeoODK](/en/06-geoodkcollect.md).
 
+_* For printed versions, go to the associated section in the document._
 
 ### **Creating a New Account** {#createnewaccount}
 
