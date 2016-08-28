@@ -47,7 +47,7 @@ To get started, follow the steps below! For more information and images, follow 
 
 2. **[Create your organization](02-organizations.md)** by selecting the **Organizations** button and then **Add**. You'll be asked to enter some basic information about your organization and save it. Once you've made your organization, you become the organization's administrator. 
 
-3. The next thing you need to do is **[create your first project](03-projects.md).** As part of the project creation process, you'll be asked to upload a questionnaire, which creates the structure for your location data collection. If you don't have one of your own, you can use either this [minimal questionnaire](/en/assets/Minimum_cadasta_questionnaire_0.2.xlsx) or this [standard questionnaire](/en/assets/standard_cadasta_questionnaire_0.2.xlsx). You'll also need to add project members, project locations, and project resources as needed. 
+3. The next thing you need to do is **[create your first project](03-projects.md).** As part of the project creation process, you'll be asked to upload a questionnaire, which creates the structure for your location data collection. If you don't have one of your own, you can use either this [minimal questionnaire](assets/Minimum_cadasta_questionnaire_0.2.xlsx) or this [standard questionnaire](assets/standard_cadasta_questionnaire_0.2.xlsx). You'll also need to add project members, project locations, and project resources as needed. 
 
 4. Start gathering data! If you need to collect data in the field, you can use either [ODK](/en/05-odkcollect.md) or [GeoODK](/en/06-geoodkcollect.md).
 
