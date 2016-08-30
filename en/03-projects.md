@@ -13,11 +13,11 @@ Once you've created your organization, you can start to add projects.
 
 You can find the **Add project** button in one of two ways. The first way is from your Organization Overview page:
 
-> \[add image\]
+![](/assets/add-project-1.png)
 
 And the second way is by clicking the **Projects** button at the top of the page, and then clicking **Add**.
 
-> \[add image\]
+![](/assets/add-project-2.png)
 
 #### 2. Navigate to your project location
 
