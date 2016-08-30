@@ -25,7 +25,7 @@ Your project location is the geographic area where field data collection activit
 
 ##### a. Zooming from the map
 
-> \[add diagram overview of Map View to this section.\]
+![](/assets/Cadasta-Map-Overview.png)
 
 From the map view, use the `+` and `-` signs on the upper left to zoom in and out.
 
@@ -33,7 +33,7 @@ In the upper right, you can choose from a couple of different layers depending o
 
 The default layer is the graphic OpenStreetMap layer, shown above. You can also select the DigitalGlobe Satellite layer:
 
-> \[add image\]
+![](/assets/cadasta-map-view-satellite.png)
 
 ##### b. Search by a geographic Place Name
 
