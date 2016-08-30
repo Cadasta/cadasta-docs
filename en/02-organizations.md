@@ -52,15 +52,15 @@ Once an organization is set up, the administrator can add organization. Members 
 
 To add an organization member, click **View All **from the Organization Overview page.
 
-> \[add image\]
+![](/assets/organization-add-member-1.png)
 
 Then, click **Add**, in the upper right hand corner.
 
-> \[add image\]
+![](/assets/organization-add-member-2.png)
 
 A pop-up window will appear. Here, add the member's username or email and click save.
 
-> \[add image\]
+![](/assets/organization-add-member-3.png)
 
 ### Editing Member Organization Permissions {#editing-member-organization-permissions}
 
@@ -70,14 +70,13 @@ At the organizational level, there are two levels of permissions: Administrator 
 
 * Members can be added to projects within the organization.
 
-
 Administrators may change the permissions of an organization member from the Member Profile page using the drop-down menu towards the left side of the page. 
 
-> \[add image\]
+![](/assets/organization-add-member-4.png)
 
 ### Removing Organization Members {#removing-organization-members}
 
 Administrators may also remove organization members by clicking the **Remove member** button on the the Member Profile page.
 
-> \[add image\]
+![](/assets/organization-add-member-5.png)
 
