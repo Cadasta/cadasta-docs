@@ -5,9 +5,9 @@
 
 ### How Cadasta is Structured {#how-cadasta-is-organized}
 
-While anyone can use the Cadasta Platform, it's designed primarily for organizations doing projects to help people document their land rights. The Platform is primarily designed to fit their needs and is structured accordingly.
+While anyone can use the Cadasta Platform, it's designed primarily for organizations working to document land and resource rights of individuals and communities. The Platform is primarily designed to fit their needs and is structured accordingly.
 
-Before jumping in, it's important to understand this structure and how everything works together.
+Before jumping in, it's important to understand the Platform structure and how everything works together.
 
 * At the core of the Cadasta platform are a series of **[projects](03-projects.md)**. A project covers a specific geographic area. Within that area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
 
@@ -15,7 +15,7 @@ Before jumping in, it's important to understand this structure and how everythin
 
 * The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](08-XLSForms.md)**, which is required to set up your project.
 
-* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as deeds, images, or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various parties may have to one of it's locations.
+* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as scanned documents, images, video or audio testimonials or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various parties may have to one of it's locations.
 
 
 If you were to view all these parts as an outline, it would look something like this:
@@ -30,12 +30,12 @@ If you were to view all these parts as an outline, it would look something like 
       * Resources
 
 
-Typically data for each project is collected in the field using mobile devices. The Cadasta Platform supports two mobile data collection platforms:
+Typically data for each project is collected in the field. This might be doing using mobile applications paper questionnaires, or applicatios like Field Papers . The Cadasta Platform currently supports two mobile data collection platforms:
 
 * **[Open Data Kit \(ODK\)](05-odkcollect.md)**, and
 * **[Geo Open Data Kit \(GeoOKD\)](06-geoodkcollect.md)**.
 
-Both of these platforms integrate with your questionnaire, ensuring that the data you're collecting is in your desired format.
+Both of these applications integrate with your questionnaire, ensuring that the data you're collecting is in your desired format.
 
 Whenever you need to get your data and resources out of the Cadasta platform, all you have to do is [download it](07-download.md).
 
