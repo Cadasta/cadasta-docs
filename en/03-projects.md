@@ -33,13 +33,13 @@ In the upper right, you can choose from a couple of different layers depending o
 
 The default layer is the graphic OpenStreetMap layer, shown above. You can also select the DigitalGlobe Satellite layer:
 
-![](/assets/cadasta-map-view-satellite.png)
+![](/assets/cadasta-map-satellite.png)
 
 ##### b. Search by a geographic Place Name
 
 Click on the magnifying glass in the upper left to search for your location by name.
 
-> \[add image\]
+![](/assets/cadasta-map-search.png)
 
 #### 3. Create your project area.
 
@@ -49,25 +49,21 @@ Note that your project area does not need to be exact. To ensure full coverage, 
 
 **To draw a polygon**, click the polygon button. Then, start clicking points on the map to draw your shape.
 
-> \[add image\]
+![](/assets/cadasta-map-polygon.png)
 
-You can edit your polygon by clicking the Edit button.
-
-> \[add image\]
+You can edit your polygon by clicking the Edit Location button.
 
 From there, you can click to add each point of your polygon to its intended location. To close the polygon, click on the first point that you added.
 
 **To draw a rectangle**, select the rectangle icon. Then, click and drag over your project area on the map.
 
-> \[add image\]
+![](/assets/cadasta-map-rectangle.png)
 
-**To edit your project area**, select the edit icon. Then, click and drag the points on your polygon or rectangle to their correct location. When you're done, click the gray Save button on the left.
+**To edit your project area**, select the edit icon. Then, click and drag the points on your polygon or rectangle to their correct location. When you're done, click the gray Save button on the left
 
-#### 4. Save your work!
+Once you've drawn your project area to your satisfaction, click the green **Next** button on the right.
 
-Once you've drawn your project area to your satisfaction, click the green **Save and continue** button on the right.
-
-#### 5. Provide some general information about the project.
+#### 4. Provide some general information about the project.
 
 At this stage, you will be asked to fill out some General Information regarding the project, including:
 
@@ -79,7 +75,7 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project URL**, which must start with _http://_.
 
-* **Project Questionnaire**, which is the spreadsheet you'll use as the basis for [custom data collection](/en/XLSForms.md).
+* **Project Questionnaire**, which is the spreadsheet you'll use as the basis for your [custom data collection](/en/XLSForms.md).
 
 > Note: add direct links to publicly available questionnaires.
 
@@ -90,8 +86,6 @@ If you're adding a project by navigating from the Project page, you'll also be a
 #### 6. Add project members
 
 When you're done adding your general information, you can add project members.
-
-_[More about project members](#project-members-member-permissions)_
 
 > [add image]
 
