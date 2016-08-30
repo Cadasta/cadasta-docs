@@ -1,4 +1,4 @@
-# Record Management: Locations, Relationships, and Resources
+# Project Records: Locations, Relationships, and Resources
 
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)
     * [Adding a Location](#adding-a-location)

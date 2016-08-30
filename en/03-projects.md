@@ -75,21 +75,32 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project URL**, which must start with _http://_.
 
-* **Project Questionnaire**, which is the spreadsheet you'll use as the basis for your [custom data collection](/en/XLSForms.md).
-
-> Note: add direct links to publicly available questionnaires.
+* **Project Questionnaire**, a.k.a. the Data Collection Form. This spreadsheet becomes the basis for your data collection. To learn more about how they work and get sample forms, read our section on[data collection forms](/en/XLSForms.md)
 
 * **Project contacts**, if any. Note that project contacts are not necessarily the same thing as project members.
 
 If you're adding a project by navigating from the Project page, you'll also be asked to select the **Project's organization** from a dropdown menu at the top.
 
-#### 6. Add project members
+#### 5. Assign Project Member Permissions
 
-When you're done adding your general information, you can add project members.
+When you're done adding your general information, you can assign project member permissions. Project members are members of your organization, and their permissions reflect their role in any given project. 
 
-> [add image]
+![](/assets/project-member-permissions.png)
 
-#### 7. Add project locations {#add-project-locations}
+When you're done, congratulations! You've created your very first project. 
+
+Your next steps are to start collecting records for your projects, including:
+* **project locations** - all the parcels, buildings, boundaries and other locations relevant to your project;
+* **location relationships** - or parties that have some right or access to your location, and 
+* **resources** like photos, deeds, and other documentation related to your project, location or location relationships. 
+
+Read more about these records in the next section: [Project Records: Locations, Relationships, and Resources](04-records.md). 
+
+***
+
+> below being combined with [Project Records: Locations, Relationships, and Resources](04-records.md)
+
+#### 6. Add project locations {#add-project-locations}
 
 Within any given project, you may be working with lots of different locations. For example, within a forested area, there may be a national park boundary or building that you'll need to track.
 
@@ -113,7 +124,7 @@ To access this location, click on it from the main project page.
 
 _[More about project locations](04-records.md)_
 
-####8. Add location relationship(s)
+####7. Add location relationship(s)
 
 > edit to match new release
 
@@ -133,7 +144,7 @@ Add as many relationships as you need for the project location!
 
 _[More about Relationships & Tenure Types]_
 
-####9. Add location resources
+####8. Add location resources
 
 Land rights projects can come with all kinds of documentation - including legal documents, letters, pictures and more.
 
@@ -150,7 +161,7 @@ From there, you can either add items from your library of resources or upload th
 
 Accepted file types are .pdf, .mp3, .mp4, .doc, .docx, .jpg and .png. If you'd like, give your resource a name and a brief descripton. 
 
-####10. Add General project resources
+####9. Add General project resources
 
 Last but not least, add all of your non-location-specific project resources, if any. 
 

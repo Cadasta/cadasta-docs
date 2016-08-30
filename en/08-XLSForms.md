@@ -1,4 +1,4 @@
-# Questionnaires & Custom Data Collection
+# Data Collection Forms (a.k.a. Questionnaires)
 
 * [Overview](#overview)
 * [Minimal Form](#minimal-form)
