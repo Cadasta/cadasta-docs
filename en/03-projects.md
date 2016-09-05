@@ -111,12 +111,11 @@ When you create members of your project, you must assign them permissions. These
 
 * **Public User**. A Public User can view only data that is publicly available.
 
-
 ### Editing a Project {#editing-a-project}
 
 Once you've created a project, you may find that you need to make some changes. There are three aspects of a project that you can change:
 
-* Project Location
+* Project Boundary
 * Project Details, and
 * Member Permissions. 
 
@@ -124,7 +123,7 @@ To change any of these aspects of your project, navigate to your project page, a
 
 > [add image]
 
-From there, select the item that needs to be changed. 
+From there, select the item that needs to be edited. 
 
 #### Editing a Project Location
 
@@ -132,7 +131,7 @@ Once you've navigated to the Edit Project Location page, you can use the tools o
 
 You can either click the edit icon and drag your boundary points as needed:
 
-> [add image]
+![](/assets/edit-project-info.png)
 
 Or you can select the polygon or rectangle tools to draw completely new boundaries. 
 

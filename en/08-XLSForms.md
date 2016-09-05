@@ -59,7 +59,7 @@ The *choices* tab is where the choices for any drop-down menus are stored.
 
 For example, the `respondent` entries in A2 - A4 correspond with this dropdown menu:
 
-> add image from Parties view
+![](/assets/relationship-dropdown.png)
 
 The *settings* tab shows you the `form_id` and title of the questionnaire. You'll use this ID when you set up data collection with ODK and GeoODK. 
 
