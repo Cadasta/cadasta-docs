@@ -19,17 +19,20 @@ From the main project page, select either **Add location** or **Add a location**
 
 > add image
 
-On the next page, select your [location type](#location-types) and draw it on the map as a point, line, polygon, or rectangle.
+On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
 
 > add image
 
-Depending on the structure of your [questionnaire](/08-XLSForms.md), you'll be asked to add some information about your location. At the bare minimum (using the [minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796)) you'll need to indicate the type of location. Using the [standard questionnaire](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796), you'll be asked to specify the following:
+Here, you'll also be asked to provide some information about your location. If you're using the [minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796), you'll just need to indicate the type of location. 
 
-* Location Type
+If you're using the [standard questionnaire](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796), you'll be asked to specify the following:
+
+* [Location type](#location-types)
 * Name of Location
-* Spacial Unit Quality
-* How Location was Acquired, and
-* Any other information about the location.
+* [Spatial Unit Quality](#spatial-unit-quality)
+* [How Location was Acquired](#location-acquisition), 
+* When the location was acquired, and
+* Location Notes.
 
 When you're done, save your location. 
 
@@ -39,7 +42,7 @@ To access this location, click on it from the main project page.
 
 #### Location Types {#location-types}
 
-Location types define the type of location you're uploading. The following are defined in the [starndard questionnaire](assets/standard_cadasta_questionnaire_0.2.xlsx):
+Location types define the type of location you're uploading. The following are defined in the [standard questionnaire](assets/standard_cadasta_questionnaire_0.2.xlsx):
 
 * **Parcel** - a plot of land.
 * **Community Boundary** - a formal or informal boundary between two groups of people.
@@ -53,6 +56,35 @@ Location types define the type of location you're uploading. The following are d
 
 To change the location types that you're using, [edit your questionnaire](08-XLSForms.md). 
 
+#### Spatial Unit Quality {#spatial-unity-quality}
+
+> Need definitions for this section
+
+If you're using the standard questionnair for your data collection, you'll be asked to define your spatial unit quality using one of the following categories. Here's what they mean:
+
+* text
+* point
+* polygon-low
+* polygon-high
+
+#### Location Acquisition {#location-acquisition}
+
+> Need definitions for this section
+
+If you're using the standard questionnaire for your data collection, you'll be asked to define how your location was acquired. You can choose from one of the following categories:
+
+* CS
+* CA
+* GF
+* HS
+* IO
+* IN
+* LH
+* PF
+* RN
+* OT
+
+
 ### Location Relationships & Tenure Types
 
 #### Relationships {#relationships}
@@ -61,19 +93,21 @@ Any given location has a relationship to a number of parties. For example, a mun
 
 #### Adding a New Relationship {#adding-a-new-relationship}
 
-To add a new relationship for a project location, click **Add relationship** from the main project page. 
+To add a new relationship for a project location, clik on the Relationships tab. Then, click on **Add relationship**. 
 
 > [add image]
 
-In the pop-up that follows, you'll be asked to add a party. If the party hasn't already been logged, click **Add party**.
+In the pop-up that follows, you'll be first asked to either choose from an existing party or add a new one. 
 
-> [add image]
+If you're adding a new one, you'll need to provide:
 
-There, you can add the party name, party type (Individual, Group or Corporation), and any notes you have about the party.
+* Party name, 
+* Party type (individual, group, or corporation - meaning any kind of official organization), and
+* Party notes. 
 
-> [add image]
+Next, you'll be asked to add relationship details: including the [tenure type](tenure-type) and notes about the tenure. 
 
-Next, you'll be asked to add relationship details, including the tenure type and notes about the tenure. 
+When you're done adding notes about the relationship, click save. 
 
 #### Tenure Type {#tenure-type}
 
@@ -100,28 +134,22 @@ Next, you'll be asked to add relationship details, including the tenure type and
 
 To learn more about many of these terms, check out the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e ). 
 
-### Project & Location Resources {#project-resources}
+### Resources {#project-resources}
 
-Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to a party or group, or it may just relate to the project in general.
+Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
 
-The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
+The Cadasta Platform is set up to handle this kind of complexity, organizing resources into two different types:
 
-* Resources pertaining a specific location, 
-
-* Resources pertaining to parties and relationships, and
+* Resources pertaining a specific location, and
 
 * Resources pertaining to the project generally.
 
 
 ####Adding a New Resources {#adding-new-resource}
 
-There are a few ways to add a new resource, depending what it pertains to (a location, a relationship, or the project overall). 
+There are a couple ways to add a new resource, depending whether it pertains to a location or resource. 
 
-If you're adding a resource related to a specific project location, select the **Resources tab** from the location overview page, and then **Add new resource.**
-
-> Add image
-
-To add a resource related to a relationship, navigate to the **Relationships tab** and click on the party that the documenation relates to. From there, you can click the **Add** button. 
+If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Add new resource.**
 
 > Add image
 
@@ -133,9 +161,7 @@ Then, click **Resources.** Clicking on resources from the project overview page 
 
 > Add image
 
-From the library, click **Add**. 
-
-> Add image
+To add a resource while you're in the the library, click **Add**. 
 
 From any of these starting points, you 'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
 
@@ -150,5 +176,3 @@ Acceptable file types include:
 * .docx
 * .jpg
 * .png
-
-Resources will be connected to relationships and locations depending on where they're uploaded from. 
