@@ -17,11 +17,11 @@ Within any given project, you may be working with lots of different locations. F
 
 From the main project page, select either **Add location** or **Add a location**: 
 
-> add image
+![](/assets/add-project-location.png)
 
 On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
 
-> add image
+![](/assets/project-location-info.png)
 
 Here, you'll also be asked to provide some information about your location. If you're using the [minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796), you'll just need to indicate the type of location. 
 
@@ -38,7 +38,7 @@ When you're done, save your location.
 
 To access this location, click on it from the main project page. 
 
-> [add image]
+![](/assets/access-project-location.png)
 
 #### Location Types {#location-types}
 
@@ -84,7 +84,6 @@ If you're using the standard questionnaire for your data collection, you'll be a
 * RN
 * OT
 
-
 ### Location Relationships & Tenure Types
 
 #### Relationships {#relationships}
@@ -95,9 +94,11 @@ Any given location has a relationship to a number of parties. For example, a mun
 
 To add a new relationship for a project location, clik on the Relationships tab. Then, click on **Add relationship**. 
 
-> [add image]
+![](/assets/add-location-relationship.png)
 
 In the pop-up that follows, you'll be first asked to either choose from an existing party or add a new one. 
+
+![](/assets/add-new-relationship-popup.png)
 
 If you're adding a new one, you'll need to provide:
 
@@ -105,7 +106,7 @@ If you're adding a new one, you'll need to provide:
 * Party type (individual, group, or corporation - meaning any kind of official organization), and
 * Party notes. 
 
-Next, you'll be asked to add relationship details: including the [tenure type](tenure-type) and notes about the tenure. 
+Next, you'll be asked to add relationship details: including the [tenure type](#tenure-type) and notes about the tenure. 
 
 When you're done adding notes about the relationship, click save. 
 
@@ -149,23 +150,23 @@ The Cadasta Platform is set up to handle this kind of complexity, organizing res
 
 There are a couple ways to add a new resource, depending whether it pertains to a location or resource. 
 
-If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Add new resource.**
+If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Add resource.**
 
-> Add image
+![](/assets/add-location-resource.png)
 
-To add a resource that's mainly for the project overall, go to the project's overview page by clicking **Overview**.
+To add a resource that pertains to the overall project, go to the project's overview page by clicking **Overview**. Then, click **Resources.** 
 
-> Add image
+![](/assets/resources-from-overview.png)
 
-Then, click **Resources.** Clicking on resources from the project overview page will take you to your project library, which will have all of the resources related to your project.
+Clicking on resources from the project overview page will take you to your project library, which will have all of the resources related to your project.
 
-> Add image
+![](/assets/project-library.png)
 
-To add a resource while you're in the the library, click **Add**. 
+To add a resource while you're in the the library, click **Add** on the upper right.
 
-From any of these starting points, you 'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
+From any of these starting points, you'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
 
-> Add image
+![](/assets/project-library.png)
 
 Acceptable file types include:
 
