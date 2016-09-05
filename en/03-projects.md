@@ -4,7 +4,6 @@
 * [Editing a Project](#editing-a-project)
 * [Project Members & Member Permissions](#project-members-member-permissions)
 
-
 ### Setting Up a New Project {#setting-up-new-project}
 
 Once you've created your organization, you can start to add projects.

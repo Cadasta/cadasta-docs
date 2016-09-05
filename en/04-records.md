@@ -1,12 +1,7 @@
 # Project Records: Locations, Relationships, and Resources
 
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)
-    * [Adding a Location](#adding-a-location)
-    * [Location Types](#location-types)
 * [Location Relationships & Tenure Types](#location-relationships)
-    * [Relationships](#relationships) 
-    * [Adding a New Relationship](#adding-a-new-relationship)
-    * [Tenure Types](#tenure-types)
 * [Project & Location Resources](#project-resources)
 
 ### Project Locations, Location Types, & Location Aquisition {#project-locations}
@@ -60,7 +55,7 @@ To change the location types that you're using, [edit your questionnaire](08-XLS
 
 > Need definitions for this section
 
-If you're using the standard questionnair for your data collection, you'll be asked to define your spatial unit quality using one of the following categories. Here's what they mean:
+If you're using the standard questionnair for your data collection, you'll be asked to define your spatial unit quality using one of the following categories:
 
 * text
 * point
@@ -69,20 +64,18 @@ If you're using the standard questionnair for your data collection, you'll be as
 
 #### Location Acquisition {#location-acquisition}
 
-> Need definitions for this section
-
 If you're using the standard questionnaire for your data collection, you'll be asked to define how your location was acquired. You can choose from one of the following categories:
 
-* CS
-* CA
-* GF
-* HS
-* IO
-* IN
-* LH
-* PF
-* RN
-* OT
+* CS - Contractual Share Crop
+* CA - Customary Arrangement
+* GF - Gift
+* HS - Homestead
+* IO - Informal Occupant
+* IN - Inheritance
+* LH - Leasehold 
+* PF - Purchased Freehold
+* RN - Rental
+* OT - Other
 
 ### Location Relationships & Tenure Types
 
@@ -135,7 +128,7 @@ When you're done adding notes about the relationship, click save.
 
 To learn more about many of these terms, check out the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e ). 
 
-### Resources {#project-resources}
+### Project & Location Resources {#project-resources}
 
 Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
 
