@@ -11,15 +11,19 @@
 
 ### Project Locations, Location Types, & Location Aquisition {#project-locations}
 
-#### Adding a Location {#adding-a-location}
-
 Within any given project, you may be working with lots of different locations. For example, within a forested area, there may be a national park boundary or building that you'll need to track.
 
-Select whether your location is to be displayed as a point, line, polygon, or rectangle, and then draw it on the map.
+#### Adding a Location {#adding-a-location}
 
-> [add diagram]
+From the main project page, select either **Add location** or **Add a location**: 
 
-Depending on the structure of your [questionnaire](/08-XLSForms.md), you'll be asked to add some information about your location. At the bare minimum (using the [minimal questionnaire](assets/Minimum_cadasta_questionnaire_0.2.xlsx)) you'll need to indicate the type of location. Using the [standard questionnaire](assets/standard_cadasta_questionnaire_0.2.xlsx), you'll be asked to specify the following:
+> add image
+
+On the next page, select your [location type](#location-types) and draw it on the map as a point, line, polygon, or rectangle.
+
+> add image
+
+Depending on the structure of your [questionnaire](/08-XLSForms.md), you'll be asked to add some information about your location. At the bare minimum (using the [minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796)) you'll need to indicate the type of location. Using the [standard questionnaire](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796), you'll be asked to specify the following:
 
 * Location Type
 * Name of Location
@@ -98,17 +102,20 @@ To learn more about many of these terms, check out the glossary from [Focus on L
 
 ### Project & Location Resources {#project-resources}
 
-Each project may have many locations, and each location may have its own set of documentation or resources about it. Some of that documentation may relate to multiple locations within a project, or it may just relate to the project itself. 
+Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to a party or group, or it may just relate to the project in general.
 
-The Cadasta Platform is set up to handle this complexity. As a result, resources like photos, letters, deeds, or anything else related to your project can be organized as you need. 
+The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
+
+* Resources pertaining a specific location, 
+
+* Resources pertaining to parties and relationships, and
+
+* Resources pertaining to the project generally.
+
 
 ####Adding a New Resources {#adding-new-resource}
 
-There are a few ways to add a new resource, as resources can be assigned to a few different aspects of a project:
-
-* a project location
-* a location relationship, and
-* the project in general.  
+There are a few ways to add a new resource, depending what it pertains to (a location, a relationship, or the project overall). 
 
 If you're adding a resource related to a specific project location, select the **Resources tab** from the location overview page, and then **Add new resource.**
 

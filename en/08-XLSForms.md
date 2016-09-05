@@ -22,9 +22,9 @@ The underlying technology that enables this comes from [XLSForm](http://xlsform)
 
 The two forms you can start with are:
 
-* [The minimal form](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796) for the bare minimum of data needed by the platform; and
+* [The minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796) for the bare minimum of data needed by the platform; and
 
-* [The standard form](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796) - which is the starting point for many of our partners.
+* [The standard questionnaire](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796) - which is the starting point for many of our partners.
 
 You can use either of these forms as a starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
 
