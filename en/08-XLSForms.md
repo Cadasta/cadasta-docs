@@ -11,9 +11,9 @@ Every data project is different - starting with the questions being asked. These
 
 The Cadasta platform allows you to define your own data collection schema, so you can tailor your data collection around the specific questions your asking. These questions could include contact details, geographic place names or how the land was acquired.
 
-The underlying technology that enables this comes from [XLSForm](http://xlsform.com). XLSForm is a form standard based on authoring forms using a spreadsheet. The forms \(or questionnaires\) are easy to use, while also allowing for more complexity as needed.
+The underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are easy to use, while also allowing for more complexity as needed.
 
-The two ready-to-go questionnaires you can start with are:
+You can start your project with one of these two ready-to-go questionnaires:
 
 * [The minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796) for the bare minimum of data needed by the platform; and
 
@@ -33,23 +33,26 @@ If you have questions about how to use these questionnaire forms, [contact us](c
 
 ### The Minimal Questionnaire {#minimal-form}
 
-[The minimal form](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796) has the essential fields you need to collect your data.
+[The minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796) has the essential fields you need for data collection using the Cadasta Platform.
 
-This form has three tabs:
+This questionnaire has three tabs:
 
 * Survey
 * Choices, and
 * Settings.
 
-The **survey** tab shows the overall data collection schema.
+The **Survey** tab shows the overall data collection schema.
 
 ![](/assets/minimal-survey.png)
 
-* The areas in gray are fields that the Cadasata platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes to make the platform work as it should. 
-* The first two columns - `type` and `name` - relate to the type of data being collected, and the name it's given.
-* The areas in white indicate the questions that will show up on the form. \(Note the `image` options only show up with mobile data collectors [ODK](odkcollect.md) & [GeoODK](06-geoodkcollect.md), allowing you to take a pictures of the location or party you're documenting.
+The areas in gray are fields that the Cadasata platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes to make the platform work as it should. _(Note! Do not tamper with these fields!)_
 
-The **choices** tab is where the choices for any drop-down menus are stored.
+The first three columns are super important ones:
+* `type` specifies the type of entry you're adding - be it text, a date, a dropdown or something else. 
+* `name` specifies the variable used for that entry. No two names can be the same!
+* `label` shows the text that will actually be seen on the form. Fields in white can be modified as needed.
+
+The **Choices** tab is where the choices for any drop-down menus are stored.
 
 ![](/assets/minimal-choices.png)
 
@@ -139,6 +142,44 @@ In addition to these basic data types, [XLSForm](http://xlsform.org/#question-ty
 
 The type you need depends on the kinds of questions you need to ask. For example, if you need to collect an audio sample from an interviewee, you could select `audio`, which will prompt you to take an audio recording.
 
+##### Questionnaire Sections
+
+> Kate, definitely want your feedback on this section. Also are there other sections that can be added? The ones below are all taken from the standard questionnaire.
+
+![](/assets/standard-survey.png)
+
+The customizable portion of the questionnaire has been organized into the following sections: 
+
+* **Location Attributes** relate to to information about the location - like its name and boundaries. 
+
+* **Default Party Attributes** specify the information that you collect about any party, be it an individual, group, or corporation.
+
+* **Individual Party Attributes** and **Group Party Attributes** each provide information specific to whether a party is an individual or group.
+
+* **Party Relationship Attributes** is for information specific to the relationship between a party and the location. 
+
+* **Tenure Relationship Attributes** specify information about a party's tenure on the land.
+
+Each of these sections relates to a specific field that works within the Cadasta Platform. In order for your questions to appear in the platform, they need to be in one of these sections.
+
 ##### Steps to Creating Your Custom Questionnaire
 
+The first thing you need to do is think through the questions you'll be asking in your data collection.
+
 1. Identify your questions. What information do you need to collect in your project? 
+
+2. Identify each question's data type. What kind of data would work best for each question - a date? A text field? A drop-down or multiple choice?
+
+3. Identify where each question should go. Is this question about a party, location, relationship, or something else?
+
+Once you've thought this through, you can start adding your questions in their appropriate section.
+
+Before uploading your questionnaire to your project, check to make sure that:
+
+* all of your data `types` match those listed on [XLSForm](http://xlsform.org/#question-types) and are spelled correctly. 
+* all of your names are lowercase and contain no spaces. 
+* all of your `list_names` in the Choices tab match the name you've given to your dropdowns in the Survey tab.
+
+Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
+
+If you're having trouble with your custom form, don't hesistate to [contact us](cadasta.org/contact/) at any time - we're here to help you get your data collection just right.
