@@ -1,4 +1,4 @@
-# Questionnaires
+# Questionnaires & Custom Data Collection
 
 * [Overview](#overview)
 * [Minimal Questionnaire](#minimal-form)
@@ -47,28 +47,28 @@ The **Survey** tab shows the overall data collection schema.
 
 The areas in gray are fields that the Cadasata platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes to make the platform work as it should. _(Note! Do not tamper with these fields!)_
 
-The first three columns are super important ones:
+The first three columns are important ones for you to know about:
 * `type` specifies the type of entry you're adding - be it text, a date, a dropdown or something else. 
 * `name` specifies the variable used for that entry. No two names can be the same!
 * `label` shows the text that will actually be seen on the form. Fields in white can be modified as needed.
 
-The **Choices** tab is where the choices for any drop-down menus are stored.
+The **Choices** tab is where the choices for all the drop-down menus are stored.
 
 ![](/assets/minimal-choices.png)
 
-For example, the `respondent` entries in A2 - A4 correspond with this dropdown menu in the Add Relationship popup:
+For example, the `respondent` entries Group, Individual an d Corporation (A2 - A4) correspond with this dropdown menu in the Add Relationship popup:
 
 ![](/assets/relationship-dropdown.png)
 
-The **settings** tab shows you the `form_id` and title of the questionnaire. You'll use this ID when you set up data collection with ODK and GeoODK.
+The **Settings** tab shows you the `form_id` and title of the questionnaire. You'll use this ID when you set up data collection with ODK and GeoODK.
 
 ### The Standard Questionnaire {#standard-form}
 
-[The standard form](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796) has all the same questions as the mininimal version, with quite a few added. You can see many of these choices indicated in the **survey** tab.
+[The standard questionnaire](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796) has all the same questions as the mininimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
 
 ![](/assets/standard-survey.png)
 
-The image above shows some fields that have been added in addition to the minimal information. These fields are organized by section:
+The image above shows all the entries that will be collected in addition to the minimal information. These entries are organized by section:
 
 * Location Attributes \(rows 22-28\)
 * Default Party Attributes \(rows 20-32\)
@@ -77,19 +77,21 @@ The image above shows some fields that have been added in addition to the minima
 * Party Relationship Attributes \(45-47\)
 * Tenure Relationship Attributes \(49-51\)
 
-The **choices** tab also shows some additional choice options for your dropdown menus.
+Each of these sections relates to a data collection window in the cadasta platform.
+
+The **Choices** tab has the same options as the minimal questionnaire, with some additional drop-down choices as well.  
 
 ![](/assets/standard-choices-more.png)
 
-For example, rows 38-47 show the choices for the different types of location acquisitions.
+For example, rows 38-47 show the choices for the different types of location acquisitions, which correspond with row 25 on the Survey tab (above).
 
-The **settings** tab of the standard questionnaire is exactly the same as it is in the minimal version - providing the `form_id`.
+The **Settings** tab of the standard questionnaire is exactly the same as it is in the minimal version - providing the `form_id`, which you'll select when setting up on ODK or GeoODK.
 
 ![](/assets/standard-settings.png)
 
 ### Customizing Your Questionnaire {#customizing-your-questionnaire}
 
-If you need to collect different data than what's in the standard questionnaire, you can customize it to meet your needs. Any field with a white background can be modified. Fields with a gray background need to remain as they are in order for the questionnaires to work with the Cadasta Platform.
+If you need to collect different data than what's in the standard questionnaire, you can customize it to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for the questionnaires to work with the Cadasta Platform.
 
 #### Basic Customization
 
@@ -103,7 +105,7 @@ To edit a field in a drop-down menu, navigate to the Choices tab. There, you can
 
 For example, to add a new field to the location acquisition dropdown \(`l_acquired_how`\):
 
-* Add a new row, and give it a `list name` of `l_acquired_how`.
+* Add a new row, and give it a `list_name` of `l_acquired_how`.
 * Add a new name and label.
 
 In the example below, a new category for the dropdown \("Unknown"\) has been added to the questionnaire.
@@ -118,9 +120,9 @@ Once that questionnaire is saved and loaded into the project, the new "Unknown" 
 
 If you need to do more than simply edit a few existing fields, then advanced customization may be for you.
 
-##### Data Types {#data-types}
+##### Data Entry Types {#data-types}
 
-To fully take advantage of customizing the questionnaire, it's important to figure out which data type will work best for the kind of information you're collecting. Some of the most common ones that you'll use are:
+To fully take advantage of customizing the questionnaire, it's important to figure out which data entry type will work best for the kind of information you're collecting. Some of the most common ones that you'll use are:
 
 * `text` - which specifies that you're collecting basic text.
 * `date` - which specifies that you're logging the date.
@@ -136,7 +138,7 @@ Notice that `select-one` - the dropdown option - requires identifying a set of c
 
 These options will appear in the dropdown when it's selected.
 
-In addition to these basic data types, [XLSForm](http://xlsform.org/#question-types) offers many different data types for you to choose from:
+In addition to these basic data types, [XLSForm](http://xlsform.org/#question-types) offers many different data types for you to choose from.
 
 ![](/assets/xls-form-question-types.png)
 
@@ -160,7 +162,7 @@ The customizable portion of the questionnaire has been organized into the follow
 
 * **Tenure Relationship Attributes** specify information about a party's tenure on the land.
 
-Each of these sections relates to a specific field that works within the Cadasta Platform. In order for your questions to appear in the platform, they need to be in one of these sections.
+Each of these sections relates to a piece of the Cadasta Platform's internal workings. In order for your questions to appear in the platform, they need to be in one of these sections.
 
 ##### Steps to Creating Your Custom Questionnaire
 
@@ -168,7 +170,7 @@ The first thing you need to do is think through the questions you'll be asking i
 
 1. Identify your questions. What information do you need to collect in your project? 
 
-2. Identify each question's data type. What kind of data would work best for each question - a date? A text field? A drop-down or multiple choice?
+2. Identify each question's data entry type. What kind of  entry would work best for each question - a date? A text field? A drop-down or multiple choice?
 
 3. Identify where each question should go. Is this question about a party, location, relationship, or something else?
 
@@ -176,8 +178,8 @@ Once you've thought this through, you can start adding your questions in their a
 
 Before uploading your questionnaire to your project, check to make sure that:
 
-* all of your data `types` match those listed on [XLSForm](http://xlsform.org/#question-types) and are spelled correctly. 
-* all of your names are lowercase and contain no spaces. 
+* all of your data entry `types` match those listed on [XLSForm](http://xlsform.org/#question-types) and are spelled correctly. 
+* all of your `names` are lowercase and contain no spaces. 
 * all of your `list_names` in the Choices tab match the name you've given to your dropdowns in the Survey tab.
 
 Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
