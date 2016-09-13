@@ -148,8 +148,6 @@ The type you need depends on the kinds of questions you need to ask. For example
 
 ##### Questionnaire Sections
 
-> Kate, definitely want your feedback on this section. Also are there other sections that can be added? The ones below are all taken from the standard questionnaire.
-
 ![](/assets/standard-survey.png)
 
 The customizable portion of the questionnaire has been organized into the following sections: 
@@ -165,6 +163,16 @@ The customizable portion of the questionnaire has been organized into the follow
 * **Tenure Relationship Attributes** specify information about a party's tenure on the land.
 
 Each of these sections relates to a piece of the Cadasta Platform's internal workings. In order for your questions to appear in the platform, they need to be in one of these sections.
+
+The below image is taken from a custom questionnaire used by one of our partners. Here, they've added a number of custom fields in the `party_attributes_default` section:
+
+![](/assets/uttaran-example.png)
+
+It is possible to create new sections, as another Cadasta partner has done below. Here, they've added a section on witnesses:
+
+![](/assets/jei-example.png)
+
+If you'd like to create new sections or significantly customize your questionnaire, we highly recommend that you [contact us](cadasta.org/contact/) first. We're here to help! 
 
 ##### Steps to Creating Your Custom Questionnaire
 
