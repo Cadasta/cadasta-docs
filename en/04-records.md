@@ -1,7 +1,7 @@
-# Project Records: Locations, Relationships, and Resources
+# Project Records: Locations, Parties, Relationships, and Resources
 
-* [Project Locations, Location Types, and Location Acquisition](#project-locations)
-* [Location Relationships & Tenure Types](#location-relationships)
+* [Project Locations, Location Types, and Location Acquisition](#project-locations)    
+* [Location Relationships, Parties & Tenure Types](#location-relationships)
 * [Project & Location Resources](#project-resources)
 
 ### Project Locations, Location Types, & Location Aquisition {#project-locations}
@@ -51,17 +51,6 @@ Location types define the type of location you're uploading. The following are d
 
 To change the location types that you're using, [edit your questionnaire](08-XLSForms.md). 
 
-#### Spatial Unit Quality {#spatial-unity-quality}
-
-> Need definitions for this section
-
-If you're using the standard questionnair for your data collection, you'll be asked to define your spatial unit quality using one of the following categories:
-
-* text
-* point
-* polygon-low
-* polygon-high
-
 #### Location Acquisition {#location-acquisition}
 
 If you're using the standard questionnaire for your data collection, you'll be asked to define how your location was acquired. You can choose from one of the following categories:
@@ -81,7 +70,15 @@ If you're using the standard questionnaire for your data collection, you'll be a
 
 #### Relationships {#relationships}
 
-Any given location has a relationship to a number of parties. For example, a municipality may own a utility corridor, which certain communities may use as a right-of-way. 
+Any given location has a relationship to a number of [parties](#parties). For example, a municipality may own a utility corridor, which certain communities may use as a right-of-way. 
+
+#### Parties{#Parties}
+
+Parties are the individuals, groups or corporations who have a stake in one of the locations in your project. 
+
+* **Individuals** are single people, like a landowner or lessee.
+* **Groups** are collections of people who may not have an official organization. 
+* **Corporations** are organizations like companies, NGOs, or government bodies.  
 
 #### Adding a New Relationship {#adding-a-new-relationship}
 
