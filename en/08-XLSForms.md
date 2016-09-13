@@ -27,7 +27,7 @@ To use them, follow the links above to your desired questionnaire. Then, downloa
 
 If you need to significantly modify these questions, see the section on [customizing your questionnaire](#customizing-your-questionnaire). 
 
-_**Important note:** At this time, your questionnaire cannot be changed once it's loaded to a project. We're working to change this feature. For now, make sure that your questionnaire is just how you want it before loading it onto your project._
+_**Important note:** You can make small changes to your questionnaire - such as adding a row - and reupload it to an existing project. However, if your questionnaire changes significantly, you may need to start a new project._
 
 If you have questions about how to use these questionnaire forms, [contact us](cadasta.org/contact/) at any time.
 
@@ -98,6 +98,8 @@ If you need to collect different data than what's in the standard questionnaire,
 ##### Deleting Unnecessary Fields
 
 If there's a field that you don't want to include, simply delete its row from the survey tab of the questionnaire. To do this in Excel, right-click the row and then select Delete.
+
+_**Important note!** Remember that fields in gray cannot be deleted or modified; only delete rows that have completely white backgrounds._
 
 ##### Editing Drop-Down Fields
 
