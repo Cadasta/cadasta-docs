@@ -74,15 +74,17 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project URL**, which must start with _http://_.
 
-* **Project Questionnaire**. This spreadsheet is the basis for your data collection, and cannot be changed once your project is created. To learn more about how they work and get sample questionnaires, read our section on[data collection forms](/en/XLSForms.md)
+* **Project Questionnaire**. This spreadsheet is the basis for your data collection, and cannot be changed once your project is created. To learn more about how they work and get sample questionnaires, read our section on [data collection forms](/en/XLSForms.md)
 
-* **Project contacts**, if any. Note that project contacts are not necessarily the same thing as project members.
+* **Project contacts**, if any. These contacts do not have to be project members, but may be people who are important to the project. For example, you may be working with an administrator or communications specialist who is not involved with data collection, but who may have integral roles in what you're doing. 
 
 If you're adding a project by navigating from the Project page, you'll also be asked to select the **Project's organization** from a dropdown menu at the top.
 
 #### 5. Assign Project Member Permissions
 
-When you're done adding your general information, you can assign project member permissions. Project members are members of your organization, and their permissions reflect their role in any given project. 
+When you're done adding your general information, you can assign member permissions. Project members are members of your organization, and their permissions reflect their role in any given project. 
+
+To learn more about member permissions, see the section [Project Members & Member Permissions](#project-members-member-permissions) below.
 
 ![](/assets/project-member-permissions.png)
 
