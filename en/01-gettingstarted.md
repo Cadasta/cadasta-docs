@@ -46,7 +46,9 @@ To get started, follow the steps below! For more information and images, follow 
 
 1. **[Create your new account](#createnewaccount)** by clicking **register** and entering your name, email, and a few other key pieces of information. 
 
-2. Next, you need to be added to an organization. If your organization already exists in the Cadasta Platform, contact the organization's administrator add you. If it doesn't exist yet, you can **[create your organization](02-organizations.md)** by selecting the **Organizations** button and then **Add**. You'll be asked to enter some basic information about your organization and save it. The person who creates an organization becomes the organization's administrator. 
+2. Next, you need to be added to an organization. To do this, contact your organization's administrator to add you as an organization member. Note that you can be added to multiple organizations in the Cadasta sytem.  
+
+    * If you're going to be the administrator of a new organization in Cadasta, you can **[create your organization](02-organizations.md)** by selecting the **Organizations** button and then **Add**. You'll be asked to enter some basic information about your organization and save it. The person who creates an organization becomes the organization's administrator. Note that most users will not create their own organizations; instead they will be added to one. 
 
 3. The next thing you need to do is **[create your first project](03-projects.md).** As part of the project creation process, you'll be asked to upload a questionnaire, which creates the structure for your location data collection. If you don't have one of your own, you can use either this [minimal questionnaire](assets/Minimum_cadasta_questionnaire_0.2.xlsx) or this [standard questionnaire](assets/standard_cadasta_questionnaire_0.2.xlsx). You'll also need to add project members, project locations, and project resources as needed. 
 
