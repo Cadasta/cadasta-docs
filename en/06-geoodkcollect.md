@@ -11,9 +11,9 @@
 
 ###Overview {#overview}
 
-Geographical Open Data Kit \(GeoODK\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like ODK Collect, GeoODK can be used for data collection for projects in the Cadasta Platform. 
+Geographical Open Data Kit \(GeoODK\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like ODK Collect, GeoODK can be used for data collection projects in the Cadasta Platform. 
 
-This section provides an overview of how GeoODK works with the Cadasta Platform. 
+This section provides an overview of how GeoODK and Cadasta work together:
 
 1. First, you'll [set up GeoODK](#initial-setup) on an Android device.
 2. Then you'll [load the questionnaire](#loading-your-form) you want to use for data collection.
@@ -26,7 +26,7 @@ For more information and documentation about GeoODK generally, visit [geoodk.com
 
 ### Initial Setup {#initial-setup}
 
-To get started, [download GeoODK Collect from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android) or wherever you acquire your applications.
+To get started, [download GeoODK Collect from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), or wherever you acquire your applications.
 
 If this is the first time you've used GeoODK with the Cadasta Platform, you'll need to configure GeoODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
 
@@ -41,15 +41,15 @@ If this is the first time you've used GeoODK with the Cadasta Platform, you'll n
 
     ![](/assets/geo-odk-2-url.png)
 
-GeoODK is now connected to your Cadasta account, and making it possible for your data collection to feed directly to the Cadasta Platform!
+GeoODK is now connected to your Cadasta account, making it possible for your data collection to feed directly to the Cadasta Platform!
 
 Click the back button 3 times to return to the main menu.
 
 ### Loading your Questionnaire {#loading-your-form}
 
-Once you've connected GeoODK with your Cadasta account, the next thing you need to do is load the form you're using for your data collection project. 
+Once you've connected GeoODK with your Cadasta account, the next thing you need to do is load the questionnaire you're using for your data collection project. 
 
-1. From the Main Menu, select **Settings, then **Form Management**. 
+1. From the Main Menu, select **Settings**, then **Form Management**. 
 
     ![](/assets/geo-odk-3-form-management.png)
 
@@ -61,7 +61,7 @@ Once you've connected GeoODK with your Cadasta account, the next thing you need 
 
     ![](/assets/geo-odk-5-questionnaire-list.png)
 
-Now, GeoODK is configured to ask questions in your questionnaire. 
+Now, GeoODK is configured to record data using the questions in your questionnaire. 
 
 ### Data Collection {#data-collection}
 
@@ -82,7 +82,7 @@ Specifically, you're recording location data. Each
 
 ### Uploading Data {#uploading-data}
 
-When you get back to WiFi or a mobile network, you can upload your completed questionnaires to Cadasta. 
+When you get back to WiFi or a mobile network, you can upload your completed questionnaires to the Cadasta Platform. 
 
 From the main menu, click **Send Data** and then check off all the forms that you want to upload (using the **Toggle All** button to select all questionnaires). Then select **Send Selected**.
 
@@ -100,13 +100,13 @@ GeoODK makes editing your forms relatively easy. From the main menu, select **Ed
 
 ### Deleting Questionnaires {#deleting-questionnaires}
 
-You can easily delete unwanted questionnaires by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
+You can also easily delete unwanted questionnaires by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
 
 ### Geotracing {#geotracing}
 
 During [data-collection](#data-collection), you'll be asked to geotrace a location. Using GPS data from your Android device, geotracing follows your specific location and then records it in GeoODK. You can use geotracing to walk the perimeter of a building (creating a polygon), walk along a river or road (creating a line), or drop a pin directly where you're standing (creating a point).
 
-To start geotracing, hit the Play button in the upper right:
+To start geotracing, hit the Play button in the upper left:
 
 ![](/assets/geo-odk-geotrace-1-play.png)
 
@@ -124,9 +124,9 @@ From there, you'll be asked to select either Automatic or Manual mode.
 
 The amount of time you should set for your interval depends on how you're collecting the data. For example, if you're driving, you may want to set the interval to be once every 5 seconds. If you're walking, you may want to record once every 20-30 seconds. 
 
-Automatic mode also lets you collect a point manually if you need to. For example, if you're automatically geotracing a rectangular plot of land, be sure to pause and record your location at each corner to ensure they are recorded.
+Automatic mode also lets you collect a point manually if you need to. A good time to do this would be to record the corners of a rectangular plot that you're automatically geotracing. Doing this will ensure the corners don't get cut off from your final polygon.
 
-For either automatic or manual mode, keep in mind that the more points you record, the bigger your data file will be and the harder it will be to upload when you return to WiFi or you mobile network.
+For either automatic or manual mode, keep in mind that the more points you record, the bigger your data file will be and the harder it will be to upload when you return to WiFi or you mobile network. Collect all the points you need - and only the points you need!
 
 When you're done geotracing, hit the pause button. You'll then be asked to save your information as a polyline or polygon.
 
@@ -142,25 +142,25 @@ Note that GeoODK calls a geotrace a parcel regardless of what kind of location i
 
 ### GeoODK Troubleshooting {#geoodk-troubleshooting}
 
+> Kate, this section refers to errors I got while testing GeoODK. If there's something missing or an easier way to solve something, let me know!
+
 If you're having trouble using GeoODK, the answer to your question may be here. If not, please [contact us](cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
-#### Loading Your Questionnaire
+#### Trouble Loading Your Questionnaire
 
-##### I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure it's correct!)
+##### I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
 
 The easiest thing to do here is to go to the Cadasta platform and change your password. Then, return to GeoODK and load your password there.  
 
-##### I'm getting a message that says to "Wait a moment," but it's been more than a few moments.
+##### I'm getting a message that says to "Please wait a few moments," but it's been much much longer than that.
 
 ![](/assets/geo-odk-error-1-wait-a-moment-forever.png)
 
 If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again. 
 
-#### Uploading Completed Questionnaires
+#### Trouble Uploading Completed Questionnaires
 
 ##### I'm getting an error when I upload my completed questoinnaires.
-
-> Kate, see below. I got this error and then this is how I fixed it.
 
 If you're having trouble uploading your questionnaires, the most likely culprit is collecting data using a questionnaire that doesn't exactly match the questionnaire loaded on the Cadasta Platform. This can happen if you modify your questionnaire, load it to Cadasta, and then continue collecting data using an older version. 
 
