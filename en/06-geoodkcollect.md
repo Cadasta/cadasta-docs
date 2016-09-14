@@ -39,7 +39,7 @@ If this is the first time you've used GeoODK with the Cadasta Platform, you'll n
     * https://platform.cadasta.org/collect \(if for active projects\); or
     * https://demo.cadasta.org/collect  \(if for testing\)
 
-    > add image
+    ![](/assets/geo-odk-2-url.png)
 
 GeoODK is now connected to your Cadasta account, and making it possible for your data collection to feed directly to the Cadasta Platform!
 
@@ -51,15 +51,15 @@ Once you've connected GeoODK with your Cadasta account, the next thing you need 
 
 1. From the Main Menu, select **Settings, then **Form Management**. 
 
-    > add image
+    ![](/assets/geo-odk-3-form-management.png)
 
 2. At this stage, you may be asked to provide your Cadasta username and password. Enter this information and then wait a few minutes to be connected to the server. _Having trouble with this step? See [GeoODK Troubleshooting](#geoodk-troubleshooting)._
 
-    > add image
+    ![](/assets/geo-odk-4-user-pass.png)
 
 3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you would like to download and select **Get Selected**.
 
-    > add image
+    ![](/assets/geo-odk-5-questionnaire-list.png)
 
 Now, GeoODK is configured to ask questions in your questionnaire. 
 
