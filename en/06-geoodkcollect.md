@@ -1,12 +1,13 @@
 # Geographical Open Data Kit \(GeoODK\) Collect User Guide
 
-* Overview [#overview]
-* Initial Setup [#initial-setup]
-* Loading Your Questionnaire[#loading-your-form]
-* Data Collection[#data-collection]
-* Uploading Data [#uploading-data]
-* Editing Data [#editing-data]
-* GeoODK Troubleshooting[#geoodk-troubleshooting]
+* [Overview](#overview)
+* [Initial Setup](#initial-setup)
+* [Loading Your Questionnaire](#loading-your-form)
+* [Data Collection](#data-collection)
+* [Uploading Data](#uploading-data)
+* [Editing Data](#editing-data)
+* [Deleting Questionnaires](#deleting-questionnaires)
+* [GeoODK Troubleshooting](#geoodk-troubleshooting)
 
 ###Overview {#overview}
 
@@ -19,7 +20,7 @@ This section provides an overview of how GeoODK works with the Cadasta Platform.
 3. Finally, it's time to [collect your data](#data-collection)! 
 4. When you're back to WiFi, [upload your data](#upload-data) to the Cadasta Platform.
 
-**Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to make any changes. 
+**Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to [troubleshoot](#geoodk-troubleshooting) or make any changes. 
 
 For more information and documentation about GeoODK generally, visit [geoodk.com](http://geoodk.com/).
 
@@ -81,14 +82,21 @@ Specifically, you're recording location data. Each
 
 ### Uploading Data {#uploading-data}
 
-When you get 
-7. When ready to submit data \(via WiFi or over the mobile network\), click **Send Data** and then confirm the form sending. 
+When you get back to WiFi or a mobile network, you can upload your completed questionnaires to Cadasta. 
 
-![](/assets/geoodk_home_screen_send_data.png)
+Click **Send Data** and then check off all the forms that you want to upload. Then select **Send Data**.
 
-8. After data is confirmed as sent, and you have received a confirmation message, the used form can be deleted.
+> add image
+
+Next, you'll get a confirmation message confirming that the data has been sent. Confirm that you see the data on the Cadasta Platform, and then delete any completed questionnaires from your phone.
 
 ### Editing Data {#editing-data}
+
+GeoODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
+
+### Deleting Questionnaires {#deleting-questionnaires}
+
+You can also easily delete unwanted questionnaires by 
 
 ### Geotracing {#geotracing}
 
@@ -102,7 +110,7 @@ click back to get out of the map and back to the questinnoinnaire. Notice GeoODK
 
 ### GeoODK Troubleshooting {#geoodk-troubleshooting}
 
- 
+If you're having trouble using GeoODK, the answer to your question may be here. If not, please [contact us](cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
 #### Loading Your Questionnaire
 
@@ -116,7 +124,11 @@ The easiest thing to do here is to go to the Cadasta platform and change your pa
 
 If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again. 
 
+#### Uploading Completed Questionnaires
 
+##### I'm getting an error when I upload my completed questoinnaires.
+
+> Kate, not sure how to answer this. It happened to me. I tried to back out of it and retry upload but it didn't work. Also tried deleting 1 form and uploading another, but it didn't work.
 
 
 
