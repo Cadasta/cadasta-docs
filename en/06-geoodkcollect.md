@@ -33,7 +33,7 @@ If this is the first time you've used GeoODK with the Cadasta Platform, you'll n
 1. Once you've installed GeoODK, open the application.
 2. From the map screen, hit the button with the four squares on the right. Then select **Settings** from the Main Menu, then **General Settings**, then **Configure Platform Settings**. 
 
-    >insert image
+    ![](/assets/geo-odk-1-configure-settings.png)
 
 3. On this screen, enter the Platform URL, along with your Cadasta Platform username and password.
     * https://platform.cadasta.org/collect \(if for active projects\); or
