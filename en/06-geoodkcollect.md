@@ -1,43 +1,59 @@
 # Geographical Open Data Kit \(GeoODK\) Collect User Guide
 
-In addition to ODK Collect, it is also possible to collect data using the GeoODK application for Android devices (unfortunately not available yet for Apple devices). To get started, please [download GeoODK Collect](https://play.google.com/store/apps/details?id=com.geoodk.collect.android) from the Google Play Store, or wherever you acquire your applications.
+* Overview [#overview]
+* Initial Setup [#initial-setup]
+* Loading Your Form[#loading-your-form]
+* Data Collection[#data-collection]
 
-## **Initial Setup**
+###Overview {#overview}
 
-If this is the first time you have used GeoODK with the Cadasta Platform, you will need to configure GeoODK for direct syncing with the  Platform. In order to do this, you will first need to setup your Cadasta account if you haven't already \(see Getting Started\).
+Geographical Open Data Kit \(GeoODK\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like ODK Collect, GeoODK can be used for data collection for projects in the Cadasta Platform. 
 
-1. Once you have installed GeoODK, please open the application.
-2. Select **Settings** from the home page using the menu key.
+This section provides an overview of how GeoODK works with the Cadasta Platform. 
 
-  ![](/assets/geoodk_home_screen_settings.png)
+1. First, you'll [setup GeoODK](#initial-setup) on an Android device.
+2. Then you'll []
 
-3. Now click **Configure platform settings**.
+For more information and documentation about GeoODK generally, visit [geoodk.com](http://geoodk.com/).
 
-  ![](/assets/GeoODK_configuresettings.png)
+### Initial Setup {#initial-setup}
 
-4. On this screen you will need to enter the necessary URL:
-  1. https://platform.cadasta.org/collect \(if for production\); or
-  2. https://demo.cadasta.org/collect  \(if for testing\)
+To get started, [download GeoODK Collect from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android) or wherever you acquire your applications.
 
-5. Please also enter the Username and Password utilized with the Cadasta platform
+If this is the first time you've used GeoODK with the Cadasta Platform, you'll need to configure GeoODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
 
-6. Select the Back button three times to return to the GeoODK Main Menu.
+1. Once you've installed GeoODK, open the application.
+2. From the map screen, hit the button with the four squares on the right. Then select **Settings** from the Main Menu, then **General Settings**, then **Configure Platform Settings**. 
 
-Now GeoODK is configured for data collection that will feed directly to the Cadasta Platform.
+    >insert image
 
-## Loading your Form
+3. On this screen, enter the Platform URL, along with your Cadasta Platform username and password.
+    * https://platform.cadasta.org/collect \(if for active projects\); or
+    * https://demo.cadasta.org/collect  \(if for testing\)
 
-Now we need to load the form posted to the Cadasta Platform to the device.
+    > add image
 
-1. Select **Form Management** from the **Settings** menu.
+GeoODK is now connected to your Cadasta account, and making it possible for your data collection to feed directly to the Cadasta Platform!
 
-  ![](/assets/geoodk_settingsmenu_forms.png)
+Click the back button 3 times to return to the main menu.
 
-2. Enter the Cadasta Platform Username and Password if prompted.
+### Loading your Form {#loading-your-form}
 
-3. Place a checkmark next to the form you would like to download and select **Get Selected**.
+Once you've connected GeoODK with your Cadasta account, the next thing you need to do is load the form you're using for your data collection project. 
 
-![](/assets/GeoODKGetForms.png)
+1. From the Main Menu, select **Settings, then **Form Management**. 
+
+    > add image
+
+2. At this stage, you may be asked to provide your Cadasta username and password. Enter this information and then wait a few minutes to be connected to the server.
+
+    > add image
+
+3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you would like to download and select **Get Selected**.
+
+    > use this image ![](/assets/GeoODKGetForms.png)
+
+Now, GeoODK is configured to ask questions in your questionnaire. 
 
 ## Data Collection
 

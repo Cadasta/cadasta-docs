@@ -2,6 +2,7 @@
 
 * [How Cadasta is Structured](#how-cadasta-is-organized)
 * [Quick Guide to Getting Started](#quick-guide-to-getting-started)
+* [Creating a New Account](#createnewaccount)
 
 ### How Cadasta is Structured {#how-cadasta-is-organized}
 
