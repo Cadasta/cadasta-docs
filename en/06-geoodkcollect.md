@@ -88,7 +88,11 @@ Click **Send Data** and then check off all the forms that you want to upload. Th
 
 > add image
 
-Next, you'll get a confirmation message confirming that the data has been sent. Confirm that you see the data on the Cadasta Platform, and then delete any completed questionnaires from your phone.
+Next, you'll get a confirmation message confirming that the data has been sent. 
+
+> add image
+
+It's also a good idea to confirm that you see the data on the Cadasta Platform, and then [delete any completed questionnaires](#deleting-questionnaires) from your Android device.
 
 ### Editing Data {#editing-data}
 
@@ -96,16 +100,37 @@ GeoODK makes editing your forms relatively easy. From the main menu, select **Ed
 
 ### Deleting Questionnaires {#deleting-questionnaires}
 
-You can also easily delete unwanted questionnaires by 
+You can easily delete unwanted questionnaires by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
 
 ### Geotracing {#geotracing}
 
-Automatic
+During [data-collection](#data-collection), you'll be asked to geotrace a location. Using GPS data from your Android device, geotracing follows your specific location and then records it in GeoODK. You can use geotracing to walk the perimeter of a building (creating a polygon), walk along a river or road (creating a line), or drop a pin directly where you're standing (creating a point).
 
-Manual
+To start geotracing, hit the Play button in the upper right:
 
+> add image
 
-click back to get out of the map and back to the questinnoinnaire. Notice GeoODK calls it a parcel regardless of what kind of location it is.
+From there, you'll be asked to select either Automatic or Manual mode. 
+
+> add image
+
+**Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the screen.
+
+> add image
+
+**Automatic mode** records your location at set intervals, such as once every 20 seconds. This mode is helpful if you're recording a large amount of space. 
+
+> Kate: please check the suggested interval times below.
+
+The amount of time you should set for your interval depends on how you're collecting the data. For example, if you're driving, you may want to set the interval to be once every 5 seconds. If you're walking, you may want to record once every 20-30 seconds. 
+
+Automatic mode also lets you collect a point manually if you need to. For example, if you're automatically geotracing a rectangular plot of land, be sure to pause and record your location at each corner to ensure they are recorded.
+
+For either automatic or manual mode, keep in mind that the more points you record, the bigger your data file will be and the harder it will be to upload when you return to WiFi or you mobile network.
+
+When you're done geotracing click back to get out of te map and back to the questinnoinnaire. 
+
+_**Note** GeoODK calls a geotrace a parcel regardless of what kind of location it is._
 
 
 ### GeoODK Troubleshooting {#geoodk-troubleshooting}
@@ -128,7 +153,12 @@ If the above screen is taking longer than you think it should, hit Cancel. You m
 
 ##### I'm getting an error when I upload my completed questoinnaires.
 
-> Kate, not sure how to answer this. It happened to me. I tried to back out of it and retry upload but it didn't work. Also tried deleting 1 form and uploading another, but it didn't work.
+> Kate, see below. I got this error and then this is how I fixed it.
 
+If you're having trouble uploading your questionnaires, the most likely culprit is collecting data using a questionnaire that doesn't exactly match the questionnaire loaded on the Cadasta Platform. This can happen if you modify your questionnaire, load it to Cadasta, and then continue collecting data using an older version. 
+
+Unfortunately, the easiest way to fix this is to uninstall the old form and completed questionnaire and start over. This is why we recommend that you test GeoODK before heading out into the field. 
+
+If you've collected too much data to start over, please [contact us](cadasta.org/contact/). 
 
 
