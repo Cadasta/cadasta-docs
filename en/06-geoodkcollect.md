@@ -2,8 +2,11 @@
 
 * Overview [#overview]
 * Initial Setup [#initial-setup]
-* Loading Your Form[#loading-your-form]
+* Loading Your Questionnaire[#loading-your-form]
 * Data Collection[#data-collection]
+* Uploading Data [#uploading-data]
+* Editing Data [#editing-data]
+* GeoODK Troubleshooting[#geoodk-troubleshooting]
 
 ###Overview {#overview}
 
@@ -11,8 +14,12 @@ Geographical Open Data Kit \(GeoODK\) is a data collection application for Andro
 
 This section provides an overview of how GeoODK works with the Cadasta Platform. 
 
-1. First, you'll [setup GeoODK](#initial-setup) on an Android device.
-2. Then you'll []
+1. First, you'll [set up GeoODK](#initial-setup) on an Android device.
+2. Then you'll [load the questionnaire](#loading-your-form) you want to use for data collection.
+3. Finally, it's time to [collect your data](#data-collection)! 
+4. When you're back to WiFi, [upload your data](#upload-data) to the Cadasta Platform.
+
+**Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to make any changes. 
 
 For more information and documentation about GeoODK generally, visit [geoodk.com](http://geoodk.com/).
 
@@ -37,7 +44,7 @@ GeoODK is now connected to your Cadasta account, and making it possible for your
 
 Click the back button 3 times to return to the main menu.
 
-### Loading your Form {#loading-your-form}
+### Loading your Questionnaire {#loading-your-form}
 
 Once you've connected GeoODK with your Cadasta account, the next thing you need to do is load the form you're using for your data collection project. 
 
@@ -45,36 +52,71 @@ Once you've connected GeoODK with your Cadasta account, the next thing you need 
 
     > add image
 
-2. At this stage, you may be asked to provide your Cadasta username and password. Enter this information and then wait a few minutes to be connected to the server.
+2. At this stage, you may be asked to provide your Cadasta username and password. Enter this information and then wait a few minutes to be connected to the server. _Having trouble with this step? See [GeoODK Troubleshooting](#geoodk-troubleshooting)._
 
     > add image
 
 3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you would like to download and select **Get Selected**.
 
-    > use this image ![](/assets/GeoODKGetForms.png)
+    > add image
 
 Now, GeoODK is configured to ask questions in your questionnaire. 
 
-## Data Collection
+### Data Collection {#data-collection}
 
-Now it’s time to collect some data!
+Once you've initialized GeoODK and loaded your questionnaire, now it’s time to collect some data!
 
-1. From the GeoODK Main Menu select **Collect Data**.
+Specifically, you're recording location data. Each 
 
-![](/assets/geoodk_home_screen_collectdata.png)
+1. From the Main Menu select **Collect Data**, then the questionnaire that you want to use. 
 
-2. Select the relevant form for data collection.
-3. Swipe left twice to get started completing the form.
-4. Continue answering all the survey questions until you reach the "End of survey" message.
-5. Select **Mark Form as finalized** checkbox.
-6. Click **Save Form and Exit**.
+    > add image
 
-![](/assets/geoodk_sendform.png)
+2. Swipe left twice to get started completing the form.
+3. Continue answering all the survey questions until you reach the "End of survey" message. During this step, swipe left after the end of each question. 
+    * During this section, you'll likely be asked to geotrace your data. For more information about how this works, see [Geotracing](#geotracing).
+4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
 
+    > add image
+
+### Uploading Data {#uploading-data}
+
+When you get 
 7. When ready to submit data \(via WiFi or over the mobile network\), click **Send Data** and then confirm the form sending. 
 
 ![](/assets/geoodk_home_screen_send_data.png)
 
 8. After data is confirmed as sent, and you have received a confirmation message, the used form can be deleted.
+
+### Editing Data {#editing-data}
+
+### Geotracing {#geotracing}
+
+Automatic
+
+Manual
+
+
+click back to get out of the map and back to the questinnoinnaire. Notice GeoODK calls it a parcel regardless of what kind of location it is.
+
+
+### GeoODK Troubleshooting {#geoodk-troubleshooting}
+
+ 
+
+#### Loading Your Questionnaire
+
+##### I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure it's correct!)
+
+The easiest thing to do here is to go to the Cadasta platform and change your password. Then, return to GeoODK and load your password there.  
+
+##### I'm getting a message that says to "Wait a moment," but it's been more than a few moments.
+
+> add image
+
+If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again. 
+
+
+
 
 
