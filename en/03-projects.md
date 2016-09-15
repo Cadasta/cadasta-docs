@@ -1,8 +1,13 @@
 # Projects
 
+* [Overview](#overview)
 * [Setting Up a New Project](#setting-up-new-project)
 * [Editing a Project](#editing-a-project)
 * [Project Members & Member Permissions](#project-members-member-permissions)
+
+### Overview {#overview}
+
+Within any organization, there may be any number of projects: initiatives to collect information about a series of locations in a given area. This section goes over how to [create a new project](#setting-up-a-new-project) in the Cadasta Platform, as well as how to [edit it](#editing-a-project) and [assign member permissions](#assign-member-permissions). 
 
 ### Setting Up a New Project {#setting-up-new-project}
 
@@ -80,7 +85,7 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 If you're adding a project by navigating from the Project page, you'll also be asked to select the **Project's organization** from a dropdown menu at the top.
 
-#### 5. Assign Project Member Permissions
+#### 5. Assign Project Member Permissions {#assign-member-permissions}
 
 When you're done adding your general information, you can assign member permissions. Project members are members of your organization, and their permissions reflect their role in any given project. 
 

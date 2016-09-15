@@ -36,7 +36,7 @@ If this is the first time you've used GeoODK with the Cadasta Platform, you'll n
 
     ![](/assets/geo-odk-1-configure-settings.png)
 
-3. On this screen, enter the Platform URL, along with your Cadasta Platform username and password. The URL you need is the same one you used when you signed up for your Cadasta account. 
+3. On this screen, enter the Platform URL along with your a username and password. The username and password do not have to be the same as they are on your Cadasta account, and the URL you need should be similar to the one you used when you signed up for your Cadasta account. 
     * https://platform.cadasta.org/collect \(if for active projects\); or
     * https://demo.cadasta.org/collect  \(if for testing\)
 
@@ -127,11 +127,11 @@ Note that GeoODK calls a geotrace a parcel regardless of what kind of location i
 
 #### Geopoint
 
-> waiting for forms to load on GeoODK
+> Having glitch loading forms
 
 #### Geoshape
 
-> waiting for forms to load on GeoODK
+> Having glitch loading forms
 
 ### Uploading Data {#uploading-data}
 
