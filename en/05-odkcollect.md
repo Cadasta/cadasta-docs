@@ -82,7 +82,7 @@ Once you've initialized GeoODK and loaded your questionnaire, now it’s time to
 
 ### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
-> Please note that this portion of ODK doesn't work on my phone; please check for accuracy!
+> Please note that this portion of ODK doesn't work on my phone; please check for accuracy! Also note missing images are due to not being able to gather them myself; many thanks to Kate and David for providing me with many of the screenshots in this section.
 
 > This information to be updated with 9.19 release
 
@@ -132,18 +132,39 @@ Note that GeoODK calls a geotrace a parcel regardless of what kind of location i
 
 #### GeoShape {#geoshape}
 
-GeoShape is designed for making shapes on a location. For example, you can use Geoshape to draw a boundary around a building or land area. 
+GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area. 
 
-You can collect location data with GeoShape in two ways: by walking around an area, or by drawing it on the map. Before collecting data, you'll be prompted to either draw your coordinates on the map, or walk around the boundaries.
+To collect location data with GeoShape, you have two options: to around an area or to draw the shape with your finger. Before collecting data, you'll be prompted to choose whichever option you prefer.
 
-![](/assets/geo-odk-geoshape-2.png)
+![](/assets/odk-geoshape-0.png)
 
-If you choose walking mode, you can use either the automatic or manual mode as described in the GeoTrace section. 
+If you choose walking mode, you can use either the automatic or manual mode as described in the [GeoTrace section](#geotrace). 
 
-#### GeoPoint {geopoint}
+When you get to the next page, you'll be asked to zoom to your current location or to a saved feature. Note that if you've chosen walking mode, zooming to a saved feature is not available. That's because the phone is set up to place GPS coordinates at your exact location.
 
-> Add info with 9.19 release
+![](/assets/odk-geoshape-1.png)
 
+In the next screen, you'll be able to start making your shape. Press the screen to place marks on your location. Be sure to end your polygon at the same point where you began!
+
+![](/assets/odk-geoshape-2.png)
+
+When you're ready to save your GeoShape, hit the **Save** icon on the right. If you wish to discard it, you can also hit the **Trash** button above it.
+
+#### GeoPoint {#geopoint}
+
+To collect single GPS coordinates, you can use GeoPoint. GeoPoint only works through tracking your specific location.
+
+When you first load GeoPoint, it will first load your location. This may take a few minutes. 
+
+![](/assets/odk-geopoint-1.png)
+
+Next it will give you some GPS accuracy information. Here, the accuracy is with 24 meters of where the user is standing. 
+
+![](/assets/odk-geopoint-2.png)
+
+Once the location and accuracy information is loaded, you're ready to save your GeoPoint.
+
+![](/assets/odk-geopoint-3.png)
 
 ###Uploading Data {#uploading-data}
 
