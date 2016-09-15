@@ -25,7 +25,7 @@ This section provides an overview of how ODK and Cadasta work together:
 
 **Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to troubleshoot or make any changes. 
 
-For more information and documentation about GeoODK generally, visit [geoodk.com](http://geoodk.com/).
+For more information and documentation about ODK generally, visit [opendatakit.org](https://opendatakit.org/).
 
 
 ### Initial Setup {#initial-setup}
@@ -38,8 +38,7 @@ If this is the first time you've used ODK with the Cadasta Platform, you'll need
 
 2. From the opening screen (the Main Menu), tap the three dots in the upper right, then select **General Settings**, then **Configure Platform Settings**. 
 
-    > new image 
-    ![](/assets/geo-odk-1-configure-settings.png)
+    ![](/assets/odk-1-setup.png)
 
 3. On this screen, enter the Platform URL along with your a username and password. The username and password do not have to be the same as they are on your Cadasta account, and the URL you need should be similar to the one you used when you signed up for your Cadasta account. 
 
@@ -47,8 +46,7 @@ If this is the first time you've used ODK with the Cadasta Platform, you'll need
 
     * https://demo.cadasta.org/collect  \(if for testing\)
 
-    > new image
-    ![](/assets/geo-odk-2-url.png)
+    ![](/assets/odk-2-account-info.png)
 
 You now have an ODK account that's synced with the Cadasta Platform.
 
@@ -60,17 +58,13 @@ Once you've connected ODK with Cadasta, the next thing you need to do is load th
 
 1. From the main menu, select **Get Blank Form**.
 
-    >new image
-    ![](/assets/odk_homepage_getblankform2.png)
+    ![](/assets/odk-3-get-blank-form.png)
 
 2. At this stage, you may be asked to provide your Cadasta username and password. Enter this information and then wait a few minutes to be connected to the server.
 
-    > add image
-
 3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you would like to download and tap **Get Selected**.
-    
-    >new image
-    ![](/assets/odk_get_forms2.png)
+
+    ![](/assets/odk-4-get-blank-form.png)
 
 Now, ODK is configured to record data using the questions in your questionnaire.
 
@@ -80,10 +74,9 @@ Once you've initialized GeoODK and loaded your questionnaire, now it’s time to
 
 1. From the ODK Main Menu select **Fill Blank Form**, then the questionnaire that you want to use. 
 
-    >new image
-    ![](/assets/odk_homepage_fill_blank_form2.png)
+    ![](/assets/odk-5-fill-blank-form.png)
 
-2. Swipe left twice to get started completing the form
+2. Swipe left twice to get started completing the form.
 3. Continue answering all the survey questions until you reach the "End of survey" message. During this step, swipe left after the end of each question. 
     * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
 4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
@@ -109,15 +102,15 @@ To learn more about how to configure these options in your questionnaire, see th
 
 To start geotracing, hit the Play button in the upper left:
 
-> add image with 9.19 release
+> image needed
 
 From there, you'll be asked to select either Automatic or Manual mode. 
 
-> add image with 9.19 release
+> image needed
 
 **Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map.
 
-> add image with 9.19 release
+> image needed
 
 **Automatic mode** records your location at set intervals, such as once every 20 seconds. This mode is helpful if you're recording a large amount of space. 
 
@@ -129,13 +122,13 @@ For either automatic or manual mode, keep in mind that the more points you recor
 
 When you're done geotracing, hit the pause button. You'll then be asked to save your information as a polyline or polygon.
 
-> add image with 9.19 release 
+> image needed
 
 If you've recording a point or line, choose polyline. If you've recording an area and created a closed shape, choose polygon.
 
 Finally, you'll be brought to a confirmation screen where you can view your geotrace. 
 
-> add image with 9.19 release
+> image needed
 
 Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is.
 
