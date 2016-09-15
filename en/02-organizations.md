@@ -1,10 +1,15 @@
 # Organizations
 
+* [Overview](#overview)
 * [Creating a New Organization](#creating-a-new-organization)
 * [Editing Your Organization's Information](#editing-your-organizations-information)
 * [Adding Organization Members](#adding-organization-members)
 * [Editing Organization Member Permissions](#editing-member-organization-permissions)
 * [Removing Organization Members](#removing-organization-members)
+
+### Overview{#overview}
+
+Organizations in the Cadasta System represent organizations in the real world – typically NGOs who are working with communities to help them document their land rights. This section outlines how to [create](#creating-a-new-organization) & [edit](#editing-your-organizations-information) organizations in the Cadasta Platform, along with how to [add organization members](#adding-organization-members) and [assign permissions to them](#editing-member-organization-permissions). 
 
 ### Creating a New Organization {#creating-a-new-organization}
 
