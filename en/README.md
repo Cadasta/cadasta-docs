@@ -10,7 +10,7 @@ We're glad you've found the Cadasta Platorm – a land and resource rights manag
 * [Organizations](02-organizations.md)
 * [Projects](03-projects.md)
 * [Record Management: Locations, Parties, Relationships & Resources](04-records.md)
-* [Open Data Kit (ODK)](05-odkcollect.md)
+* [Collecting Data with Open Data Kit (ODK Collect)](05-odkcollect.md)
 * [Collecting Data with Geographical Open Data Kit (GeoODK)](06-geoodkcollect.md)
 * [Downloading Data](07-download.md)
 * [Questionnaires & Custom Data Collection](08-XLSForms.md)

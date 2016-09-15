@@ -42,13 +42,13 @@ If this is the first time you've used GeoODK with the Cadasta Platform, you'll n
 
     ![](/assets/geo-odk-2-url.png)
 
-GeoODK is now connected to your Cadasta account, making it possible for your data collection to feed directly to the Cadasta Platform!
+You now have a GeoODK account that's synced with the Cadasta Platform.
 
 Click the back button 3 times to return to the main menu.
 
 ### Loading your Questionnaire {#loading-your-form}
 
-Once you've connected GeoODK with your Cadasta account, the next thing you need to do is load the questionnaire you're using for your data collection project. 
+Once you've connected GeoODK with Cadasta, the next thing you need to do is load the questionnaire you're using for your data collection project. 
 
 1. From the Main Menu, select **Settings**, then **Form Management**. 
 
