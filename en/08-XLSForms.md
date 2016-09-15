@@ -1,7 +1,7 @@
 # Questionnaires & Custom Data Collection
 
 * [Overview](#overview)
-* [Minimal Questionnaire](#minimal-form)
+* [Minimum Questionnaire](#minimal-form)
 * [Standard Questionnaire](#standard-form)
 * [Customizing Your Questionnaire](#customizing-your-questionnaire)
 
@@ -15,25 +15,21 @@ The underlying technology that enables this comes from [XLSForm](http://xlsform.
 
 You can start your project with one of these two ready-to-go questionnaires:
 
-* [The minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796) for the bare minimum of data needed by the platform; and
+* [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) for the bare minimum of data needed by the platform; and
 
-* [The standard questionnaire](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796) - which is the starting point for many of our partners.
+* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) - which is the starting point for many of our partners.
 
 You can use either of these forms as a starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
 
-To use them, follow the links above to your desired questionnaire. Then, download your very own .xlsx form.
-
-![](/assets/download-as-xlsx.png)
-
-If you need to significantly modify these questions, see the section on [customizing your questionnaire](#customizing-your-questionnaire). 
+If you need to significantly modify these data entry fields, see the section on [customizing your questionnaire](#customizing-your-questionnaire). 
 
 _**Important note:** You can make small changes to your questionnaire - such as adding a row - and reupload it to an existing project. However, if your questionnaire changes significantly, you may need to start a new project._
 
-If you have questions about how to use these questionnaire forms, [contact us](cadasta.org/contact/) at any time.
+If you have questions about how to use these questionnaires, [contact us](cadasta.org/contact/) at any time.
 
-### The Minimal Questionnaire {#minimal-form}
+### The Minimum Questionnaire {#minimal-form}
 
-[The minimal questionnaire](https://docs.google.com/spreadsheets/d/1gB7lcz4Dr6aqdW_Oesuum2pbI8lzs6EYTLpVZGQMhcQ/edit#gid=2006567796) has the essential fields you need for data collection using the Cadasta Platform.
+[The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) has the essential fields you need for data collection using the Cadasta Platform.
 
 This questionnaire has three tabs:
 
@@ -43,7 +39,7 @@ This questionnaire has three tabs:
 
 The **Survey** tab shows the overall data collection schema.
 
-![](/assets/minimal-survey.png)
+![](/assets/minimum-survey.png)
 
 The areas in gray are fields that the Cadasata platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes to make the platform work as it should. _(Note! Do not tamper with these fields!)_
 
@@ -54,7 +50,7 @@ The first three columns are important ones for you to know about:
 
 The **Choices** tab is where the choices for all the drop-down menus are stored.
 
-![](/assets/minimal-choices.png)
+![](/assets/minimum-choices.png)
 
 For example, the `respondent` entries Group, Individual an d Corporation (A2 - A4) correspond with this dropdown menu in the Add Relationship popup:
 
@@ -64,7 +60,7 @@ The **Settings** tab shows you the `form_id` and title of the questionnaire. You
 
 ### The Standard Questionnaire {#standard-form}
 
-[The standard questionnaire](https://docs.google.com/spreadsheets/d/1QsqMTLlPH5KVbBcgnh6MHWkIR0pIFchVzkqBSoL92fA/edit#gid=2006567796) has all the same questions as the mininimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
+[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has all the same questions as the mininimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
 
 ![](/assets/standard-survey.png)
 
@@ -126,7 +122,7 @@ In your location data collection, you may choose to use point, line, or polygon.
 * `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimal and standard questionnaires.
 * `geoshape` records a polygon made of multiple GPS coordinates. The last point must be the same as the first point. 
 
-To change this, modify cell A11 on either your standard or  minimal questionnaire. _This is the only gray cell that you should ever change._
+To change this, modify cell A11 on either your standard or  minimum questionnaire. 
 
 #### Advanced Customization
 

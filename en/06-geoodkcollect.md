@@ -5,13 +5,14 @@
 * [Loading Your Questionnaire](#loading-your-form)
 * [Data Collection](#data-collection)
 * [Uploading Data](#uploading-data)
+* [Collecting Location Data: Geotrace, Geopoint and Geoshape](#geotracing)
 * [Editing Data](#editing-data)
 * [Deleting Questionnaires](#deleting-questionnaires)
 * [GeoODK Troubleshooting](#geoodk-troubleshooting)
 
 ###Overview {#overview}
 
-Geographical Open Data Kit \(GeoODK\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like ODK Collect, GeoODK can be used for data collection projects in the Cadasta Platform. 
+Geographical Open Data Kit \(GeoODK\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like Open Data Kit (ODK), GeoODK can be used for data collection projects in the Cadasta Platform. 
 
 This section provides an overview of how GeoODK and Cadasta work together:
 
@@ -26,7 +27,7 @@ For more information and documentation about GeoODK generally, visit [geoodk.com
 
 ### Initial Setup {#initial-setup}
 
-To get started, [download GeoODK Collect from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), or wherever you acquire your applications.
+To get started, [download GeoODK from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), or wherever you acquire your applications.
 
 If this is the first time you've used GeoODK with the Cadasta Platform, you'll need to configure GeoODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
 
@@ -80,31 +81,17 @@ Specifically, you're recording location data. Each
 
     ![](/assets/geo-odk-7-finalized-form.png)
 
-### Uploading Data {#uploading-data}
+### Collecting Location Data: Geotrace, Geopoint and Geoshape {#geotracing}
 
-When you get back to WiFi or a mobile network, you can upload your completed questionnaires to the Cadasta Platform. 
+During [data-collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options:
 
-From the main menu, click **Send Data** and then check off all the forms that you want to upload (using the **Toggle All** button to select all questionnaires). Then select **Send Selected**.
+* **Geotrace** creates lines, collections of two or more GPS coordinates. It's also the default option provided in both the standard and minimal questionnaires. 
 
-![](/assets/geo-odk-8-send-data.png)
+* **Geopoint** creates points, or single GPS coordinates. 
 
-Next, you'll get a confirmation message confirming that the data has been sent. 
+* **Geoshape** creates polygons, or closed shapes. To create a geoshape, you need to end your shape on the same point where you started. 
 
-![](/assets/geo-odk-9-confirmation.png)
-
-It's also a good idea to confirm that you see the data on the Cadasta Platform, and then [delete any completed questionnaires](#deleting-questionnaires) from your Android device.
-
-### Editing Data {#editing-data}
-
-GeoODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
-
-### Deleting Questionnaires {#deleting-questionnaires}
-
-You can also easily delete unwanted questionnaires by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
-
-### Geotracing {#geotracing}
-
-During [data-collection](#data-collection), you'll be asked to geotrace a location. Using GPS data from your Android device, geotracing follows your specific location and then records it in GeoODK. You can use geotracing to walk the perimeter of a building (creating a polygon), walk along a river or road (creating a line), or drop a pin directly where you're standing (creating a point).
+#### Geotrace
 
 To start geotracing, hit the Play button in the upper left:
 
@@ -137,6 +124,31 @@ Finally, you'll be brought to a confirmation screen where you can view your geot
 ![](/assets/geo-odk-geotrace-5-confirmation.png)
 
 Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is.
+
+
+
+### Uploading Data {#uploading-data}
+
+When you get back to WiFi or a mobile network, you can upload your completed questionnaires to the Cadasta Platform. 
+
+From the main menu, click **Send Data** and then check off all the forms that you want to upload (using the **Toggle All** button to select all questionnaires). Then select **Send Selected**.
+
+![](/assets/geo-odk-8-send-data.png)
+
+Next, you'll get a confirmation message confirming that the data has been sent. 
+
+![](/assets/geo-odk-9-confirmation.png)
+
+It's also a good idea to confirm that you see the data on the Cadasta Platform, and then [delete any completed questionnaires](#deleting-questionnaires) from your Android device.
+
+### Editing Data {#editing-data}
+
+GeoODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
+
+### Deleting Questionnaires {#deleting-questionnaires}
+
+You can also easily delete unwanted questionnaires by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
+
 
 ### GeoODK Troubleshooting {#geoodk-troubleshooting}
 
