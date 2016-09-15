@@ -114,13 +114,15 @@ Once that questionnaire is saved and loaded into the project, the new "Unknown" 
 
 ![](/assets/standard-new-field.png)
 
-#### Geopoint, Geotrace and Geoshape
+#### GeoTrace, GeoShape and GeoPoint
+
+> Note: this section may need to be updated with 9.19 release
 
 In your location data collection, you may choose to use point, line, or polygon. In both the standard and minimal questionnaire, you have to option choose one of these options using `geopoint`, `geotrace`, or `geoshape`. 
 
-* `geopoint` collects single point data. 
 * `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimal and standard questionnaires.
-* `geoshape` records a polygon made of multiple GPS coordinates. The last point must be the same as the first point. 
+* `geoshape` records a polygon made of multiple GPS coordinates. The last point must be the same as the first point. This data may be collected by 
+* `geopoint` collects single point data. 
 
 To change this, modify cell A11 on either your standard or  minimum questionnaire. 
 

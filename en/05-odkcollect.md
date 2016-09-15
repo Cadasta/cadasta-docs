@@ -1,4 +1,4 @@
-# Open Data Kit \(ODK\) Collect User Guide
+# Collecting Data with Open Data Kit \(ODK Collect\)
 
 Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to easily accommodate a variety of tools for data collection, allowing for ingestion of data. This guide will show you how to use ODK Collecte for data collection and to streamline the process of getting accurate geospatially enabled data directly into the platform.
 
