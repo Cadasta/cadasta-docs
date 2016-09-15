@@ -7,7 +7,7 @@
 
 ### Overview {#overview}
 
-Within any organization, there may be any number of projects: initiatives to collect information about a series of locations in a given area. This section goes over how to [create a new project](#setting-up-a-new-project) in the Cadasta Platform, as well as how to [edit it](#editing-a-project) and [assign member permissions](#assign-member-permissions). 
+Within any organization, there may be any number of projects: initiatives to collect information about a series of locations in a given area. This section goes over how to [create a new project](#setting-up-a-new-project) in the Cadasta Platform, as well as how to [edit it](#editing-a-project) and [assign member permissions](#assign-member-permissions) for different projects. 
 
 ### Setting Up a New Project {#setting-up-new-project}
 
@@ -23,9 +23,9 @@ And the second way is by clicking the **Projects** button at the top of the page
 
 ![](/assets/add-project-2.png)
 
-#### 2. Navigate to your project location
+#### 2. Navigate to your project extent
 
-Your project location is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
+Your project extent is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
 
 ##### a. Zooming from the map
 
@@ -57,7 +57,7 @@ Note that your project area does not need to be exact. To ensure full coverage, 
 
 You can edit your polygon by clicking the Edit Location button.
 
-From there, you can click to add each point of your polygon to its intended location. To close the polygon, click on the first point that you added.
+From there, you can click to add each point of your polygon and move it to its intended location. To close the polygon, click on the first point that you added.
 
 **To draw a rectangle**, select the rectangle icon. Then, click and drag over your project area on the map.
 
@@ -79,7 +79,7 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project URL**, which must start with _http://_.
 
-* **Project Questionnaire**. This spreadsheet is the basis for your data collection, and cannot be changed once your project is created. To learn more about how they work and get sample questionnaires, read our section on [data collection forms](/en/XLSForms.md)
+* **Project Questionnaire**. This spreadsheet is the basis for your data collection, and should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read our section on [custom data collection](XLSForms.md)
 
 * **Project contacts**, if any. These contacts do not have to be project members, but may be people who are important to the project. For example, you may be working with an administrator or communications specialist who is not involved with data collection, but who may have integral roles in what you're doing. 
 
@@ -89,15 +89,15 @@ If you're adding a project by navigating from the Project page, you'll also be a
 
 When you're done adding your general information, you can assign member permissions. Project members are members of your organization, and their permissions reflect their role in any given project. 
 
-To learn more about member permissions, see the section [Project Members & Member Permissions](#project-members-member-permissions) below.
+To learn more about member permissions, see the  [Project Members & Member Permissions](#project-members-member-permissions) section below.
 
 ![](/assets/project-member-permissions.png)
 
-When you're done, congratulations! You've created your very first project. 
+When you're done, **congratulations!** You've created your very first project. 
 
 Your next steps are to start collecting records for your projects, including:
 * **project locations** - all the parcels, buildings, boundaries and other locations relevant to your project;
-* **location relationships** - or parties that have some right or access to your location, and 
+* **location relationships** to **parties** that have some right or access to one or more of your locations, and 
 * **resources** like photos, deeds, and other documentation related to your project, location or location relationships. 
 
 Read more about these records in the next section: [Project Records: Locations, Relationships, and Resources](04-records.md). 
@@ -106,7 +106,7 @@ Read more about these records in the next section: [Project Records: Locations, 
 
 Once you've created a project, you may find that you need to make some changes. There are three aspects of a project that you can change:
 
-* Project Boundary
+* Project Boundary (the area of the project)
 
 * Project Details, and
 
@@ -120,7 +120,7 @@ From there, select the item that needs to be edited.
 
 #### Editing a Project Boundary
 
-Once you've navigated to the Edit Project Boundary page, you can use the tools on the left of the map to make your project location changes changes. 
+Once you've navigated to the Edit Project Boundary page, you can use the tools on the left of the map to make your project location changes. 
 
 You can either click the edit icon and drag your boundary points as needed:
 
@@ -142,16 +142,16 @@ To learn more about member permissions and what they mean, read on to the next s
 
 ### Project Members & Member Permissions {#project-members-member-permissions}
 
-When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for using the platform. Currently, there are five user roles, defined below with details regarding access rights:
+When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for whatever project they're working on. Currently, there are five user roles, each with their own set of privileges for the project:
 
-* **Administrator**. The Administrator can create new projects within an organization, manages user roles and access, and has full permissions regarding accessing and editing data.
+* **Administrator**. The Administrator can create new projects within an organization and manage user roles and access. This role has full permissions regarding accessing and editing data in the project.
 
-* **Project Manager**. The Project Manager works within an organization on a specific project, and with regard to that project can access and edit all data within the project, including adding new users to the project and setting access rights.
+* **Project Manager**. The Project Manager works within an organization on a specific project. This role can also access and edit all data within the project, including adding new users and setting access rights.
 
-* **Data Collector**. The Data Collector works in the field with the communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data in a project, but cannot edit existing data.
+* **Data Collector**. The Data Collector primarily works in the field with communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data to a project, but cannot edit existing data.
 
 * **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data.
 
-* **Public User**. A Public User can view only data that is publicly available.
+* **Public User**. A Public User can only view data that is publicly available.
 
 
