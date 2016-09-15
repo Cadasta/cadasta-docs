@@ -84,7 +84,7 @@ Any given location has a relationship to a number of [parties](#parties). For ex
 Parties are the individuals, groups or corporations who have a stake in one of the locations in your project. 
 
 * **Individuals** are single people, like a landowner or lessee.
-* **Groups** are collections of people who may not have an official organization. 
+* **Groups** are collections of people who may not have an officially documented organization, such as tribe, community group or family.
 * **Corporations** are organizations like companies, NGOs, or government bodies.  
 
 #### Adding a New Relationship {#adding-a-new-relationship}
