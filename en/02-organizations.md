@@ -9,35 +9,35 @@
 
 ### Overview{#overview}
 
-Organizations in the Cadasta System represent organizations in the real world – typically NGOs who are working with communities to help them document their land rights. This section outlines how to [create](#creating-a-new-organization) & [edit](#editing-your-organizations-information) organizations in the Cadasta Platform, along with how to [add organization members](#adding-organization-members) and [assign permissions to them](#editing-member-organization-permissions). 
+Organizations in the Cadasta System represent organizations in the real world – typically NGOs who are working with communities to help them document their land rights and resource. This section outlines how to [create](#creating-a-new-organization) & [edit](#editing-your-organizations-information) organizations in the Cadasta Platform, along with how to [add organization members](#adding-organization-members) and [assign permissions to them](#editing-member-organization-permissions). 
 
 ### Creating a New Organization {#creating-a-new-organization}
 
-If your organization doesn't already exist in the Cadasta platform, then one of the first things you need to do is set up your organization's account. You'll use your organizational account to manage projects, organization members, data collection forms, and more.
+If your organization doesn't already exist in the Cadasta platform, then one of the first things you need to do is set up your organization's account. You'll use this account to manage projects, organization members, data collection questionnaires, and more.
 
 ##### 1. Log in & Navigate to the Organizations Page
 
-Log into your account, which will take you to the main Cadasta Platform page. In the upper right, select the **Organizations** button.
+First, log into your account, which will take you to the main Cadasta Platform page. In the upper right, select the **Organizations** button.
 
 ![](/assets/cadasta-main-platform-organization-button.png)
 
 ##### 2. Add Your Organization
 
-On the next page, you'll see an index of all the organizations using the Cadasta Platform. Select **Add** on the upper right to add your organization.
+On the next page, you'll see an index of all the organizations using the Cadasta Platform. To add yours, select **Add** on the upper right.
 
 ![](/assets/add-organization-button.png)
 
 ##### 3. Enter Your Organization's Information
 
-On the page that follows, provide your organization name, a brief description, the URL for your organization's website and your own contact information as well. If you'd like, you can add additional contacts for your organization here as well.
+On the page that follows, provide your organization name, a brief description, the URL for your organization's website and your own contact information as well. If you'd like, you can add additional contacts here as well.
 
-_**NOTE!**_ _Adding someones contact information here does not create user accounts for them within the Cadasta Platform. _
+_**NOTE!**_ _Adding someone's contact information here does not create user accounts for them within the Cadasta Platform. _
 
 ![](/assets/add-organization-info.png)
 
 Once you hit save...
 
-##### Congratulations!
+**Congratulations!**
 
 You've established an organization within the Cadasta Platform!
 
@@ -53,7 +53,7 @@ Administrators may also archive their organization by selecting **Archive organi
 
 ### Adding Organization Members
 
-Once an organization is set up, the administrator can add organization. Members must already have accounts set up on the Cadasta Platform.
+Once an organization is set up, the administrator can add organization members. Members must already have accounts set up on the Cadasta Platform.
 
 To add an organization member, click **View All **from the Organization Overview page.
 
@@ -71,9 +71,9 @@ A pop-up window will appear. Here, add the member's username or email and click 
 
 At the organizational level, there are two levels of permissions: Administrator and Member.
 
-* Administrators can edit and archive the organization, as well as add, delete, and edit permissions for organization members.
+* **Administrators** can edit and archive the organization, as well as add, delete, and edit permissions for organization members.
 
-* Members can be added to projects within the organization.
+* **Members** can be added to projects within the organization.
 
 Administrators may change the permissions of an organization member from the Member Profile page using the drop-down menu towards the left side of the page. 
 
