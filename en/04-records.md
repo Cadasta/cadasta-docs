@@ -1,12 +1,19 @@
 # Project Records: Locations, Parties, Relationships, and Resources
 
+* [Overview](#overview)
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)    
 * [Location Relationships, Parties & Tenure Types](#location-relationships)
 * [Project & Location Resources](#project-resources)
 
-### Project Locations, Location Types, & Location Aquisition {#project-locations}
+### Overview{#overview}
 
-Within any given project, you may be working with lots of different locations. For example, within a forested area, there may be a national park boundary or building that you'll need to track.
+Within any given project, you may be working with lots of different [locations](#project-locations). For example, within a forested area, there may be a national park boundary or building that you'll need to track.
+
+Each of these locations may have a [relationship](#relationships) with one or more [parties](#parties). For example, a park may be owned by the government but a community group may be granted special access to in. Each of these parties has their own relationship with that bit of land, with its own type of [tenure](#tenure). And for all of this, there are [resources](#project-resources) like photos, letters, and deeds to track. 
+
+The Cadasta Platform is designed to deal with this complexity. This section outlines how it handles tracking locations, parties, relationships, and all the resources that go with them. 
+
+### Project Locations, Location Types, & Location Aquisition {#project-locations}
 
 #### Adding a Location {#adding-a-location}
 
