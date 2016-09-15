@@ -20,7 +20,7 @@ We're glad you've found the Cadasta Platorm – a land and resource rights manag
 
 As the human population continues to grow – and as land and resources become more and more scarce – land rights become increasingly important. An estimated 70% of land in emerging economies remains undocumented or unregistered. This can pose serious problems for people who rely on that land but don't have the information or resources they need to formally document their right to use it.
 
-Land rights can also be incredibly complicated. The cost and complexity of the tools and technology required to manage land information are often out of reach for small organizations. Customary groups, slum dwellers' associations, and small municipalities are among those that might have an interest in, and mandate to manage land and resource rights data, but until now have lacked the tools to do so.
+Land rights can also be incredibly complicated. The cost and complexity of the tools and technology required to manage land information are often out of reach for small organizations. Customary groups, slum dwellers' associations, and small municipalities are among those that might have an interest in or a mandate to manage land and resource rights data, but until now have lacked the tools to do so.
 
 This is why we at the Cadasta Foundation have developed this open, cloud-based Platform to manage land and resource rights. We invite you to give it a try!
 
