@@ -58,7 +58,7 @@ Once you've connected GeoODK with your Cadasta account, the next thing you need 
 
     ![](/assets/geo-odk-4-user-pass.png)
 
-3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you would like to download and select **Get Selected**.
+3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you would like to download and tap **Get Selected**.
 
     ![](/assets/geo-odk-5-questionnaire-list.png)
 
@@ -125,7 +125,13 @@ Finally, you'll be brought to a confirmation screen where you can view your geot
 
 Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is.
 
+#### Geopoint
 
+> waiting for forms to load on GeoODK
+
+#### Geoshape
+
+> waiting for forms to load on GeoODK
 
 ### Uploading Data {#uploading-data}
 
