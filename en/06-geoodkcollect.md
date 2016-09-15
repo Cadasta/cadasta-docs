@@ -129,11 +129,11 @@ Note that GeoODK calls a geotrace a parcel regardless of what kind of location i
 
 > Note: I don't have this working on my phone. Please check for accuracy!
 
-GeoShape is designed for making shapes on a location. For example, you can use Geoshape to draw a boundary around a building or land area. 
+GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area.  
 
 ![](/assets/geo-odk-geoshape-1.png)
 
-You can collect location data with GeoShape comes in two ways: by walking around an area, or by drawing it on the map. Before collecting data, you'll be prompted to either draw your coordinates on the map, or walk around the boundaries.
+To collect location data with GeoShape, you have two options: to walk around an area or to draw the shape with your finger. Before collecting data, you'll be prompted to choose whichever option you prefer.
 
 ![](/assets/geo-odk-geoshape-2.png)
 
@@ -143,7 +143,7 @@ If you choose walking mode, you can use either the automatic or manual mode as d
 
 > Note: I don't have this working on my phone. Please check for accuracy!
 
-You'll use GeoPoint to collect single GPS coordinates
+To collect single GPS coordinates, you can use GeoPoint. GeoPoint only works through tracking your specific location.
 
 First you'll come to a screen asking you to record the location of your parcel. Click **Record Location**. 
 
@@ -156,7 +156,6 @@ In the screen that follows, you'll see a map with your location. To save your pi
 When you're done, you'll come to a screen that looks like the one below. You can use this screen to view or edit your recording.
 
 ![](/assets/geoodk-geopoint-3.png)
-
 
 ### Uploading Data {#uploading-data}
 
