@@ -68,32 +68,30 @@ Now, GeoODK is configured to record data using the questions in your questionnai
 
 Once you've initialized GeoODK and loaded your questionnaire, now it’s time to collect some data!
 
-Specifically, you're recording location data. Each 
-
 1. From the Main Menu select **Collect Data**, then the questionnaire that you want to use. 
 
     ![](/assets/geo-odk-6-collect-data.png)
 
 2. Swipe left twice to get started completing the form.
 3. Continue answering all the survey questions until you reach the "End of survey" message. During this step, swipe left after the end of each question. 
-    * During this section, you'll likely be asked to geotrace your data. For more information about how this works, see [Geotracing](#geotracing).
+    * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
 4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
 
     ![](/assets/geo-odk-7-finalized-form.png)
 
 ### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
-During [data-collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options:
+During [data-collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **GeoTrace** creates lines, collections of two or more GPS coordinates. It's also the default option provided in both the standard and minimal questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines, collections of two or more GPS coordinates. It's also the default option provided in both the standard and minimal questionnaires. 
 
-* **GeoShape** creates polygons, or closed shapes. To create a geoshape, you need to end your shape on the same point where you started. Using this feature, you can either draw or walk to create your shape.
+* **[GeoShape](#geoshape)** creates polygons, or closed shapes. To create a geoshape, you need to end your shape on the same point where you started. Using this feature, you can either draw or walk to create your shape.
 
-* **GeoPoint** creates points, or single GPS coordinates. 
+* **[GeoPoint](#geopoint)** creates points, or single GPS coordinates. 
 
 To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](XLSForms.md).
 
-#### GeoTrace
+#### GeoTrace {#geotrace}
 
 To start geotracing, hit the Play button in the upper left:
 
@@ -127,7 +125,7 @@ Finally, you'll be brought to a confirmation screen where you can view your geot
 
 Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is.
 
-#### GeoShape
+#### GeoShape {#geoshape}
 
 > Note: I don't have this working on my phone. Please check for accuracy!
 
@@ -141,7 +139,7 @@ You can collect location data with GeoShape comes in two ways: by walking around
 
 If you choose walking mode, you can use either the automatic or manual mode as described in the GeoTrace section. 
 
-#### GeoPoint
+#### GeoPoint {#geopoint}
 
 > Note: I don't have this working on my phone. Please check for accuracy!
 
@@ -176,12 +174,11 @@ It's also a good idea to confirm that you see the data on the Cadasta Platform, 
 
 ### Editing Data {#editing-data}
 
-GeoODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
+ODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
 
 ### Deleting Questionnaires {#deleting-questionnaires}
 
-You can also easily delete unwanted questionnaires by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
-
+You can also easily delete unwanted questionnaires by selecting **Delete Saved Form** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
 
 ### GeoODK Troubleshooting {#geoodk-troubleshooting}
 
