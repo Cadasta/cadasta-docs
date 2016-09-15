@@ -1,4 +1,4 @@
-# Collecting Data with Geographical Open Data Kit \(GeoODK Collect\) 
+# Collecting Data with GeoODK Collect (Geographical Open Data Kit) 
 
 * [Overview](#overview)
 * [Initial Setup](#initial-setup)

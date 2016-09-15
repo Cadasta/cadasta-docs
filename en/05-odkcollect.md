@@ -1,4 +1,4 @@
-# Collecting Data with Open Data Kit \(ODK Collect\)
+# Collecting Data with ODK Collect (Open Data Kit) 
 
 * [Overview](#overview)
 * [Initial Setup](#initial-setup)
@@ -80,24 +80,23 @@ Once you've initialized GeoODK and loaded your questionnaire, now it’s time to
     * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
 4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
 
-    >new image
-    ![](/assets/geo-odk-7-finalized-form.png)
-
 ### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
+
+> Please note that this portion of ODK doesn't work on my phone; please check for accuracy!
 
 > This information to be updated with 9.19 release
 
 During [data-collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **GeoTrace** creates lines, collections of two or more GPS coordinates. It's also the default option provided in both the standard and minimal questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines, collections of two or more GPS coordinates. It's also the default option provided in both the standard and minimal questionnaires. 
 
-* **GeoShape** creates polygons, or closed shapes. To create a geoshape, you need to end your shape on the same point where you started. Using this feature, you can either draw or walk to create your shape.
+* **[GeoShape](#geoshape)** creates polygons, or closed shapes. To create a geoshape, you need to end your shape on the same point where you started. Using this feature, you can either draw or walk to create your shape.
 
-* **GeoPoint** creates points, or single GPS coordinates. 
+* **[GeoPoint](#geopoint)** creates points, or single GPS coordinates. 
 
 To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](XLSForms.md).
 
-#### GeoTrace
+#### GeoTrace {#geotrace}
 
 To start geotracing, hit the Play button in the upper left:
 
@@ -111,7 +110,7 @@ From there, you'll be asked to select either Automatic or Manual mode.
 
 > image needed
 
-**Automatic mode** records your location at set intervals, such as once every 20 seconds. This mode is helpful if you're recording a large amount of space. 
+**Automatic mode** records your location at set intervals, for example once every 20 seconds. This mode is helpful if you're recording a large amount of space. 
 
 The amount of time you should set for your interval depends on how you're collecting the data. For example, if you're driving, you may want to set the interval to be once every 5 seconds. If you're walking, you may want to record once every 20-30 seconds. 
 
@@ -131,22 +130,17 @@ Finally, you'll be brought to a confirmation screen where you can view your geot
 
 Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is.
 
-#### GeoShape
-
-> add more info with 9.19 release
+#### GeoShape {#geoshape}
 
 GeoShape is designed for making shapes on a location. For example, you can use Geoshape to draw a boundary around a building or land area. 
 
-
-> add image with 9.19 release
-
-You can collect location data with GeoShape comes in two ways: by walking around an area, or by drawing it on the map. Before collecting data, you'll be prompted to either draw your coordinates on the map, or walk around the boundaries.
+You can collect location data with GeoShape in two ways: by walking around an area, or by drawing it on the map. Before collecting data, you'll be prompted to either draw your coordinates on the map, or walk around the boundaries.
 
 ![](/assets/geo-odk-geoshape-2.png)
 
 If you choose walking mode, you can use either the automatic or manual mode as described in the GeoTrace section. 
 
-#### GeoPoint
+#### GeoPoint {geopoint}
 
 > Add info with 9.19 release
 
