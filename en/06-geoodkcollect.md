@@ -35,7 +35,7 @@ If this is the first time you've used GeoODK with the Cadasta Platform, you'll n
 
     ![](/assets/geo-odk-1-configure-settings.png)
 
-3. On this screen, enter the Platform URL, along with your Cadasta Platform username and password.
+3. On this screen, enter the Platform URL, along with your Cadasta Platform username and password. The URL you need is the same one you used when you signed up for your Cadasta account. 
     * https://platform.cadasta.org/collect \(if for active projects\); or
     * https://demo.cadasta.org/collect  \(if for testing\)
 
@@ -120,11 +120,9 @@ From there, you'll be asked to select either Automatic or Manual mode.
 
 **Automatic mode** records your location at set intervals, such as once every 20 seconds. This mode is helpful if you're recording a large amount of space. 
 
-> Kate: please check the suggested interval times below.
-
 The amount of time you should set for your interval depends on how you're collecting the data. For example, if you're driving, you may want to set the interval to be once every 5 seconds. If you're walking, you may want to record once every 20-30 seconds. 
 
-Automatic mode also lets you collect a point manually if you need to. A good time to do this would be to record the corners of a rectangular plot that you're automatically geotracing. Doing this will ensure the corners don't get cut off from your final polygon.
+If you know you need to record the corners of a large area, then you might want to try manual mode. Or, if you're using automatic mode, pause on the corner long enough for the pin to drop. 
 
 For either automatic or manual mode, keep in mind that the more points you record, the bigger your data file will be and the harder it will be to upload when you return to WiFi or you mobile network. Collect all the points you need - and only the points you need!
 
@@ -141,8 +139,6 @@ Finally, you'll be brought to a confirmation screen where you can view your geot
 Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is.
 
 ### GeoODK Troubleshooting {#geoodk-troubleshooting}
-
-> Kate, this section refers to errors I got while testing GeoODK. If there's something missing or an easier way to solve something, let me know!
 
 If you're having trouble using GeoODK, the answer to your question may be here. If not, please [contact us](cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
@@ -164,7 +160,7 @@ If the above screen is taking longer than you think it should, hit Cancel. You m
 
 If you're having trouble uploading your questionnaires, the most likely culprit is collecting data using a questionnaire that doesn't exactly match the questionnaire loaded on the Cadasta Platform. This can happen if you modify your questionnaire, load it to Cadasta, and then continue collecting data using an older version. 
 
-Unfortunately, the easiest way to fix this is to uninstall the old form and completed questionnaire and start over. This is why we recommend that you test GeoODK before heading out into the field. 
+Unfortunately, the easiest way to fix this is to uninstall the old form and completed questionnaire and start over. This is why we recommend that you test GeoODK before heading out into the field. We also recommend refreshing your questionnaire before heading out to the field if you think that it might have changed. 
 
 If you've collected too much data to start over, please [contact us](cadasta.org/contact/). 
 

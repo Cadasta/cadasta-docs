@@ -118,6 +118,16 @@ Once that questionnaire is saved and loaded into the project, the new "Unknown" 
 
 ![](/assets/standard-new-field.png)
 
+#### Geopoint, Geotrace and Geoshape
+
+In your location data collection, you may choose to use point, line, or polygon. In both the standard and minimal questionnaire, you have to option choose one of these options using `geopoint`, `geotrace`, or `geoshape`. 
+
+* `geopoint` collects single point data. 
+* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimal and standard questionnaires.
+* `geoshape` records a polygon made of multiple GPS coordinates. The last point must be the same as the first point. 
+
+To change this, modify cell A11 on either your standard or  minimal questionnaire. _This is the only gray cell that you should ever change._
+
 #### Advanced Customization
 
 If you need to do more than simply edit a few existing fields, then advanced customization may be for you.
@@ -128,13 +138,13 @@ To fully take advantage of customizing the questionnaire, it's important to figu
 
 * `text` - which specifies that you're collecting basic text.
 * `date` - which specifies that you're logging the date.
-* `select-one` - which specifies you're using a dropdown menu
+* `select_one` - which specifies you're using a dropdown menu
 
 ![](/assets/standard-survey-example.png)
 
 You can see each of these at work in the above example, screenshot from the survey tab of the standard questionnaire.
 
-Notice that `select-one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specified \(cell A24\) is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
+Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specified \(cell A24\) is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
 
 ![](/assets/standard-choices-example.png)
 
