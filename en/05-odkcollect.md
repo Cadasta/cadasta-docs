@@ -27,7 +27,6 @@ This section provides an overview of how ODK and Cadasta work together:
 
 For more information and documentation about ODK generally, visit [opendatakit.org](https://opendatakit.org/).
 
-
 ### Initial Setup {#initial-setup}
 
 To get started, [download ODK from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), or wherever you acquire your applications.

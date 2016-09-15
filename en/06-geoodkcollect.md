@@ -129,7 +129,7 @@ Note that GeoODK calls a geotrace a parcel regardless of what kind of location i
 
 #### GeoShape
 
-> Note: it sounds like this is changing with the release on 9.19; providing basic information now to update then.
+> Note: I don't have this working on my phone. Please check for accuracy!
 
 GeoShape is designed for making shapes on a location. For example, you can use Geoshape to draw a boundary around a building or land area. 
 
@@ -143,7 +143,22 @@ If you choose walking mode, you can use either the automatic or manual mode as d
 
 #### GeoPoint
 
-> Will provide information with 9.19 release
+> Note: I don't have this working on my phone. Please check for accuracy!
+
+You'll use GeoPoint to collect single GPS coordinates
+
+First you'll come to a screen asking you to record the location of your parcel. Click **Record Location**. 
+
+![](/assets/geoodk-geopoint-1.png)
+
+In the screen that follows, you'll see a map with your location. To save your pin location, hit the **Save** icon in the upper left. Also note the GPS accuracy logged at the top of the screen. 
+
+![](/assets/geoodk-geopoint-2.png)
+
+When you're done, you'll come to a screen that looks like the one below. You can use this screen to view or edit your recording.
+
+![](/assets/geoodk-geopoint-3.png)
+
 
 ### Uploading Data {#uploading-data}
 
