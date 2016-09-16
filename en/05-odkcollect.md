@@ -99,13 +99,18 @@ To learn more about how to configure these options in your questionnaire, see th
 
 #### GeoTrace {#geotrace}
 
-To start geotracing, hit the Play button in the upper left:
+When it's time to start your GeoTrace, you'll be prompted to **Start GeoTrace**:
 
-> image needed
+![](/assets/odk-geotrace-1.png)
 
-From there, you'll be asked to select either Automatic or Manual mode. 
+In the next screen, you'll be asked to **Zoom to Current Location**.
 
-> image needed
+![](/assets/odk-geotrace-2.png)
+
+
+Once your location is identified, you'll be asked to select either Automatic or Manual mode.  
+
+![](/assets/odk-geotrace-3.png)
 
 **Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map.
 
@@ -119,15 +124,13 @@ If you know you need to record the corners of a large area, then you might want 
 
 For either automatic or manual mode, keep in mind that the more points you record, the bigger your data file will be and the harder it will be to upload when you return to WiFi or you mobile network. Collect all the points you need - and only the points you need!
 
-When you're done with your GeoTrace, hit the pause button. You'll then be asked to save your information as a polyline or polygon.
+![](/assets/odk-geotrace-4.png)
 
-> image needed
+When you're done with your GeoTrace, hit the pause button. You'll then be asked to save your information as a polyline or polygon.
 
 If you've recording a point or line, choose polyline. If you've recording an area and created a closed shape, choose polygon.
 
 Finally, you'll be brought to a confirmation screen where you can view your geotrace. 
-
-> image needed
 
 Note that ODK calls a geotrace a parcel regardless of what kind of location it is.
 
