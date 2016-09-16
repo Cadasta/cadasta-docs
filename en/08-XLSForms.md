@@ -7,19 +7,19 @@
 
 ### Overview {#overview}
 
-Every data project is different - starting with the questions being asked. These questions shape everything about the project- including the fields for data collection.
+Every data collecting project is different - starting with the questions you're asking. These questions shape everything about the project- including the entry fields for data collection.
 
-The Cadasta platform allows you to define your own data collection schema, so you can tailor your data collection around the specific questions your asking. These questions could include contact details, geographic place names or how the land was acquired.
+The Cadasta platform allows you to define your own data collection schema, so you can tailor it around the specific questions your asking. These questions could include contact details, geographic place names or how the land was acquired.
 
-The underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are easy to use, while also allowing for more complexity as needed.
+In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
 
 You can start your project with one of these two ready-to-go questionnaires:
 
-* [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) for the bare minimum of data needed by the platform; and
+* [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) - which creates a schema for the bare minimum of data needed by the platform; and
 
-* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) - which is the starting point for many of our partners.
+* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) - which is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
 
-You can use either of these forms as a starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
+You can use either of these forms as starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
 
 If you need to significantly modify these data entry fields, see the section on [customizing your questionnaire](#customizing-your-questionnaire). 
 
@@ -41,7 +41,7 @@ The **Survey** tab shows the overall data collection schema.
 
 ![](/assets/minimum-survey.png)
 
-The areas in gray are fields that the Cadasata platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes to make the platform work as it should. _(Note! Do not tamper with these fields!)_
+The areas in gray are fields that the Cadasta platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes, so you'll never see them in the Platform, ODK, or GeoODK. _(Note! Do not tamper with any of the gray fields!)_
 
 The first three columns are important ones for you to know about:
 * `type` specifies the type of entry you're adding - be it text, a date, a dropdown or something else. 
@@ -52,11 +52,13 @@ The **Choices** tab is where the choices for all the drop-down menus are stored.
 
 ![](/assets/minimum-choices.png)
 
-For example, the `respondent` entries Group, Individual an d Corporation (A2 - A4) correspond with this dropdown menu in the Add Relationship popup:
+For example, the `respondent` entries Group, Individual and Corporation (A2 - A4 in the image above) correspond with this dropdown menu in the Add Relationship popup:
 
 ![](/assets/relationship-dropdown.png)
 
 The **Settings** tab shows you the `form_id` and title of the questionnaire. You'll use this ID when you set up data collection with ODK and GeoODK.
+
+Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load. Also be sure to create names that start with lowercase letters and contain no spaces.
 
 ### The Standard Questionnaire {#standard-form}
 
@@ -77,13 +79,15 @@ Each of these sections relates to a data collection window in the cadasta platfo
 
 The **Choices** tab has the same options as the minimal questionnaire, with some additional drop-down choices as well.  
 
-![](/assets/standard-choices-more.png)
+![](/assets/standard-choices-2.png)
 
 For example, rows 38-47 show the choices for the different types of location acquisitions, which correspond with row 25 on the Survey tab (above).
 
-The **Settings** tab of the standard questionnaire is exactly the same as it is in the minimal version - providing the `form_id`, which you'll select when setting up on ODK or GeoODK.
+The **Settings** tab of the standard questionnaire is exactly the same as it is in the minimal version - providing the `form_id`, which is your identifier for the questionnaire in ODK or GeoODK.
 
 ![](/assets/standard-settings.png)
+
+Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load. Also be sure to create names that start with lowercase letters and contain no spaces. 
 
 ### Customizing Your Questionnaire {#customizing-your-questionnaire}
 
