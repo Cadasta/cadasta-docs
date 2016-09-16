@@ -1,3 +1,3 @@
 # Translation
 
-More information coming soon!
+Coming soon!
