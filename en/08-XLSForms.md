@@ -174,11 +174,11 @@ Each of these sections relates to a piece of the Cadasta Platform's internal wor
 
 The below image is taken from a custom questionnaire used by one of our partners. Here, they've added a number of custom fields in the `party_attributes_default` section:
 
-![](/assets/uttaran-example.png)
+![](/assets/example-xls-1.png)
 
 It is possible to create new sections, as another Cadasta partner has done below. Here, they've added a section on witnesses:
 
-![](/assets/jei-example.png)
+![](/assets/example-xls-2.png)
 
 If you'd like to create new sections or significantly customize your questionnaire, we highly recommend that you [contact us](cadasta.org/contact/) first. We're here to help! 
 
