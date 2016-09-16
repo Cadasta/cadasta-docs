@@ -114,7 +114,7 @@ Once your location is identified, you'll be asked to select either Automatic or 
 
 **Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map.
 
-> image needed
+> add image here?
 
 **Automatic mode** records your location at set intervals, for example once every 20 seconds. This mode is helpful if you're recording a large area. 
 
