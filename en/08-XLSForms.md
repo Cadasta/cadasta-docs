@@ -58,7 +58,7 @@ For example, the `respondent` entries Group, Individual and Corporation (A2 - A4
 
 The **Settings** tab shows you the `form_id` and title of the questionnaire. You'll use this ID when you set up data collection with ODK and GeoODK.
 
-Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load. Also be sure to create names that start with lowercase letters and contain no spaces.
+Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces.
 
 ### The Standard Questionnaire {#standard-form}
 
@@ -87,11 +87,11 @@ The **Settings** tab of the standard questionnaire is exactly the same as it is 
 
 ![](/assets/standard-settings.png)
 
-Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load. Also be sure to create names that start with lowercase letters and contain no spaces. 
+Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces. 
 
 ### Customizing Your Questionnaire {#customizing-your-questionnaire}
 
-If you need to collect different data than what's in the standard questionnaire, you can customize it to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for the questionnaires to work with the Cadasta Platform.
+If you need to collect different data than what's in the standard questionnaire, and more than what's in the minimum questionnaire, you can customize these forms to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for everything to work.
 
 #### Basic Customization
 
@@ -122,13 +122,13 @@ Once that questionnaire is saved and loaded into the project, the new "Unknown" 
 
 > Note: this section may need to be updated with 9.19 release
 
-In your location data collection, you may choose to use point, line, or polygon. In both the standard and minimal questionnaire, you have to option choose one of these options using `geopoint`, `geotrace`, or `geoshape`. 
+In your location data collection, you may choose to collect point, line, or polygon data. In both the standard and minimum questionnaires, you have the option to choose one of these using `geopoint`, `geotrace`, or `geoshape`. 
 
-* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimal and standard questionnaires.
+* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimum and standard questionnaires.
 * `geoshape` records a polygon made of multiple GPS coordinates. The last point must be the same as the first point. This data may be collected by 
 * `geopoint` collects single point data. 
 
-To change this, modify cell A11 on either your standard or  minimum questionnaire. 
+To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaires. 
 
 #### Advanced Customization
 
@@ -144,15 +144,15 @@ To fully take advantage of customizing the questionnaire, it's important to figu
 
 ![](/assets/standard-survey-example.png)
 
-You can see each of these at work in the above example, screenshot from the survey tab of the standard questionnaire.
+You can see each of these at work in the above example, taken from the survey tab of the standard questionnaire.
 
-Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specified \(cell A24\) is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
+Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specifies that \(cell A24\) is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
 
 ![](/assets/standard-choices-example.png)
 
 These options will appear in the dropdown when it's selected.
 
-In addition to these basic data types, [XLSForm](http://xlsform.org/#question-types) offers many different data types for you to choose from.
+In addition to these basic data types, [XLSForm offers many different data types for you to choose from](http://xlsform.org/#question-types).
 
 ![](/assets/xls-form-question-types.png)
 
@@ -196,14 +196,15 @@ The first thing you need to do is think through the questions you'll be asking i
 
 3. Identify where each question should go. Is this question about a party, location, relationship, or something else?
 
-Once you've thought this through, you can start adding your questions in their appropriate section.
+Once you've thought this through, you can start adding your questions to their appropriate section.
 
 Before uploading your questionnaire to your project, check to make sure that:
 
 * all of your data entry `types` match those listed on [XLSForm](http://xlsform.org/#question-types) and are spelled correctly. 
 * all of your `names` are lowercase and contain no spaces. 
 * all of your `list_names` in the Choices tab match the name you've given to your dropdowns in the Survey tab.
+* all of your `form_ids` are distinct, contain no spaces, and start with a lowercase letter.
 
 Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
 
-If you're having trouble with your custom form, don't hesistate to [contact us](cadasta.org/contact/) at any time - we're here to help you get your data collection just right.
+If you're having trouble with your questionnaires, don't hesistate to [contact us](cadasta.org/contact/) at any time - we're here to help you get your data collection just right.
