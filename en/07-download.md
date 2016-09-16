@@ -6,7 +6,7 @@ The Cadasta Platform makes this a relatively straightforward process.
 
 1. From the project overview page, select the three-dots menu at the top right. Then select **Download data**. 
 
-  ![](/assets/DownloadingData_selectdownload1.png)
+  ![](/assets/download-data.png)
 
 2. Next, select your desired file format:
   * **SHP** - a zip full of shape files for your project locations, relationships, and parties. 
