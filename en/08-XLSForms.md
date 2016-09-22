@@ -202,6 +202,7 @@ Include this table for the Survey tab:
 
 Create a new table for the Choices tab.
 
+Paste special into Excel.
 
 ##### Steps to Creating Your Custom Questionnaire
 
