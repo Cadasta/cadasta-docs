@@ -186,6 +186,23 @@ It is possible to create new sections, as another Cadasta partner has done below
 
 If you'd like to create new sections or significantly customize your questionnaire, we highly recommend that you [contact us](cadasta.org/contact/) first. We're here to help! 
 
+##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
+
+> Write this section
+
+Include a link to this [questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire-all-geo.xlsx)
+
+Include this table for the Survey tab:
+
+| select\_one geo\_type | geo\_type | Select type of geo collection | | yes | | | geoshape | |
+| --- | --- | - | --- | - | - | --- | --- | --- |
+| geoshape | location\_geoshape | Draw the location boundaries on the map | | yes | | | | ${geo\_type}='geoshape' |
+| geostrace | location\_geotrace | Please, walk through the location boundaries | | yes | | | | ${geo\_type}='geoshape' |
+| geopoint | location\_geopoint | Please, select a point | | yes | | | | ${geo\_type}='geoshape' |
+
+Create a new table for the Choices tab.
+
+
 ##### Steps to Creating Your Custom Questionnaire
 
 The first thing you need to do is think through the questions you'll be asking in your data collection.
