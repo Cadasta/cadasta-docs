@@ -17,6 +17,7 @@ We're glad you've found the Cadasta Platorm – a land and resource rights manag
 * [Downloading Data](07-download.md)
 * [Questionnaires & Custom Data Collection](08-XLSForms.md)
 * [Translation](09-translation.md)
+* [Frequently Asked Questions](10-faq.md)
 
 ### Why We Do What We Do
 

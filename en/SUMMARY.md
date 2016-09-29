@@ -10,4 +10,5 @@
 * [Downloading Data](07-download.md)
 * [Questionnaires & Custom Data Collection](08-XLSForms.md)
 * [Translation](09-translation.md)
+* [Frequently Asked Questions](10-faq.md)
 
