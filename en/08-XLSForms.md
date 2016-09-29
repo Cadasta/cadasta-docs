@@ -198,8 +198,8 @@ In the **Survey tab** of your questionnaire, add three rows just below row 11.
 
 Then, copy and paste the below into rows 11 - 14. 
 
-| --- | --- | - | --- | - | - | --- | --- | --- |
 | select\_one geo\_type | geo\_type | Select type of geo collection | | yes | | | geoshape | |
+| --- | --- | - | --- | - | - | --- | --- | --- |
 | geoshape | location\_geoshape | Draw the location boundaries on the map | | yes | | | | ${geo\_type}='geoshape' |
 | geotrace | location\_geotrace | Please, walk through the location boundaries | | yes | | | | ${geo\_type}='geoshape' |
 | geopoint | location\_geopoint | Please, select a point | | yes | | | | ${geo\_type}='geoshape' |
@@ -210,8 +210,8 @@ Note that you may need to use the _Paste Special_ option and select Text in the 
 
 Next, you'll need to add the following options to the the Choices tab of your spreadsheet. Again, you may need to paste this using the _Paste Special_ option. 
 
-| --- | --- | --- | 
 | geo_type | geoshape| Drawing coordinates on a map | 
+| --- | --- | --- | 
 | geo_type | geotrace | Walking around the boundaries | 
 | geo_type | geopoint| Select a location point | 
 
