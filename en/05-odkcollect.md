@@ -112,7 +112,7 @@ Once your location is identified, you'll be asked to select either Automatic or 
 
 ![](/assets/odk-geotrace-3.png)
 
-**Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map.
+**Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map. For example, it's common practice to drop pins at each corner of a location. 
 
 > add image here?
 
@@ -187,6 +187,16 @@ You can also delete unwanted questionnaires by selecting **Delete Data** from th
 ### ODK Troubleshooting {#odk-troubleshooting}
 
 If you're having trouble using ODK, the answer to your question may be here. If not, please [contact us](cadasta.org/contact/) and we'll do our best to help you work through the issue.
+
+#### Trouble Loading Your Questionnaire
+
+##### ISSUE: I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
+
+The easiest thing to do here is to go to the Cadasta platform and change your password. Then, return to ODK and load your password there.  
+
+##### ISSUE: I'm getting a message that says to "Please wait a few moments," but it's been much much longer than that.
+
+If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again.
 
 #### Trouble Adding Location Data
 

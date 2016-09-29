@@ -101,7 +101,7 @@ From there, you'll be asked to select either Automatic or Manual mode.
 
 ![](/assets/geo-odk-geotrace-2-manual-automatic.png)
 
-**Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map.
+**Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map. For example, it's common practice to drop pins at each corner of a location. 
 
 ![](/assets/geo-odk-geotrace-3-record-location-point.png)
 

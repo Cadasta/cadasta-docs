@@ -12,7 +12,7 @@ Before jumping in, it's important to understand how the Platform structure and h
 
 > Add diagram: Organizations, Projects & Members
 
-* At the core of the Cadasta platform are a series of **[projects](03-projects.md)**. A project covers a specific geographic area. Within that area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
+* At the core of the Cadasta platform are a series of **[projects](03-projects.md)**. A project covers a specific geographic area, from a small parcel of land to the entire globe. Within the specified project area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
 
 * Each project must belong to an **[organization](02-organizations.md)**. An organization represents an organized body of people with a particular purpose. In most cases, organizations are NGOs helping communities to document their land rights. In the Cadasta system, people who belong to an organization are called **organization members**. 
 
@@ -39,7 +39,7 @@ Typically data for each project is collected in the field. This might be done us
 * **[Open Data Kit \(ODK Collect\)](05-odkcollect.md)**, and
 * **[Geographical Open Data Kit \(GeoODK Collect\)](06-geoodkcollect.md)**.
 
-Both of these applications integrate with the questionnaire you're using to collect your data.
+Both of these applications - available for Android devices - integrate with the questionnaire you're using to collect your data.
 
 Whenever you need to get your data and resources out of the Cadasta platform, all you have to do is [download it](07-download.md).
 
@@ -47,7 +47,7 @@ Whenever you need to get your data and resources out of the Cadasta platform, al
 
 To get started, follow the steps below! For more information and images, follow the links on each step.* 
 
-1. **[Create your new account](#createnewaccount)** by clicking **register** and entering your name, email, and a few other key pieces of information. 
+1. **[Create your new account](#createnewaccount)** by clicking **register** and entering your name, email, and a few other key pieces of information. _Note that you have up to 48 hours to verify your account using the verification link sent to your registered email address._
 
 2. Next, you need to be added to an organization. To do this, contact your organization's administrator to add you as an organization member. Note that you can be added to multiple organizations in the Cadasta sytem.  
 

@@ -81,7 +81,8 @@ Administrators may change the permissions of an organization member from the Mem
 
 ### Removing Organization Members {#removing-organization-members}
 
-Administrators may also remove organization members by clicking the **Remove member** button on the the Member Profile page.
+Administrators may also remove organization members by clicking the **Remove member** button on the the Member Profile page. 
 
 ![](/assets/organization-add-member-5.png)
 
+Note that this will not remove the user account from the Cadasta Platform; only from your organization.
