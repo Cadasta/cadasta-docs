@@ -215,6 +215,25 @@ Next, you'll need to add the following options to the the Choices tab of your sp
 | geo_type | geotrace | Walking around the boundaries | 
 | geo_type | geopoint| Select a location point | 
 
+
+<table>
+<tr>
+    <td>geo_type</td>
+    <td>geoshape</td>
+    <td>Drawing coordinates on a map</td>
+</tr>
+<tr>
+    <td>geo_type</td>
+    <td>geotrace</td>
+    <td>Walking around the boundaries</td>
+</tr>
+<tr>
+    <td>geo_type</td>
+    <td>geopoint</td>
+    <td>Select a location point</td>
+</tr>
+</table>
+
 > add image
 
 Now, when data collectors are collecting data in the field, they can choose which data collection method is best.
