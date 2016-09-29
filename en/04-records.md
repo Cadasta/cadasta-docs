@@ -179,3 +179,8 @@ Acceptable file types are:
 * .docx
 * .jpg
 * .png
+* .gif
+* .tiff
+* .xls
+* .xlsx
+* .xml (This file type is particularly useful if you need to upload a .gpx document; just change the file extension from .gpx to .xml)

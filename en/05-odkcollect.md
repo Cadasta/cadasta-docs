@@ -8,7 +8,7 @@
 * [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing)
 * [Editing Data](#editing-data)
 * [Deleting Questionnaires](#deleting-questionnaires)
-* [ODK Troubleshooting] (#odk-troubleshooting)
+* [ODK Troubleshooting](#odk-troubleshooting)
 
 
 ###Overview {#overview}
@@ -91,7 +91,7 @@ During [data collection](#data-collection), you'll be asked to collect data spec
 
 * **[GeoTrace](#geotrace)**, which creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
 
-* **[GeoShape](#geoshape)**, which creates polygons (closed shapes). To create a GeoShape, you need to end your shape on the same point where you started. Using this feature, you can either draw or walk to create your shape.
+* **[GeoShape](#geoshape)**, which creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
 * **[GeoPoint](#geopoint)** which creates points (single GPS coordinates). GeoPoint requires collecting data based on your location. 
 
@@ -138,17 +138,11 @@ Note that ODK calls a geotrace a parcel regardless of what kind of location it i
 
 GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area. 
 
-To collect location data with GeoShape, you have two options: to walk around an area or to draw the shape with your finger. Before collecting data, you'll be prompted to choose whichever option you prefer.
-
-![](/assets/odk-geoshape-0.png)
-
-If you choose walking mode, you can use either the automatic or manual mode as described in the [GeoTrace section](#geotrace). 
-
-When you get to the next page, you'll be asked to zoom to your current location or to a saved feature. Note that if you've chosen walking mode, zooming to a saved feature is not available. That's because the phone is set up to place GPS coordinates at your exact location.
+If you're collecting data using GeoShape, you'll first be asked to zoom to your current location or to a saved feature. 
 
 ![](/assets/odk-geoshape-1.png)
 
-In the next screen, you'll be able to start making your shape. Press the screen to place marks on your location. Be sure to end your polygon at the same point where you began!
+In the next screen, you'll be able to start making your shape. Press the screen to place markers around your location, and notice the red lines that are created between each marker. To close your polygon, press on the same point where the polygon began.
 
 ![](/assets/odk-geoshape-2.png)
 
@@ -180,7 +174,7 @@ From the main menu, click **Send Finalized Form** and then check off all the for
 
 Finally, you'll get a confirmation message confirming that the data has been sent. 
 
-It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can[delete any completed questionnaires](#deleting-questionnaires) from your Android device.
+It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed questionnaires](#deleting-questionnaires) from your Android device.
 
 ### Editing Data {#editing-data}
 
@@ -202,5 +196,8 @@ If you're having trouble using ODK, the answer to your question may be here. If 
 
 If you get the screen like the one above, unfortunately it's a known (and frustrating!) bug. Cadasta is aware that some Android devices simply refuse to log their GPS data with ODK and is working to resolve the issue.
 
-In the meantime, try using another Android device. This mysterious bug does not appear on all of them.
+In the meantime, here are some alternatives:
+
+1. Try using another Android device. This mysterious bug does not appear on all of them.
+2. Try using GeoODK, which works very similarly to ODK. _[Learn more about how to use GeoODK with Cadasta](06-odkcollect.md)._
 

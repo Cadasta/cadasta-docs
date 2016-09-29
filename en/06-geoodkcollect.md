@@ -85,7 +85,7 @@ During [data collection](#data-collection), you'll be asked to collect data spec
 
 * **[GeoTrace](#geotrace)**, which creates (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
 
-* **[GeoShape](#geoshape)**, which creates polygons (closed shapes). To create a GeoShape, you need to end your shape on the same point where you started. Using this feature, you can either draw or walk to create your shape.
+* **[GeoShape](#geoshape)**, which creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
 * **[GeoPoint](#geopoint)**, which creates points, or single GPS coordinates. GeoPoint requires collecting data based on your location.
 
@@ -127,17 +127,21 @@ Note that GeoODK calls a geotrace a parcel regardless of what kind of location i
 
 #### GeoShape {#geoshape}
 
-> Note: I don't have this working on my phone. Please check for accuracy!
-
 GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area.  
 
 ![](/assets/geo-odk-geoshape-1.png)
 
-To collect location data with GeoShape, you have two options: to walk around an area or to draw the shape with your finger. Before collecting data, you'll be prompted to choose whichever option you prefer.
+To collect location data with GeoShape, you can use your finger to draw a shape on the map.   
 
-![](/assets/geo-odk-geoshape-2.png)
+To create the shape, press and hold your finger on a point on the map until a marker appears. Then, hold your finger on another point. You'll see a red line appear between the two points. 
 
-If you choose walking mode, you can use either the automatic or manual mode as described in the GeoTrace section. 
+> add image
+
+Keep putting markers on key points around your polygon. When it's time to complete the polygon, press the **Polygon** button in the upper right. This will connect the last and first marker you drew, creating a complete and closed polygon.
+
+> add image
+
+When you're done, tap the **Save button** and continue your data collection.
 
 #### GeoPoint {#geopoint}
 
