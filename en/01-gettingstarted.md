@@ -10,7 +10,7 @@ While anyone can use the Cadasta Platform, it's designed primarily for organizat
 
 Before jumping in, it's important to understand how the Platform structure and how everything works together.
 
-![](/assets/diagram-organizations-projects-members.png)
+![](/assets/diagram-organizations-projects-members-orig.png)
 
 * At the core of the Cadasta platform are a series of **[projects](03-projects.md)**. A project covers a specific geographic area, from a small parcel of land to the entire globe. Within the specified project area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
 
