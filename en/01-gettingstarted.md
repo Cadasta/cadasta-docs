@@ -10,7 +10,7 @@ While anyone can use the Cadasta Platform, it's designed primarily for organizat
 
 Before jumping in, it's important to understand how the Platform structure and how everything works together.
 
-> Add diagram: Organizations, Projects & Members
+![](/assets/diagram-organizations-projects-members.png)
 
 * At the core of the Cadasta platform are a series of **[projects](03-projects.md)**. A project covers a specific geographic area, from a small parcel of land to the entire globe. Within the specified project area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
 
@@ -18,7 +18,7 @@ Before jumping in, it's important to understand how the Platform structure and h
 
 * The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](08-XLSForms.md)**, which is required to set up your project.
 
-> Add diagram: Projects, Locations, Parties, Relationships & Resources
+![](/assets/diagram-resources.png)
 
 * In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as scanned documents, images, video, audio testimonials or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various **parties** may have to one or more of it's locations.
 
