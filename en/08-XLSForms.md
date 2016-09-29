@@ -204,19 +204,64 @@ Then, copy and paste the below into rows 11 - 14.
 | geotrace | location\_geotrace | Please, walk through the location boundaries | | yes | | | | ${geo\_type}='geoshape' |
 | geopoint | location\_geopoint | Please, select a point | | yes | | | | ${geo\_type}='geoshape' |
 
+<table>
+<tbody>
+<tr>
+    <td>select_one geo_type</td>
+    <td>geo_type</td>
+    <td>Select type of geo collection</td>
+    <td></td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+    <td>geoshape</td>
+    <td></td>
+</tr>
+<tr>
+    <td>geoshape</td>
+    <td>location_geoshape</td>
+    <td>Draw the location boundaries on the map	</td>
+    <td></td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>${geo_type}='geoshape'</td>
+</tr>
+<tr>
+    <td>geotrace</td>
+    <td>location_geotrace</td>
+    <td>Please, walk through the location boundaries</td>
+    <td></td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>${geo_type}='geoshape'</td>
+</tr>
+<tr>
+    <td>geopoint</td>
+    <td>location_geopoint</td>
+    <td>Please, select a point</td>
+    <td></td>
+    <td>yes</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>${geo_type}='geoshape'</td>
+</tr>
+</tbody>
+</table>
+
+
 Note that you may need to use the _Paste Special_ option and select Text in the pop-up window that follows.
 
 ![](/assets/allgeo-modify-2.png)
 
 Next, you'll need to add the following options to the the Choices tab of your spreadsheet. Again, you may need to paste this using the _Paste Special_ option. 
 
-| geo_type | geoshape| Drawing coordinates on a map | 
-| --- | --- | --- | 
-| geo_type | geotrace | Walking around the boundaries | 
-| geo_type | geopoint| Select a location point | 
-
-
 <table>
+<tbody>
 <tr>
     <td>geo_type</td>
     <td>geoshape</td>
@@ -232,11 +277,12 @@ Next, you'll need to add the following options to the the Choices tab of your sp
     <td>geopoint</td>
     <td>Select a location point</td>
 </tr>
+</tbody>
 </table>
 
-> add image
+![](/assets/allgeo-modify-3.png)
 
-Now, when data collectors are collecting data in the field, they can choose which data collection method is best.
+Now, when data collectors are collecting data in the field, they can choose which data collection method is best: GeoTrace, GeoPoint or GeoShape.
 
 ##### Steps to Creating Your Custom Questionnaire
 
