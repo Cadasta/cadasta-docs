@@ -83,11 +83,11 @@ Once you've initialized GeoODK and loaded your questionnaire, now it’s time to
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)**, which creates (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
 
-* **[GeoShape](#geoshape)**, which creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
+* **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
-* **[GeoPoint](#geopoint)**, which creates points, or single GPS coordinates. GeoPoint requires collecting data based on your location.
+* **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
 
 To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](XLSForms.md).
 

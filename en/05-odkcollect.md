@@ -83,17 +83,13 @@ Once you've initialized GeoODK and loaded your questionnaire, now it’s time to
 
 ### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
-> Please note that this portion of ODK doesn't work on my phone; please check for accuracy! Also note missing images are due to not being able to gather them myself; many thanks to Kate and David for providing me with many of the screenshots in this section.
-
-> This information to be updated with 9.19 release
-
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)**, which creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
 
-* **[GeoShape](#geoshape)**, which creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
+* **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
-* **[GeoPoint](#geopoint)** which creates points (single GPS coordinates). GeoPoint requires collecting data based on your location. 
+* **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
 
 To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](XLSForms.md).
 
@@ -114,7 +110,7 @@ Once your location is identified, you'll be asked to select either Automatic or 
 
 **Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map. For example, it's common practice to drop pins at each corner of a location. 
 
-> add image here?
+![](/assets/odk-geotrace-5.png)
 
 **Automatic mode** records your location at set intervals, for example once every 20 seconds. This mode is helpful if you're recording a large area. 
 
@@ -170,7 +166,7 @@ When you get back to WiFi or a mobile network, you can upload your completed que
 
 From the main menu, click **Send Finalized Form** and then check off all the forms that you want to upload (use the **Toggle All** button to select all questionnaires). Then select **Send Selected**.
 
-> add image
+![](/assets/odk-send-finalized-form.png)
 
 Finally, you'll get a confirmation message confirming that the data has been sent. 
 
