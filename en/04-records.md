@@ -3,7 +3,7 @@
 * [Overview](#overview)
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)    
 * [Parties and Their Relationship to a Location](#location-relationships)
-* [Project & Location Resources](#project-resources)
+* [Resources](#project-resources)
 
 ### Overview{#overview}
 
@@ -136,27 +136,34 @@ When you're done adding notes about the relationship, click save.
 
 To learn more about many of these terms, see the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e). 
 
-### Project & Location Resources {#project-resources}
+### Resources {#project-resources}
 
 Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
 
-> Please check this for accuracy! You can assign resources to parties, yes? 
+The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
 
-The Cadasta Platform is set up to handle this kind of complexity, organizing resources into two different types:
-
-* Resources pertaining a specific location, and
+* Resources pertaining a specific location,
+* Resources pertaining to a party, and
 * Resources pertaining to the project generally.
 
 
 ####Adding a New Resource {#adding-new-resource}
 
-There are a couple ways to add a new resource, depending on what it pertains to.
+There are a few ways to add a new resource, depending on what it pertains to.
 
 If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Add resource.**
 
 ![](/assets/add-location-resource.png)
 
-To add a resource that pertains to the overall project, go to the project's overview page by clicking **Overview**. Then, click **Resources.** 
+To add a **resource that pertains to a certain party**, go to the **Relationships tab** from the location overview page. Then, select the party you'd like to add a resource for.
+
+![](/assets/resource-party-1.png)
+
+At the bottom of that party's page, select the **Attach** button and upload your resource.
+
+![](/assets/resource-party-2.png)
+
+To add a **resource that pertains to the overall project**, go to the project's overview page by clicking **Overview**. Then, click **Resources.** 
 
 ![](/assets/resources-from-overview.png)
 

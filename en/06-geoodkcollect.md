@@ -189,11 +189,11 @@ If you're having trouble using GeoODK, the answer to your question may be here. 
 
 #### Trouble Loading Your Questionnaire
 
-##### I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
+##### ISSUE: I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
 
 The easiest thing to do here is to go to the Cadasta platform and change your password. Then, return to GeoODK and load your password there.  
 
-##### I'm getting a message that says to "Please wait a few moments," but it's been much much longer than that.
+##### ISSUE: I'm getting a message that says to "Please wait a few moments," but it's been much much longer than that.
 
 ![](/assets/geo-odk-error-1-wait-a-moment-forever.png)
 
@@ -201,7 +201,7 @@ If the above screen is taking longer than you think it should, hit Cancel. You m
 
 #### Trouble Uploading Completed Questionnaires
 
-##### I'm getting an error when I upload my completed questoinnaires.
+##### ISSUE: I'm getting an error when I upload my completed questoinnaires.
 
 If you're having trouble uploading your questionnaires, the most likely culprit is collecting data using a questionnaire that doesn't exactly match the questionnaire loaded on the Cadasta Platform. This can happen if you modify your questionnaire, load it to Cadasta, and then continue collecting data using an older version. 
 

@@ -47,7 +47,9 @@ Click on the magnifying glass in the upper left to search for your location by n
 
 #### 3. Create your project area.
 
-To create your project area, you can draw either a rectangle or a polygon.
+The next thing you need to do is create your project area. If your project is a global one, simply click the green **Next** button to go to the next page. 
+
+If your project is specific to a certain region or area (as is true for most projects), you can create it by drawing either a rectangle or polygon on the map. 
 
 Note that your project area does not need to be exact. To ensure full coverage, add a little bit of space outside the area where you'll be working.
 
@@ -77,7 +79,7 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project description**
 
-* **Project URL**, which must start with _http://_.
+* **Project URL**, which must start with _http://_ or _https://_.
 
 * **Project Questionnaire**. This spreadsheet is the basis for your data collection, and should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read our section on [custom data collection](XLSForms.md)
 

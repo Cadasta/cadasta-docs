@@ -190,7 +190,7 @@ If you're having trouble using ODK, the answer to your question may be here. If 
 
 #### Trouble Adding Location Data
 
-##### ODK won't let me add any location data. 
+##### ISSUE: ODK won't let me add any location data. 
 
 ![](/assets/odk-trouble-1.png)
 
