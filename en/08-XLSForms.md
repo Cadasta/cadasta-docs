@@ -120,15 +120,15 @@ Once that questionnaire is saved and loaded into the project, the new "Unknown" 
 
 #### GeoTrace, GeoShape and GeoPoint
 
-> Note: this section may need to be updated with 9.19 release
-
 In your location data collection, you may choose to collect point, line, or polygon data. In both the standard and minimum questionnaires, you have the option to choose one of these using `geopoint`, `geotrace`, or `geoshape`. 
 
-* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimum and standard questionnaires.
-* `geoshape` records a polygon made of multiple GPS coordinates. The last point must be the same as the first point. This data may be collected by 
-* `geopoint` collects single point data. 
+* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimum and standard questionnaires. With `geotrace`, location pins are added based on the user's GPS coordinates. 
 
-To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaires. 
+* `geoshape` records a polygon made of multiple GPS coordinates, which are drawn on-screen. 
+
+* `geopoint` collects single points of data based on the user's GPS coordinates. 
+
+To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaire. 
 
 #### Advanced Customization
 
@@ -188,21 +188,36 @@ If you'd like to create new sections or significantly customize your questionnai
 
 ##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
 
-> Write this section
+In some cases, you may want to give your data collectors the option to choose collecting data using GeoTrace, GeoPoint or GeoShape. If you do, you can modify to your form to make this possible. Alternatively, you can build out your questionnaire [starting from this one](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire-all-geo.xlsx). 
 
-Include a link to this [questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire-all-geo.xlsx)
+If you'd like to update an existing questionnaire, here's what you need to do. 
 
-Include this table for the Survey tab:
+In the **Survey tab** of your questionnaire, add three rows just below row 11. 
 
-| select\_one geo\_type | geo\_type | Select type of geo collection | | yes | | | geoshape | |
+![](/assets/allgeo-modify-1.png)
+
+Then, copy and paste the below into rows 11 - 14. 
+
 | --- | --- | - | --- | - | - | --- | --- | --- |
+| select\_one geo\_type | geo\_type | Select type of geo collection | | yes | | | geoshape | |
 | geoshape | location\_geoshape | Draw the location boundaries on the map | | yes | | | | ${geo\_type}='geoshape' |
 | geotrace | location\_geotrace | Please, walk through the location boundaries | | yes | | | | ${geo\_type}='geoshape' |
 | geopoint | location\_geopoint | Please, select a point | | yes | | | | ${geo\_type}='geoshape' |
 
-Create a new table for the Choices tab.
+Note that you may need to use the _Paste Special_ option and select Text in the pop-up window that follows.
 
-Paste special into Excel.
+![](/assets/allgeo-modify-2.png)
+
+Next, you'll need to add the following options to the the Choices tab of your spreadsheet. Again, you may need to paste this using the _Paste Special_ option. 
+
+| --- | --- | --- | 
+| geo_type | geoshape| Drawing coordinates on a map | 
+| geo_type | geotrace | Walking around the boundaries | 
+| geo_type | geopoint| Select a location point | 
+
+> add image
+
+Now, when data collectors are collecting data in the field, they can choose which data collection method is best.
 
 ##### Steps to Creating Your Custom Questionnaire
 

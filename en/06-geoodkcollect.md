@@ -131,21 +131,19 @@ GeoShape is designed for making shapes (or polygons) to represent a specific loc
 
 ![](/assets/geo-odk-geoshape-1.png)
 
-To collect location data with GeoShape, you can use your finger to draw a shape on the map.   
+To collect location data with GeoShape, you can use your finger to draw a shape on the map. 
 
 To create the shape, press and hold your finger on a point on the map until a marker appears. Then, hold your finger on another point. You'll see a red line appear between the two points. 
 
-> add image
+Keep placing markers on key points around your polygon. When it's time to complete the polygon, press the **Polygon** button in the upper right. 
 
-Keep putting markers on key points around your polygon. When it's time to complete the polygon, press the **Polygon** button in the upper right. This will connect the last and first marker you drew, creating a complete and closed polygon.
+![](/assets/geoodk-geoshape-4.png)
 
-> add image
+This will connect the last and first marker you drew, creating a complete and closed polygon.
 
 When you're done, tap the **Save button** and continue your data collection.
 
 #### GeoPoint {#geopoint}
-
-> Note: I don't have this working on my phone. Please check for accuracy!
 
 To collect single GPS coordinates, you can use GeoPoint. GeoPoint only works by tracking your specific location (drawing with your finger is not available).
 
