@@ -1,10 +1,12 @@
 # Frequently Asked Questions (FAQs)
 
-Have a question? Your answer may be here. If you can't find what you're looking for here or elsewhere in the documentation, please don't hesitate to [contact us](http://cadasta.org/contact/). 
+Have a question? Your answer may be here, in one of the following sections:
 
 * [Cadasta & Data](#data)
 * [Getting Around in the Cadasta Platform](#getting-started)
 * [Using the Questionnaire](#using-the-questionnaire)
+
+If you can't find what you're looking for here or elsewhere in the documentation, please don't hesitate to [contact us](http://cadasta.org/contact/). 
 
 ###Cadasta & Data{#data}
 
@@ -35,9 +37,13 @@ On the page that follows, you’ll find all the projects in Cadasta listed alpha
 
 ###Using the Questionnaire{#using-the-questionnaire}
 
-####Why are some fields gray in questionnaire and others white?
+####I significantly modified my questionnaire after starting my project. Will it still work? 
 
-Fields that are in gray shouldn't be modified, while fields in white easily can be. Read [Questionnaires & Custom Data Collection](08-XLSForms.md) to learn more about how to custimize your questionnaire. 
+If you've only changed or added a few lines to your questionnaire, it should still be able to work with your project. However, if you've significantly modified your questionnaire, it may not work. If your questionnaire had changed a lot, it's probably a good idea to start a new project.
+
+####Why are some fields gray in the questionnaire while others are white?
+
+Fields that are in gray indicate that they shouldn't be modified. Fields in white, however, easily can be. Read [Questionnaires & Custom Data Collection](08-XLSForms.md) to learn more about how to modify your questionnaire. 
 
 ####Can I delete or modify fields that are in gray?
 
