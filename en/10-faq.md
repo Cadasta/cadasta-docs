@@ -8,17 +8,25 @@ Have a question? Your answer may be here, in one of the following sections:
 
 If you can't find what you're looking for here or elsewhere in the documentation, please don't hesitate to [contact us](http://cadasta.org/contact/). 
 
-###Cadasta & Data{#data}
+##Cadasta & Data{#data}
 
 ####Where does your map data come from?
 The map data we use comes from [OpenStreetMap](http://www.openstreetmap.org/#map=5/51.500/-0.100), and the satellite imagery we use comes from [Digital Globe](https://www.digitalglobe.com/). 
 
+####Can anyone see my project once I've created it on Cadasta?
+
+When setting up a project, you have the option to make it public or private. If you'd like to change a public project to a private one, you can do so by selecting **Edit Project Details**, which you can find under the three dots in the upper right:
+
+![](/assets/edit-project-info.png)
+
+By changing your project__ to private, only project members will be able to see it listed on the Projects page.
+
 ####Once I upload my data to the Cadasta Platform, do I still own it? 
 Absolutely! Cadasta users will always retain full ownership of their data. 
 
-Visit [People Before Data](http://cadasta.org/about-us/how-we-work/) to learn more about our data policies. 
+_Visit [People Before Data](http://cadasta.org/about-us/how-we-work/) to learn more about our data policies._ 
 
-###Getting Around in the Cadasta Platform{#getting-started}
+##Getting Around in the Cadasta Platform{#getting-started}
 
 ####How do I find my organization when I log in?
 To find your organization when you log in, click on Organizations in the upper right. 
@@ -35,7 +43,7 @@ To find your project once you log in, click on **Projects** in the upper right.
 
 On the page that follows, you’ll find all the projects in Cadasta listed alphabetically. There, you can either scroll through the projects until you find the one you're looking for, or you can search for your project using the search bar.
 
-###Using the Questionnaire{#using-the-questionnaire}
+##Using the Questionnaire{#using-the-questionnaire}
 
 ####I significantly modified my questionnaire after starting my project. Will it still work? 
 

@@ -1,6 +1,6 @@
 # Cadasta Platform User Guide
 
-> 30 Sept. 2016
+> 30 Sept. 2016 // for [v0.2.0](https://github.com/Cadasta/cadasta-platform/releases/tag/v0.2.0)  
 
 ### Welcome!
 
