@@ -19,7 +19,7 @@ This section provides an overview of how GeoODK and Cadasta work together:
 1. First, you'll [set up GeoODK](#initial-setup) on an Android device.
 2. Then you'll [load the questionnaire](#loading-your-form) you want to use for data collection.
 3. Finally, it's time to [collect your data](#data-collection)! 
-4. When you're back to WiFi, [upload your data](#upload-data) to the Cadasta Platform.
+4. When you're back to WiFi, [upload your data](#uploading-data) to the Cadasta Platform.
 
 **Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to [troubleshoot](#geoodk-troubleshooting) or make any changes. 
 
@@ -36,7 +36,7 @@ If this is the first time you've used GeoODK with the Cadasta Platform, you'll n
 
     ![](/assets/geo-odk-1-configure-settings.png)
 
-3. On this screen, enter the Platform URL along with your a username and password. The username and password do not have to be the same as they are on your Cadasta account, but it may be helpful to keep them consistent. The URL you need should be similar to the one you used when you signed up for your Cadasta account. 
+3. On this screen, enter the Platform URL along with your username and password. The username and password do not have to be the same as they are on your Cadasta account, but it may be helpful to keep them consistent. The URL you need should be similar to the one you used when you signed up for your Cadasta account. 
     * https://platform.cadasta.org/collect \(if for active projects\); or
     * https://demo.cadasta.org/collect  \(if for testing\)
 
@@ -89,7 +89,7 @@ During [data collection](#data-collection), you'll be asked to collect data spec
 
 * **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
 
-To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](XLSForms.md).
+To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](08-XLSForms.md).
 
 #### GeoTrace {#geotrace}
 
@@ -119,11 +119,11 @@ When you're done geotracing, hit the pause button. You'll then be asked to save 
 
 If you've recording a point or line, choose polyline. If you've recording an area and created a closed shape, choose polygon.
 
-Finally, you'll be brought to a confirmation screen where you can view your geotrace. 
+Finally, you'll be brought to a confirmation screen where you can view your GeoTrace. 
 
 ![](/assets/geo-odk-geotrace-5-confirmation.png)
 
-Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is.
+_Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is._
 
 #### GeoShape {#geoshape}
 
@@ -151,7 +151,7 @@ First you'll come to a screen asking you to record the location of your parcel. 
 
 ![](/assets/geoodk-geopoint-1.png)
 
-In the screen that follows, you'll see a map with your location. To save your pin location, hit the **Save** icon in the upper left. Also note the GPS accuracy logged at the top of the screen. 
+In the screen that follows, you'll see a map with your location. To save your pin location, hit the **Save** icon in the upper right. Also note the GPS accuracy logged at the top of the screen. 
 
 ![](/assets/geoodk-geopoint-2.png)
 
@@ -171,7 +171,7 @@ Next, you'll get a confirmation message confirming that the data has been sent.
 
 ![](/assets/geo-odk-9-confirmation.png)
 
-It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can[delete any completed questionnaires](#deleting-questionnaires) from your Android device.
+It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed questionnaires](#deleting-questionnaires) from your Android device.
 
 ### Editing Data {#editing-data}
 
@@ -183,13 +183,13 @@ You can also easily delete unwanted questionnaires by selecting **Delete Saved F
 
 ### GeoODK Troubleshooting {#geoodk-troubleshooting}
 
-If you're having trouble using GeoODK, the answer to your question may be here. If not, please [contact us](cadasta.org/contact/) and we'll do our best to help you work through the issue.
+If you're having trouble using GeoODK, the answer to your question may be here. If not, please [contact us](http://cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
 #### Trouble Loading Your Questionnaire
 
 ##### ISSUE: I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
 
-The easiest thing to do here is to go to the Cadasta platform and change your password. Then, return to GeoODK and load your password there.  
+The easiest thing to do here is to go to the Cadasta platform and change your password. Then, return to GeoODK and enter your new password there.  
 
 ##### ISSUE: I'm getting a message that says to "Please wait a few moments," but it's been much much longer than that.
 
@@ -199,12 +199,12 @@ If the above screen is taking longer than you think it should, hit Cancel. You m
 
 #### Trouble Uploading Completed Questionnaires
 
-##### ISSUE: I'm getting an error when I upload my completed questoinnaires.
+##### ISSUE: I'm getting an error when I upload my completed questionnaires.
 
 If you're having trouble uploading your questionnaires, the most likely culprit is collecting data using a questionnaire that doesn't exactly match the questionnaire loaded on the Cadasta Platform. This can happen if you modify your questionnaire, load it to Cadasta, and then continue collecting data using an older version. 
 
 Unfortunately, the easiest way to fix this is to uninstall the old form and completed questionnaire and start over. This is why we recommend that you test GeoODK before heading out into the field. We also recommend refreshing your questionnaire before heading out to the field if you think that it might have changed. 
 
-If you've collected too much data to start over, please [contact us](cadasta.org/contact/). 
+If you've collected too much data to start over, please [contact us](http://cadasta.org/contact/). 
 
 

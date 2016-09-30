@@ -44,7 +44,7 @@ To access this location, click on it from the main project page.
 
 #### Location Types {#location-types}
 
-Location types define the type of location you're uploading. The following are defined in the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) :
+Location types define the type of location you're uploading. The following are defined in the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx):
 
 * **Parcel** - a plot of land.
 * **Community Boundary** - a formal or informal boundary between two groups of people.
@@ -73,7 +73,7 @@ If you're using the standard questionnaire for your data collection, you'll be a
 * RN - Rental
 * OT - Other
 
-### Parties and Their Relationship to a Location
+### Parties and Their Relationship to a Location{location-relationships}
 
 #### Parties{#Parties}
 
@@ -93,7 +93,7 @@ Any given location has a relationship to a number of [parties](#parties). For ex
 
 #### Adding a New Relationship {#adding-a-new-relationship}
 
-To add a new relationship for a project location, clik on the Relationships tab. Then, click on **Add relationship**. 
+To add a new relationship for a project location, click on the Relationships tab. Then, click on **Add relationship**. 
 
 ![](/assets/add-location-relationship.png)
 
@@ -109,7 +109,7 @@ If you're adding a new one, you'll need to provide:
 
 Next, you'll be asked to add relationship details: including the [tenure type](#tenure-type) and notes about the tenure. 
 
-When you're done adding notes about the relationship, click save. 
+When you're done adding notes about the relationship, click Save. 
 
 #### Tenure Type {#tenure-type}
 
@@ -138,7 +138,7 @@ To learn more about many of these terms, see the glossary from [Focus on Land in
 
 ### Resources {#project-resources}
 
-Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
+Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or to a party, or it may just relate to the project in general.
 
 The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
 
@@ -157,17 +157,17 @@ If you're adding a **project location resource**, select the **Resources tab** f
 
 To add a **resource that pertains to a certain party**, go to the **Relationships tab** from the location overview page. Then, select the party you'd like to add a resource for.
 
-![](/assets/resource-party-1.png)
+![](/assets/resources-party-1.png)
 
 At the bottom of that party's page, select the **Attach** button and upload your resource.
 
-![](/assets/resource-party-2.png)
+![](/assets/resources-party-2.png)
 
 To add a **resource that pertains to the overall project**, go to the project's overview page by clicking **Overview**. Then, click **Resources.** 
 
 ![](/assets/resources-from-overview.png)
 
-Clicking on resources from the project overview page will take you to your project library, which will have all of the resources related to your project.
+Clicking on resources from the project overview page will take you to your **Project Library**, which will have all of the resources related to your project.
 
 ![](/assets/project-library.png)
 

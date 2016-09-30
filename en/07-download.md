@@ -1,6 +1,6 @@
 #Downloading Data
 
-At some point during the project, you may need to download your data - perhaps for analysis using 3rd party software, having a localized backup, or migrating data to another platform.
+At some point during the project, you may need to download your data - perhaps for analysis using third-party software, creating a localized backup, or migrating data to another platform.
 
 The Cadasta Platform makes this a relatively straightforward process. 
 
@@ -9,10 +9,10 @@ The Cadasta Platform makes this a relatively straightforward process.
   ![](/assets/download-data.png)
 
 2. Next, select your desired file format:
-  * **SHP** - a zip full of shape files for your project locations, relationships, and parties. 
+  * **SHP** - a .zip full of shape files for your project locations, relationships, and parties; 
   * **XLS** - details of the locations, relationships and parties as an XLS file;
-  * **Resources** - a zip file containing all project resource files (images, videos, audio and other associated files); or
-  * **All data** - a zip file containing both the details of all locations, relationships and parties as well as the resource files.
+  * **Resources** - a .zip file containing all project resource files (images, videos, audio and other associated files); or
+  * **All data** - a .zip file containing both the details of all locations, relationships and parties as well as the resource files.
     ![](/assets/DownloadingData_DownloadProjectData2.png)
 
 3. Finally, select **Download** and the file will begin downloading.
