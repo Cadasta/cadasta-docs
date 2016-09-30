@@ -11,7 +11,7 @@ Within any organization, there may be any number of projects: initiatives to col
 
 ### Setting Up a New Project {#setting-up-new-project}
 
-Once you've created your organization, you can start to add projects.
+Once your organization exists, administrators can start to add projects to it. 
 
 #### 1. Navigate to the "Add project" button.
 
@@ -23,9 +23,9 @@ And the second way is by clicking the **Projects** button at the top of the page
 
 ![](/assets/add-project-2.png)
 
-#### 2. Navigate to your project extent
+#### 2. Navigate to your project area
 
-Your project extent is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
+Your project area is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
 
 ##### a. Zooming from the map
 
@@ -45,13 +45,11 @@ Click on the magnifying glass in the upper left to search for your location by n
 
 ![](/assets/cadasta-map-search.png)
 
-#### 3. Create your project area.
+#### 3. Create your project boundary.
 
-The next thing you need to do is create your project area. If your project is a global one, simply click the green **Next** button to go to the next page. 
+The next thing you need to do is create your project boundary by drawing either a rectangle or polygon on the map. 
 
-If your project is specific to a certain region or area (as is true for most projects), you can create it by drawing either a rectangle or polygon on the map. 
-
-Note that your project area does not need to be exact. To ensure full coverage, add a little bit of space outside the area where you'll be working.
+Note that your project boundary does not need to be exact. To ensure full coverage, add a little bit of space outside the area where you'll be working.
 
 **To draw a polygon**, click the polygon button. Then, start clicking points on the map to draw your shape.
 
@@ -69,23 +67,26 @@ From there, you can click to add each point of your polygon and move it to its i
 
 Once you've drawn your project area to your satisfaction, click the green **Next** button on the right.
 
+_Note that if your project is a global one, simply click the green **Next** button without drawing any polygons or rectangles._
+
+
 #### 4. Provide some general information about the project.
 
 At this stage, you will be asked to fill out some General Information regarding the project, including:
 
 * **Project name**
 
-* **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to your organization.
+* **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to members of your organization.
 
 * **Project description**
 
-* **Project URL**, which must start with _http://_ or _https://_.
+* **Project URL**, which must start with _http://_ or _https://_
 
-* **Project Questionnaire**. This spreadsheet is the basis for your data collection, and should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read our section on [custom data collection](XLSForms.md)
+* **Project Questionnaire**, a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read the section on [custom data collection](XLSForms.md)
 
 * **Project contacts**, if any. These contacts do not have to be project members, but may be people who are important to the project. For example, you may be working with an administrator or communications specialist who is not involved with data collection, but who may have integral roles in what you're doing. 
 
-If you're adding a project by navigating from the Project page, you'll also be asked to select the **Project's organization** from a dropdown menu at the top.
+If you're adding a project by navigating from the Project page, you'll also be asked to select the project's organization from a dropdown menu at the top.
 
 #### 5. Assign Project Member Permissions {#assign-member-permissions}
 
@@ -97,12 +98,12 @@ To learn more about member permissions, see the  [Project Members & Member Permi
 
 When you're done, **congratulations!** You've created your very first project. 
 
-Your next steps are to start collecting records for your projects, including:
+Your next steps are to start collecting records for your project, including:
 * **project locations** - all the parcels, buildings, boundaries and other locations relevant to your project;
 * **location relationships** to **parties** that have some right or access to one or more of your locations, and 
-* **resources** like photos, deeds, and other documentation related to your project, location or location relationships. 
+* **resources** like photos, deeds, and other documentation related to your project, or an associated location or party. 
 
-Read more about these records in the next section: [Project Records: Locations, Relationships, and Resources](04-records.md). 
+Read more about these records in the next section: [Project Records: Locations, Parties, Relationships, and Resources](04-records.md). 
 
 ### Editing a Project {#editing-a-project}
 
@@ -144,7 +145,7 @@ To learn more about member permissions and what they mean, read on to the next s
 
 ### Project Members & Member Permissions {#project-members-member-permissions}
 
-When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for whatever project they're working on. Currently, there are five user roles, each with their own set of privileges for the project:
+When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for that project. Currently, there are five user roles, each with their own set of privileges:
 
 * **Administrator**. The Administrator can create new projects within an organization and manage user roles and access. This role has full permissions regarding accessing and editing data in the project.
 
