@@ -7,9 +7,9 @@
 
 ### Overview {#overview}
 
-Every data collecting project is different - starting with the questions you're asking. These questions shape everything about the project- including the entry fields for data collection.
+Every data collection project is different - starting with the questions you're asking. These questions shape everything about the project- including the entry fields for data collection.
 
-The Cadasta platform allows you to define your own data collection schema, so you can tailor it around the specific questions your asking. These questions could include contact details, geographic place names or how the land was acquired.
+The Cadasta Platform allows you to define your own data collection schema, so you can tailor it around the specific questions you're asking. These questions could include contact details, geographic place names or how the land was acquired.
 
 In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
 
@@ -25,7 +25,7 @@ If you need to significantly modify these data entry fields, see the section on 
 
 _**Important note:** You can make small changes to your questionnaire - such as adding a row - and reupload it to an existing project. However, if your questionnaire changes significantly, you may need to start a new project._
 
-If you have questions about how to use these questionnaires, [contact us](cadasta.org/contact/) at any time.
+If you have questions about how to use these questionnaires, [contact us](http://cadasta.org/contact/) at any time.
 
 ### The Minimum Questionnaire {#minimal-form}
 
@@ -140,13 +140,13 @@ To fully take advantage of customizing the questionnaire, it's important to figu
 
 * `text` - which specifies that you're collecting basic text.
 * `date` - which specifies that you're logging the date.
-* `select_one` - which specifies you're using a dropdown menu
+* `select_one` - which specifies that you're using a dropdown menu
 
 ![](/assets/standard-survey-example.png)
 
 You can see each of these at work in the above example, taken from the survey tab of the standard questionnaire.
 
-Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specifies that \(cell A24\) is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
+Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specifies that cell A24 is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
 
 ![](/assets/standard-choices-example.png)
 
@@ -184,7 +184,7 @@ It is possible to create new sections, as another Cadasta partner has done below
 
 ![](/assets/example-xls-2.png)
 
-If you'd like to create new sections or significantly customize your questionnaire, we highly recommend that you [contact us](cadasta.org/contact/) first. We're here to help! 
+If you'd like to create new sections or significantly customize your questionnaire, we highly recommend that you [contact us](http://cadasta.org/contact/) first. We're here to help! 
 
 ##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
 
@@ -197,12 +197,6 @@ In the **Survey tab** of your questionnaire, add three rows just below row 11.
 ![](/assets/allgeo-modify-1.png)
 
 Then, copy and paste the below into rows 11 - 14. 
-
-| select\_one geo\_type | geo\_type | Select type of geo collection | | yes | | | geoshape | |
-| --- | --- | - | --- | - | - | --- | --- | --- |
-| geoshape | location\_geoshape | Draw the location boundaries on the map | | yes | | | | ${geo\_type}='geoshape' |
-| geotrace | location\_geotrace | Please, walk through the location boundaries | | yes | | | | ${geo\_type}='geoshape' |
-| geopoint | location\_geopoint | Please, select a point | | yes | | | | ${geo\_type}='geoshape' |
 
 <table>
 <tbody>
@@ -280,6 +274,8 @@ Next, you'll need to add the following options to the the Choices tab of your sp
 </tbody>
 </table>
 
+In the image below, the fields above have been pasted into a minimum questionnaire. 
+
 ![](/assets/allgeo-modify-3.png)
 
 Now, when data collectors are collecting data in the field, they can choose which data collection method is best: GeoTrace, GeoPoint or GeoShape.
@@ -305,4 +301,4 @@ Before uploading your questionnaire to your project, check to make sure that:
 
 Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
 
-If you're having trouble with your questionnaires, don't hesistate to [contact us](cadasta.org/contact/) at any time - we're here to help you get your data collection just right.
+If you're having trouble with your questionnaires, don't hesistate to [contact us](http://cadasta.org/contact/) at any time - we're here to help you get your data collection just right.

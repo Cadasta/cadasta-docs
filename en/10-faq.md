@@ -15,11 +15,11 @@ The map data we use comes from [OpenStreetMap](http://www.openstreetmap.org/#map
 
 ####Can anyone see my project once I've created it on Cadasta?
 
-When setting up a project, you have the option to make it public or private. If you'd like to change a public project to a private one, you can do so by selecting **Edit Project Details**, which you can find under the three dots in the upper right:
+When setting up a project, you have the option to make it public or private. If you'd like to change a public project to a private one, you can do so by selecting **Edit Project Details**, which you can find under the three dots in the upper right of the platform:
 
 ![](/assets/edit-project-info.png)
 
-By changing your project__ to private, only project members will be able to see it listed on the Projects page.
+By changing your project to private, only project members will be able to see it listed on the Projects page.
 
 ####Once I upload my data to the Cadasta Platform, do I still own it? 
 Absolutely! Cadasta users will always retain full ownership of their data. 

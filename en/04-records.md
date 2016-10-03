@@ -44,7 +44,7 @@ To access this location, click on it from the main project page.
 
 #### Location Types {#location-types}
 
-Location types define the type of location you're uploading. The following are defined in the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) :
+Location types define the type of location you're uploading. The following are defined in the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx):
 
 * **Parcel** - a plot of land.
 * **Community Boundary** - a formal or informal boundary between two groups of people.
