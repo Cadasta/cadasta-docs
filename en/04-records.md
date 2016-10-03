@@ -73,7 +73,7 @@ If you're using the standard questionnaire for your data collection, you'll be a
 * RN - Rental
 * OT - Other
 
-### Parties and Their Relationship to a Location
+### Parties and Their Relationship to a Location{#location-relationships}
 
 #### Parties{#Parties}
 
