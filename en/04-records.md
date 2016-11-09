@@ -56,7 +56,7 @@ Location types define the type of location you're uploading. The following are d
 * **National Park Boundary** - the boundary between a national park and another kind of land. 
 * **Miscellaneous** - another kind of location that doesn't fit into any of your categories.
 
-To change the location types that you're using, [edit your questionnaire](08-XLSForms.md). 
+To change the location types that you're using, [edit your questionnaire](09-XLSForms.md). 
 
 #### Location Acquisition {#location-acquisition}
 

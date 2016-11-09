@@ -82,7 +82,7 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project URL**, which must start with _http://_ or _https://_
 
-* **Project Questionnaire**, a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read the section on [custom data collection](XLSForms.md)
+* **Project Questionnaire**, a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read the section on [custom data collection](09-XLSForms.md)
 
 * **Project contacts**, if any. These contacts do not have to be project members, but may be people who are important to the project. For example, you may be working with an administrator or communications specialist who is not involved with data collection, but who may have integral roles in what you're doing. 
 

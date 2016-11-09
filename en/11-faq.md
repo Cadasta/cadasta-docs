@@ -51,7 +51,7 @@ If you've only changed or added a few lines to your questionnaire, it should sti
 
 ####Why are some fields gray in the questionnaire while others are white?
 
-Fields that are in gray indicate that they shouldn't be modified. Fields in white, however, easily can be. Read [Questionnaires & Custom Data Collection](08-XLSForms.md) to learn more about how to modify your questionnaire. 
+Fields that are in gray indicate that they shouldn't be modified. Fields in white, however, easily can be. Read [Questionnaires & Custom Data Collection](09-XLSForms.md) to learn more about how to modify your questionnaire. 
 
 ####Can I delete or modify fields that are in gray?
 

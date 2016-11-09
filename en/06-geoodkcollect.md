@@ -89,7 +89,7 @@ During [data collection](#data-collection), you'll be asked to collect data spec
 
 * **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
 
-To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](08-XLSForms.md).
+To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](09-XLSForms.md).
 
 #### GeoTrace {#geotrace}
 

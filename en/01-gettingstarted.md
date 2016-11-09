@@ -16,7 +16,7 @@ Before jumping in, it's important to understand this structure and how everythin
 
 * Each project must belong to an **[organization](02-organizations.md)**. An organization represents an organized body of people with a particular purpose. In most cases, organizations are NGOs helping communities to document their land rights. In the Cadasta system, people who belong to an organization are called **organization members**. 
 
-* The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](08-XLSForms.md)**, which is required to set up your project.
+* The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](09-XLSForms.md)**, which is required to set up your project.
 
 ![](/assets/diagram-resources.png)
 
