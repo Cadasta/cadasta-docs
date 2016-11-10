@@ -35,9 +35,14 @@ From the map view, use the `+` and `-` signs on the upper left to zoom in and ou
 
 In the upper right, you can choose from a couple of different layers depending on what kind of map you need.
 
-The default layer is the graphic OpenStreetMap layer, shown above. You can also select the DigitalGlobe Satellite layer:
+The default layer is the graphic OpenStreetMap (OSM) layer, shown above. You can also select from a few other layers, including the Vivid Satellite layer:
 
-![](/assets/cadasta-map-satellite.png)
+![](/assets/layers-02-vivid.png)
+
+And a combination of Vivid Satellite and OSM:
+
+![](/assets/layers-04-vivid-osm.png)
+
 
 ##### b. Search by a geographic Place Name
 
