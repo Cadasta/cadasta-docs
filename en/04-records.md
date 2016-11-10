@@ -191,3 +191,9 @@ Acceptable file types are:
 * .xls
 * .xlsx
 * .xml (This file type is particularly useful if you need to upload a .gpx document; just change the file extension from .gpx to .xml)
+
+#####.gpx Files as Project Resources
+
+If you've been collecting data in .gpx format, you can store it as a resource in the Cadasta system. All you need to do is change the .gpx extension to  .xml.  
+
+At this time, .gpx files do not produce new project locations for you; this is a feature that's coming soon. 
