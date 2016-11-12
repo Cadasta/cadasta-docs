@@ -4,7 +4,7 @@
 
 ### Welcome!
 
-We're glad you've found the Cadasta Platorm – a land and resource rights management system developed by the Cadasta Foundation. Our goal is to empower people to understand and document their land rights, a goal that this mapping platform helps to fulfill.
+We're glad you've found the Cadasta Platform – a land and resource rights management system developed by the Cadasta Foundation. Our goal is to empower people to understand and document their land rights, a goal that this mapping platform helps to fulfill.
 
 ### Contents
 
