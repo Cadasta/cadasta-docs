@@ -133,28 +133,29 @@ Atau Anda dapat memilih fungsi bentuk atau persegi untuk menggambar batas yang b
 
 Setelah Anda selesai, klik pada **tombol Simpan berwarna abu-abu** pada sebelah kiri bentuk Anda, dan **tombol Simpan berwarna hijau** pada sebelah kanan untuk menyimpan lokasi proyek Anda. 
 
-####Editing Project Details
+####Mengubah Rincian Proyek
 
-Once you've navigated to the Project Details page, you can edit information like the name, description, questionnaire or privacy settings. When you're done, save your changes by clicking the **Save** button at the bottom of the page. 
+Setelah Anda mengarahkan ke halaman Rincian Proyek, Anda dapat mengubah informasi seperti nama, rincian, kuesioner atau pengaturan privasi. Jika Anda selesai, simpan perubahan Anda dengan mengklik tombol **Simpan** di bawah halaman. 
 
-####Editing Member Permissions
 
-Once you've navigated to the Edit Member Permissions page, you can change your member permissions by using the drop-down menu for each member. 
+####Mengubah Izin Anggota
 
-To learn more about member permissions and what they mean, read on to the next section.
+Setelah Anda mengarahkan ke halaman Ubah Izin Anggota, Anda dapat mengubah izin dari anggota Anda dengan menggunakan menu pilihan untuk setiap anggota. 
 
-### Project Members & Member Permissions {#project-members-member-permissions}
+Untuk mempelajari lebih lanjut mengenai izin anggota dan pengertiannya, baca pada bagian selanjutnya. 
 
-When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for that project. Currently, there are five user roles, each with their own set of privileges:
+### Anggota Proyek & Izin Anggota {#project-members-member-permissions}
 
-* **Administrator**. The Administrator can create new projects within an organization and manage user roles and access. This role has full permissions regarding accessing and editing data in the project.
+Ketika Anda membuat anggota untuk proyek Anda, Anda harus menentukan izin mereka. Izin ini akan menetukan akses dan hak istimewa pengguna untuk proyek tersebut. Saat ini, terdapat lima jenis peran, setiap peran memiliki sejumlah hak istimewa: 
 
-* **Project Manager**. The Project Manager works within an organization on a specific project. This role can also access and edit all data within the project, including adding new users and setting access rights.
+* **Administrator**. Seorang Administrator dapat membuat sebuah proyek baru dalam organisasi dan mengatur peran dan akses pengguna. Peran ini memiliki izin secara penuh rekait akses dan perubahan data pada proyek. 
 
-* **Data Collector**. The Data Collector primarily works in the field with communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data to a project, but cannot edit existing data.
+* **Manajer Proyek**. Seorang Manajer Proyek bekerja dalam sebuah organisasi untuk sebuah proyek yang spesifik. Peran ini juga memberikan akses dan perubahan data secara keseluruhan di dalam proyek, termasuk menambahkan pengguna baru dan mengubah hak akses pengguna. 
 
-* **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data.
+* **Pengumpul Data**. Seorang Pengumpul Data secara umum bekerja di lapangan dengan komunitas untuk mengumpulkan data menggunakan Field Papers, Aplikasi Mobile, atau memasukan data secara langsung pada platform. Pengumpul Data dapat menambahkan data pada sebuah proyek, tetapi tidak dapat mengubah data yang telah tersedia. 
 
-* **Public User**. A Public User can only view data that is publicly available.
+* **Pengguna Proyek**. Seorang Pengguna Proyek dapat melihat seluruh data dalam proyek, meskipun proyek termasuk dalam proyek pribadi. Pengguna Proyek tidak memiliki kemampuan untuk menambahkan atau mengubah data. 
+
+* **Pengguna Publik**. Seorang Pengguna Publik hanya dapat melihat data yang tersedia secara publik. 
 
 
