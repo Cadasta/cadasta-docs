@@ -27,21 +27,21 @@ Jika Anda melihat bagian-bagian ini secara ringkas, bagian-bagian tersebut akan 
 * Organisasi
   * Anggota Organisasi
   * Proyek
-    * Project Members
-    * Questionnaire (which determines the structure of your data collection)
-    * Project Locations
-      * Relationships
-      * Resources
+    * Anggota Proyek
+    * Kuesioner (yang akan menentukan struktur pengumpulan data Anda)
+    * Lokasi Proyek
+      * Hubungan
+      * Sumber Daya
 
 
-Typically data for each project is collected in the field. This might be done using mobile applications, paper questionnaires, or applications like Field Papers. The Cadasta Platform currently supports two mobile data collection platforms, which are both available for use on Android devices:
+Pada umumnya, data untuk setiap proyek dikumpulkan di lapangan. Hal tersebut pada umumnya dapat diselesaikan menggunakan aplikasi mobile, kuesioner kertas, atau aplikasi seperti Field Papers. Platform Cadasta saat ini mendukung dua platform pengumpulan data mobile, dimana keduanya tersedia untuk digunakan di Android:
 
-* **[Open Data Kit \(ODK Collect\)](05-odkcollect.md)**, and
+* **[Open Data Kit \(ODK Collect\)](05-odkcollect.md)**, dan
 * **[Geographical Open Data Kit \(GeoODK Collect\)](06-geoodkcollect.md)**.
 
-Both of these applications integrate with the questionnaire you're using to collect your data and allow it all to be stored on the Cadasta Platform.
+Kedua aplikasi tersebut terintegrasi dengan kuesioner yang Anda gunakan untuk pengumpulan data dan memungkinkan data tersebut disimpan dalam platform Cadasta. 
 
-Whenever you need to get your data and resources out of the Platform, all you have to do is **[download it](07-download.md)**.
+Kapanpun Anda membutuhkan data dan sumber daya keluar dari platform, yang Anda lakukan hanyalah  **[men-download](07-download.md)** data tersebut.
 
 ### Quick Guide to Getting Started {#quick-guide-to-getting-started}
 
