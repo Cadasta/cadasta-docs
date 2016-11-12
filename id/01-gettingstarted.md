@@ -43,15 +43,15 @@ Kedua aplikasi tersebut terintegrasi dengan kuesioner yang Anda gunakan untuk pe
 
 Kapanpun Anda membutuhkan data dan sumber daya keluar dari platform, yang Anda lakukan hanyalah  **[men-download](07-download.md)** data tersebut.
 
-### Quick Guide to Getting Started {#quick-guide-to-getting-started}
+### Panduan Cepat untuk Mulai Menggunakan {#quick-guide-to-getting-started}
 
-To get started, follow the steps below! For more information and images, follow the links on each step.* 
+Untuk memulai, ikutilah langkah di bawah ini! Untuk informasi dan petunjuk gambar lebih lanjut, ikutilah tautan di setiap langkah.* 
 
-1. **[Create your new account](#createnewaccount)** by clicking **register** and entering your name, email, and a few other key pieces of information. _Note that you have up to 48 hours to verify your account using the verification link sent to your registered email address._
+1. **[Membuat akun baru Anda](#createnewaccount)** dengan meng-klik **daftar** dan melengkapi nama Anda, email, dan beberapa informasi penting lainnya. _Catatan bahwa Anda memiliki 48 jam untuk melakukan ferifikasi akun Anda dengan menggunakan tautan yang akan dikirimkan melalui alamat email Anda yang terdaftar._ 
 
-2. Next, you need to be added to an organization. To do this, contact your organization's administrator to add you as an organization member. Note that you can be added to multiple organizations in the Cadasta sytem.  
+2. Selanjutnya, anda harus ditambahkan ke dalam sebuah organisasi. Untuk melakukan hal ini, mohon hubungi administrator organsiasi untuk menambahkan Anda sebagai anggota organisasi. Catatan, Anda dapat ditambahkan ke dalam beberapa organisasi dalam sistem Cadasta.  
 
-    * If you're going to be the administrator of a new organization in Cadasta, you can **[create your organization](02-organizations.md)** by selecting the **Organizations** button and then **Add**. You'll be asked to enter some basic information about your organization and save it. The person who creates an organization becomes the organization's administrator by default. Note that most users will not create their own organizations; instead they will be added to one. 
+    * Jika Anda ingin menjadi administrator dalam sebuah organisasi yang baru di Cadasta, Anda dapat **[membuat organisasi Anda](02-organizations.md)** dengan memilih tombol**Organisasi** dan kemudian pilih **Tambah**. Anda akan ditanyakan untuk memasukan sejumlah informasi dasar terkait organisasi Anda dan menyimpannya. Orang yang membuat sebuah organisasi secara otomatis akan menjadi administrator organisasi tersebut. Catanan, kebanyakan pengguna tidak dapat membuat orgnaisasi mereka sendiri; tetapi mereka akan ditambahkan ke dalam satu organisasi. 
 
 3. Next, you need to be added to a project by your organization or project administrator. Administrators can also **[create new projects](03-projects.md)** and add members to it. As part of the project creation process, you'll be asked to upload a questionnaire, which creates the structure for your data collection. You can use either the [minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) or the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), or modify one of them to meet your needs. You'll also need to add project members, project locations, and project resources as needed. 
 
