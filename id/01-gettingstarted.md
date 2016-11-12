@@ -14,9 +14,9 @@ Sebelum memulai, sangat penting untuk memahami struktur ini dan bagaimana mereka
 
 * Inti dari platform Cadasta adalah sejumlah **[proyek](03-projects.md)**. Sebuah proyek melingkupi satu wilayah geografi yang spesifik, dari sebuah parsel kecil lahan hingga keseluruhan dunia. Dalam wilayah proyek yang ditentukan, terdapat sejumlah **lokasi** proyek. Sebuah proyek juga memiliki sejumlah **anggota proyek**, dimana setiap anggota akan memiliki perizinan tertentu pada proyek tersebut. 
 
-* Each project must belong to an **[organization](02-organizations.md)**. An organization represents an organized body of people with a particular purpose. In most cases, organizations are NGOs helping communities to document their land rights. In the Cadasta system, people who belong to an organization are called **organization members**. 
+* Setiap proyek harus dimiliki oleh sebuah **[organisasi](02-organizations.md)**. Sebuah organisasi mewakili satu badan organisasi masyarakat dengan tujuan tertentu. Kebanyakan organisasi adalah organisasi-organisasi bukan pemerintah yang membantu komunitas untuk mencatat hak-hak tanah mereka. Dalam sistem Cadasta, orang-orang yang mewakili satu organisasi yang disebut **anggota organisasi**.
 
-* The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](08-XLSForms.md)**, which is required to set up your project.
+* Struktur data yang Anda kumpulkan dalam proyek Anda bergantung pada bagaimana Anda menyusun **kuesioner** Anda, dimana dibutuhkan untuk menyiapkan proyek Anda. 
 
 ![](/assets/diagram-resources.png)
 
