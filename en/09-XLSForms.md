@@ -24,17 +24,13 @@ You can start your project with one of the following ready-to-go questionnaires.
 
 The difference is based on whether or not you want the options for some questions to repeat during your data collection. For example, you may need to collect data for multiple locations that all have the same relationship to a certain party. In that case, you would want to use a repeating questionnaire. If not, you'd want a non-repeating questionnaire. 
 
-> Add link to section.
-
-_Read more about repeating questionnaires._
-
-Non-Repeating Questionnaires
+Non-Repeating Questionnaires:
 
 * [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) creates a schema for the bare minimum of data needed by the platform; and
 
 * [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
 
-Repeating Questionnaires
+Repeating Questionnaires:
 
 > Add links to the below questionnaires
 
