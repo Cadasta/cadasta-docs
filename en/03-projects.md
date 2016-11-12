@@ -128,13 +128,13 @@ From there, select the item that needs to be edited.
 
 #### Editing a Project Boundary
 
-Once you've navigated to the Edit Project Boundary page, you can use the tools on the left of the map to make your project location changes. 
+Once you've navigated to the Edit Project Boundary page, you have a few options for making edits.  
 
-You can either click the edit icon and drag your boundary points as needed:
+One is simply to drag the points already drawn on the map. 
 
-![](/assets/edit-project-boundary.png)
+![](/assets/edit-project-boundary-easy.png)
 
-Or you can select the polygon or rectangle tools to draw completely new boundaries. 
+Alternatively, you can select the polygon or rectangle tools to draw completely new boundaries. 
 
 When you're done, click the **gray Save button** on the left to save your shape, and the **green Save button** on the right to save your project location. 
 
