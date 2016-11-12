@@ -15,55 +15,55 @@ Setelah organisasi Anda tersedia, administrator dapat mulai menambahkan proyek d
 
 #### 1. Arahkan ke tombol "Tambah proyek".
 
-You can find the **Add project** button in one of two ways. The first way is from your Organization Overview page:
+Anda dapat menemukan tombol **Tambah proyek** dengan salah satu dari kedua cara berikut. Cara pertama adalah dari halaman Ringkasan Organisasi Anda: 
 
 ![](/assets/add-project-1.png)
 
-And the second way is by clicking the **Projects** button at the top of the page, and then clicking **Add**.
+Dan cara kedua adalah dengan mengklik tombol **Proyek** pada bagian atas halaman, dan kemudian klik **Tambah**.
 
 ![](/assets/add-project-2.png)
 
-#### 2. Navigate to your project area
+#### 2. Arahkan ke wilayah proyek Anda
 
-Your project area is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
+Wilayah proyek Anda merupakan wilayah geografis dimana aktivitas pengumpulan data di lapangan akan berlangsung. Anda dapat menemukan wilayah Anda pada peta dengan menggunakan beberapa pendekatan yang berbeda. 
 
-##### a. Zooming from the map
+##### a. Memperbesar peta
 
 ![](/assets/Cadasta-Map-Overview.png)
 
-From the map view, use the `+` and `-` signs on the upper left to zoom in and out.
+Pada tampilan peta, gunakan tanda `+` dan `-` pada kiri atas untuk memperbesar dan memperkecil tampilan peta. 
 
-In the upper right, you can choose from a couple of different layers depending on what kind of map you need.
+Pada kanan atas, Anda dapat memilih sejumlah layer yang berbeda tergantung pada tampilan peta yang Anda butuhkan. 
 
-The default layer is the graphic OpenStreetMap layer, shown above. You can also select the DigitalGlobe Satellite layer:
+Layer standar adalah layer OpenStreetMap seperti yang ditunjukan di atas. Anda juga dapat memilih layer Satelit DigitalGlobe: 
 
 ![](/assets/cadasta-map-satellite.png)
 
-##### b. Search by a geographic Place Name
+##### b. Mencari berdasarkan sebuah Nama Tempat Geografis 
 
-Click on the magnifying glass in the upper left to search for your location by name.
+Klik pada kaca pembesar pada sebelah kiri atas untuk mencari lokasi berdasarkan nama.
 
 ![](/assets/cadasta-map-search.png)
 
-#### 3. Create your project boundary.
+#### 3. Buat batas proyek Anda. 
 
-The next thing you need to do is create your project boundary by drawing either a rectangle or polygon on the map. 
+Hal selanjutnya yang Anda utuhkan adalah membuat batas proyek dengan menggambarkan bentuk persegi ataupun bentuk lainnya pada peta.  
 
-Note that your project boundary does not need to be exact. To ensure full coverage, add a little bit of space outside the area where you'll be working.
+Catatan, bahwa batas proyek Anda tidak harus tepat atau akurat. Untuk memastikan keseluruhan jangkauan, tambahkan sedikit ruang di luar wilayah dimana Anda akan bekerja. 
 
-**To draw a polygon**, click the polygon button. Then, start clicking points on the map to draw your shape.
+**Untuk menggambar sebuah bentuk**, Klik pada tombol bentuk. Kemudian, mulai dengan mengklik sebuah titik pada peta untuk mulai menggambar bentuk yang Anda kehendaki. 
 
 ![](/assets/cadasta-map-polygon.png)
 
-You can edit your polygon by clicking the Edit Location button.
+Anda dapat mengubah bentuk gambar Anda dengan mengklik tombol Ubah Lokasi. 
 
-From there, you can click to add each point of your polygon and move it to its intended location. To close the polygon, click on the first point that you added.
+Setelah itu, Anda dapat mengklik untuk menambahkan setiap titik dari bentuk yang Anda buat dan memindahkannya pada lokasi yang sesuai. Untuk menutup bentuk, klik pada titik pertama yang Anda tambahkan. 
 
-**To draw a rectangle**, select the rectangle icon. Then, click and drag over your project area on the map.
+**Untuk menambah sebuah persegi**, pilih tombol persegi. Kemudian, klik dan geser pada wilayah proyek Anda pada peta. 
 
 ![](/assets/cadasta-map-rectangle.png)
 
-**To edit your project area**, select the edit icon. Then, click and drag the points on your polygon or rectangle to their correct location. When you're done, click the gray Save button on the left
+**Untuk mengubah wilayah proyek Anda**, pilih tombol ubah. Kemudian, klik dan geser titik-titik pada bentuk atau persegi pada lokasi yang benar. Jika Anda telah selesai, klik pada tombol Simpan berwarna abu-abu di sebelah kiri. 
 
 Once you've drawn your project area to your satisfaction, click the green **Next** button on the right.
 
