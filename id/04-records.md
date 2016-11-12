@@ -13,32 +13,32 @@ Setiap lokasi ini mungkin telah memiliki [hubungan](#relationships) dengan salah
 
 Platform Cadasta dirancang untuk menghadapi kompleksitas ini. Bagian ini menjelaskan bagaimana Platform ini dapat mengatur pelacakan lokasi, kelompok, hubungan, dan seluruh sumber daya yang terkait. 
 
-### Project Locations, Location Types, & Location Aquisition {#project-locations}
+### Lokasi Proyek, Tipe Lokasi, dan Perolehan Lokasi {#project-locations}
 
-#### Adding a Location {#adding-a-location}
+#### Menambah sebuah lokasi {#adding-a-location}
 
-From the main project page, select either **Add location** or **Add a location**: 
+Dari halaman utama proyek, pilih **Tambah lokasi** atau **Tambah sebuah lokasi**: 
 
 ![](/assets/add-project-location.png)
 
-On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
+Pada halaman selanjutnya, Anda akan ditanyakan untuk menggambar lokasi Anda pada peta sebagai sebuah titik, garis, bentuk, atau persegi. 
 
 ![](/assets/project-location-info.png)
 
-Here, you'll also be asked to provide some information about your location (shown on the right). If you're using the [minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) , you'll just need to indicate the type of location. 
+Di dini, Anda juga akan diminta untuk meyediakan informasi terkait lokasi Anda (ditunjukan di sebelah kanan). Jika Anda menggunakan [kuesioner minimal](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx), Anda hanya perlu untuk menentukan tipe lokasi. 
 
-If you're using the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), you'll be asked to specify the following (as shown above):
+Jika Anda menggunakan [kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), Anda akan ditanyakan untuk menetukan hal-hal berikut (seperti yang ditunjukan di atas):
 
-* [Location type](#location-types)
-* Name of Location
-* Spatial Unit Quality
-* [How Location was Acquired](#location-acquisition), 
-* When the location was acquired, and
-* Location Notes.
+* [Tipe lokasi](#location-types)
+* Nama lokasi
+* Kualitas Unit Spasial
+* [Bagaimana lokasi diperoleh](#location-acquisition), 
+* Kapan lokasi tersebut diperoleh, dan
+* Catatan lokasi.
 
-When you're done, save your location. 
+Ketika Anda selesai, simpan lokasi Anda. 
 
-To access this location, click on it from the main project page. 
+Untuk mengakses lokasi ini, klik pada lokasi tersebut pada halaman utama proyek. 
 
 ![](/assets/access-project-location.png)
 
