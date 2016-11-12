@@ -1,19 +1,19 @@
-# Projects
+# Proyek
 
-* [Overview](#overview)
-* [Setting Up a New Project](#setting-up-new-project)
-* [Editing a Project](#editing-a-project)
-* [Project Members & Member Permissions](#project-members-member-permissions)
+* [Ringkasan](#overview)
+* [Menambahkan sebuah Proyek Baru](#setting-up-new-project)
+* [Mengubah sebuah Proyek](#editing-a-project)
+* [Anggota Proyek & Izin Anggota](#project-members-member-permissions)
 
-### Overview {#overview}
+### Ringkasan {#overview}
 
-Within any organization, there may be any number of projects: initiatives to collect information about a series of locations in a given area. This section goes over how to [create a new project](#setting-up-a-new-project) in the Cadasta Platform, as well as how to [edit it](#editing-a-project) and [assign member permissions](#assign-member-permissions) for different projects. 
+Dalam organisasi apapun, terdapat sejumlah proyek: inisiatif untuk mengumpulkan informasi tentang sejumlah lokasi pada suatu area tertentu. Bagian ini akan menjelaskan bagaimana untuk [membuat sebuah proyek baru](#setting-up-a-new-project) pada Platform Cadasta, dan juga bagaimana untuk [mengubahnya](#editing-a-project) dan [menentukan izin anggota](#assign-member-permissions) untuk proyek yang berbeda. 
 
-### Setting Up a New Project {#setting-up-new-project}
+### Menambahkan sebuah Proyek Baru {#setting-up-new-project}
 
-Once your organization exists, administrators can start to add projects to it. 
+Setelah organisasi Anda tersedia, administrator dapat mulai menambahkan proyek di dalamnya.  
 
-#### 1. Navigate to the "Add project" button.
+#### 1. Arahkan ke tombol "Tambah proyek".
 
 You can find the **Add project** button in one of two ways. The first way is from your Organization Overview page:
 
