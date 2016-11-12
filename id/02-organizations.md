@@ -15,7 +15,7 @@ Organisasi dalam sistem Cadasta menggambarkan organisasi di dunia yang nyata - s
 
 Jika organisasi Anda belum tersedia dalam Platform Cadasta, maka hal pertama yang harus Anda lakukan adalah mengatur akun organisasi Anda. Anda akan menggunakan akun ini untuk mengatur proyek, anggota organisasi, kuesioner pengumpulan data, dan lain-lain.
 
-##### 1. Masuk & Navigasi ke Halaman Organisasi
+##### 1. Masuk & Arahkan ke Halaman Organisasi
 
 Pertama, masuk ke akun Anda, dimana akan membawa Anda ke halaman utama Platform Cadasta. Pada sebelah kanan atas, pilih tombol **Organisasi**.
 
