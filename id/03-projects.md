@@ -67,45 +67,45 @@ Setelah itu, Anda dapat mengklik untuk menambahkan setiap titik dari bentuk yang
 
 Setelah Anda puas menggambarkan wilayah proyek Anda, klik pada tombol **Lanjut** berwarna hijau di sebelah kanan. 
 
-_Note that if your project is a global one, simply click the green **Next** button without drawing any polygons or rectangles._
+_Catatan, jika proyek Anda melingkupi seluruh dunia, klik tombol **Lanjut** yang berwarna hijau tanpa menggambar bentuk apapun._
 
 
-#### 4. Provide some general information about the project.
+#### 4. Berikan informasi umum mengenai proyek.
 
-At this stage, you will be asked to fill out some General Information regarding the project, including:
+Pada tahap ini, Anda akan diminta untuk mengisi sejumlah Informasi Umum terkait dengan proyek Anda, termasuk: 
 
-* **Project name**
+* **Nama proyek**
 
-* **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to members of your organization.
+* **Pilihan privasi proyek**, atau apakah proyek Anda akan bersifat Publik atau Pribadi. Proyek publik dapat dilihat oleh siapapun, dan proyek pribadi hanya dapat tersedia pada anggota dari organisasi Anda. 
 
-* **Project description**
+* **Deskripsi proyek**
 
-* **Project URL**, which must start with _http://_ or _https://_
+* **URL proyek**, dimana harus diawali dengan _http://_ atau _https://_
 
-* **Project Questionnaire**, a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read the section on [custom data collection](XLSForms.md)
+* **Kuesioner Proyek**, sebuah daftar yang menyediakan dasar untuk pengumpulan data Anda. Kuesioner seharusnya tidak diubah secara besar-besaran setelah proyek Anda dibuat. Untuk mempelajari lebih lanjut bagaimana mereka bekerja dan mendapatkan contoh kuesioner, baca bagian [pengumpulan data yang disesuaikan](XLSForms.md)
 
-* **Project contacts**, if any. These contacts do not have to be project members, but may be people who are important to the project. For example, you may be working with an administrator or communications specialist who is not involved with data collection, but who may have integral roles in what you're doing. 
+* **Kontak Proyek**, jika ada. Kontak ini tidak harus merupakan anggota proyek, tetapi dapat merupakan orang-orang penting yang terkait dengan proyek. Misalnya, Anda mungkin dapat bekerja dengan seorang administrator atau spesialis komunikasi yang tidak terlibat dengan pengumpulan data, tetapi memiliki peran penting terhadap apa yang Anda lakukan. 
 
-If you're adding a project by navigating from the Project page, you'll also be asked to select the project's organization from a dropdown menu at the top.
+Jika Anda menambahkan sebuah proyek dengan mengarahkan pada halaman Proyek, Anda juga akan diminta untuk memilih organisasi proyek dari menu pilihan di atas. 
 
-#### 5. Assign Project Member Permissions {#assign-member-permissions}
+#### 5. Mengatur Izin Anggota {#assign-member-permissions}
 
-When you're done adding your general information, you can assign member permissions. Project members are members of your organization, and their permissions reflect their role in any given project. 
+Jika Anda telah selesai menambahkan informasi umum, Anda dapat mengatur izin anggota. Anggota proyek merupakan anggota dari organisasi Anda, dan izin mereka menggambarkan peran mereka pada proyek yang diberikan. 
 
-To learn more about member permissions, see the  [Project Members & Member Permissions](#project-members-member-permissions) section below.
+Untuk mempelajari lebih lanjut tentang izin anggota, lihat pada bagian [Anggota Proyek & Izin Anggota](#project-members-member-permissions) di bawah ini. 
 
 ![](/assets/project-member-permissions.png)
 
-When you're done, **congratulations!** You've created your very first project. 
+Jika Anda telah selesai, **selamat!** Anda telah membuat proyek pertama Anda.
 
-Your next steps are to start collecting records for your project, including:
-* **project locations** - all the parcels, buildings, boundaries and other locations relevant to your project;
-* **location relationships** to **parties** that have some right or access to one or more of your locations, and 
-* **resources** like photos, deeds, and other documentation related to your project, or an associated location or party. 
+Langkah selanjutnya Adalah mengumpulkan catatan untuk proyek Anda, termasuk: 
+* **lokasi proyek** - seluruh parsel, bangunan, batasm dan lokasi lainnya yang sesuai dengan proyek Anda; 
+* **hubungan lokasi** untuk **kelompok** yang memiliki sejumlah hak atau akses untuk satu lokasi atau lebih, dan  
+* **sumber daya** seperti foto, akte, atau dokumen lainnya terkait dengan proyek Anda, atau berhubungan dengan satu lokasi atau kelompok. 
 
-Read more about these records in the next section: [Project Records: Locations, Parties, Relationships, and Resources](04-records.md). 
+Baca lebih lanjut mengenai catatan ini pada bagian selanjutnya: [Catatan Proyek: Lokasi, Kelompok, Hubungan, dan Sumber Daya](04-records.md). 
 
-### Editing a Project {#editing-a-project}
+### Mengubah sebuah Proyek {#editing-a-project}
 
 Once you've created a project, you may find that you need to make some changes. There are three aspects of a project that you can change:
 
