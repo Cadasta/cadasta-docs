@@ -53,20 +53,20 @@ Untuk memulai, ikutilah langkah di bawah ini! Untuk informasi dan petunjuk gamba
 
     * Jika Anda ingin menjadi administrator dalam sebuah organisasi yang baru di Cadasta, Anda dapat **[membuat organisasi Anda](02-organizations.md)** dengan memilih tombol**Organisasi** dan kemudian pilih **Tambah**. Anda akan ditanyakan untuk memasukan sejumlah informasi dasar terkait organisasi Anda dan menyimpannya. Orang yang membuat sebuah organisasi secara otomatis akan menjadi administrator organisasi tersebut. Catanan, kebanyakan pengguna tidak dapat membuat orgnaisasi mereka sendiri; tetapi mereka akan ditambahkan ke dalam satu organisasi. 
 
-3. Next, you need to be added to a project by your organization or project administrator. Administrators can also **[create new projects](03-projects.md)** and add members to it. As part of the project creation process, you'll be asked to upload a questionnaire, which creates the structure for your data collection. You can use either the [minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) or the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), or modify one of them to meet your needs. You'll also need to add project members, project locations, and project resources as needed. 
+3. Selanjutnya, Anda perlu ditambahkan ke sebuah proyek oleh administrator organisasi atau proyek Anda. Administrator juga dapat **membuat proyek baru** dan menambah anggota kedalamnya. Sebagai bagian dari proses pembuatan proyek, Anda akan diminta untuk meng-upload sebuah kuesioner, dimana untuk membuat struktur pengumpulan data Anda. Anda dapat menggunakan contoh   [kuesioner minimum](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) atau [kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), atau memodifikasi salah satunya untuk memenuhi kebutuhan Anda. Anda juga diharuskan untuk menambahk anggota proyek, lokasi proyek, dan sumber daya proyek yang dibutuhkan. 
 
-4. Once you have an account, organization, and project, it's time to start gathering data! If you need to collect data in the field, you can use either [ODK Collect](/en/05-odkcollect.md) or [GeoODK Collect](/en/06-geoodkcollect.md), which are both applications for Android. If you don't need to be in the field, you can use the Cadasta Platform directly.
+4. Setelah Anda membuat akun, organisasi, dan proyek, saatnya untuk mengumpulkan data! Jika Anda perlu mengumpulkan data di lapangan, Anda dapat menggunakan [ODK Collect](/en/05-odkcollect.md) atau [GeoODK Collect](/en/06-geoodkcollect.md), dimana keduanya merupakan aplikasi Android. Jika Anda tidak memerlukan pengumpulan data di lapangan, Anda dapat langsung menggunakan Platform Cadasta. 
 
-_* For printed versions, go to the associated section in the document._
+_* Untuk versi cetak, silahkan menuju ke bagian yang terkait dalam dokumen ini._
 
-### **Creating a New Account** {#createnewaccount}
+### **Membuat Sebuah Akun Baru** {#createnewaccount}
 
 ![](/assets/sign-in-register-arrow.png)
 
-To get started with Cadasta, the first thing you need to do to is create a user account.
+Untuk memulai dengan Cadasta, hal yang pertama Anda lakukan adalah membuat sebuah akun pengguna. 
 
-1. If you're just trying out the Platform, navigate to [demo.cadasta.org](https://demo.cadasta.org). Partners with live projects should create accounts at [platform.cadasta.org](https://platform.cadasta.org).
-2. Select **Register** from the upper right of the screen. 
+1. Jika Anda hanya ingin mencoba Platform ini, silahkan menuju ke [demo.cadasta.org](https://demo.cadasta.org). Rekan dengan proyek yang berlangsung harus membuat akun pada [platform.cadasta.org](https://platform.cadasta.org).
+2. Pilih **Daftar** from the upper right of the screen. 
 3. Input a username, valid email address, password and your full name.
 4. Select **Register**.
 
