@@ -20,13 +20,13 @@ Sebelum memulai, sangat penting untuk memahami struktur ini dan bagaimana mereka
 
 ![](/assets/diagram-resources.png)
 
-* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as scanned documents, images, video, audio testimonials or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various **parties** may have to one or more of it's locations.
+* Sebagai tambahan untuk menyimpan data geografis, setiap proyek juga berhak untuk menyimpang sejumlah **arsip**. Arsip-arsip ini dapat termasuk **sumber daya** terkait lokasi, misalnya dokumen yang di-scan, gambar, video, suara testimoni atau apapun yang dapat membantu dalam pencatatan hak-hak tanah. Seluruh lokasi sumber daya akan disimpan dalam **koleksi** proyek. Sebagai tambahan, setiap proyek juga dapat menandai **hubungan** dalam berbagai **kelompok** yang mungkin berhubungan dengan satu lokasi atau lebih. 
 
-If you were to view all these parts as an outline, it would look something like this:
+Jika Anda melihat bagian-bagian ini secara ringkas, bagian-bagian tersebut akan terlihat seperti berikut ini: 
 
-* Organization
-  * Organization Members
-  * Project
+* Organisasi
+  * Anggota Organisasi
+  * Proyek
     * Project Members
     * Questionnaire (which determines the structure of your data collection)
     * Project Locations
