@@ -42,21 +42,21 @@ Untuk mengakses lokasi ini, klik pada lokasi tersebut pada halaman utama proyek.
 
 ![](/assets/access-project-location.png)
 
-#### Location Types {#location-types}
+#### Tipe Lokasi {#location-types}
 
-Location types define the type of location you're uploading. The following are defined in the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx):
+Tipe lokasi menentukan tipe lokasi yang akan Anda upload. Berikut ini adalah tipe lokasi yang termasuk dalam [kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx):
 
-* **Parcel** - a plot of land.
-* **Community Boundary** - a formal or informal boundary between two groups of people.
-* **Building** - any kind of structure.
-* **Apartment** - an apartment or apartment building.
-* **Project Extent** - the full boundary of the project.
-* **Right-of-Way** - an easement that allows a person or group of people to pass throuh another's land.
-* **Utility Corridor** - a passage, either overground or underground, meant to carry utility lines like electricity and water. 
-* **National Park Boundary** - the boundary between a national park and another kind of land. 
-* **Miscellaneous** - another kind of location that doesn't fit into any of your categories.
+* **Parsel** - sebuah plot tanah.
+* **Batas Komunitas** - sebuah batas resmi atau tidak resmi antara dua kelompok masyarakat.
+* **Bangunan** - jenis struktur apapun.
+* **Apartment** - sebuah apartemen atau bangunan apartemen. 
+* **Jangkauan Proyek** - batas proyek keseluruhan. 
+* **Hak Pakai** - sebuah hak yang memperbolehkan seseorang atau sekelompok masyarakat untuk melalui tanah pihak lain.
+* **Koridor Utilitas** - sebuah jalur, baik di atas tanah maupun di bawah tanah, yang diperuntukan untuk jalur utilitas seperti listrik dan air. 
+* **Batas Taman Nasional** - batas di antara sebuah taman nasional dan jenis tanah lainnya.
+* **Lain-lain** - tipe lokasi lainnya yang tidak termasuk dalam kategori Anda. 
 
-To change the location types that you're using, [edit your questionnaire](08-XLSForms.md). 
+Untuk mengubah tipe lokasi yang Anda gunakan, [ubah kuesioner Anda](08-XLSForms.md). 
 
 #### Location Acquisition {#location-acquisition}
 
