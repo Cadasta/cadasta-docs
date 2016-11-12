@@ -65,7 +65,7 @@ Setelah itu, Anda dapat mengklik untuk menambahkan setiap titik dari bentuk yang
 
 **Untuk mengubah wilayah proyek Anda**, pilih tombol ubah. Kemudian, klik dan geser titik-titik pada bentuk atau persegi pada lokasi yang benar. Jika Anda telah selesai, klik pada tombol Simpan berwarna abu-abu di sebelah kiri. 
 
-Once you've drawn your project area to your satisfaction, click the green **Next** button on the right.
+Setelah Anda puas menggambarkan wilayah proyek Anda, klik pada tombol **Lanjut** berwarna hijau di sebelah kanan. 
 
 _Note that if your project is a global one, simply click the green **Next** button without drawing any polygons or rectangles._
 
