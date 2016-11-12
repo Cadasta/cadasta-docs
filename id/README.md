@@ -6,7 +6,7 @@
 
 Kami senang Anda telah menemukan Platform Cadasta - sebuah sistem pengaturan hak-hak tanah dan sumber daya yang dikembangkan oleh Yayasan Cadasta. Tujuan kami adalah untuk memberdayakan masyarakat terhadap pentingnya memahami dan mencatat hak-hak tanah mereka, dan platform pemetaan ini diharapkan dapat membantu memenuhi tujuan tersebut. 
 
-### Contents
+### Daftar Isi
 
 * [Getting Started](01-gettingstarted.md)
 * [Organizations](02-organizations.md)
@@ -20,15 +20,15 @@ Kami senang Anda telah menemukan Platform Cadasta - sebuah sistem pengaturan hak
 * [Frequently Asked Questions](10-faq.md)
 * [Change Log](11-change-log.md)
 
-### Why We Do What We Do
+### Alasan Dibalik yang Kami Lakukan 
 
-As the human population continues to grow – and as land and resources become more and more scarce – land rights become increasingly important. An estimated 70% of land in emerging economies remains undocumented or unregistered. This can pose serious problems for people who rely on that land but don't have the information or resources they need to formally document their right to use it.
+Perkembangan populasi manusia terus berlanjut - dan tanah beserta sumber daya yang terkandung menjadi sangat langka - hak atas tanah menjadi sangat penting. Diperkirakan sekitar 70% tanah di wilayah ekonomi berkembang tidak tercatat atau tidak terdaftar. Hal tersebut dapat menyebabkan masalah serius bagi masyarakat yang bergantung dengan tanah tersebut tetapi tidak memiliki akses informasi atau sumber daya yang dibutuhkan untuk pencatatan hak penggunaan tanah mereka secara formal.
 
-Land rights can also be incredibly complicated. The cost and complexity of the tools and technology required to manage land information are often out of reach for small organizations. Customary groups, slum dwellers' associations, and small municipalities are among those that might have an interest in or a mandate to manage land and resource rights data, but until now have lacked the tools to do so.
+Hak-hak terkait tanah juga dapat menjadi sangat rumit. Biaya dan kompleksitas dari perlengkapan dan teknologi yang dibutuhkan untuk mengatur informasi tanah seringkali tidak terjangkau oleh organisasi-organisasi kecil. Komunitas adat, kelompok penghuni kawasan kumuh dan perkotaan kecil, mereka adalah beberapa kelompok organisasi yang memiliki ketertarikan atau membutuhkan pengaturan data terkait dengan hak-hak tanah dan sumber daya, tetapi hingga sekarang mereka tidak memiliki perlengkapan untuk melakukannya. 
 
-This is why we at the Cadasta Foundation have developed this open, cloud-based Platform to manage land and resource rights. We invite you to give it a try!
+Oleh karena itulah kami di Yayasan Cadasta telah mengembangkan platform ini terbuka dan berbasis komputasi awan untuk mengatur hak-hak tanah dan sumber daya. Kami mengundang Anda untuk mencobanya. 
 
-If you need help thinking through how the Cadasta Platform can help your organization, [please get in touch. ](http://cadasta.org/contact/)
+Jika Anda membutuhkan bantuan untuk mengembangkan ide bagaimana Platform Cadasta dapat membantu organisasi Anda, [silahkan hubungi kami.](http://cadasta.org/contact/)
 
-We're excited to help you document the rights of those in your community.
+Kami sangat senang untuk membantu Anda mencatat hak-hak tersebut dalam komunitas Anda.
 
