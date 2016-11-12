@@ -12,7 +12,7 @@ Sebelum memulai, sangat penting untuk memahami struktur ini dan bagaimana mereka
 
 ![](/assets/diagram-organizations-projects-members-orig.png)
 
-* At the core of the Cadasta platform are a series of **[projects](03-projects.md)**. A project covers a specific geographic area, from a small parcel of land to the entire globe. Within the specified project area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
+* Inti dari platform Cadasta adalah sejumlah **[proyek](03-projects.md)**. Sebuah proyek melingkupi satu wilayah geografi yang spesifik, dari sebuah parsel kecil lahan hingga keseluruhan dunia. Dalam wilayah proyek yang ditentukan, terdapat sejumlah **lokasi** proyek. Sebuah proyek juga memiliki sejumlah **anggota proyek**, dimana setiap anggota akan memiliki perizinan tertentu pada proyek tersebut. 
 
 * Each project must belong to an **[organization](02-organizations.md)**. An organization represents an organized body of people with a particular purpose. In most cases, organizations are NGOs helping communities to document their land rights. In the Cadasta system, people who belong to an organization are called **organization members**. 
 
