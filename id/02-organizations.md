@@ -13,27 +13,27 @@ Organisasi dalam sistem Cadasta menggambarkan organisasi di dunia yang nyata - s
 
 ### Membuat sebuah Organisasi Baru {#creating-a-new-organization}
 
-If your organization doesn't already exist in the Cadasta Platform, then one of the first things you need to do is set up your organization's account. You'll use this account to manage projects, organization members, data collection questionnaires, and more.
+Jika organisasi Anda belum tersedia dalam Platform Cadasta, maka hal pertama yang harus Anda lakukan adalah mengatur akun organisasi Anda. Anda akan menggunakan akun ini untuk mengatur proyek, anggota organisasi, kuesioner pengumpulan data, dan lain-lain.
 
-##### 1. Log in & Navigate to the Organizations Page
+##### 1. Masuk & Navigasi ke Halaman Organisasi
 
-First, log into your account, which will take you to the main Cadasta Platform page. In the upper right, select the **Organizations** button.
+Pertama, masuk ke akun Anda, dimana akan membawa Anda ke halaman utama Platform Cadasta. Pada sebelah kanan atas, pilih tombol **Organisasi**.
 
 ![](/assets/cadasta-main-platform-organization-button.png)
 
-##### 2. Add Your Organization
+##### 2. Tambah Organisasi Anda
 
-On the next page, you'll see an index of all the organizations using the Cadasta Platform. To add yours, select **Add** on the upper right.
+Pada halaman selanjutnya, Anda akan melihat daftar seluruh organisasi yang menggunakan Platform Cadasta. Untuk menambahkan organisasi Anda, pilih **Tambah** pada sebelah kanan atas.
 
 ![](/assets/add-organization-button.png)
 
-##### 3. Enter Your Organization's Information
+##### 3. Masukan Informasi tentang Organisasi Anda
 
-On the page that follows, provide your organization's name, a brief description, the URL for your organization's website and your own contact information. If you'd like, you can add additional contacts here as well.
+Pada halaman yang telah Anda ikuti, masukan nama organisasi Anda, sebuah deskripsi singkat, berikut URL untuk website organisasi Anda dan informasi kontak Anda. Jika Anda berminat, Anda juga dapat menambahkan kontak tambahan di sini. 
 
 ![](/assets/add-organization-info.png)
 
-_**NOTE!**_ _Adding someone's contact information here does not create user accounts for them within the Cadasta Platform. That is a separate step that they should do on their own. See [Getting Started](01-gettingstarted.md). _
+_**CATATAN!**_ _Menambahkan informasi kontak seseorang di sini tidak akan membuat akun pengguna bagi mereka dalam Platform Cadasta. Ini merupakan langkah terpisah yang mereka harus lakukan sendiri [Getting Started](01-gettingstarted.md). _
 
 Once you hit save...
 
