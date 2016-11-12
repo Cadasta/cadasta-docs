@@ -3,6 +3,8 @@
 * [Overview](#overview)
 * [Minimum Questionnaire](#minimal-form)
 * [Standard Questionnaire](#standard-form)
+* [Multiple Location Questionnaires](#multiple-location-questionnaires)
+* [Multiple Party Questionnaires](#multiple-party-questionnaires)
 * [Customizing Your Questionnaire](#customizing-your-questionnaire)
 
 ### Overview {#overview}
@@ -13,13 +15,34 @@ The Cadasta Platform allows you to define your own data collection schema, so yo
 
 In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
 
-You can start your project with one of these two ready-to-go questionnaires:
+> David, would love your insight on how to make this a little bit more intuitive. 
 
-* [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) - which creates a schema for the bare minimum of data needed by the platform; and
+You can start your project with one of the following ready-to-go questionnaires. They fall into two categories:
 
-* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) - which is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
+* Non-Repeating Questionnaires
+* Repeating Questionnaires
 
-You can use either of these forms as starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
+The difference is based on whether or not you want the options for some questions to repeat during your data collection. For example, you may need to collect data for multiple locations that all have the same relationship to a certain party. In that case, you would want to use a repeating questionnaire. If not, you'd want a non-repeating questionnaire. 
+
+> Add link to section.
+
+_Read more about repeating questionnaires._
+
+Non-Repeating Questionnaires
+
+* [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) creates a schema for the bare minimum of data needed by the platform; and
+
+* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
+
+Repeating Questionnaires
+
+> Add links to the below questionnaires
+
+* [The multiple location questionnaire]() lets you collect data for multiple locations that all relate to a single party, but may have different relationships to each one. For example, a community group may hold a lease for one property and have right-of-way access for another. If a party has the same relationship to all the locations, then a similar, alternative form is available - the [multiple location, single relationship questionnaire](). Both of these forms have many of the same fields as the minimum questionnaire. 
+
+* [The multiple party questionnaire]() lets you collect data for multiple parties that may have relationships with a single location. For example, a building may be leased by many tenants and owned by another individual. In the event that the parties all have the same relationship with the location, then an alternative is available: the [multiple party, single relationship questionnaire](). Like the other repeating questionnaires, these forms have many of the same fields as the minimum questionnaire. 
+
+You can use any of these forms as starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
 
 If you need to significantly modify these data entry fields, see the section on [customizing your questionnaire](#customizing-your-questionnaire). 
 
@@ -62,7 +85,7 @@ Make sure all of the questionnaires in your organization have unique form IDs. O
 
 ### The Standard Questionnaire {#standard-form}
 
-[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has all the same questions as the mininimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
+[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has all the same questions as the minimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
 
 ![](/assets/standard-survey.png)
 
@@ -89,6 +112,63 @@ The **Settings** tab of the standard questionnaire is exactly the same as it is 
 
 Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces. 
 
+### Multiple Location Questionnaires {#multiple-location-questionnaires}
+
+If you are collecting data for multiple locations as they relate to a single party, then one of these two multiple location questionnaires may be for you:
+
+* [The multiple location questionnaire](), and 
+* [the multiple location, single relationship questionnaire](). 
+
+The first questionnaire lets you collect data for multiple locations that all relate to a single party, but may have different relationships to each one. For example, a community group may hold a lease for one property and have right-of-way access for another. 
+
+The second questionnaire is better if you're collecting data for a party that has the same relationship to all the locations. For example, if an individual inherited a number of buildings and properties, then the second questionnaire will be better. 
+
+Both of these forms have many of the same fields as the minimum questionnaire, but they are formatted a little bit differently.
+
+![](/assets/repeating-01-location.png)
+
+In the above image, there are two important things to note:
+
+* **`begin repeat` and `end repeat`. These rows separate the questions that repeat from the ones that don't, and they **should not** be edited or modified.  
+
+* **Light and dark colors for each question group.** These indicate the questions that can be modified or edited (darker colors), and which ones can't (lighter colors). For example, rows 18 and 19 can be edited, and more questions can be added there. _See [customizing your questionnaire](#customizing-your-questionnaire) for more information about how to do that._
+
+The multiple location, single relationship questionnaire works similarly. The difference is simply in the location of the the `begin repeat` and `end repeat` rows. 
+
+![](/assets/repeating-02-location-one-rel.png)
+
+As with the standard and minimal questionnaires, fields in gray should not be edited or moved: they are required for the forms to work. 
+
+
+###Multiple Party Questionnaires 
+{#multiple-party-questionnaires}
+
+If you are collecting data for multiple parties as they relate to a single location, then one of these two multiple party questionnaires may be for you:
+
+* [The multiple party questionnaire](), and 
+* [the multiple party, single relationship questionnaire](). 
+
+The first questionnaire lets you collect data for multiple parties that may have relationships with a single location. For example, a building may be leased by many tenants and owned by another individual. 
+
+In the event that the parties all have the same relationship with the location, then you may want to use the second questionnaire. 
+
+Both of these forms have many of the same fields as the minimum questionnaire. 
+
+![](/assets/repeating-02-party.png)
+
+In the above image, there are two important things to note:
+
+* **`begin repeat` and `end repeat`. These rows separate the questions that repeat from the ones that don't, and they **should not** be edited or modified.  
+
+* **Light and dark colors for each question group.** These indicate the questions that can be modified or edited (darker colors), and which ones can't (lighter colors). For example, rows 18 and 19 can be edited, and more questions can be added there. _See [customizing your questionnaire](#customizing-your-questionnaire) for more information about how to do that._
+
+The multiple location, single relationship questionnaire works similarly. The difference is simply in the location of the the `begin repeat` and `end repeat` rows. 
+
+![](/assets/repeating-02-party-one-rel.png)
+
+As with the standard and minimal questionnaires, fields in gray should not be edited or moved: they are required for the forms to work. 
+
+
 ### Customizing Your Questionnaire {#customizing-your-questionnaire}
 
 If you need to collect different data than what's in the standard questionnaire, and more than what's in the minimum questionnaire, you can customize these forms to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for everything to work.
@@ -99,7 +179,15 @@ If you need to collect different data than what's in the standard questionnaire,
 
 If there's a field that you don't want to include, simply delete its row from the survey tab of the questionnaire. To do this in Excel, right-click the row and then select Delete.
 
-_**Important note!** Remember that fields in gray cannot be deleted or modified; only delete rows that have completely white backgrounds._
+Fields that can be deleted:
+
+* Fields in white (all forms)
+* Darker colored fields (repeating forms only)
+
+Fields that **cannot** be deleted: 
+* Fields in gray cannot (all forms)
+* Fields in lighter colors (repeating forms only)
+
 
 ##### Editing Drop-Down Fields
 
@@ -133,6 +221,17 @@ To change what data type you're collecting, modify cell A11 on either your stand
 #### Advanced Customization
 
 If you need to do more than simply edit a few existing fields, then advanced customization may be for you.
+
+Remember, when it comes to editing forms, only some fields that can be modified.
+
+Fields that can be modified:
+
+* Fields in white (all forms)
+* Darker colored fields (repeating forms only)
+
+Fields that **cannot** be modified: 
+* Fields in gray cannot (all forms)
+* Fields in lighter colors (repeating forms only)
 
 ##### Data Entry Types {#data-types}
 
