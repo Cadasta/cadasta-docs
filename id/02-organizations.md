@@ -1,17 +1,17 @@
-# Organizations
+# Organisasi
 
-* [Overview](#overview)
-* [Creating a New Organization](#creating-a-new-organization)
-* [Editing Your Organization's Information](#editing-your-organizations-information)
-* [Adding Organization Members](#adding-organization-members)
-* [Editing Organization Member Permissions](#editing-member-organization-permissions)
-* [Removing Organization Members](#removing-organization-members)
+* [Ringkasan](#overview)
+* [Membuat sebuah Organisasi Baru](#creating-a-new-organization)
+* [Mengubah Informasi Organisasi Anda](#editing-your-organizations-information)
+* [Menambah Anggota Organisasi](#adding-organization-members)
+* [Mengubah Izin Anggota Organisasi](#editing-member-organization-permissions)
+* [Menghapus Anggota Organisasi](#removing-organization-members)
 
-### Overview{#overview}
+### Ringkasan {#overview}
 
-Organizations in the Cadasta System represent organizations in the real world – typically NGOs who are working with communities to help them document their land rights and resources. This section outlines how to [create](#creating-a-new-organization) and [edit](#editing-your-organizations-information) organizations in the Cadasta Platform, along with how to [add organization members](#adding-organization-members) and [assign permissions to them](#editing-member-organization-permissions). 
+Organisasi dalam sistem Cadasta menggambarkan organisasi di dunia yang nyata - secara umum organisasi-organisasi bukan pemerintah yang bekerja dengan konmunitas untuk membantu mereka dalam pencatatan hak-hak tanah dan sumber daya. Bagian ini akan menjelaskan bagaimana untuk  [membuat](#creating-a-new-organization) dan [mengubah](#editing-your-organizations-information) organisasi dalam Platform Cadasta, berikut bagaimana untuk [menambahkan anggota organisasi](#adding-organization-members) dan [mengatur izin anggota organisasi](#editing-member-organization-permissions). 
 
-### Creating a New Organization {#creating-a-new-organization}
+### Membuat sebuah Organisasi Baru {#creating-a-new-organization}
 
 If your organization doesn't already exist in the Cadasta Platform, then one of the first things you need to do is set up your organization's account. You'll use this account to manage projects, organization members, data collection questionnaires, and more.
 
