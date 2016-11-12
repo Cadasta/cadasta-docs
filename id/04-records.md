@@ -1,17 +1,17 @@
-# Project Records: Locations, Parties, Relationships, and Resources
+# Catatan Proyek: Lokasi, Kelompok, Hubungan, dan Sumber Daya
 
-* [Overview](#overview)
-* [Project Locations, Location Types, and Location Acquisition](#project-locations)    
-* [Parties and Their Relationship to a Location](#location-relationships)
-* [Resources](#project-resources)
+* [Ringkasan](#overview)
+* [Lokasi Proyek, Tipe Lokasi, dan Perolehan Lokasi](#project-locations)    
+* [Kelompok dan Hubungan Mereka pada sebuah Lokasi](#location-relationships)
+* [Sumber Daya Proyek](#project-resources)
 
-### Overview{#overview}
+### Ringkasan {#overview}
 
-Within any given project, you may be working with lots of different [locations](#project-locations). For example, within a forested area, there may be a national park boundary as well as a building that you'll need to track.
+Dalam sebuah proyek apapun, Anda dapat bekerja dengan jumlah [lokasi](#project-locations) yang berbeda. Sebagai contoh, dalam sebuah wilayah hutan, mungkin terdapat beberapa batas taman nasional dan juga sebuah bangunan yang mungkin perlu Anda lacak. 
 
-Each of these locations may have a [relationship](#relationships) with one or more [parties](#parties). For example, a park may be owned by the government, but a community group may have special access to it. Each of these parties has their own relationship to that bit of land. That relationship is known as their [tenure](#tenure). There are often many [resources](#project-resources) to track this, like photos, letters, and deeds. 
+Setiap lokasi ini mungkin telah memiliki [hubungan](#relationships) dengan salah satu [kelompok](#parties) atau lebih. Sebagai contoh, sebuah taman kemungkinan dapat dimiliki oleh pemerintah, tetapi satu grup komunitas mungkin memiliki akses khusus pada taman tersebut. Setiap kelompok ini memiliki hubungan terhadap sebagian tanah. Hubungan ini dikenal sebagai [kepemilikan](#tenure) mereka. Seringkali terdapat banyak [sumber daya](#project-resources) untuk melacak hubungan kepemilikan tersebut, seperti foto, surat, dan akte.
 
-The Cadasta Platform is designed to deal with this complexity. This section outlines how the Platform handles tracking locations, parties, relationships, and all the resources that go with them. 
+Platform Cadasta dirancang untuk menghadapi kompleksitas ini. Bagian ini menjelaskan bagaimana Platform ini dapat mengatur pelacakan lokasi, kelompok, hubungan, dan seluruh sumber daya yang terkait. 
 
 ### Project Locations, Location Types, & Location Aquisition {#project-locations}
 
