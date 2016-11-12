@@ -1,10 +1,10 @@
-# Cadasta Platform User Guide
+# Panduan Pengguna Platform Cadasta
 
-> 30 Sept. 2016 // for [v0.2.0](https://github.com/Cadasta/cadasta-platform/releases/tag/v0.2.0)  
+> 30 Sept. 2016 // untuk [v0.2.0](https://github.com/Cadasta/cadasta-platform/releases/tag/v0.2.0)  
 
-### Welcome!
+### Selamat Datang!
 
-We're glad you've found the Cadasta Platorm – a land and resource rights management system developed by the Cadasta Foundation. Our goal is to empower people to understand and document their land rights, a goal that this mapping platform helps to fulfill.
+Kami senang Anda telah menemukan Platform Cadasta - sebuah sistem pengaturan hak-hak tanah dan sumber daya yang dikembangkan oleh Yayasan Cadasta. Tujuan kami adalah untuk memberdayakan masyarakat terhadap pentingnya memahami dan mencatat hak-hak tanah mereka, dan platform pemetaan ini diharapkan dapat membantu memenuhi tujuan tersebut. 
 
 ### Contents
 
