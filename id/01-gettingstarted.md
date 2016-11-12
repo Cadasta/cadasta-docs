@@ -1,14 +1,14 @@
-# Getting Started
+# Mulai Menggunakan
 
-* [How Cadasta is Structured](#how-cadasta-is-organized)
-* [Quick Guide to Getting Started](#quick-guide-to-getting-started)
-* [Creating a New Account](#createnewaccount)
+* [Tentang Struktur Cadasta](#how-cadasta-is-organized)
+* [Panduan Cepat untuk Mulai Menggunakan](#quick-guide-to-getting-started)
+* [Membuat Akun Baru](#createnewaccount)
 
-### How Cadasta is Structured {#how-cadasta-is-organized}
+### Tentang Struktur Cadasta {#how-cadasta-is-organized}
 
-While anyone can use the Cadasta Platform, it's designed primarily for organizations working to document land and resource rights of individuals and communities. The structure of the Platform matches this design.
+Meski siapapun dapat menggunakan Platform Cadasta, platform ini dirancang terutama bagi organisasi yang mencatat hak-hak atas tanah beserta sumber daya dari individu dan komunitas. Struktur dari platform ini disamakan dengan rancangan tersebut. 
 
-Before jumping in, it's important to understand this structure and how everything works together.
+Sebelum memulai, sangat penting untuk memahami struktur ini dan bagaimana mereka bekerja secara keseluruhan. 
 
 ![](/assets/diagram-organizations-projects-members-orig.png)
 
