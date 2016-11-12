@@ -66,9 +66,9 @@ _* Untuk versi cetak, silahkan menuju ke bagian yang terkait dalam dokumen ini._
 Untuk memulai dengan Cadasta, hal yang pertama Anda lakukan adalah membuat sebuah akun pengguna. 
 
 1. Jika Anda hanya ingin mencoba Platform ini, silahkan menuju ke [demo.cadasta.org](https://demo.cadasta.org). Rekan dengan proyek yang berlangsung harus membuat akun pada [platform.cadasta.org](https://platform.cadasta.org).
-2. Pilih **Daftar** from the upper right of the screen. 
-3. Input a username, valid email address, password and your full name.
-4. Select **Register**.
+2. Pilih **Daftar** dari sebelah kanan atas layar. 
+3. Masukan sebuah nama pengguna, alamat email yang berlaku, kata kunci dan nama lengkap Anda. 
+4. Pilih **Daftar**.
 
-After a successful login, you'll return to the home screen, where you can view public projects and organizations.
+Setelah berhasil masuk, Anda dapat kembali ke halaman utama, dimana Anda dapat meilihat proyek publik dan organisasi. 
 
