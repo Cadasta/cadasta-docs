@@ -107,31 +107,31 @@ Baca lebih lanjut mengenai catatan ini pada bagian selanjutnya: [Catatan Proyek:
 
 ### Mengubah sebuah Proyek {#editing-a-project}
 
-Once you've created a project, you may find that you need to make some changes. There are three aspects of a project that you can change:
+Setelah Anda membuah sebuah proyek, Anda dapat membuat beberapa perubahan. Terdapat tiga aspek dalam sebuah proyek yang dapat Anda ubah: 
 
-* Project Boundary (the area of the project)
+* Batas Proyek (wilayah proyek)
 
-* Project Details, and
+* Rincian Proyek, dan
 
-* Member Permissions. 
+* Izin Anggota. 
 
-To change any of these aspects of your project, navigate to your project page, and then click the three dots on the upper right of your screen. 
+Untuk mengubah aspek-aspek tersebut dalam proyek Anda, arahkan ke halaman proyek, kemudian klik pada tiga titik pada sebelah kanan atas layar Anda. 
 
 ![](/assets/edit-project-info.png)
 
-From there, select the item that needs to be edited. 
+Kemudian, pilih salah satu aspek yang perlu diubah. 
 
-#### Editing a Project Boundary
+#### Mengubah sebuah Batas Proyek
 
-Once you've navigated to the Edit Project Boundary page, you can use the tools on the left of the map to make your project location changes. 
+Setelah Anda mengarahkan pada halaman Ubah Batas Proyek, Anda dapat menggunakan fungsi pada sebelah kiri untuk mengubah lokasi proyek Anda. 
 
-You can either click the edit icon and drag your boundary points as needed:
+Anda dapat mengklik tombol ubah atau menggeser titik batas proyek Anda sesuai yang Anda inginkan: 
 
 ![](/assets/edit-project-boundary.png)
 
-Or you can select the polygon or rectangle tools to draw completely new boundaries. 
+Atau Anda dapat memilih fungsi bentuk atau persegi untuk menggambar batas yang baru secara keseluruhan. 
 
-When you're done, click the **gray Save button** on the left to save your shape, and the **green Save button** on the right to save your project location. 
+Setelah Anda selesai, klik pada **tombol Simpan berwarna abu-abu** pada sebelah kiri bentuk Anda, dan **tombol Simpan berwarna hijau** pada sebelah kanan untuk menyimpan lokasi proyek Anda. 
 
 ####Editing Project Details
 
