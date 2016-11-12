@@ -58,42 +58,42 @@ Tipe lokasi menentukan tipe lokasi yang akan Anda upload. Berikut ini adalah tip
 
 Untuk mengubah tipe lokasi yang Anda gunakan, [ubah kuesioner Anda](08-XLSForms.md). 
 
-#### Location Acquisition {#location-acquisition}
+#### Perolehan Lokasi {#location-acquisition}
 
-If you're using the standard questionnaire for your data collection, you'll be asked to define how your location was acquired. You can choose from one of the following categories:
+Jika Anda menggunakan kuesioner standar untuk pengumpulan data Anda, Anda akan diminta untuk menentukan bagaimana lokasi diperoleh. Anda dapat memilih salah satu dari kategori berikut ini: 
 
-* CS - Contractual Share Crop
-* CA - Customary Arrangement
-* GF - Gift
-* HS - Homestead
-* IO - Informal Occupant
-* IN - Inheritance
-* LH - Leasehold 
-* PF - Purchased Freehold
-* RN - Rental
-* OT - Other
+* BH - Kontaktual Bagi Hasil
+* PA - Pengaturan Adat
+* HB - Hibah
+* RT - Rumah Tinggal
+* PI - Penghuni Informal
+* WA - Warisan
+* KO - Kontrak 
+* HM - Pembelian Hak Milik
+* SW - Sewa
+* LA - Lainnya
 
-### Parties and Their Relationship to a Location{#location-relationships}
+### Kelompok dan Hubungan Mereka pada sebuah Lokasi {#location-relationships}
 
-#### Parties{#Parties}
+#### Kelompok{#Parties}
 
-Parties are the individuals, groups or corporations who have a relationship to one or more of the locations in your project.
+Kelompok merupakan kumpulan individu, grup ata korporat yang memiliki hubungan pada satu lokasi atau lebih pada proyek Anda. 
 
-* **Individuals** are single people, like a landowner or lessee.
+* **Individual** adalah satu orang, misalnya seorang pemilik lahan atau penyewa. 
 
-* **Groups** are collections of people who may not have an officially documented organization, such as a tribe, community group or family.
+* **Grup** adalah kumpulan dari orang-orang yang mungkin tidak memiliki organisasi resmi yang tercatat, misalnya suku, grup komunitas atau keluarga. 
 
-* **Corporations** are organizations like companies, NGOs, or government bodies.
-
-
-#### Relationships {#relationships}
-
-Any given location has a relationship to a number of [parties](#parties). For example, a municipality may own a utility corridor, which a local community may use as a right-of-way. 
+* **Korporat** adalah organisasi seperti perusahaan, misalnya organisasi bukan pemerintah, atau organisasi pemerintahan. 
 
 
-#### Adding a New Relationship {#adding-a-new-relationship}
+#### Hubungan {#relationships}
 
-To add a new relationship for a project location, clik on the Relationships tab. Then, click on **Add relationship**. 
+Lokasi apapun memiliki sebuah hubungan dengan sejumlah [kelompok](#parties). Misalnya, sebuah kecamatan mungkin memiliki sebuah koridor utilitas, dimana komunitas lokal mungkin menggunakannya sebagai suatu hak pakai.
+
+
+#### Menambahkan sebuah Hubungan {#adding-a-new-relationship}
+
+Untuk menambahkan To add a new relationship for a project location, clik on the Relationships tab. Then, click on **Add relationship**. 
 
 ![](/assets/add-location-relationship.png)
 
