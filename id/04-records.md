@@ -93,91 +93,91 @@ Lokasi apapun memiliki sebuah hubungan dengan sejumlah [kelompok](#parties). Mis
 
 #### Menambahkan sebuah Hubungan {#adding-a-new-relationship}
 
-Untuk menambahkan To add a new relationship for a project location, clik on the Relationships tab. Then, click on **Add relationship**. 
+Untuk menambahkan sebuah hubungan baru dari satu lokasi proyek, klik pada tab Hubungan. Kemudian, klik pada **Tambah hubungan**. 
 
 ![](/assets/add-location-relationship.png)
 
-In the pop-up that follows, you'll be first asked to either choose from an existing party or add a new one. 
+Pada jendela yang muncul, pertama Anda akan ditanyakan untuk memilih salah satu kelompok yang tersedia atau membuat sebuah kelompok baru. 
 
 ![](/assets/add-new-relationship-popup.png)
 
-If you're adding a new one, you'll need to provide:
+Jika Anda membuat sebuah kelompok baru, maka Anda harus memasukan: 
 
-* Party name, 
-* Party type (individual, group, or corporation), and
-* Party notes. 
+* Nama kelompok, 
+* Tipe kelompok (individual, grup, atau korporat), dan
+* Catatan kelompok. 
 
-Next, you'll be asked to add relationship details: including the [tenure type](#tenure-type) and notes about the tenure. 
+Selanjutnya, Anda akan ditanyakan untuk menambah rincian hubungan: [tipe kepemilikan](#tenure-type) dan catatan terkait kepemilikan. 
 
-When you're done adding notes about the relationship, click save. 
+Ketika Anda selesai menambahkan catatan terkait hubungan, klik simpan. 
 
-#### Tenure Type {#tenure-type}
+#### Tipe Kepemilikan {#tenure-type}
 
-**Tenure type** refers to the type of ownership or right that a party may have with regards to a location. In the Cadasta Platform, you can define a party's tenure type in a variety of ways. 
+**Tipe kepemilikan** menunjukan tipe dari kepemilikan atau hak yang dimiliki sebuah kelompok terkait satu lokasi. Pada Platform Cadasta, Anda dapat menentukan kepemilikan dari sebuah kelompok dalam sejumlah cara. 
 
-* Carbon Rights
-* Concessionary Rights
-* Customary Rights
-* Easement
-* Equitable Servitude
-* Freehold
-* Grazing Rights
-* Hunting / Fishing / Harvest rights
-* Indigneous Land Rights
-* Joint Tenancy
-* Leasehold
-* Longterm Leasehold
-* Mineral Rights
-* Occupancy (No documented rights)
-* Tenancy (Documented Sub-Lease)
-* Tenancy in Common
-* Undivided Co-Ownership
-* Water Rights
+* Hak Karbon
+* Hak Konsesi
+* Hak Adat
+* Hak Pakai (Easement)
+* Hak Pakai (Equitable Servitude)
+* Hak Milik
+* Hak Guna Usaha (Ternak)
+* Hak Guna Usaha (Berburu/Memancing/Pertanian)
+* Hak Atas Tanah Adat
+* Hak Bersama
+* Kontrak
+* Kontrak Jangka Panjang
+* Hak Mineral
+* Kependudukan (Tanpa Dokumen Hak)
+* Kontrak (Sub-kontrak Terdaftar)
+* Hak Milik (Bersama)
+* Hak Milik Bersama (Tak Terbagi)
+* Hak Air
 
-To learn more about many of these terms, see the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e). 
+Untuk mempelajari lebih lanjut mengenai istilah tersebut, lihat glosarium dari [Focus on Land di Africa](http://www.focusonland.com/resources/glossary/#e). 
 
-### Resources {#project-resources}
+### Sumber Daya {#project-resources}
 
-Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
+Proyek hak tanah dapat terdiri dari seluruh jenis pencatatan - misalnya dokumen resmi, surat, gambar, dan sebagainya. Beberapa dokumen pencatatan mungkin dapat terkait dengan beberapa lokasi dalam sebuah proyek, atau satu lokasi, atau mungkin hanya terkait proyek secara umum. 
 
-The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
+Platform Cadasta memiliki rancangan untuk mengatur kompleksitas ini dengan mengatur sumber daya ke dalam beberapa jenis:
 
-* Resources pertaining a specific location,
-* Resources pertaining to a party, and
-* Resources pertaining to the project generally.
+* Sumber daya berkaitan dengan satu lokasi spesifik, 
+* Sumber daya berkaitan dengan satu kelompok, dan
+* Sumber daya berkaitan dengan proyek pada umumnya. 
 
 
-####Adding a New Resource {#adding-new-resource}
+####Menambahkan sebuah Sumber Daya Baru {#adding-new-resource}
 
-There are a few ways to add a new resource, depending on what it pertains to.
+Terdapat beberapa cara untuk menambahkan sebuah sumber daya baru, bergantung pada hal yang terkait sumber daya tersebut.
 
-If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Add resource.**
+Jika Anda menambahkan sebuah **sumber daya lokasi proyek**, pilih **Tab sumber daya** dari halaman rincian lokasi, kemudian **Tambah sumber daya** 
 
 ![](/assets/add-location-resource.png)
 
-To add a **resource that pertains to a certain party**, go to the **Relationships tab** from the location overview page. Then, select the party you'd like to add a resource for.
+Untuk menambahkan sebuah **sumber daya yang terkait dengan satu kelompok tertentu**, arahkan ke **Tab hubungan** dari halaman rincian lokasi. Kemudian, pilih kelompok yang Anda ingin tambahkan pada sebuah sumber daya.
 
 ![](/assets/resource-party-1.png)
 
-At the bottom of that party's page, select the **Attach** button and upload your resource.
+Pada bagian bawah halaman kelompok tersebut, pilih tombol **Lampirkan** dan upload sumber daya Anda.
 
 ![](/assets/resource-party-2.png)
 
-To add a **resource that pertains to the overall project**, go to the project's overview page by clicking **Overview**. Then, click **Resources.** 
+Untuk menambahkan sebuah **sumber daya yang terkait dengan proyek pada umumnya**, arahkan ke halaman rincian proyek dengan mengklik **Ringkasan**. Kemudian klik **Sumber Daya.** 
 
 ![](/assets/resources-from-overview.png)
 
-Clicking on resources from the project overview page will take you to your project library, which will have all of the resources related to your project.
+Dengan mengklik pada sumber daya dari halaman rincian proyek akan membawa Anda ke koleksi proyek, dimana koleksi proyek akan memiliki seluruh sumber daya yang terkait pada proyek Anda.
 
 ![](/assets/project-library.png)
 
-To add a resource while you're in the the library, click **Add** on the upper right.
+Untuk menambah sebuah sumber daya saat Anda berada dalam katalog, klik **Tambah** pada kanan atas. 
 
-From any of these starting points, you'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
+Kemudian, Anda akan dipandu oleh sebuah jendela yang akan muncul. Di sini, Anda akan diminta untuk meng-upload sebuah berkas, dan memberikan berkas tersebut nama beserta deskripsinya.
 
 ![](/assets/project-library.png)
 
-Acceptable file types are:
+Tipe berkas yang diterima adalah:
 
 * .pdf
 * .mp3
@@ -190,4 +190,4 @@ Acceptable file types are:
 * .tiff
 * .xls
 * .xlsx
-* .xml (This file type is particularly useful if you need to upload a .gpx document; just change the file extension from .gpx to .xml)
+* .xml (Tipe berkas ini akan berguna jika Anda ingin mengupload dokumen .gpx; Anda hanya perlu untuk mengubah ekstensi berkas dari .gpx ke .xml)
