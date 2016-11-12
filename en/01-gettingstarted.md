@@ -71,4 +71,3 @@ To get started with Cadasta, the first thing you need to do to is create a user 
 4. Select **Register**.
 
 After a successful login, you'll return to the home screen, where you can view public projects and organizations.
-
