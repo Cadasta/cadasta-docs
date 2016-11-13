@@ -28,11 +28,11 @@ Bagian ini menjelaskan secara ringkas bagaimana ODK Collect dan Cadasta dapat be
 
 Untuk informasi dan dokumentasi terkait ODK secara umum, kunjungi [opendatakit.org](https://opendatakit.org/).
 
-### Initial Setup {#initial-setup}
+### Pemasangan Awal {#initial-setup}
 
-To get started, [download ODK from the Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en), or wherever you acquire your applications.
+Untuk segera memulai, [download ODK dari Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en), atau dari sumber manapun dimana Anda memperoleh aplikasi Anda. 
 
-If this is the first time you've used ODK with the Cadasta Platform, you'll need to configure ODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
+Jika ini adalah pertama kali Anda menggunakan ODK dengan Platform Cadasta, Anda perlu untuk mengatur ODK untuk sinkronisasi langsung. Untuk melakukan ini, Anda memerlukan perngaturan akun Cadasta Anda, jika Anda belum punya, silahkan \(lihat [Getting Started](01-gettingstarted.md)\).
 
 1. Once you've created your account and installed ODK, open the application.
 
