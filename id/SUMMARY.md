@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Pengenalan](README.md)
 * [Getting Started](01-gettingstarted.md)
 * [Organizations](02-organizations.md)
 * [Projects](03-projects.md)
