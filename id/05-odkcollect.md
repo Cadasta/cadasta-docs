@@ -1,32 +1,32 @@
-# Collecting Data with ODK Collect (Open Data Kit) 
+# Mengumpulkan Data dengan ODK Collect (Open Data Kit) 
 
-* [Overview](#overview)
-* [Initial Setup](#initial-setup)
-* [Loading Your Questionnaire](#loading-your-form)
-* [Data Collection](#data-collection)
-* [Uploading Data](#uploading-data)
-* [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing)
-* [Editing Data](#editing-data)
-* [Deleting Questionnaires](#deleting-questionnaires)
-* [ODK Troubleshooting](#odk-troubleshooting)
+* [Ringkasan](#overview)
+* [Pemasangan Awal](#initial-setup)
+* [Memuat Kuesioner Anda](#loading-your-form)
+* [Pengumpulan Data](#data-collection)
+* [Mengupload Data](#uploading-data)
+* [Mengumpulkan Data Lokasi: GeoTrace, GeoPoint dan GeoShape](#geotracing)
+* [Mengubah Data](#editing-data)
+* [Menghapus Kuesioner](#deleting-questionnaires)
+* [Penyelesaian Masalah ODK](#odk-troubleshooting)
 
 
-###Overview {#overview}
+### Ringkasan {#overview}
 
-Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to accommodate a couple of tools for data collection, allowing for ingestion of data. One of those tools is Open Data Kit, or ODK Collect (which we refer to as ODK for short).
+Pengumpulan data lapangan merupakan salah satu bagian yang penting dalam proses pencatatan hak-hak atas tanah dan sumber daya. Platform Cadasta dirancang untuk menyediakan beberapa alat untuk pengumpulan data, dan memproses data-data tersebut. Salah satu alat ini disebut Open Data Kit, atau biasa disingkat dengan ODK Collect. 
 
-ODK is a free, open source mobile data collection application for Android devices \(sorry Apple fans\). To get started, [download ODK Collect from the Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en), or wherever you acquire your applications.
+ODK adalah perangkat lunak terbuka (open source) dan gratis untuk pengumpulan data secara mobile khusus Android \(maaf fans Apple)\. Untuk memulai, [download ODK Collect dari Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en), atau dari sumber manapun dimana Anda memperoleh aplikasi Anda. 
 
-This section provides an overview of how ODK and Cadasta work together:
+Bagian ini menjelaskan secara ringkas bagaimana ODK Collect dan Cadasta dapat bekerja sama: 
 
-1. First, you'll [set up ODK](#initial-setup) on an Android device.
-2. Then you'll [load the questionnaire](#loading-your-form) you want to use for data collection.
-3. Finally, it's time to [collect your data](#data-collection)! 
-4. When you're back to WiFi, [upload your data](#uploading-data) to the Cadasta Platform.
+1. Pertama, Anda perlu [memasang ODK](#initial-setup) pada sebuah perangkat Android. 
+2. Kemudian Anda akan [memuat kuesioner](#loading-your-form) yang Anda ingin gunakan untuk pengumpulan data. 
+3. Terakhir, saatnya untuk [mengumpulkan data Anda](#data-collection)! 
+4. Ketika Anda sudah memiliki jaringan WiFi, [upload data Anda](#uploading-data) ke Platform Cadasta.
 
-**Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to [troubleshoot](#odk-troubleshooting) or make any changes. 
+**Penting!** Langkah 1, 2, dan 4 membutuhkan jaringan WiFi. Anda juga mungkin ingin melakukan ujio coba langkah ke-3 sebelum keluar lapangan, untuk menjaga apabila Anda perlu [menyelesaikan masalah](#odk-troubleshooting) atau membuat perubahan. 
 
-For more information and documentation about ODK generally, visit [opendatakit.org](https://opendatakit.org/).
+Untuk informasi dan dokumentasi terkait ODK secara umum, kunjungi [opendatakit.org](https://opendatakit.org/).
 
 ### Initial Setup {#initial-setup}
 
