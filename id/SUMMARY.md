@@ -1,7 +1,7 @@
 # Summary
 
 * [Pengenalan](README.md)
-* [Getting Started](01-gettingstarted.md)
+* [Mulai Menggunakan](01-gettingstarted.md)
 * [Organizations](02-organizations.md)
 * [Projects](03-projects.md)
 * [Project Records: Locations, Parties, Relationships & Resources](04-records.md)
