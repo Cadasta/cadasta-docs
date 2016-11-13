@@ -3,7 +3,7 @@
 * [Pengenalan](README.md)
 * [Mulai Menggunakan](01-gettingstarted.md)
 * [Organisasi](02-organizations.md)
-* [Projects](03-projects.md)
+* [Proyek](03-projects.md)
 * [Catatan Proyek: Lokasi, Kelompok, Hubungan, dan Sumber Daya](04-records.md)
 * [Collecting Data with ODK Collect (Open Data Kit)](05-odkcollect.md)
 * [Collecting Data with GeoODK Collect (Geographical Open Data Kit)](06-geoodkcollect.md)
