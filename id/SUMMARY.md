@@ -2,7 +2,7 @@
 
 * [Pengenalan](README.md)
 * [Mulai Menggunakan](01-gettingstarted.md)
-* [Organizations](02-organizations.md)
+* [Organisasi](02-organizations.md)
 * [Projects](03-projects.md)
 * [Project Records: Locations, Parties, Relationships & Resources](04-records.md)
 * [Collecting Data with ODK Collect (Open Data Kit)](05-odkcollect.md)
