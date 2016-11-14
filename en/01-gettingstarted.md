@@ -4,6 +4,8 @@
 * [Quick Guide to Getting Started](#quick-guide-to-getting-started)
 * [Creating a New Account](#createnewaccount)
 
+_Looking for API documentation? <a href="https://cadasta.github.io/api-docs/#cadasta-api-documentation" target="_blank">Click here</a>._
+
 ### How Cadasta is Structured {#how-cadasta-is-organized}
 
 While anyone can use the Cadasta Platform, it's designed primarily for organizations working to document land and resource rights of individuals and communities. The structure of the Platform matches this design.
