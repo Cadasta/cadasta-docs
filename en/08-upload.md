@@ -38,7 +38,7 @@ On the page that follows, you'll be asked to select your input fields.
 
 ![](/assets/upload-03.png)
 
-Note that grayed out checkboxes indicate required questions in your questionnaire (i.e. questions marked `yes` in the `required` column). They must be included with the file upload. 
+Note that grayed-out checkboxes indicate required questions in your questionnaire (i.e. questions marked `yes` in the `required` column). They must be included with the file upload. 
 
 At the bottom of this page, you may see some notes like `The following fields have no corresponding attribute` and `These attributes exist in your schema but not in your import`. 
 
