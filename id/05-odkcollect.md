@@ -123,7 +123,7 @@ Baik mode automatic maupun manual, mohon perhatikan bahwa semakin banyak titik y
 
 ![](/assets/odk-geotrace-4.png)
 
-Saat Anda telah selesai dengan GeoTrace, tekan tombol Pause. Anda akan ditanyakan untuk merekam informasi Anda sebagai garis atau bentuk.
+Saat Anda telah selesai dengan GeoTrace, tekan tombol Pause. Anda akan ditanyakan untuk menyimpan informasi Anda sebagai garis atau bentuk.
 
 Jika Anda merekam sebuah titik atau garis, pilih polyline. Jika Anda merekam sebuah wilayah dan membuat bentuk tertutup, pilih polygon.
 
