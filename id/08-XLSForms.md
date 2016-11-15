@@ -34,8 +34,8 @@ Jika Anda memiliki pertanyaan tentang bagaimana untuk menggunakan kuesioner ini,
 Kuesioner ini memiliki tiga tab:
 
 * Survey
-* Pilihan, dan
-* Pengaturan.
+* Choices, dan
+* Settings.
 
 Tab **Survey** menunjukan skema pengumpulan data secara menyeluruh.
 
@@ -44,52 +44,52 @@ Tab **Survey** menunjukan skema pengumpulan data secara menyeluruh.
 Area yang berwarna abu-abu adalah kolom isian pada Platform Cadasta yang akan bekerja. Beberapa dari kolom isian tersebut \(contohnya `deviceid`\) digunakan dibalik proses, sehingga Anda tidak akan melihatnya di dalam Platform, ODK, atau GeoODK. _(Catatan! Jangan mengubah apapun yang ada di dalam kotak abu-abu!)_
 
 Penting bagi Anda untuk mengetahui tiga kolom pertama: 
-* `tipe` menentukan tipe data yang Anda tambakan - misalnya teks, tanggal, sebuah pilihan, atau lainnya. 
-* `nama` menentukan variabel yang digunakan untuk pemasukan data. Tidak boleh ada dua nama yang sama! 
+* `type` menentukan tipe data yang Anda tambakan - misalnya teks, tanggal, sebuah pilihan, atau lainnya. 
+* `name` menentukan variabel yang digunakan untuk pemasukan data. Tidak boleh ada dua nama yang sama! 
 * `label` menunjukan teks yang akan dilihat pada formulir. Kolom isian yang berwarna putih dapat dimodifikasi sesuai kebutuhan. 
 
-Tab **Pilihan** tab is where the choices for all the drop-down menus are stored.
+Tab **Choices** merupakan pilihan dimana menu pilihan ganda akan disimpan. 
 
 ![](/assets/minimum-choices.png)
 
-For example, the `respondent` entries Group, Individual and Corporation (A2 - A4 in the image above) correspond with this dropdown menu in the Add Relationship popup:
+Sebagai contoh, `respondent` terdiri dari Grup, Individual dan Korporat (A2 - A4 pada gambar di atas) berkaitan dengan menu pilihan pada jendela Tambah Hubungan:
 
 ![](/assets/relationship-dropdown.png)
 
-The **Settings** tab shows you the `form_id` and title of the questionnaire. You'll use this ID when you set up data collection with ODK and GeoODK.
+Tab **Settings** menunjukan `form_id` dan judul kuesioner Anda. Anda akan menggunakan ID ini ketika Anda memasang pengumpulan data dengan ODK dan GeoODK. 
 
-Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces.
+Pastikan seluruh kuesioner pada organisasi Anda memiliki ID formulir yang unik. Karena jika tidak, kuesioner Anda tidak akan termuat, dan Anda akan terpaksa menggunakan form yang asli dengan ID tersebut. Sebagai tambahan, pastikan ketika membuat nama dimulai dengan huruf kecil dan tidak memiliki spasi. 
 
-### The Standard Questionnaire {#standard-form}
+### Kuesioner Standar {#standard-form}
 
-[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has all the same questions as the mininimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
+[Kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) memiliki pertanyaan yang sama dengan versi minimal, dengan beberapa sedikit tambahan. Anda dapat melihat pilihan yang lebih banyak pada tab **Survey**.
 
 ![](/assets/standard-survey.png)
 
-The image above shows all the entries that will be collected in addition to the minimal information. These entries are organized by section:
+Gambar di atas menunjukan seluruh pemasukan data yang akan dikumpulkan dan ditambahkan pada informasi minimal. The image above shows all the entries that will be collected in addition to the minimal information. Pemasukan data tersebut diorganisir berdasarkan bagian: 
 
-* Location Attributes \(rows 22-28\)
-* Default Party Attributes \(rows 20-32\)
-* Individual Party Attributes \(rows 34-38\)
-* Group Party Attributes \(rows 40-43\)
-* Party Relationship Attributes \(45-47\)
-* Tenure Relationship Attributes \(49-51\)
+* Atribut Lokasi \(baris 22-28\)
+* Atribut Kelompok Standar \(baris 20-32\)
+* Atribut Kelompok Individual \(baris 34-38\)
+* Atribut Kelompok Grup \(baris 40-43\)
+* Atribut Hubungan Kelompok \(baris 45-47\)
+* Atribut Hubungan Kepemilikan \(baris 49-51\)
 
-Each of these sections relates to a data collection window in the cadasta platform.
+Setiap bagian ini berhubungan dengan jendela pengumpulan data di Platform Cadasta. 
 
-The **Choices** tab has the same options as the minimal questionnaire, with some additional drop-down choices as well.  
+Tab **Choices** memiliki pilihan yang sama dengan kuesioner minimal, dengan tambahan pilihan. 
 
 ![](/assets/standard-choices-2.png)
 
-For example, rows 38-47 show the choices for the different types of location acquisitions, which correspond with row 25 on the Survey tab (above).
+Sebagai contoh, baris 38-47 menunjukan pilihan untuk berbagai macam tipe akuisisi lokasi, yang terhubung dengan baris 25 pada tab Survey (atas).
 
-The **Settings** tab of the standard questionnaire is exactly the same as it is in the minimal version - providing the `form_id`, which is your identifier for the questionnaire in ODK or GeoODK.
+Tab **Settings** pada kuesioner standar sama dengan versi minimal - menyediakan `form_id`, untuk mengidentifikasi kuesioner Anda pada ODK atau GeoODK. 
 
 ![](/assets/standard-settings.png)
 
-Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces. 
+Pastikan seluruh kuesioner pada organisasi Anda memiliki ID formulir yang unik. Karena jika tidak, kuesioner Anda tidak akan termuat, dan Anda akan terpaksa menggunakan form yang asli dengan ID tersebut. Sebagai tambahan, pastikan ketika membuat nama dimulai dengan huruf kecil dan tidak memiliki spasi. 
 
-### Customizing Your Questionnaire {#customizing-your-questionnaire}
+### Menyesuaikan Kuesioner Anda {#customizing-your-questionnaire}
 
 If you need to collect different data than what's in the standard questionnaire, and more than what's in the minimum questionnaire, you can customize these forms to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for everything to work.
 
