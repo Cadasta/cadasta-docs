@@ -15,7 +15,7 @@
 
 Pengumpulan data lapangan merupakan salah satu bagian yang penting dalam proses pencatatan hak-hak atas tanah dan sumber daya. Platform Cadasta dirancang untuk menyediakan beberapa alat untuk pengumpulan data, dan memproses data-data tersebut. Salah satu alat ini disebut Open Data Kit, atau biasa disingkat dengan ODK Collect. 
 
-ODK adalah perangkat lunak terbuka (open source) dan gratis untuk pengumpulan data secara mobile khusus Android \(maaf fans Apple)\. Untuk memulai, [download ODK Collect dari Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en), atau dari sumber manapun dimana Anda memperoleh aplikasi Anda. 
+ODK adalah perangkat lunak terbuka (open source) dan gratis untuk pengumpulan data secara mobile khusus perangkat Android \(maaf fans Apple)\. Untuk memulai, [download ODK Collect dari Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en), atau dari sumber manapun dimana Anda memperoleh aplikasi Anda. 
 
 Bagian ini menjelaskan secara ringkas bagaimana ODK Collect dan Cadasta dapat bekerja sama: 
 
