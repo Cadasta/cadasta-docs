@@ -9,7 +9,7 @@
 * [Mengumpulkan Data dengan GeoODK Collect (Geographical Open Data Kit)](06-geoodkcollect.md)
 * [Mendownload Data](07-download.md)
 * [Questionnaires & Custom Data Collection](08-XLSForms.md)
-* [Translation](09-translation.md)
+* [Terjemahan](09-translation.md)
 * [Frequently Asked Questions](10-faq.md)
 * [Change Log](11-change-log.md)
 
