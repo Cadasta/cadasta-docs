@@ -50,88 +50,88 @@ Sekarang Anda telah memiliki akun GeoODK yang akan tersinkronisasi dengan Platfo
 
 Klik tombol kembali tiga kali untuk kembali ke menu utama. 
 
-### Loading your Questionnaire {#loading-your-form}
+### Memuat Kuesioner Anda {#loading-your-form}
 
-Once you've connected GeoODK with Cadasta, the next thing you need to do is load the questionnaire you're using for your data collection project. 
+Setelah GeoODK dan Cadasta Anda terhubung, hal selanjutnya yang perlu Anda lakukan adalah memuat kuesioner yang akan Anda gunakan untuk proyek pengumpulan data.
 
-1. From the Main Menu, select **Settings**, then **Form Management**. 
+1. Dari menur utama, pilih **Settings**, kemudian **Form Management**. 
 
     ![](/assets/geo-odk-3-form-management.png)
 
-2. At this stage, you may be asked to provide your Cadasta username and password. Enter this information and then wait a few moments to be connected to the server. _Having trouble with this step? See [GeoODK Troubleshooting](#geoodk-troubleshooting)._
+2. Pada tahap ini, Anda akan diminta untuk memasukan nama pengguna dan kata kunci dari akun Cadasta Anda. Masukan informasi tersebut kemudian tunggu beberapa saat untuk terhubung ke server. _Anda mengalami masalah di langkah ini? Lihat [Penyelesaian Masalah GeoODK](#geoodk-troubleshooting)._
 
     ![](/assets/geo-odk-4-user-pass.png)
 
-3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you'd like to download and tap **Get Selected**.
+3. Pada halaman yang telah Anda ikuti, Anda akan melihat sebuah daftar kuesioner yang telah dimuat untuk proyek organisasi Anda. Centang atau tandai pada formulir yang ingin Anda gunakan, dan sentuh **Get Selected**.
 
     ![](/assets/geo-odk-5-questionnaire-list.png)
 
-Now, GeoODK is configured to record data using the questions in your questionnaire. 
+Sekarang, GeoODK telah terkonfigurasi untuk mencatat data dengan menggunakan pertanyaan yang terdapat pada kuesioner Anda. 
 
-### Data Collection {#data-collection}
+### Pengumpulan Data {#data-collection}
 
-Once you've initialized GeoODK and loaded your questionnaire, now it’s time to collect some data!
+Setelah Anda menyiapkan GeoODK dan memuat kuesioner Anda, saatnya untuk mengumpulkan beberapa data! 
 
-1. From the Main Menu select **Collect Data** then the questionnaire that you want to use. 
+1. Dari menu utama, pilih **Collect Data** kemudian pilih kuesioner yang ingin Anda gunakan. 
 
     ![](/assets/geo-odk-6-collect-data.png)
 
-2. Swipe left twice to get started completing the form.
-3. Continue answering all the survey questions until you reach the "End of survey" message. During this step, swipe left after you've answered each question. 
-    * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
-4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
+2. Geser ke kiri dua kali untuk mulai mengisi formulir tersebut. 
+3. Lanjutkan untuk menjawab seluruh pertanyaan survey hingga Anda menemukan pesan "End of survey" yang menandakan survey telah selesai. Pada langkah ini, geser ke kiri setelah Anda menjawab setiap pertanyaan. 
+    * Saat bagian ini, Anda akan ditanyakan untuk mencatat data lokasi dengan GeoTrace, atau menambahkan sebuah GeoShape atau GeoPoint. Informasi lebih lanjut terkait bagaimana mereka bekerja, lihat [Mengumpulkan Data Lokasi: GeoTrace, GeoPoint and GeoShape](#geotracing).
+4. Ketika semua pertanyaan telah selesai, pilih **Mark Form as finalized** dan **Save Form and Exit**. 
 
     ![](/assets/geo-odk-7-finalized-form.png)
 
-### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
+### Mengumpulkan Data Lokasi: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
-During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
+Saat [pengumpulan data](#data-collection), Anda akan diminta untuk memperoleh data yang menunjukan lokasi Anda dengan menggunakan beberapa pilihan sebagai berikut. 
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** membuat garis (kumpulan dua koordinat GPS atau lebih) berdasarkan lokasi Anda. Pilihan ini merupakan pilihan standar yang tersedia pada kuesioner standar dan minimal. 
 
-* **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
+* **[GeoShape](#geoshape)** membuat bentuk (bentuk tertutup). Untuk membuat sebuah GeoShape, Anda dapat menggunakan jari Anda untuk menggambar sebuah bentuk pada peta.   
 
-* **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
+* **[GeoPoint](#geopoint)** membuat titik (satu koordinat GPS) berdasarkan lokasi Anda. 
 
-To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](08-XLSForms.md).
+Untuk mempelajari lebih lanjut bagaimana mengatur pilihan-pilihan tersebut dalam kuesioner Anda, lihat [Kuesioner & Pengumpulan Data yang Disesuaikan](08-XLSForms.md).
 
 #### GeoTrace {#geotrace}
 
-To start geotracing, hit the Play button in the upper left:
+Untuk memulai GeoTrace, sentuh tombol Play (mulai) di sebelah kiri atas: 
 
 ![](/assets/geo-odk-geotrace-1-play.png)
 
-From there, you'll be asked to select either Automatic or Manual mode. 
+Selanjutnya, Anda akan diminta untuk memilih mode Automatic atau Manual. 
 
 ![](/assets/geo-odk-geotrace-2-manual-automatic.png)
 
-**Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map. For example, it's common practice to drop pins at each corner of a location. 
+**Manual mode** memperbolehkan Anda untuk merekam GeoTrace secara manual. Setiap kali Anda menentukan sebuah pin, klik pada tombol **Record Location Point** pada bagian atas peta. Sebagai contoh, idealnya pin dapat diletakan di setiap sudut dari sebuah lokasi. 
 
 ![](/assets/geo-odk-geotrace-3-record-location-point.png)
 
-**Automatic mode** records your location at set intervals, such as once every 20 seconds. This mode is helpful if you're recording a large area. 
+**Automatic mode** merekam lokasi Anda pada jangkauan waktu tertentu, misalnya setiap 20 detik. Mode ini akan berguna jika Anda merekam sebuah wilayah yang luas. 
 
-The amount of time you should set for your interval depends on how you're collecting the data. For example, if you're driving, you may want to set the interval to be once every 5 seconds. If you're walking, you may want to record once every 20-30 seconds. 
+Jangkauan waktu yang ditentukan seharusnya diatur sesuai dengan bagaimana Anda mengumpulkan data. Misalnya, jika Anda menggunakan kendaraan, Anda mungkin ingin mengatur interval setiap 5 detik. Jika Anda berjalan kaki, Anda mungkin ingin mengatur jangkauan waktu setiap 20-30 detik. 
 
-If you know you need to record the corners of a large area, then you might want to try manual mode. Or, if you're using automatic mode, pause on the corner long enough for the pin to drop. Alternatively, in automatic mode, you can also use the **Record Location Point** button to manually drop a pin.
+Jika Anda tahu bahwa Anda memerlukan untuk merekam sebuah wilayah yang luas, Anda mungkin dapat mencoba mode manual. Atau jika Anda menggunakan mode Automatic, Anda dapat berhenti sejenak di bagian sudut wilayah untuk menandakannya dengan sebuah pin. Sebagai alternatif, pada mode Automatic, Anda juga dapat menggunakan tombol **Record Location Point** untuk menandakan sebuah lokasi secara manual.
 
-For either automatic or manual mode, keep in mind that the more points you record, the bigger your data file will be and the harder it will be to upload when you return to WiFi or you mobile network. Collect all the points you need - and only the points you need!
+Baik mode automatic maupun manual, mohon perhatikan bahwa semakin banyak titik yang Anda rekam, semakin besar berkas data Anda dan akan semakin sulit untuk diupload ketika menggunakan WiFi atau jaringan seluler Anda. Kumpulkan titik-titik seperlunya - dan hanya tambahkan titik-titik yang Anda butuhkan. 
 
-When you're done geotracing, hit the pause button. You'll then be asked to save your information as a polyline or polygon.
+Saat Anda telah selesai dengan GeoTrace, tekan tombol Pause. Anda akan ditanyakan untuk menyimpan informasi Anda sebagai garis atau bentuk. 
 
 ![](/assets/geo-odk-geotrace-4-save-geotrace.png)
 
-If you've recording a point or line, choose polyline. If you've recording an area and created a closed shape, choose polygon.
+Jika Anda merekam sebuah titik atau garis, pilih polyline. Jika Anda merekam sebuah wilayah dan membuat bentuk tertutup, pilih polygon.
 
-Finally, you'll be brought to a confirmation screen where you can view your GeoTrace. 
+Akhirnya, Anda akan dibawa ke layar konfirmasi dimana Anda dapat melihat GeoTrace Anda. 
 
 ![](/assets/geo-odk-geotrace-5-confirmation.png)
 
-_Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is._
+_Catatan bahwa GeoODK akan menyebut sebuah parsel dengan geotrace tanpa menghiraukan jenis lokasi tersebut._
 
 #### GeoShape {#geoshape}
 
-GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area.  
+GeoShape dirancang untuk membuat bentuk (atau polygon) untuk menggambarkan sebuah lokasi spesifik. Misalnya, Anda dapat menggunakan GeoShape untuk menggambar sebuah batas di sekeliling bangunan atau wilayah tanah. 
 
 ![](/assets/geo-odk-geoshape-1.png)
 
