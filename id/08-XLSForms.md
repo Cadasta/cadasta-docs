@@ -1,11 +1,11 @@
-# Questionnaires & Custom Data Collection
+# Kuesioner & Pengumpulan Data yang Disesuaikan
 
-* [Overview](#overview)
-* [Minimum Questionnaire](#minimal-form)
-* [Standard Questionnaire](#standard-form)
-* [Customizing Your Questionnaire](#customizing-your-questionnaire)
+* [Ringkasan](#overview)
+* [Kuesioner Minimal](#minimal-form)
+* [Kuesioner Standar](#standard-form)
+* [Menyesuaikan Kuesioner Anda](#customizing-your-questionnaire)
 
-### Overview {#overview}
+### Ringkasan {#overview}
 
 Every data collection project is different - starting with the questions you're asking. These questions shape everything about the project- including the entry fields for data collection.
 
