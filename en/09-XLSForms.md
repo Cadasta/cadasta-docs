@@ -267,6 +267,8 @@ Notice that `select_one` - the dropdown option - requires identifying a set of c
 
 ![](/assets/standard-choices-example.png)
 
+_Note that using `select_multiple` follows the same logic; only rather than selecting a single item from a dropdown, it allows the user to select multiple items._
+
 These options will appear in the dropdown when it's selected.
 
 In addition to these basic data types, [XLSForm offers many different data types for you to choose from](http://xlsform.org/#question-types).
