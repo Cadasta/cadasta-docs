@@ -10,6 +10,6 @@
 * [Mendownload Data](07-download.md)
 * [Questionnaires & Custom Data Collection](08-XLSForms.md)
 * [Terjemahan](09-translation.md)
-* [Frequently Asked Questions](10-faq.md)
-* [Change Log](11-change-log.md)
+* [Hal-Hal yang Sering Ditanyakan](10-faq.md)
+* [Catatan Perubahan](11-change-log.md)
 
