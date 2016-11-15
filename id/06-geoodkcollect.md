@@ -1,50 +1,54 @@
-# Collecting Data with GeoODK Collect (Geographical Open Data Kit) 
+# Mengumpulkan Data dengan GeoODK Collect (Geographical Open Data Kit) 
 
-* [Overview](#overview)
-* [Initial Setup](#initial-setup)
-* [Loading Your Questionnaire](#loading-your-form)
-* [Data Collection](#data-collection)
-* [Uploading Data](#uploading-data)
-* [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing)
-* [Editing Data](#editing-data)
-* [Deleting Questionnaires](#deleting-questionnaires)
-* [GeoODK Troubleshooting](#geoodk-troubleshooting)
+* [Ringkasan](#overview)
+* [Pemasangan Awal](#initial-setup)
+* [Memuat Kuesioner Anda](#loading-your-form)
+* [Pengumpulan Data](#data-collection)
+* [Mengupload Data](#uploading-data)
+* [Mengumpulkan Data Lokasi : GeoTrace, GeoPoint and GeoShape](#geotracing)
+* [Mengubah Data](#editing-data)
+* [Menghapus Kuesioner](#deleting-questionnaires)
+* [GPenyelesaian Masalah GeoODK](#geoodk-troubleshooting)
 
 ###Overview {#overview}
 
-Geographical Open Data Kit \(GeoODK Collect\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like Open Data Kit (ODK Collect), GeoODK can be used for data collection projects in the Cadasta Platform. 
+Geographical Open Data Kit \(GeoODK Collect\) adalah aplikasi pengumpulan data untuk perangkat Android (sayangnya belum tersedia untuk perangkat Apple). Seperti Open Data Kit (ODK Collect), GeoODK dapat digunakan untuk proyek pengumpulan data di Platform Cadasta. 
 
-This section provides an overview of how GeoODK and Cadasta work together:
+Bagian ini menjelaskan secara ringkat bagaimana GeoODK dan Cadasta dapat bekerja sama: 
 
-1. First, you'll [set up GeoODK](#initial-setup) on an Android device.
-2. Then you'll [load the questionnaire](#loading-your-form) you want to use for data collection.
-3. Finally, it's time to [collect your data](#data-collection)! 
-4. When you're back to WiFi, [upload your data](#uploading-data) to the Cadasta Platform.
+1. Pertama, Anda perlu [memasang GeoODK](#initial-setup) pada sebuah perangkat Android.
+2. Kemudian Anda akan [memuat kuesioner](#loading-your-form) yang Anda inginkan untuk pengumpulan data. 
+3. Terakhir, saatnya untuk [mengumpulkan data Anda](#data-collection)! 
+4. Ketika Anda sudah memiliki jaringan WiFi, [upload data Anda](#uploading-data) ke Platform Cadasta.
 
-**Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to [troubleshoot](#geoodk-troubleshooting) or make any changes. 
+**Penting!** Langkah 1, 2, dan 4 membutuhkan jaringan WiFi. Anda juga mungkin ingin melakukan ujio coba langkah ke-3 sebelum keluar lapangan, untuk menjaga apabila Anda perlu [menyelesaikan masalah](#geoodk-troubleshooting) atau membuat perubahan. 
 
-For more information and documentation about GeoODK generally, visit [geoodk.com](http://geoodk.com/).
+Untuk informasi dan dokumentasi terkait GeoODK secara umum, kunjungi [geoodk.com](http://geoodk.com/).
 
-### Initial Setup {#initial-setup}
+### Pemasangan Awal {#initial-setup}
 
-To get started, [download GeoODK from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), or wherever you acquire your applications.
 
-If this is the first time you've used GeoODK with the Cadasta Platform, you'll need to configure GeoODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
+Untuk segera memulai, [download GeoODK dari the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), atau dari sumber manapun dimana Anda memperoleh aplikasi Anda. 
 
-1. Once you've created your account and installed GeoODK, open the application.
-2. From the map screen, hit the button with the four squares on the right. Then select **Settings** from the Main Menu, then **General Settings**, then **Configure Platform Settings**. 
+Jika ini adalah pertama kali Anda menggunakan GeoODK dengan Platform Cadasta, Anda perlu untuk mengatur GeoODK untuk sinkronisasi langsung. Untuk melakukan ini, Anda memerlukan perngaturan akun Cadasta Anda, jika Anda belum punya, silahkan \(lihat [Mulai Menggunakan](01-gettingstarted.md)\).
+
+
+1. Setelah Anda membuat akun dan memasang GeoODK, buka aplikasi GeoODK.
+2. Dari tampilan peta, sentuh tombol dengan empat persegi di sebelah kanan. Kemudian pilih  **Settings** dari menu utama, kemudian **General Settings**, kemudian **Configure Platform Settings**. 
 
     ![](/assets/geo-odk-1-configure-settings.png)
 
-3. On this screen, enter the Platform URL along with your username and password. The username and password do not have to be the same as they are on your Cadasta account, but it may be helpful to keep them consistent. The URL you need should be similar to the one you used when you signed up for your Cadasta account. 
-    * https://platform.cadasta.org/collect \(if for active projects\); or
-    * https://demo.cadasta.org/collect  \(if for testing\)
+3. Pada layar ini, masukan URL Platform dengan nama pengguna Anda dan kata kunci. Nama pengguna dan kata kunci tidak harus sama dengan akun Cadasta Anda, tetapi akan lebih membantu apabila mereka konsisten. Untuk URL, Anda harus menyesuaikan dengan yang Anda gunakan saat Anda mendaftar akun Cadasta Anda.  
+
+    * https://platform.cadasta.org/collect \(untuk proyek aktif\); atau
+
+    * https://demo.cadasta.org/collect  \(untuk uji coba\)
 
     ![](/assets/geo-odk-2-url.png)
 
-You now have a GeoODK account that's synced with the Cadasta Platform.
+Sekarang Anda telah memiliki akun GeoODK yang akan tersinkronisasi dengan Platform Cadasta. 
 
-Click the back button 3 times to return to the main menu.
+Klik tombol kembali tiga kali untuk kembali ke menu utama. 
 
 ### Loading your Questionnaire {#loading-your-form}
 
