@@ -7,23 +7,23 @@
 
 ### Ringkasan {#overview}
 
-Every data collection project is different - starting with the questions you're asking. These questions shape everything about the project- including the entry fields for data collection.
+Setiap proyek pengumpulan data dapat berbeda - dimulai dari pertanyaan yang Anda tanyakan. Pertanyan-pertanyaan ini dapat membentuk proyek yang terbentuk - termasuk kolom isian untuk pengumpulan data.
 
-The Cadasta Platform allows you to define your own data collection schema, so you can tailor it around the specific questions you're asking. These questions could include contact details, geographic place names or how the land was acquired.
+Platform Cadasta memfasilitasi Anda untuk menetukan skema pengumpulan data Anda sendiri, sehingga Anda dapat menyesuaikannya sesuai dengan pertanyaan yang Anda ajukan. Pertanyaan-pertanyaan ini dapat termasuk rincian kontak, nama tempat, atau bagaimana tanah tersebut diakuisisi.
 
-In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
+Pada Platform Cadasta, prinsip teknologi seperti ini diperoleh dari [XLSForm](http://xlsform.org/). XLSForm adalah formulir isian standar yang memfasilitasi Anda untuk membuat formulir isiang menggunakan sebuah tabel. Formulit ini \(atau yang kita sebut dengan kuesioner\) merupakan alternatif sebuah database yang sederhana. Tetapi mereka juga dirancang untuk mengelola informasi dengan berbagai tingkat kompleksitas. 
 
-You can start your project with one of these two ready-to-go questionnaires:
+Anda dapat memulai proyek Anda dengan salah satu dari dua kuesioner yang telah disiapkan:
 
-* [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) - which creates a schema for the bare minimum of data needed by the platform; and
+* [Kuesioner minimal](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) - dimana membuat sebuah skema minimal untuk data yang dibutuhkan oleh platform; dan 
 
-* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) - which is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
+* [Kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) - dimana merupakan sebuah titik awal untuk rekan-rekan kami. Kuesioner ini termasuk kolom isian yang ada di kuesioner minimum, dengan beberapa tambahan. 
 
-You can use either of these forms as starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
+Anda dapat menggunakan kedua formulir ini sebagai titik awal untuk proyek Anda. Anda juga dapat memodifikasi bagian dari formulir ini untuk menyesuaikan kebutuhan koleksi data Anda. 
 
-If you need to significantly modify these data entry fields, see the section on [customizing your questionnaire](#customizing-your-questionnaire). 
+Jika Anda membutuhkan modifikasi yang signifikan dari kolom isian kuesioner, lihat bagian [menyesuaikan kuesioner Anda](#customizing-your-questionnaire). 
 
-_**Important note:** You can make small changes to your questionnaire - such as adding a row - and reupload it to an existing project. However, if your questionnaire changes significantly, you may need to start a new project._
+_**Catatan penting:** Anda dapat melakukan perubahan kecil pada kuesioner Anda - misalnya menambahkan baris - dan mengupload ulang pada proyek yang tersedia sebelumnya. Bagaimanapun, jika kuesioner Anda berubah secara signifikan, Anda mungkin harus memulai sebuah proyek baru._
 
 If you have questions about how to use these questionnaires, [contact us](http://cadasta.org/contact/) at any time.
 
