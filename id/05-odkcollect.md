@@ -73,7 +73,7 @@ Sekarang, ODK telah terkonfigurasi untuk mencatat data dengan menggunakan pertan
 
 Setelah Anda menyiapkan ODK dan memuat kuesioner Anda, saatnya untuk mengumpulkan beberapa data! 
 
-1. Dari Menu Utama ODK, pilih **Fill Blank Form** kemudian kuesioner yang ingin Anda gunakan.
+1. Dari Menu Utama ODK, pilih **Fill Blank Form** kemudian pilih kuesioner yang ingin Anda gunakan.
 
     ![](/assets/odk-5-fill-blank-form.png)
 
