@@ -1,3 +1,3 @@
-# Translation
+# Terjemahan
 
-Coming soon!
+Akan hadir!
