@@ -75,9 +75,21 @@ For example, the `respondent` entries Group, Individual and Corporation (A2 - A4
 
 ![](/assets/relationship-dropdown.png)
 
-The **Settings** tab shows you the `form_id` and title of the questionnaire. You'll use this ID when you set up data collection with ODK and GeoODK.
+The **Settings** tab shows you the `form_id`, the title of the questionnaire, and the default language. 
 
-Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces.
+You'll use the `form_id` when you set up data collection with ODK and GeoODK. 
+
+Each form ID in your organization needs to be unique. Make sure all of the questionnaires follow this rule. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces.
+
+The default language is set using <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">two-letter ISO 639-1 codes</a>. For example, to set the default language to Swahili, you would use the abbreviation `sw`. 
+
+If you need to use other languages in your questionnaire (such as a combination of Swahili and English), you can indicate the preferred language in the column header in your form questionnaire using a notation like this:
+
+```
+label::en
+```
+
+In the above example, `label` is the column header title; adding `::en` to the end indicates that the contents in that column should appear in English.
 
 ### The Standard Questionnaire {#standard-form}
 
@@ -213,6 +225,16 @@ In your location data collection, you may choose to collect point, line, or poly
 * `geopoint` collects single points of data based on the user's GPS coordinates. 
 
 To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaire. 
+
+##### Attachment of Multiple Resources
+
+If you need to attach multiple resources during your data collection in the field, you can do so using two special codes:
+
+* `tenure_resource`, for uploading multiple resources related to relationships, and
+
+* `location_resource`, for uploading multiple resources related to a location. 
+
+> David, need example
 
 #### Advanced Customization
 
