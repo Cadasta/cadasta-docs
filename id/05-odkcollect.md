@@ -147,7 +147,6 @@ Ketika Anda siap untuk menyimpan GeoShape Anda, sentuh ikon **Save** di sebelah 
 
 #### GeoPoint {#geopoint}
 
-
 Untuk mengumpulkan sebuah koordinat GPS, Anda dapat menggunakan GeoPoint. GeoPoint hanya bekerja dengan menandakan lokasi spesifik Anda (menggambarkan lokasi dengan jari tidak tersedia).
 
 Ketika Anda memulai mengumpulkan GeoPoint Anda, pertama-tama aplikasi akan memuat lokasi Anda. Hal ini akan memakan waktu beberapa menit. 
