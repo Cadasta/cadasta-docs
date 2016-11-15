@@ -91,15 +91,15 @@ Pastikan seluruh kuesioner pada organisasi Anda memiliki ID formulir yang unik. 
 
 ### Menyesuaikan Kuesioner Anda {#customizing-your-questionnaire}
 
-If you need to collect different data than what's in the standard questionnaire, and more than what's in the minimum questionnaire, you can customize these forms to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for everything to work.
+Jika Anda akan mengumpulkan data yang berebda dengan apa yang ada di dalam kuesioner standar, dan lebih daripada yang terdapat di kuesioner minimal, Anda dapat mengubah formulit ini untuk menyesuaikan dengan kebutuhan Anda. Apapun yang terdapat pada kolom isian berwarna putih dapat dimodifikasi. Kolom isian dengan warna abu-abu harus tetap sama agar semuanya tetap bekerja. 
 
-#### Basic Customization
+#### Penyesuaian Dasar
 
-##### Deleting Unnecessary Fields
+##### Menghapus Kolom Isian yang Tidak Diperlukan
 
-If there's a field that you don't want to include, simply delete its row from the survey tab of the questionnaire. To do this in Excel, right-click the row and then select Delete.
+Jika ada sebuah kolom isian yang tidak ingin Anda masukan, Anda dapat menghapus baris kolom isian tersebut dari tab survey pada kuesioner. Untuk melakukan ini di Excel, klik kanan pada baris kemudian klik Delete. 
 
-_**Important note!** Remember that fields in gray cannot be deleted or modified; only delete rows that have completely white backgrounds._
+_**Catatan Penting!** Ingat bahwa kolom isian yang berwarna abu-abu tidak dapat dihapus atau dimodifikasi; Anda hanya da[at menghapus baris yang seluruhnya berlatar belakang putih._
 
 ##### Editing Drop-Down Fields
 
