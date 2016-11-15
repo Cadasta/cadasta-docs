@@ -1,52 +1,66 @@
 #Importing Data
 
+* [Overview](#overview)
+* [Setting Up](#setting-up)
+* [Importing Data](#importing-data)
+
+### Overview{#overview}
+
 If you've already been collecting data in another system and are switching to the Cadasta Platform, you can import your data in a .csv. This can be useful if you have many questionnaires to import, whether you have 10 or 10,000.
 
-> David, what information do I need to tell them about the fields in the CSV? What is required, if anything?
+Data importing is also a relatively new feature. We recommend that you <a href="http://http://cadasta.org/contact/" target="_blank">reach out to us</a> so that we can help you through the process. 
 
-To do this, navigate to the main project page. There, select the three dots on the upper right, and then Import Data. 
+### Setting Up{#setting-up}
 
-> add image: David, can you get an image of this from the Uttaran project? It would be helpful to have for consistency. 
+Before importing your data, you'll want to make sure that the structure of your dataset matches the structure of the [questionnaire](#09-XLSForms.md) that you're using for your project. 
 
-Next, you'll come to a page where you can give the file a name, and select your .csv for uploading.
+In this example, you can see a .csv of responses:
 
-> David, what is the best practice for saving the file as a project resource? It makes a duplicate or something? Why would you want to do that?
+![](/assets/upload-sample-csv.png)
+
+Each of these fields corresponds with entries in this customized questionnaire:
+
+> add image
+
+If you have questions about whether your questionnaire matches your data set, or if you need to create a questionnaire to match your data, please don't hesitate to <a href="http://http://cadasta.org/contact/" target="_blank">reach out to us</a> for assistance. 
+
+### Importing Data {#importing-data}
+
+To import your data this, navigate to the main project page. There, select the three dots on the upper right, and then Import Data. 
 
 ![](/assets/upload-01.png)
 
-On the page that follows, you'll be asked to select your input fields. 
-
-> David, what context / guidelines should I provide to users who are trying to figure out which fields to include? 
+Next, you'll come to a page where you can give the file a name and select your .csv for uploading. You can also select whether or not you'd like to add your .csv as a project resource, which may be helpful for archival purposes. 
 
 ![](/assets/upload-02.png)
 
-Next, you'll need to configure a couple types of fields. One type is for selecting the type of default party name and party type (individual, group, or corporation). The other is for selecting the type of location, geometry, and geometry field.
+On the page that follows, you'll be asked to select your input fields. 
 
-You location can be one of the following:
+![](/assets/upload-03.png)
 
-* **Parcel** - a plot of land.
-* **Community Boundary** - a formal or informal boundary between two groups of people.
-* **Building** - any kind of structure.
-* **Apartment** - an apartment or apartment building.
-* **Project Extent** - the full boundary of the project.
-* **Right-of-Way** - an easement that allows a person or group of people to pass throuh another's land.
-* **Utility Corridor** - a passage, either overground or underground, meant to carry utility lines like electricity and water. 
-* **National Park Boundary** - the boundary between a national park and another kind of land. 
-* **Miscellaneous** - another kind of location that doesn't fit into any of your categories.
+Note that grayed out checkboxes indicate required questions in your questionnaire (i.e. questions marked `yes` in the `required` column). They must be included with the file upload. 
 
-Your geometry fields can be one of the following:
-
-> David, what are the options here? 
-
-And finally, the geometry fields can be one of these:
-
-> David, what are the options here?
-
-When you're done, you can select **Import Data** from the bottom right. Then, you'll be able to see all of the records you've imported from the project location overview page. 
+At the bottom of this page, you may see some notes like `The following fields have no corresponding attribute` and `These attributes exist in your schema but not in your import`. 
 
 ![](/assets/upload-04.png)
 
+> David, what is meant here?
 
+The first message indicates [not sure, David?]
 
+The second message indicates fields that exist in your questionnaire that do no appear in your .csv.
 
+On the next page, you'll need to configure a couple types of fields. 
+
+![](/assets/upload-05.png)
+
+One type is for selecting the type of default party name and party type (individual, group, or corporation). The other is for selecting the type of location, geometry, and geometry field.
+
+_Please note that this section will likely change as of December 2016. In the meantime, please <a href="http://http://cadasta.org/contact/" target="_blank">reach out to us</a> for guidance.
+
+When you're done, select **Import Data** from the bottom right. Note that this might take a few moments. If the upload takes more than a minute, then you will get a timeout and need to try again. If the problem persists, try splitting your one .csv into two. 
+
+If the uploaded is completed successfully, you'll be able to see all of the records you've imported from the project location overview page. 
+
+![](/assets/upload-07.png)
 
