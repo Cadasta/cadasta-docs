@@ -183,7 +183,7 @@ Anda juga dapat menghapus kuesioner yang tidak dibutuhkan dengan memilih **Delet
 
 ### Penyelesaian Masalah ODK {#odk-troubleshooting}
 
-Jika Anda nmemiliki masalah menggunakan ODK, Anda mungkin akan menemukan jawaban di sini. Jika tidak, mohon [hubungi kami](http://cadasta.org/contact/) dan kami akan melakukan yang terbaik untuk membantu menyelesaikan permasalahan Anda. 
+Jika Anda memiliki masalah menggunakan ODK, Anda mungkin akan menemukan jawaban di sini. Jika tidak, mohon [hubungi kami](http://cadasta.org/contact/) dan kami akan melakukan yang terbaik untuk membantu menyelesaikan permasalahan Anda. 
 
 #### Masalah Saat Memuat Kuesioner Anda
 
