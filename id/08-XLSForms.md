@@ -48,7 +48,7 @@ Penting bagi Anda untuk mengetahui tiga kolom pertama:
 * `nama` menentukan variabel yang digunakan untuk pemasukan data. Tidak boleh ada dua nama yang sama! 
 * `label` menunjukan teks yang akan dilihat pada formulir. Kolom isian yang berwarna putih dapat dimodifikasi sesuai kebutuhan. 
 
-The **Choices** tab is where the choices for all the drop-down menus are stored.
+Tab **Pilihan** tab is where the choices for all the drop-down menus are stored.
 
 ![](/assets/minimum-choices.png)
 
