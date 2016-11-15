@@ -230,11 +230,17 @@ To change what data type you're collecting, modify cell A11 on either your stand
 
 If you need to attach multiple resources during your data collection in the field, you can do so using two special codes:
 
-* `tenure_resource`, for uploading multiple resources related to relationships, and
+* `tenure_resource`, for uploading multiple resources related to relationships, 
+
+* `party_resource`, for uploading multiple resources related to the party, and
 
 * `location_resource`, for uploading multiple resources related to a location. 
 
-> David, need example
+Here's an example of these codes at work in a questionnaire, under `name` in rows 11, 12, 19, 20, 31, 32, and 33:
+
+![](/assets/questionnaire-mulitiple-resource-example.png)
+
+The codes can be used multiple times in your questionnaire, preceding unique words like `_pic1` and `_pic2`. 
 
 #### Advanced Customization
 
