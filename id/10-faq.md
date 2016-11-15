@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQs)
+# Hal-Hal yang Sering Ditanyakan
 
 Have a question? Your answer may be here, in one of the following sections:
 
