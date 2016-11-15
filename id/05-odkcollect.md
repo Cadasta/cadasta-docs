@@ -133,7 +133,6 @@ _Catatan bahwa ODK akan menyebut sebuah parsel dengan geotrace tanpa menghirauka
 
 #### GeoShape {#geoshape}
 
-
 GeoShape dirancang untuk membuat bentuk (atau polygon) untuk menggambarkan sebuah lokasi spesifik. Misalnya, Anda dapat menggunakan GeoShape untuk menggambar sebuah batas di sekeliling bangunan atau wilayah tanah.
 
 Jika Anda mengumpulkan data menggunakan GeoShape, pertama-tama Anda akan diminta untuk memperbesar ke lokasi Anda saat itu atau ke fitur yang telah disimpan. 
