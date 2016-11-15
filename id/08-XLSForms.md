@@ -25,28 +25,28 @@ Jika Anda membutuhkan modifikasi yang signifikan dari kolom isian kuesioner, lih
 
 _**Catatan penting:** Anda dapat melakukan perubahan kecil pada kuesioner Anda - misalnya menambahkan baris - dan mengupload ulang pada proyek yang tersedia sebelumnya. Bagaimanapun, jika kuesioner Anda berubah secara signifikan, Anda mungkin harus memulai sebuah proyek baru._
 
-If you have questions about how to use these questionnaires, [contact us](http://cadasta.org/contact/) at any time.
+Jika Anda memiliki pertanyaan tentang bagaimana untuk menggunakan kuesioner ini, silahkan [hubungi kami](http://cadasta.org/contact/) kapanpun.
 
-### The Minimum Questionnaire {#minimal-form}
+### Kuesioner Minimal {#minimal-form}
 
-[The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) has the essential fields you need for data collection using the Cadasta Platform.
+[Kuesioner minimal](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) memiliki kolom isian yang penting untuk pengumpulan data menggunakan Platform Cadasta. 
 
-This questionnaire has three tabs:
+Kuesioner ini memiliki tiga tab:
 
 * Survey
-* Choices, and
-* Settings.
+* Pilihan, dan
+* Pengaturan.
 
-The **Survey** tab shows the overall data collection schema.
+Tab **Survey** menunjukan skema pengumpulan data secara menyeluruh.
 
 ![](/assets/minimum-survey.png)
 
-The areas in gray are fields that the Cadasta platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes, so you'll never see them in the Platform, ODK, or GeoODK. _(Note! Do not tamper with any of the gray fields!)_
+Area yang berwarna abu-abu adalah kolom isian pada Platform Cadasta yang akan bekerja. Beberapa dari kolom isian tersebut \(contohnya `deviceid`\) digunakan dibalik proses, sehingga Anda tidak akan melihatnya di dalam Platform, ODK, atau GeoODK. _(Catatan! Jangan mengubah apapun yang ada di dalam kotak abu-abu!)_
 
-The first three columns are important ones for you to know about:
-* `type` specifies the type of entry you're adding - be it text, a date, a dropdown or something else. 
-* `name` specifies the variable used for that entry. No two names can be the same!
-* `label` shows the text that will actually be seen on the form. Fields in white can be modified as needed.
+Penting bagi Anda untuk mengetahui tiga kolom pertama: 
+* `tipe` menentukan tipe data yang Anda tambakan - misalnya teks, tanggal, sebuah pilihan, atau lainnya. 
+* `nama` menentukan variabel yang digunakan untuk pemasukan data. Tidak boleh ada dua nama yang sama! 
+* `label` menunjukan teks yang akan dilihat pada formulir. Kolom isian yang berwarna putih dapat dimodifikasi sesuai kebutuhan. 
 
 The **Choices** tab is where the choices for all the drop-down menus are stored.
 
