@@ -1,63 +1,63 @@
 # Hal-Hal yang Sering Ditanyakan
 
-Have a question? Your answer may be here, in one of the following sections:
+Anda memiliki pertanyaan? Jawabannya mungkin ada di sini, pada salah satu bagian berikut ini: 
 
 * [Cadasta & Data](#data)
-* [Getting Around in the Cadasta Platform](#getting-started)
-* [Using the Questionnaire](#using-the-questionnaire)
+* [Memahami Platform Cadasta](#getting-started)
+* [Menggunakan Kuesioner](#using-the-questionnaire)
 
-If you can't find what you're looking for here or elsewhere in the documentation, please don't hesitate to [contact us](http://cadasta.org/contact/). 
+Jika Anda tidak dapat menemukan apa yang Anda cari di sini atau dimanapun dalam dokumen ini, jangan ragu untuk [menghubungi kami](http://cadasta.org/contact/). 
 
 ##Cadasta & Data{#data}
 
-####Where does your map data come from?
-The map data we use comes from [OpenStreetMap](http://www.openstreetmap.org/#map=5/51.500/-0.100), and the satellite imagery we use comes from [Digital Globe](https://www.digitalglobe.com/). 
+####Darimana data peta Anda berasal? 
+Data peta kami berasal dari [OpenStreetMap](http://www.openstreetmap.org/#map=5/51.500/-0.100), dan citra satelit yang kami gunakan berasal dari [Digital Globe](https://www.digitalglobe.com/). 
 
-####Can anyone see my project once I've created it on Cadasta?
+####Apakah siapapun dapat melihat pryek saya setelah saya buat di Cadasta? 
 
-When setting up a project, you have the option to make it public or private. If you'd like to change a public project to a private one, you can do so by selecting **Edit Project Details**, which you can find under the three dots in the upper right of the platform:
+Ketika memasang sebuah proyek, Anda memiliki pilihan untuk membuatnya publik atau pribadi. Jika Anda ingin mengubahnya dari publik menjadi pribadi, Anda dapat melakukannya dengan memilih **Ubah Rincian Proyek**, dimana Anda dapat menemukannya pada tiga titik di sebelah kanan atas platform: 
 
 ![](/assets/edit-project-info.png)
 
-By changing your project to private, only project members will be able to see it listed on the Projects page.
+Dengan mengubah proyek Anda menjadi pribadi, hanya anggota proyek yang dapat melihatnya pada daftar halaman proyek. 
 
-####Once I upload my data to the Cadasta Platform, do I still own it? 
-Absolutely! Cadasta users will always retain full ownership of their data. 
+####Setelah saya mengupload data saya ke Platform Cadasta, apakah saya masih memilikinya? 
+Tentu saja! Pengguna Cadasta akan selalu berkuasa penuh atas kepemilikan data mereka. 
 
-_Visit [People Before Data](http://cadasta.org/about-us/how-we-work/) to learn more about our data policies._ 
+_Kunjungi [Masyarakat Sebelum Data](http://cadasta.org/about-us/how-we-work/) untuk mempelajari lebih lanjut tentang peraturan data kami._ 
 
-##Getting Around in the Cadasta Platform{#getting-started}
+##Memahami Platform Cadasta{#getting-started}
 
-####How do I find my organization when I log in?
-To find your organization when you log in, click on Organizations in the upper right. 
+####Bagaimana saya menemukan organisasi saya ketika saya masuk?
+Untuk menemukan organisasi Anda ketika Anda masuk, klik pada organisasi pada kanan atas. 
 
 ![](/assets/cadasta-main-platform-organization-button.png)
 
-On the page that follows, you’ll find all the organizations in Cadasta listed alphabetically. There, you can either scroll through the organizations until you find the one you're looking for, or you can search for your organization using the search bar.
+Pada halaman berikutnya, Anda akan menemukan semua organisasi yang terdaftar berdasarkan urutan abjad. Anda dapat menelusuri ke bawah hingga menemukan organisasi yang Anda cari, atau Anda dapat mencari organisasi Anda menggunakan kolom pencarian. 
 
-####How do I find my project once I log in?
+####Bagaimana saya menemukan proyek saya ketika saya masuk? 
 
-To find your project once you log in, click on **Projects** in the upper right. 
+Untuk menemukan proyek Anda setelah Anda masuk, klik pada **Proyek** di sebelah kanan atas. 
 
 ![](/assets/main-page-projects.png)
 
-On the page that follows, you’ll find all the projects in Cadasta listed alphabetically. There, you can either scroll through the projects until you find the one you're looking for, or you can search for your project using the search bar.
+Pada halaman berikutnya, Anda akan menemukan seluruh proyek yang terdaftar di Cadasta berdasarkan urutan abjad. Anda dapat menelusuri ke bawah hingga menemukan proyek yang Anda cari, atau Anda dapat mencari proyek Anda menggunakan kolom pencarian.
 
-##Using the Questionnaire{#using-the-questionnaire}
+##Menggunakan Kuesioner{#using-the-questionnaire}
 
-####I significantly modified my questionnaire after starting my project. Will it still work? 
+####Saya merubah kuesioner saya secara signifikan setelah memulai proyek saya. Apakah Cadasta masih akan bekerja?
 
-If you've only changed or added a few lines to your questionnaire, it should still be able to work with your project. However, if you've significantly modified your questionnaire, it may not work. If your questionnaire had changed a lot, it's probably a good idea to start a new project.
+Jika Anda hanya merubah atau menambahkan sedikit baris untuk kuesioner Anda, seharusnya Cadasta masih dapat bekerja dengan proyek Anda. Bagaimanapun, jika Anda telah merubah kuesioner Anda secara signifikan, mungkin Cadasta tidak akan bekerja. Jika kuesioner Anda telah berubah banyak, mungkin saatnya Anda memulai ide untuk membuat sebuah proyek baru. 
 
-####Why are some fields gray in the questionnaire while others are white?
+####Mengapa beberapa kolom berwarna abu-abu pada kuesioner, tetapi yang lain berwarna putih? 
 
-Fields that are in gray indicate that they shouldn't be modified. Fields in white, however, easily can be. Read [Questionnaires & Custom Data Collection](08-XLSForms.md) to learn more about how to modify your questionnaire. 
+Kolom isian yang berwarna abu-abu menandakan bahwa mereka tidak boleh dimofidikasi. Sedangkan, kolom isian yang berawarna putih dapat diubah. Baca [Kuesioner & Pengumpulan Data yang Disesuaikan](08-XLSForms.md) untuk mempelajari lebih lanjut bagaimana memodifikasi kuesioner Anda. 
 
-####Can I delete or modify fields that are in gray?
+####Dapatkah saya menghapus atau memodifikasi kolom isian yang berawarna abu-abu? 
 
-You can, but it's not a good idea. The only exception is when creating a dropdown for toggling between GeoTrace, GeoShape, and GeoPoint options. Read more about that in the Advanced Customization section of the [Questionnaires & Custom Data Collection](08-XLSForms.md) page. 
+Ya, Anda bisa, tetapi tidak disarankan. Pengecualian hanya berlaku ketika membuat sebuah pilihan ganda yang dapat mengalihkan antara fungsi GeoTrace, GeoShape, and GeoPoint. Baca lebih lanjut terkait hal ini pada bagian Penyesuaian Tingkat Lanjut di halaman [Kuesioner & Pengumpulan Data yang Disesuaikan](08-XLSForms.md).
 
-####I need help customizing my questionnaire. Is there anyone who can help me?
+####Saya membutuhkan bantuan untuk menyesuaikan kuesioner saya. Apakah ada seseorang yang dapat membantu saya? 
 
-Cadasta would be happy to help you customize your questionnaire. [Contact us](http://cadasta.org/contact/) about this any time, and we'll get back to you as soon as we can.
+Dengan senang hati, Cadasta dapat membantu Anda untuk menyesuaikan kuesioner Anda. [Hubungi kami](http://cadasta.org/contact/) tentang ini kapanpun, dan kami akan membalas Anda secepatnya.
 
