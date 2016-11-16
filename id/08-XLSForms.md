@@ -186,17 +186,17 @@ Menambahkan bagian baru juga memungkinkan, dimana contoh di bawah ini merupakan 
 
 Jika Anda ingin membuat sebuah bagian baru atau menyesuaiakan kuesioner Anda secara signifikan, kami sangat merekomendasikan Anda untuk [menghubungi kami](http://cadasta.org/contact/) pertama kali. Kami di sini untuk membantu! 
 
-##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
+##### Menu Pilihan Ganda dengan Semua GeoTypes (GeoTrace, GeoPoint & GeoShape)
 
-In some cases, you may want to give your data collectors the option to choose collecting data using GeoTrace, GeoPoint or GeoShape. If you do, you can modify to your form to make this possible. Alternatively, you can build out your questionnaire [starting from this one](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire-all-geo.xlsx). 
+Pada kasus tertentu, Anda mungkin ingin memberikan pilihan bagi data kolektor Anda untuk mengumpulkan data menggunakan GeoTrace, GeoPoint atau GeoShape. Jika demikian, Anda dapat memodifikasi formulir Anda. Cara alternatif, Anda juga dapat membuat kuesioner Anda [dimulai dari kuesioner ini](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire-all-geo.xlsx). 
 
-If you'd like to update an existing questionnaire, here's what you need to do. 
+Jika Anda ingin memperbarui kuesioner sebelumnya, berikut adalah hal yang perlu Anda lakukan. 
 
-In the **Survey tab** of your questionnaire, add three rows just below row 11. 
+Pada **tab Survey** dari kuesioner Anda, tambahkan tiga baris di bawah bari ke-11. 
 
 ![](/assets/allgeo-modify-1.png)
 
-Then, copy and paste the below into rows 11 - 14. 
+Kemudian, copy dan paste informasi di bawah ini pada baris ke-11 hingga baris ke-14. 
 
 <table>
 <tbody>
@@ -248,11 +248,11 @@ Then, copy and paste the below into rows 11 - 14.
 </table>
 
 
-Note that you may need to use the _Paste Special_ option and select Text in the pop-up window that follows.
+Catatan bahwa Anda mungkin perlu menggunakan pilihan _Paste Special_ dan pilih Text pada jendela selanjutnya. 
 
 ![](/assets/allgeo-modify-2.png)
 
-Next, you'll need to add the following options to the the Choices tab of your spreadsheet. Again, you may need to paste this using the _Paste Special_ option. 
+Selanjutnya, Anda perlu menambahkan pilihan berikut pada tab Choices dari lembar kerja Anda. Anda mungkin perlu menyalin teks dibawah ini menggunakan pilihan _Paste Special_ .
 
 <table>
 <tbody>
@@ -274,31 +274,31 @@ Next, you'll need to add the following options to the the Choices tab of your sp
 </tbody>
 </table>
 
-In the image below, the fields above have been pasted into a minimum questionnaire. 
+Pada gambar di bawah ini, kolom isian di atas telah disalin pada sebuah kuesioner minimal. 
 
 ![](/assets/allgeo-modify-3.png)
 
-Now, when data collectors are collecting data in the field, they can choose which data collection method is best: GeoTrace, GeoPoint or GeoShape.
+Sekarang, ketika kolektor data mengumpulkan data di lapangan, mereka dapat memilih metode pengumpulan data yang terbaik: GeoTrace, GeoPoint or GeoShape.
 
-##### Steps to Creating Your Custom Questionnaire
+##### Langkah-Langkah Membuat Kuesioner yang Disesuaikan oleh Anda
 
-The first thing you need to do is think through the questions you'll be asking in your data collection.
+Hal pertama yang perlu Anda lakukan adalah memikirkan pertanyaan yang akan Anda ajukan pada saat mengumpulkan data. 
 
-1. Identify your questions. What information do you need to collect in your project? 
+1. Identifikasi pertanyaan Anda. Informasi apa yang Anda butuhkan untuk dikumpulkan dalam proyek Anda? 
 
-2. Identify each question's data entry type. What kind of  entry would work best for each question - a date? A text field? A drop-down or multiple choice?
+2. Identifikasi setiap tipe data dari tiap pertanyaan Anda. Tipe data seperti apa yang cocok untuk setiap pertanyaan - sebuah tanggal? Isian teks? Atau pilihan berganda? 
 
-3. Identify where each question should go. Is this question about a party, location, relationship, or something else?
+3. Identifikasi kemana setiap pertanyaan akan diajukan. Apakah pertanyaan tersebut terkait dengan sebuah kelompok, lokasi, hubungan, atau hal yang lain? 
 
-Once you've thought this through, you can start adding your questions to their appropriate section.
+Setelah Anda memikirkan hal-hal tersebut, Anda dapat memulai menambahkan pertanyaan Anda pada bagian yang sesuai. 
 
-Before uploading your questionnaire to your project, check to make sure that:
+Sebelum mengupload kuesioner Anda ke dalam proyek, pastikan bahwa: 
 
-* all of your data entry `types` match those listed on [XLSForm](http://xlsform.org/#question-types) and are spelled correctly. 
-* all of your `names` are lowercase and contain no spaces. 
-* all of your `list_names` in the Choices tab match the name you've given to your dropdowns in the Survey tab.
-* all of your `form_ids` are distinct, contain no spaces, and start with a lowercase letter.
+* seluruh  `types` (tipe pemasukan data) Anda sama dengan yang terdaftar pada XLSForm dan memiliki ejaan yang benar. 
+* seluruh `names` ditulis dalam huruf kecil dan tidak mengandung spasi. 
+* seluruh `list_names` pada tab Choices sama dengan nama yang Anda berikan pada pilihan ganda Anda di tab Survey. 
+* seluruh `form_ids` berbeda (unik), tidak memiliki spasi, dan dimulai dengan sebuah huruf kecil. 
 
-Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
+Salah ejaan dan format yang tidak konsisten dana menyebabkan kesalahan saat Anda mengumpulkan data. Untuk itulah kami sangat merekomendasikan Anda untuk melakukan uji coba pengumpulan data sebelum pergi ke lapangan. 
 
-If you're having trouble with your questionnaires, don't hesistate to [contact us](http://cadasta.org/contact/) at any time - we're here to help you get your data collection just right.
+Jika Anda memiliki permasalahan dengan kuesioner Anda, jangan ragu untuk [menghubungi kami](http://cadasta.org/contact/) kapanpun - kami hadir untuk membantu pengumpulan data Anda.
