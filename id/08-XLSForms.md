@@ -99,92 +99,92 @@ Jika Anda akan mengumpulkan data yang berebda dengan apa yang ada di dalam kuesi
 
 Jika ada sebuah kolom isian yang tidak ingin Anda masukan, Anda dapat menghapus baris kolom isian tersebut dari tab survey pada kuesioner. Untuk melakukan ini di Excel, klik kanan pada baris kemudian klik Delete. 
 
-_**Catatan Penting!** Ingat bahwa kolom isian yang berwarna abu-abu tidak dapat dihapus atau dimodifikasi; Anda hanya da[at menghapus baris yang seluruhnya berlatar belakang putih._
+_**Catatan Penting!** Ingat bahwa kolom isian yang berwarna abu-abu tidak dapat dihapus atau dimodifikasi; Anda hanya dapat menghapus baris yang seluruhnya berlatar belakang putih._
 
-##### Editing Drop-Down Fields
+##### Mengubah Menu Pilihan Ganda
 
-To edit a field in a drop-down menu, navigate to the Choices tab. There, you can modify the `name` and `label` of the fields as needed.
+Untuk mengubah sebuah menu pilihan ganda, arahkan ke tab choices. Di sana, Anda dapat memodifikasi kolom isian `name` dan `label` sesuai kebutuhan.
 
-For example, to add a new field to the location acquisition dropdown \(`l_acquired_how`\):
+Sebagai contoh, untuk menambahkan sebuah kolom isian pada menu pilihan lokasi akusisi \(`l_acquired_how`\):
 
-* Add a new row, and give it a `list_name` of `l_acquired_how`.
-* Add a new name and label.
+* Tambahkan sebuah garis baru, beri nama `list_name` dari `l_acquired_how`.
+* Tambahkan sebuah nama dan label.
 
-In the example below, a new category for the dropdown \("Unknown"\) has been added to the questionnaire.
+Pada contoh di bawah ini, sebuah kategori untuk menu pilihan \("Tidak Diketahui"\) telah ditambahkan pada kuesioner. 
 
 ![](/assets/land-acquision-new-row.png)
 
-Once that questionnaire is saved and loaded into the project, the new "Unknown" option will appear in the dropdown under, "How was this location acquired?"
+Saat kuesioner telah disimpan dan dimuat ke dalam proyek, pilihan "Tidak Diketahui" yang baru dimasukan akan muncul pada menu pilihan di bagian, "Bagaimana lokasi ini diakusisi?"
 
 ![](/assets/standard-new-field.png)
 
-#### GeoTrace, GeoShape and GeoPoint
+#### GeoTrace, GeoShape dan GeoPoint
 
-In your location data collection, you may choose to collect point, line, or polygon data. In both the standard and minimum questionnaires, you have the option to choose one of these using `geopoint`, `geotrace`, or `geoshape`. 
+Pada lokasi pengumpulan data Anda, Anda dapat memilih di antara data titik, garis, atau bentuk. Pada kedua kuesioner baik standar maupun minimal, Anda memiliki pilihan untuk menggunakan salah satu diantara pilihan berikut `geopoint`, `geotrace`, atau `geoshape`. 
 
-* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimum and standard questionnaires. With `geotrace`, location pins are added based on the user's GPS coordinates. 
+* `geotrace` merekam sebuah garis dari dua koordinat GPS atau lebih. Ini merupakan pengaturan standar baik di dalam kuesioner minimal maupun standar. Dengan `geotrace`, lokasi ditandai berdasarkan koordinat GPS penggguna.
 
-* `geoshape` records a polygon made of multiple GPS coordinates, which are drawn on-screen. 
+* `geoshape` merekam sebuah bentuk yang dibuat dari sejumlah koordinat GPS, yang digambar pada layar. 
 
-* `geopoint` collects single points of data based on the user's GPS coordinates. 
+* `geopoint` memperoleh satu titik data berdasarkan koordinat GPS pengguna. 
 
-To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaire. 
+Untuk merubah tipe data apa yang Anda kumpulkan, Anda dapat memodifikasi sel A11 baik di kuesioner minimal maupun standar. 
 
-#### Advanced Customization
+#### Penyesuaian Tingkat Lanjut
 
-If you need to do more than simply edit a few existing fields, then advanced customization may be for you.
+Jika Anda memerlukan perubahan kolom isian yang lebih banyak, makan penyesuaian tingkat lanjut ini mungkin berguna untuk Anda. 
 
-##### Data Entry Types {#data-types}
+##### Tipe Pemasukan Data {#data-types}
 
-To fully take advantage of customizing the questionnaire, it's important to figure out which data entry type will work best for the kind of information you're collecting. Some of the most common ones that you'll use are:
+Untuk memanfaatkan penyesuaian kuesioner, sangat penting untuk mengetahui tipe pemasukan daya yang terbaik untuk tipe informasi yang Anda kumpulkan. Beberapa yang paling umum yang akan Anda gunakan contohnya: 
 
-* `text` - which specifies that you're collecting basic text.
-* `date` - which specifies that you're logging the date.
-* `select_one` - which specifies that you're using a dropdown menu
+* `text` - dimana menentukan bahwa Anda akan memperoleh teks dasar. 
+* `date` - dimana menentukan bahwa Anda mencatat tanggal. 
+* `select_one` - dimana menentukan bahwa Anda menggunakan sebuah menu pilihan ganda. 
 
 ![](/assets/standard-survey-example.png)
 
-You can see each of these at work in the above example, taken from the survey tab of the standard questionnaire.
+Anda dapat melihat masing-masing tipe pada contoh di atas, yang diambil dari tab survey pada kuesioner standar. 
 
-Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specifies that cell A24 is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
+Perhatikan bahwa `select_one` - menu pilihan ganda - memerlukan identifikasi sebuah set pilihan yang terkait. Pada contoh di atas, menu pilihan ganda yang pertama menentukan bahwa sel A24 terkait dengan pilihan yang diberi nama `l_quality_choices`. Pada tab Choices, Anda dapat melihat berbagai macam pilihan untuk `l_quality_choices`:
 
 ![](/assets/standard-choices-example.png)
 
-These options will appear in the dropdown when it's selected.
+Pilihan ini akan muncul pada menu pilihan ganda setelah dipilih. 
 
-In addition to these basic data types, [XLSForm offers many different data types for you to choose from](http://xlsform.org/#question-types).
+Sebagai tambahan untuk tipe data dasar ini, [XLSForm menawarkan berbagai macam tipe data yang dapat Anda pilih](http://xlsform.org/#question-types).
 
 ![](/assets/xls-form-question-types.png)
 
-The type you need depends on the kinds of questions you need to ask. For example, if you need to collect an audio sample from an interviewee, you could select `audio`, which will prompt you to take an audio recording.
+Tipe yang Anda pilih bergantung pada jenis pertanyaan yang Anda ajukan. Contohnya, jika Anda perlu mengumpulkan sebuah sampel suara dari sebuah interview, Anda dapat memilih `audio`, dimana akan memberi tahu Anda untuk merekam suara. 
 
-##### Questionnaire Sections
+##### Bagian Kuesioner
 
 ![](/assets/standard-survey.png)
 
-The customizable portion of the questionnaire has been organized into the following sections: 
+Bagian kuesioner yang dapat disesuaikan telah diorganisir berdasarkan bagian-bagian berikut: 
 
-* **Location Attributes** relate to to information about the location - like its name and boundaries. 
+* **Atribut Lokasi** berhubungan dengan informasi tentang lokasi, misalnya nama lokasi dan batas lokasi. 
 
-* **Default Party Attributes** specify the information that you collect about any party, be it an individual, group, or corporation.
+* **Atribut Kelompok Standar** menentukan informasi yang Anda kumpulkan tentang kelompok apapun, baik individual, grup, maupun korporat. 
 
-* **Individual Party Attributes** and **Group Party Attributes** each provide information specific to whether a party is an individual or group.
+* **Atribut Kelompok Individual** dan **Atribut Kelompok Grup** masing-masing menyediakan informasi spesifik untuk apakah kelompok tersebut merupakan satu individu atau grup.
 
-* **Party Relationship Attributes** is for information specific to the relationship between a party and the location. 
+* **Atribut Hubungan Kelompok** merupakan informasi spesifik untuk hubungan antar sebuah kelompok terhadap satu lokasi.  
 
-* **Tenure Relationship Attributes** specify information about a party's tenure on the land.
+* **Atribut Hubungan Kepemilikan** menentukan informasi terkait tentang suatu kepemilikan kelompok pada sebuah bidang tanah.
 
-Each of these sections relates to a piece of the Cadasta Platform's internal workings. In order for your questions to appear in the platform, they need to be in one of these sections.
+Setiap bagian-bagian ini berhubungan dengan sebagian dasar internal Platform Cadasta. Agar pertanyaan Anda dapat muncul di platform, mereka harus berada dalam salah satu bagian ini. 
 
-The below image is taken from a custom questionnaire used by one of our partners. Here, they've added a number of custom fields in the `party_attributes_default` section:
+Gambar di bawah ini diambil dari sebuah kuesioner yang disesuaikan dari salah satu rekan kerja kami. Di sini, mereka menambahkan sejumlah kolom isian yang disesuaikan pada bagian `party_attributes_default`:
 
 ![](/assets/example-xls-1.png)
 
-It is possible to create new sections, as another Cadasta partner has done below. Here, they've added a section on witnesses:
+Menambahkan bagian baru juga memungkinkan, dimana contoh di bawah ini merupakan salah satu contoh yang pernah dilakkan oleh salah satu rekan kerja Cadasta. Di sini mereka menambahkan sebuah bagian pada saksi: 
 
 ![](/assets/example-xls-2.png)
 
-If you'd like to create new sections or significantly customize your questionnaire, we highly recommend that you [contact us](http://cadasta.org/contact/) first. We're here to help! 
+Jika Anda ingin membuat sebuah bagian baru atau menyesuaiakan kuesioner Anda secara signifikan, kami sangat merekomendasikan Anda untuk [menghubungi kami](http://cadasta.org/contact/) pertama kali. Kami di sini untuk membantu! 
 
 ##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
 
