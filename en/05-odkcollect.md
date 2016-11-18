@@ -30,6 +30,8 @@ For more information and documentation about ODK generally, visit [opendatakit.o
 
 ### Initial Setup {#initial-setup}
 
+_**Note:** This step requires being near WiFi!_
+
 To get started, [download ODK from the Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en), or wherever you acquire your applications.
 
 If this is the first time you've used ODK with the Cadasta Platform, you'll need to configure ODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
@@ -53,6 +55,8 @@ You now have an ODK account that's synced with the Cadasta Platform.
 Click the back button twice to return to the main menu.
 
 ### Loading your Questionnaire {#loading-your-form}
+
+_**Note:** This step requires being near WiFi!_
 
 Once you've connected ODK with Cadasta, the next thing you need to do is load the questionnaire you're using for your data collection project.
 
@@ -85,7 +89,7 @@ Once you've initialized ODK and loaded your questionnaire, now it’s time to co
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is also the default option provided in both the standard and minimum questionnaires. 
 
 * **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 

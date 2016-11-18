@@ -27,6 +27,8 @@ For more information and documentation about GeoODK generally, visit [geoodk.com
 
 ### Initial Setup {#initial-setup}
 
+_**Note:** This step requires being near WiFi!_
+
 To get started, [download GeoODK from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), or wherever you acquire your applications.
 
 If this is the first time you've used GeoODK with the Cadasta Platform, you'll need to configure GeoODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
@@ -47,6 +49,8 @@ You now have a GeoODK account that's synced with the Cadasta Platform.
 Click the back button 3 times to return to the main menu.
 
 ### Loading your Questionnaire {#loading-your-form}
+
+_**Note:** This step requires being near WiFi!_
 
 Once you've connected GeoODK with Cadasta, the next thing you need to do is load the questionnaire you're using for your data collection project. 
 
@@ -83,7 +87,7 @@ Once you've initialized GeoODK and loaded your questionnaire, now it’s time to
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode.  GeoTrace is also the default option provided in both the standard and minimum questionnaires. 
 
 * **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
