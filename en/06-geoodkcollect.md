@@ -72,6 +72,8 @@ Now, GeoODK is configured to record data using the questions in your questionnai
 
 Once you've initialized GeoODK and loaded your questionnaire, now it’s time to collect some data!
 
+For this step, make sure that GPS is enabled on your device and turned on.
+
 1. From the Main Menu select **Collect Data** then the questionnaire that you want to use. 
 
     ![](/assets/geo-odk-6-collect-data.png)

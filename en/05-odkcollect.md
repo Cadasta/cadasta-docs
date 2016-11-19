@@ -76,6 +76,8 @@ Now, ODK is configured to record data using the questions in your questionnaire.
 
 Once you've initialized ODK and loaded your questionnaire, now it’s time to collect some data!
 
+For this step, make sure that GPS is enabled on your device and turned on.
+
 1. From the ODK Main Menu select **Fill Blank Form** then the questionnaire that you want to use. 
 
     ![](/assets/odk-5-fill-blank-form.png)
