@@ -26,6 +26,8 @@ The difference is based on whether or not you want the options for some question
 
 Non-Repeating Questionnaires:
 
+> 11.23.2016 - all links need to be replaced
+
 * [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) creates a schema for the bare minimum of data needed by the platform; and
 
 * [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
@@ -81,44 +83,57 @@ You'll use the `form_id` when you set up data collection with ODK and GeoODK.
 
 Each form ID in your organization needs to be unique. Make sure all of the questionnaires follow this rule. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces.
 
-The default language is set using <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">two-letter ISO 639-1 codes</a>. For example, to set the default language to Swahili, you would use the abbreviation `sw`. 
-
-If you need to use other languages in your questionnaire (such as a combination of Swahili and English), you can indicate the preferred language in the column header in your form questionnaire using a notation like this:
-
-```
-label::en
-```
-
-In the above example, `label` is the column header title; adding `::en` to the end indicates that the contents in that column should appear in English.
 
 ### The Standard Questionnaire {#standard-form}
 
-[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has all the same questions as the minimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
+[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has most of the same questions as the minimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
 
-![](/assets/standard-survey.png)
+In the required fields, at the top of the survey above the yellow lines, one section that's different from the minimal questionnaire can be seen on rows 13-16: the selection of `geoshape`, `geotrace`, and `geopoint`.
 
-The image above shows all the entries that will be collected in addition to the minimal information. These entries are organized by section:
+![](/assets/new-standard-01.png)
 
-* Location Attributes \(rows 22-28\)
-* Default Party Attributes \(rows 20-32\)
-* Individual Party Attributes \(rows 34-38\)
-* Group Party Attributes \(rows 40-43\)
-* Party Relationship Attributes \(45-47\)
-* Tenure Relationship Attributes \(49-51\)
+This setting allows data collectors to choose how they'd like to log their location while they're in the field. 
 
-Each of these sections relates to a data collection window in the cadasta platform.
+_[Read more about GeoTrace, GeoShape, and GeoPoint here](#geo)_
+
+Another important difference is can be seen in column D: the use of a different language. 
+
+If you need to use other languages in your questionnaire (such as a combination of Spanish and English), you can indicate the preferred language in the column header in your form questionnaire using a notation like this:
+
+```
+label::es
+```
+
+To make this work, you'll need to add a third column to the Settings tab and give it the heading `default_language`.
+
+![](/assets/new-standard-02.png)
+
+This indicates the default language you prefer for your data collection. It's set using <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">two-letter ISO 639-1 codes</a>. For example, to set the default language to Swahili, you would use the abbreviation `sw`. 
+
+![](/assets/new-standard-03.png)
+
+Let's walk through some of the other columns you'll see in the standard questionnaire (shown above). 
+
+* Images and audio recordings (rows 20-23)
+* Location Attributes \(rows 27-32\)
+* Default Party Attributes \(rows 34-36\)
+* Individual Party Attributes \(rows 38-43\)
+* Group Party Attributes \(rows 45-48\)
+* Tenure Relationship Attributes \(50-52\)
+
+Each of these sections relates to a data collection window in the Cadasta platform.
 
 The **Choices** tab has the same options as the minimal questionnaire, with some additional drop-down choices as well.  
 
-![](/assets/standard-choices-2.png)
+![](/assets/new-standard-04.png)
 
-For example, rows 38-47 show the choices for the different types of location acquisitions, which correspond with row 25 on the Survey tab (above).
+For example, rows 41-44 show the choices for the different types of location problems, which correspond with row 30 on the Survey tab. Additionally, you'll notice the choices for `geo_type`, and the inclusion of a column for answers in Spanish.   
 
-The **Settings** tab of the standard questionnaire is exactly the same as it is in the minimal version - providing the `form_id`, which is your identifier for the questionnaire in ODK or GeoODK.
+The **Settings** tab of the standard questionnaire is similar to how it is in the minimal version - providing the title and `form_id`, which is your identifier for the questionnaire in ODK or GeoODK. The only difference is the addition of the `default_language` section, which provides the default language for the questionnaire.
 
-![](/assets/standard-settings.png)
+![](/assets/new-standard-02.png)
 
-Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces. 
+**Important!** Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load in ODK or GeoODK. Also be sure to create names that start with lowercase letters and contain no spaces. 
 
 ### Multiple Location Questionnaires {#multiple-location-questionnaires}
 
@@ -214,7 +229,7 @@ Once that questionnaire is saved and loaded into the project, the new "Unknown" 
 
 ![](/assets/standard-new-field.png)
 
-#### GeoTrace, GeoShape and GeoPoint
+#### GeoTrace, GeoShape and GeoPoint {#geo}
 
 In your location data collection, you may choose to collect point, line, or polygon data. In both the standard and minimum questionnaires, you have the option to choose one of these using `geopoint`, `geotrace`, or `geoshape`. 
 
@@ -230,11 +245,11 @@ To change what data type you're collecting, modify cell A11 on either your stand
 
 If you need to attach multiple resources during your data collection in the field, you can do so using two special codes:
 
-* `tenure_resource`, for uploading multiple resources related to relationships, 
+* `tenure_resource_*`, for uploading multiple resources related to relationships, 
 
-* `party_resource`, for uploading multiple resources related to the party, and
+* `party_resource_*`, for uploading multiple resources related to the party, and
 
-* `location_resource`, for uploading multiple resources related to a location. 
+* `location_resource_*`, for uploading multiple resources related to a location. 
 
 Here's an example of these codes at work in a questionnaire, under `name` in rows 11, 12, 19, 20, 31, 32, and 33:
 
