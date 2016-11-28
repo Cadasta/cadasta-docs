@@ -83,7 +83,7 @@ For this step, make sure that GPS is enabled on your device and turned on.
     * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
 4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
 
-    ![](/assets/geo-odk-7-finalized-form.png)
+![](/assets/geo-odk-7-finalized-form.png)
 
 #### Collecting Data in Multiple Languages
 
