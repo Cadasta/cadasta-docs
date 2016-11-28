@@ -93,7 +93,7 @@ If you need to collect data in multiple languages, you can set it up in your que
 
 Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the three dots in the upper right, then **Change Language**, then the language of your choice. 
 
-![](/assets/multi-lang-geoodk.png)
+![](/assets/multi-lang-odk.png)
 
 
 ### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
