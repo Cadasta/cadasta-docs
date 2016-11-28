@@ -82,10 +82,19 @@ For this step, make sure that GPS is enabled on your device and turned on.
 
     ![](/assets/odk-5-fill-blank-form.png)
 
-2. Swipe left twice to get started completing the form.
+2. Swipe left twice to get started completing the form. 
 3. Continue answering all the survey questions until you reach the "End of survey" message. During this step, swipe left after you've answered each question. 
     * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
 4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
+
+#### Collecting Data in Multiple Languages
+
+If you need to collect data in multiple languages, you can set it up in your questionnaire. _Read about the [standard questionnaire](09-XLSForms.md#standard-form) to learn how._
+
+Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the three dots in the upper right, then **Change Language**, then the language of your choice. 
+
+    ![](/assets/multi-lang-geoodk.png)
+
 
 ### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 

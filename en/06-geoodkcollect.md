@@ -85,6 +85,15 @@ For this step, make sure that GPS is enabled on your device and turned on.
 
     ![](/assets/geo-odk-7-finalized-form.png)
 
+#### Collecting Data in Multiple Languages
+
+If you need to collect data in multiple languages, you can set it up in your questionnaire. _Read about the [standard questionnaire](09-XLSForms.md#standard-form) to learn how._
+
+Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the three dots in the upper right, then **Change Language**, then the language of your choice. 
+
+    ![](/assets/multi-lang-odk.png)
+
+
 ### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
