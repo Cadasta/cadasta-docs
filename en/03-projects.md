@@ -35,9 +35,14 @@ From the map view, use the `+` and `-` signs on the upper left to zoom in and ou
 
 In the upper right, you can choose from a couple of different layers depending on what kind of map you need.
 
-The default layer is the graphic OpenStreetMap layer, shown above. You can also select the DigitalGlobe Satellite layer:
+The default layer is the graphic OpenStreetMap (OSM) layer, shown above. You can also select from a few other layers, including the Vivid Satellite layer:
 
-![](/assets/cadasta-map-satellite.png)
+![](/assets/layers-02-vivid.png)
+
+And a combination of Vivid Satellite and OSM:
+
+![](/assets/layers-04-vivid-osm.png)
+
 
 ##### b. Search by a geographic Place Name
 
@@ -82,7 +87,7 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project URL**, which must start with _http://_ or _https://_
 
-* **Project Questionnaire**, a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read the section on [custom data collection](XLSForms.md)
+* **Project Questionnaire**, a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read the section on [custom data collection](09-XLSForms.md)
 
 * **Project contacts**, if any. These contacts do not have to be project members, but may be people who are important to the project. For example, you may be working with an administrator or communications specialist who is not involved with data collection, but who may have integral roles in what you're doing. 
 
@@ -123,13 +128,13 @@ From there, select the item that needs to be edited.
 
 #### Editing a Project Boundary
 
-Once you've navigated to the Edit Project Boundary page, you can use the tools on the left of the map to make your project location changes. 
+Once you've navigated to the Edit Project Boundary page, you have a few options for making edits.  
 
-You can either click the edit icon and drag your boundary points as needed:
+One is simply to drag the points already drawn on the map. 
 
-![](/assets/edit-project-boundary.png)
+![](/assets/edit-project-boundary-easy.png)
 
-Or you can select the polygon or rectangle tools to draw completely new boundaries. 
+Alternatively, you can select the polygon or rectangle tools to draw completely new boundaries. 
 
 When you're done, click the **gray Save button** on the left to save your shape, and the **green Save button** on the right to save your project location. 
 

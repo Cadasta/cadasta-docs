@@ -1,10 +1,10 @@
 # Cadasta Platform User Guide
 
-> 30 Sept. 2016 // for [v0.2.0](https://github.com/Cadasta/cadasta-platform/releases/tag/v0.2.0)  
+> Last updated 30 Nov. 2016 // see the [Change Log](12-change-log) for information about what's changed.
 
 ### Welcome!
 
-We're glad you've found the Cadasta Platorm – a land and resource rights management system developed by the Cadasta Foundation. Our goal is to empower people to understand and document their land rights, a goal that this mapping platform helps to fulfill.
+We're glad you've found the Cadasta Platform – a land and resource rights management system developed by the Cadasta Foundation. Our goal is to empower people to understand and document their land rights, a goal that this mapping platform helps to fulfill.
 
 ### Contents
 
@@ -15,10 +15,11 @@ We're glad you've found the Cadasta Platorm – a land and resource rights manag
 * [Collecting Data with ODK Collect (Open Data Kit)](05-odkcollect.md)
 * [Collecting Data with GeoODK Collect (Geographical Open Data Kit)](06-geoodkcollect.md)
 * [Downloading Data](07-download.md)
-* [Questionnaires & Custom Data Collection](08-XLSForms.md)
-* [Translation](09-translation.md)
-* [Frequently Asked Questions](10-faq.md)
-* [Change Log](11-change-log.md)
+* [Uploading Data](08-upload.md)
+* [Questionnaires & Custom Data Collection](09-XLSForms.md)
+* [Translation](10-translation.md)
+* [Frequently Asked Questions](11-faq.md)
+* [Change Log](12-change-log.md)
 
 ### Why We Do What We Do
 

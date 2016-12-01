@@ -1,0 +1,518 @@
+
+<!DOCTYPE HTML>
+<html lang="id" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Collecting Data with ODK Collect (Open Data Kit) · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="06-geoodkcollect.html" />
+    
+    
+    <link rel="prev" href="04-records.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01-gettingstarted.html">
+            
+                <a href="01-gettingstarted.html">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02-organizations.html">
+            
+                <a href="02-organizations.html">
+            
+                    
+                    Organizations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="03-projects.html">
+            
+                <a href="03-projects.html">
+            
+                    
+                    Projects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04-records.html">
+            
+                <a href="04-records.html">
+            
+                    
+                    Project Records: Locations, Parties, Relationships & Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="05-odkcollect.html">
+            
+                <a href="05-odkcollect.html">
+            
+                    
+                    Collecting Data with ODK Collect (Open Data Kit)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="06-geoodkcollect.html">
+            
+                <a href="06-geoodkcollect.html">
+            
+                    
+                    Collecting Data with GeoODK Collect (Geographical Open Data Kit)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="07-download.html">
+            
+                <a href="07-download.html">
+            
+                    
+                    Downloading Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="08-XLSForms.html">
+            
+                <a href="08-XLSForms.html">
+            
+                    
+                    Questionnaires & Custom Data Collection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="09-translation.html">
+            
+                <a href="09-translation.html">
+            
+                    
+                    Translation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10-faq.html">
+            
+                <a href="10-faq.html">
+            
+                    
+                    Frequently Asked Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="11-change-log.html">
+            
+                <a href="11-change-log.html">
+            
+                    
+                    Change Log
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Collecting Data with ODK Collect (Open Data Kit)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="collecting-data-with-odk-collect-open-data-kit">Collecting Data with ODK Collect (Open Data Kit)</h1>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#initial-setup">Initial Setup</a></li>
+<li><a href="#loading-your-form">Loading Your Questionnaire</a></li>
+<li><a href="#data-collection">Data Collection</a></li>
+<li><a href="#uploading-data">Uploading Data</a></li>
+<li><a href="#geotracing">Collecting Location Data: GeoTrace, GeoPoint and GeoShape</a></li>
+<li><a href="#editing-data">Editing Data</a></li>
+<li><a href="#deleting-questionnaires">Deleting Questionnaires</a></li>
+<li><a href="#odk-troubleshooting">ODK Troubleshooting</a></li>
+</ul>
+<h3 id="overview">Overview </h3>
+<p>Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to accommodate a couple of tools for data collection, allowing for ingestion of data. One of those tools is Open Data Kit, or ODK Collect (which we refer to as ODK for short).</p>
+<p>ODK is a free, open source mobile data collection application for Android devices (sorry Apple fans). To get started, <a href="https://play.google.com/store/apps/details?id=org.odk.collect.android&amp;hl=en" target="_blank">download ODK Collect from the Google Play Store</a>, or wherever you acquire your applications.</p>
+<p>This section provides an overview of how ODK and Cadasta work together:</p>
+<ol>
+<li>First, you&apos;ll <a href="#initial-setup">set up ODK</a> on an Android device.</li>
+<li>Then you&apos;ll <a href="#loading-your-form">load the questionnaire</a> you want to use for data collection.</li>
+<li>Finally, it&apos;s time to <a href="#data-collection">collect your data</a>! </li>
+<li>When you&apos;re back to WiFi, <a href="#uploading-data">upload your data</a> to the Cadasta Platform.</li>
+</ol>
+<p><strong>Important!</strong> Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to <a href="#odk-troubleshooting">troubleshoot</a> or make any changes. </p>
+<p>For more information and documentation about ODK generally, visit <a href="https://opendatakit.org/" target="_blank">opendatakit.org</a>.</p>
+<h3 id="initial-setup">Initial Setup </h3>
+<p>To get started, <a href="https://play.google.com/store/apps/details?id=org.odk.collect.android&amp;hl=en" target="_blank">download ODK from the Google Play Store</a>, or wherever you acquire your applications.</p>
+<p>If this is the first time you&apos;ve used ODK with the Cadasta Platform, you&apos;ll need to configure ODK for direct syncing. To do this, you&apos;ll need to set up your Cadasta account if you haven&apos;t already (see <a href="01-gettingstarted.html">Getting Started</a>).</p>
+<ol>
+<li><p>Once you&apos;ve created your account and installed ODK, open the application.</p>
+</li>
+<li><p>From the opening screen (the Main Menu), tap the three dots in the upper right, then select <strong>General Settings</strong>, then <strong>Configure Platform Settings</strong>. </p>
+<p> <img src="assets/odk-1-setup.png" alt=""></p>
+</li>
+<li><p>On this screen, enter the Platform URL along with your username and password. The username and password do not have to be the same as they are on your Cadasta account, but it may be helpful to keep them consistent. The URL you need should be similar to the one you used when you signed up for your Cadasta account. </p>
+<ul>
+<li><p><a href="https://platform.cadasta.org/collect" target="_blank">https://platform.cadasta.org/collect</a> (if for active projects); or</p>
+</li>
+<li><p><a href="https://demo.cadasta.org/collect" target="_blank">https://demo.cadasta.org/collect</a>  (if for testing)</p>
+<p><img src="assets/odk-2-account-info.png" alt=""></p>
+</li>
+</ul>
+</li>
+</ol>
+<p>You now have an ODK account that&apos;s synced with the Cadasta Platform.</p>
+<p>Click the back button twice to return to the main menu.</p>
+<h3 id="loading-your-form">Loading your Questionnaire </h3>
+<p>Once you&apos;ve connected ODK with Cadasta, the next thing you need to do is load the questionnaire you&apos;re using for your data collection project.</p>
+<ol>
+<li><p>From the main menu, select <strong>Get Blank Form</strong>.</p>
+<p> <img src="assets/odk-3-get-blank-form.png" alt=""></p>
+</li>
+<li><p>At this stage, you may be asked to provide your Cadasta username and password. Enter this information and then wait a few moments to be connected to the server.</p>
+</li>
+<li><p>In the page that follows, you&apos;ll see a list of questionnaires that have been loaded for your organization&apos;s projects. Place a checkmark next to the form you&apos;d like to use and tap <strong>Get Selected</strong>.</p>
+<p> <img src="assets/odk-4-get-blank-form.png" alt=""></p>
+</li>
+</ol>
+<p>Now, ODK is configured to record data using the questions in your questionnaire.</p>
+<h3 id="data-collection">Data Collection </h3>
+<p>Once you&apos;ve initialized ODK and loaded your questionnaire, now it&#x2019;s time to collect some data!</p>
+<ol>
+<li><p>From the ODK Main Menu select <strong>Fill Blank Form</strong> then the questionnaire that you want to use. </p>
+<p> <img src="assets/odk-5-fill-blank-form.png" alt=""></p>
+</li>
+<li><p>Swipe left twice to get started completing the form.</p>
+</li>
+<li>Continue answering all the survey questions until you reach the &quot;End of survey&quot; message. During this step, swipe left after you&apos;ve answered each question. <ul>
+<li>During this section, you&apos;ll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see <a href="#geotracing">Collecting Location Data: GeoTrace, GeoPoint and GeoShape</a>.</li>
+</ul>
+</li>
+<li>When all of your questions are completed, select the <strong>Mark Form as finalized</strong> checkbox and <strong>Save Form and Exit</strong>. </li>
+</ol>
+<h3 id="geotracing">Collecting Location Data: GeoTrace, GeoShape, and GeoPoint </h3>
+<p>During <a href="#data-collection">data collection</a>, you&apos;ll be asked to collect data specifying your location using one of the following options.</p>
+<ul>
+<li><p><strong><a href="#geotrace">GeoTrace</a></strong> creates lines  (collections of two or more GPS coordinates) based on your location. It&apos;s also the default option provided in both the standard and minimum questionnaires. </p>
+</li>
+<li><p><strong><a href="#geoshape">GeoShape</a></strong> creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  </p>
+</li>
+<li><p><strong><a href="#geopoint">GeoPoint</a></strong> creates points (single GPS coordinates) based on your location. </p>
+</li>
+</ul>
+<p>To learn more about how to configure these options in your questionnaire, see <a href="08-XLSForms.html">Questionnaires &amp; Custom Data Collection</a>.</p>
+<h4 id="geotrace">GeoTrace </h4>
+<p>When it&apos;s time to start your GeoTrace, you&apos;ll be prompted to <strong>Start GeoTrace</strong>:</p>
+<p><img src="assets/odk-geotrace-1.png" alt=""></p>
+<p>In the next screen, you&apos;ll be asked to <strong>Zoom to Current Location</strong>.</p>
+<p><img src="assets/odk-geotrace-2.png" alt=""></p>
+<p>Once your location is identified, you&apos;ll be asked to select either Automatic or Manual mode.  </p>
+<p><img src="assets/odk-geotrace-3.png" alt=""></p>
+<p><strong>Manual mode</strong> allows you to record your geotrace manually. Every time you want to drop a pin, click the <strong>Record Location Point</strong> button at the top of the map. For example, it&apos;s common practice to drop pins at each corner of a location. </p>
+<p><img src="assets/odk-geotrace-5.png" alt=""></p>
+<p><strong>Automatic mode</strong> records your location at set intervals, for example once every 20 seconds. This mode is helpful if you&apos;re recording a large area. </p>
+<p>The amount of time you should set for your interval depends on how you&apos;re collecting the data. For example, if you&apos;re driving, you may want to set the interval to be once every 5 seconds. If you&apos;re walking, you may want to record once every 20-30 seconds. </p>
+<p>If you know you need to record the corners of a large area, then you might want to try manual mode. Or, if you&apos;re using automatic mode, pause on the corner long enough for the pin to drop. Alternatively, in automatic mode, you can also use the <strong>Record Location Point</strong> button to manually drop a pin.</p>
+<p>For either automatic or manual mode, keep in mind that the more points you record, the bigger your data file will be and the harder it will be to upload when you return to WiFi or you mobile network. Collect all the points you need - and only the points you need!</p>
+<p><img src="assets/odk-geotrace-4.png" alt=""></p>
+<p>When you&apos;re done with your GeoTrace, hit the pause button. You&apos;ll then be asked to save your information as a polyline or polygon.</p>
+<p>If you&apos;ve recording a point or line, choose polyline. If you&apos;ve recording an area and created a closed shape, choose polygon.</p>
+<p>Finally, you&apos;ll be brought to a confirmation screen where you can view your GeoTrace. </p>
+<p><em>Note that ODK calls a geotrace a parcel regardless of what kind of location it is.</em></p>
+<h4 id="geoshape">GeoShape </h4>
+<p>GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area. </p>
+<p>If you&apos;re collecting data using GeoShape, you&apos;ll first be asked to zoom to your current location or to a saved feature. </p>
+<p><img src="assets/odk-geoshape-1.png" alt=""></p>
+<p>In the next screen, you&apos;ll be able to start making your shape. Press the screen to place markers around your location, and notice the red lines that are created between each marker. To close your polygon, press on the same point where the polygon began.</p>
+<p><img src="assets/odk-geoshape-2.png" alt=""></p>
+<p>When you&apos;re ready to save your GeoShape, hit the <strong>Save</strong> icon on the right. If you wish to discard it, you can also hit the <strong>Trash</strong> button above it.</p>
+<h4 id="geopoint">GeoPoint </h4>
+<p>To collect single GPS coordinates, you can use GeoPoint. GeoPoint only works by tracking your specific location (drawing with your finger is not available).</p>
+<p>When it&apos;s time to collect your GeoPoint, it will first load your location. This may take a few minutes. </p>
+<p><img src="assets/odk-geopoint-1.png" alt=""></p>
+<p>Next it will give you some GPS accuracy information. Here, the accuracy is within a 24-meter radius of where the user is standing. </p>
+<p><img src="assets/odk-geopoint-2.png" alt=""></p>
+<p>Once the location and accuracy information is loaded, you&apos;re ready to save your GeoPoint.</p>
+<p><img src="assets/odk-geopoint-3.png" alt=""></p>
+<h3 id="uploading-data">Uploading Data </h3>
+<p>When you get back to WiFi or a mobile network, you can upload your completed questionnaires to the Cadasta Platform. </p>
+<p>From the main menu, click <strong>Send Finalized Form</strong> and then check off all the forms that you want to upload (use the <strong>Toggle All</strong> button to select all questionnaires). Then select <strong>Send Selected</strong>.</p>
+<p><img src="assets/odk-send-finalized-form.png" alt=""></p>
+<p>Finally, you&apos;ll get a confirmation message confirming that the data has been sent. </p>
+<p>It&apos;s a good idea to confirm that you see the data on the Cadasta Platform. Then you can <a href="#deleting-questionnaires">delete any completed questionnaires</a> from your Android device.</p>
+<h3 id="editing-data">Editing Data </h3>
+<p>ODK makes editing your forms relatively easy. From the main menu, select <strong>Edit Data</strong>, then the form you want to edit. When you&apos;re done, save your changes.</p>
+<h3 id="deleting-questionnaires">Deleting Questionnaires </h3>
+<p>You can also delete unwanted questionnaires by selecting <strong>Delete Data</strong> from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. </p>
+<h3 id="odk-troubleshooting">ODK Troubleshooting </h3>
+<p>If you&apos;re having trouble using ODK, the answer to your question may be here. If not, please <a href="http://cadasta.org/contact/" target="_blank">contact us</a> and we&apos;ll do our best to help you work through the issue.</p>
+<h4 id="trouble-loading-your-questionnaire">Trouble Loading Your Questionnaire</h4>
+<h5 id="issue-i-cant-connect-to-the-cadasta-server-because-my-username-and-password-arent-working-and-yes-ive-checked-to-make-sure-theyre-correct">ISSUE: I can&apos;t connect to the Cadasta server because my username and password aren&apos;t working. (And yes, I&apos;ve checked to make sure they&apos;re correct!)</h5>
+<p>The easiest thing to do here is to go to the Cadasta platform and change your password. Then, return to ODK and enter your new password there.  </p>
+<h5 id="issue-im-getting-a-message-that-says-to-please-wait-a-few-moments-but-its-been-much-much-longer-than-that">ISSUE: I&apos;m getting a message that says to &quot;Please wait a few moments,&quot; but it&apos;s been much much longer than that.</h5>
+<p>If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again.</p>
+<h4 id="trouble-adding-location-data">Trouble Adding Location Data</h4>
+<h5 id="issue-odk-wont-let-me-add-any-location-data">ISSUE: ODK won&apos;t let me add any location data.</h5>
+<p><img src="assets/odk-trouble-1.png" alt=""></p>
+<p>If you get the screen like the one above, unfortunately it&apos;s a known (and frustrating!) bug. Cadasta is aware that some Android devices simply refuse to log their GPS data with ODK. Our team is working to resolve the issue.</p>
+<p>In the meantime, here are some alternatives:</p>
+<ol>
+<li>Try using another Android device. This mysterious bug does not appear on all of them.</li>
+<li>Try using GeoODK, which works very similarly to ODK. <em><a href="06-odkcollect.md">Learn more about how to use GeoODK with Cadasta</a>.</em></li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="04-records.html" class="navigation navigation-prev " aria-label="Previous page: Project Records: Locations, Parties, Relationships & Resources">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="06-geoodkcollect.html" class="navigation navigation-next " aria-label="Next page: Collecting Data with GeoODK Collect (Geographical Open Data Kit)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Collecting Data with ODK Collect (Open Data Kit)","level":"1.6","depth":1,"next":{"title":"Collecting Data with GeoODK Collect (Geographical Open Data Kit)","level":"1.7","depth":1,"path":"06-geoodkcollect.md","ref":"06-geoodkcollect.md","articles":[]},"previous":{"title":"Project Records: Locations, Parties, Relationships & Resources","level":"1.5","depth":1,"path":"04-records.md","ref":"04-records.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"id","gitbook":"*"},"file":{"path":"05-odkcollect.md","mtime":"2016-11-09T22:53:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-11-28T20:22:52.103Z"},"basePath":".","book":{"language":"id"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

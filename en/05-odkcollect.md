@@ -30,6 +30,8 @@ For more information and documentation about ODK generally, visit [opendatakit.o
 
 ### Initial Setup {#initial-setup}
 
+_**Note:** This step requires being near WiFi!_
+
 To get started, [download ODK from the Google Play Store](https://play.google.com/store/apps/details?id=org.odk.collect.android&hl=en), or wherever you acquire your applications.
 
 If this is the first time you've used ODK with the Cadasta Platform, you'll need to configure ODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
@@ -54,6 +56,8 @@ Click the back button twice to return to the main menu.
 
 ### Loading your Questionnaire {#loading-your-form}
 
+_**Note:** This step requires being near WiFi!_
+
 Once you've connected ODK with Cadasta, the next thing you need to do is load the questionnaire you're using for your data collection project.
 
 1. From the main menu, select **Get Blank Form**.
@@ -72,26 +76,37 @@ Now, ODK is configured to record data using the questions in your questionnaire.
 
 Once you've initialized ODK and loaded your questionnaire, now it’s time to collect some data!
 
+For this step, make sure that GPS is enabled on your device and turned on.
+
 1. From the ODK Main Menu select **Fill Blank Form** then the questionnaire that you want to use. 
 
     ![](/assets/odk-5-fill-blank-form.png)
 
-2. Swipe left twice to get started completing the form.
+2. Swipe left twice to get started completing the form. 
 3. Continue answering all the survey questions until you reach the "End of survey" message. During this step, swipe left after you've answered each question. 
     * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
 4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
+
+#### Collecting Data in Multiple Languages
+
+If you need to collect data in multiple languages, you can set it up in your questionnaire. _Read about the [standard questionnaire](09-XLSForms.md#standard-form) to learn how._
+
+Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the three dots in the upper right, then **Change Language**, then the language of your choice. 
+
+![](/assets/multi-lang-odk.png)
+
 
 ### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is also the default option provided in both the standard and minimum questionnaires. 
 
 * **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
 * **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
 
-To learn more about how to configure these options in your questionnaire, see [Questionnaires & Custom Data Collection](08-XLSForms.md).
+To learn more about how to configure these options in your questionnaire, see [Questionnaires & Custom Data Collection](09-XLSForms.md).
 
 #### GeoTrace {#geotrace}
 

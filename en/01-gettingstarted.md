@@ -4,6 +4,8 @@
 * [Quick Guide to Getting Started](#quick-guide-to-getting-started)
 * [Creating a New Account](#createnewaccount)
 
+_Looking for API documentation? <a href="https://cadasta.github.io/api-docs/#cadasta-api-documentation" target="_blank">Click here</a>._
+
 ### How Cadasta is Structured {#how-cadasta-is-organized}
 
 While anyone can use the Cadasta Platform, it's designed primarily for organizations working to document land and resource rights of individuals and communities. The structure of the Platform matches this design.
@@ -16,7 +18,7 @@ Before jumping in, it's important to understand this structure and how everythin
 
 * Each project must belong to an **[organization](02-organizations.md)**. An organization represents an organized body of people with a particular purpose. In most cases, organizations are NGOs helping communities to document their land rights. In the Cadasta system, people who belong to an organization are called **organization members**. 
 
-* The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](08-XLSForms.md)**, which is required to set up your project.
+* The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](09-XLSForms.md)**, which is required to set up your project.
 
 ![](/assets/diagram-resources.png)
 
@@ -70,5 +72,6 @@ To get started with Cadasta, the first thing you need to do to is create a user 
 3. Input a username, valid email address, password and your full name.
 4. Select **Register**.
 
-After a successful login, you'll return to the home screen, where you can view public projects and organizations.
+From here, check your inbox for a verification email. You'll have 48 hours to verify account creation, or else your account will be deleted.
 
+Next, log into Cadasta, where you'll return to the home screen, where you can view public projects and organizations.
