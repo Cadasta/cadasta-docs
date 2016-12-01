@@ -30,15 +30,13 @@ Non-Repeating Questionnaires:
 
 * [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) creates a schema for the bare minimum of data needed by the platform; and
 
-* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx) is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
+* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
 
 Repeating Questionnaires:
 
-> Add links to the below questionnaires
+* [The multiple location questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_standard_cadasta_questionnaire.xlsx) lets you collect data for multiple locations that all relate to a single party, but may have different relationships to each one. For example, a community group may hold a lease for one property and have right-of-way access for another. If a party has the same relationship to all the locations, then a similar, alternative form is available - the [multiple location, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx). Both of these forms have many of the same fields as the minimum questionnaire. 
 
-* [The multiple location questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx) lets you collect data for multiple locations that all relate to a single party, but may have different relationships to each one. For example, a community group may hold a lease for one property and have right-of-way access for another. If a party has the same relationship to all the locations, then a similar, alternative form is available - the [multiple location, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx). Both of these forms have many of the same fields as the minimum questionnaire. 
-
-* [The multiple party questionnaire]() lets you collect data for multiple parties that may have relationships with a single location. For example, a building may be leased by many tenants and owned by another individual. In the event that the parties all have the same relationship with the location, then an alternative is available: the [multiple party, single relationship questionnaire](). Like the other repeating questionnaires, these forms have many of the same fields as the minimum questionnaire. 
+* [The multiple party questionnaire]( https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx) lets you collect data for multiple parties that may have relationships with a single location. For example, a building may be leased by many tenants and owned by another individual. In the event that the parties all have the same relationship with the location, then an alternative is available: the [multiple party, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_minus_tenure_standard_cadasta_questionnaire.xlsx). Like the other repeating questionnaires, these forms have many of the same fields as the minimum questionnaire. 
 
 You can use any of these forms as starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
 
@@ -86,7 +84,7 @@ Each form ID in your organization needs to be unique. Make sure all of the quest
 
 ### The Standard Questionnaire {#standard-form}
 
-[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx) has most of the same questions as the minimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
+[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has most of the same questions as the minimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
 
 In the required fields, at the top of the survey above the yellow lines, one section that's different from the minimal questionnaire can be seen on rows 13-16: the selection of `geoshape`, `geotrace`, and `geopoint`.
 
@@ -139,7 +137,7 @@ The **Settings** tab of the standard questionnaire is similar to how it is in th
 
 If you are collecting data for multiple locations as they relate to a single party, then one of these two multiple location questionnaires may be for you:
 
-* [The multiple location questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx), and 
+* [The multiple location questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_standard_cadasta_questionnaire.xlsx), and 
 * [multiple location, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx). 
 
 The first questionnaire lets you collect data for multiple locations that all relate to a single party, but may have different relationships to each one. For example, a community group may hold a lease for one property and have right-of-way access for another. 
@@ -168,8 +166,8 @@ As with the standard and minimal questionnaires, fields in gray should not be ed
 
 If you are collecting data for multiple parties as they relate to a single location, then one of these two multiple party questionnaires may be for you:
 
-* [The multiple party questionnaire](), and 
-* [the multiple party, single relationship questionnaire](). 
+* [The multiple party questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx), and 
+* [the multiple party, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_minus_tenure_standard_cadasta_questionnaire.xlsx). 
 
 The first questionnaire lets you collect data for multiple parties that may have relationships with a single location. For example, a building may be leased by many tenants and owned by another individual. 
 
@@ -328,7 +326,7 @@ If you'd like to create new sections or significantly customize your questionnai
 
 ##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
 
-In some cases, you may want to give your data collectors the option to choose collecting data using GeoTrace, GeoPoint or GeoShape. If you do, you can modify to your form to make this possible. Alternatively, you can build out your questionnaire [starting from this one](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire-all-geo.xlsx). 
+In some cases, you may want to give your data collectors the option to choose collecting data using GeoTrace, GeoPoint or GeoShape. If you do, you can modify to your form to make this possible. Alternatively, you can build out your questionnaire [starting from this one](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx). 
 
 If you'd like to update an existing questionnaire, here's what you need to do. 
 
