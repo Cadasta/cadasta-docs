@@ -1,5 +1,9 @@
 # Change Log
 
+## Update: Dec. 15, 2016
+
+Added information about [how to translate the platform using Transifex](10-translation.md).
+
 
 ## Version 1.2.0 – November 15th, 2016
   
