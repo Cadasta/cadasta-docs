@@ -12,7 +12,7 @@ Data importing is also a relatively new feature. We recommend that you <a href="
 
 ### Setting Up{#setting-up}
 
-Before importing your data, you'll want to make sure that the structure of your dataset matches the structure of the [questionnaire](#09-XLSForms.md) that you're using for your project. 
+Before importing your data, you'll want to make sure that the structure of your dataset matches the structure of the [questionnaire](09-XLSForms.md) that you're using for your project. 
 
 In this example, you can see a .csv of responses:
 
