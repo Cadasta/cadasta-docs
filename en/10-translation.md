@@ -1,7 +1,7 @@
 # Translation
 
 * [Overview](#overview)
-* [About Transifex](#about-transifex)
+* [Transifex Overview](#transifex-overview)
 * [Contributing to an Existing Translation Project](#contributing)
 * [Starting a New Translation Project](#new-project)
 * [Adding Translators to your Translation Project](#adding-translators)
@@ -10,10 +10,6 @@
 ### Overview {#overview}
 
 The Cadasta Platform has a global audience, which means it should ideally be translated into as many languages as possible. 
-
-To create new translations, Cadasta uses a piece of software called Transifex. Transifex can be used to 
-
-### Current Translations.
 
 So far, the Platform has been translated into three languages:
 
@@ -25,16 +21,23 @@ To view one of these translations, select it from the drop-down menu at the bott
 
 ![](/assets/translation.png)
 
+To create and manage translations, Cadasta uses <a href="https://www.transifex.com/" target="_blank">Transifex</a> – an online translation management application. In this section, you'll learn how to use Transifex to translate the Cadasta Platform.
 
-### About Transifex {#about-transifex}
+### Transifex Overview {#transifex-overview}
 
-The Cadasta Platform can be translated using <a href="https://www.transifex.com/" target="_blank">Transifex</a>, a software platform designed for software translation. It works by identifying all of the strings (non-code portions of the software files) and then uses a graphical user interface (GUI) for users to translate them file by file, line by line. 
+Transifex works by identifying all of the strings (non-code portions of the software files) and organizing them into a checklist-like format that allows users to translate each string file by file, line by line. 
 
-Using Transifex helps translators keep track of how much they have to translate and how much is left. It updates as the Platform updates, showing new sections of code that still need to be addressed. 
+> add image
 
-> Add image
+The top portion of the Dashboard provides a brief overview of the 
 
-In the above example, you can see that the English version (the original version) is 100% completed, while the Indonesian version is 82% complete.
+
+On the bottom portion of the Dashboard, you can see all of the languages currently being translated or that have been translated already. Complete translations are show a green Ready for Use message on the right hand side.
+
+Throughout the application, completion is indicated by blue bars. Light blue bars indicate the amount that has been translated. Darker blue bars indicate how much of the translations have been reviewed. 
+
+
+Using Transifex helps translators keep track of what they have translated and how much is left. This information updates as the Platform updates, showing new sections of code that need to be addressed. It's important to keep an eye on your translation, as new releases bring with them new sections of code.
 
 As someone translating the Cadasta Platform, you may be doing one of two things:
 
@@ -72,22 +75,30 @@ On the next screen, you can select which resources you'd like to start with:
 
 > add image
 
- 
+Here, the blue lines underneath the file names (`allauth`, `javascript`, and `resources`) indicate how much of the file has been translated (light blue) and how many of the translations have been reviewed (dark blue).
+
+Click on a set of resources, and on the the next page you'll come to a checklist of all the lines that need to be translated. 
+
+> add image
+
+Here, translators can translate each line one-by-one using the panel on the right. Remember to save your work frequently!
+
+When a translation is finished...
+
+> David, what happens when a translation is finished?
 
 
 ### Starting a New Translation Project {#new-project}
 
-
+> David, do we need to add this section, or is this something that the Cadasta team does?
 
 
 ### Adding Translators to your Translation Project {#adding-translators}
 
 
+> David, do we need to add this section, or is this something that the Cadasta team does?
 
 
 
 
 
-For more information about how Transifex works, <a href="https://docs.transifex.com/" target="_blank">visit their documentation site</a>.
-
-If you have any questions about translating the Cadasta platform, please don't hesitate to <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a>.  
