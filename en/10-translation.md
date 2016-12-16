@@ -9,13 +9,7 @@
 
 The Cadasta Platform has a global audience, which means it should ideally be translated into as many languages as possible. 
 
-So far, the Platform has been translated into three languages:
-
-* English
-* Indonesian
-* Portuguese
-
-To view one of these translations, select it from the drop-down menu at the bottom right of the screen:
+You can view which languages are currently available using the drop-down menu one the bottom right of the screen:
 
 ![](/assets/translation.png)
 
@@ -29,7 +23,7 @@ Transifex works by identifying all of the strings (non-code portions of the soft
 
 Before getting started with your translation, you'll need to do two things:
 
-1. **Create a user account,** which you can do for free from Transifex.com. 
+1. **Create a user account,** which you can do for free at Transifex.com. 
 
 2. **Get added to the Cadasta translation team.** You'll be invited to join by someone from Cadasta. <a href="http://cadasta.org/contact/" target="_blank">Contact us</a> to request being added.
 
@@ -49,7 +43,7 @@ On the next screen, you can select which resources you'd like to start with:
 
 Here, the blue lines underneath the file names (`allauth`, `javascript`, and `resources`) indicate how much of the file has been translated. 
 
-In some cases, like below, you'll see both a light blue and a dark blue line. The light blue indicates how much has been translated, while dark blue indicates how many have been reviewed.
+In some cases, like below, you'll see both a light blue and a dark blue line. The light blue line indicates how much has been translated, while dark blue indicates how many have been reviewed.
 
 ![](/assets/transifex-06-ai.png)
 
@@ -65,7 +59,7 @@ When you're done, let the team at Cadasta know so that your work can be reviewed
 
 There are a couple of things to keep in mind when it comes to translating the Cadasta platform using Transifex. 
 
-1. **Keep an eye on your translation**. New releases bring with them edits to copy and new sections to be translated. 
+1. **Keep an eye on your translation, even after you're done.** New releases bring with them edits to copy and new sections to be translated. It doesn't take long for a complete translation to become a partial one.
 
 2. **Use the Transifex online editor!** Transifex offers both an online and offline editor. At this time, we don't recommend using the offline editor for translation. Instead, please use the online editor described above. 
 
