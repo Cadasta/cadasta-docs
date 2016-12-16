@@ -1,11 +1,9 @@
 # Translation
 
 * [Overview](#overview)
-* [Transifex Overview](#transifex-overview)
-* [Contributing to an Existing Translation Project](#contributing)
-* [Starting a New Translation Project](#new-project)
-* [Adding Translators to your Translation Project](#adding-translators)
-
+* [Translating the Cadasta Platform with Transifex](#translating-with-transifex)
+* [Important Notes: Transifex & Translation](#important-notes)
+* [Requesting a New Translation Project](#new-project)
 
 ### Overview {#overview}
 
@@ -23,80 +21,59 @@ To view one of these translations, select it from the drop-down menu at the bott
 
 To create and manage translations, Cadasta uses <a href="https://www.transifex.com/" target="_blank">Transifex</a> – an online translation management application. In this section, you'll learn how to use Transifex to translate the Cadasta Platform.
 
-### Transifex Overview {#transifex-overview}
+For complete documentation about Transifex, visit <a href="https://docs.transifex.com/" target="_blank">docs.transifex.com</a>.
 
-Transifex works by identifying all of the strings (non-code portions of the software files) and organizing them into a checklist-like format that allows users to translate each string file by file, line by line. 
+### Translating the Cadasta Platform with Transifex {#translating-with-transifex}
 
-> add image
+Transifex works by identifying all of the strings (non-code portions of the software files) and organizing them into a checklist-like format. This format allows users to translate each string file by file, line by line. 
 
-The top portion of the Dashboard provides a brief overview of the 
+Before getting started with your translation, you'll need to do two things:
 
+1. **Create a user account,** which you can do for free from Transifex.com. 
 
-On the bottom portion of the Dashboard, you can see all of the languages currently being translated or that have been translated already. Complete translations are show a green Ready for Use message on the right hand side.
-
-Throughout the application, completion is indicated by blue bars. Light blue bars indicate the amount that has been translated. Darker blue bars indicate how much of the translations have been reviewed. 
-
-
-Using Transifex helps translators keep track of what they have translated and how much is left. This information updates as the Platform updates, showing new sections of code that need to be addressed. It's important to keep an eye on your translation, as new releases bring with them new sections of code.
-
-As someone translating the Cadasta Platform, you may be doing one of two things:
-
-* Contributing to an existing translation project, or
-* Starting a new translation project. 
-
-Let's walk through how to do both of these.
-
-### Contributing to an Existing Translation Project {#contributing}
-
-> David
-* Who clones the platform?
-* How are translators added to Transifex? 
-* How are projects added to Transifex?
-
-As a translator, you'll likely be asked to translate an existing project, without having to set it up in Transifex.
-
-Before getting started, however, you'll need to do two things:
-
-1. **Create an account,** which you can do for free from Transifex.com. 
-
-2. **Get added to the translation team.** You can do this by asking the person leading the project to add you. _Team leaders see [Adding Translators to your Translation Project](#adding-translators) for information about how to do this._
+2. **Get added to the Cadasta translation team.** You'll be invited to join by someone from Cadasta. <a href="http://cadasta.org/contact/" target="_blank">Contact us</a> to request being added.
 
 Once you've been added to the team, you can get started with your translation.
 
-From the dashboard, click on **Translate**:
+From the top of the dashboard, click on **Translate**:
 
-> add image
+![](/assets/transifex-01-ai.png)
 
 Then, using the drop-down menu in the upper left, select which language you'd like to translate to.
 
-> add image
+![](/assets/transifex-02-ai.png)
 
 On the next screen, you can select which resources you'd like to start with:
 
-> add image
+![](/assets/transifex-04-ai.png)
 
-Here, the blue lines underneath the file names (`allauth`, `javascript`, and `resources`) indicate how much of the file has been translated (light blue) and how many of the translations have been reviewed (dark blue).
+Here, the blue lines underneath the file names (`allauth`, `javascript`, and `resources`) indicate how much of the file has been translated. 
 
-Click on a set of resources, and on the the next page you'll come to a checklist of all the lines that need to be translated. 
+In some cases, like below, you'll see both a light blue and a dark blue line. The light blue indicates how much has been translated, while dark blue indicates how many have been reviewed.
 
-> add image
+![](/assets/transifex-06-ai.png)
+
+From this view, click on a set of resources. On the the next page you'll come to a checklist of all the lines that need to be translated. 
+
+![](/assets/transifex-05-ai.png)
 
 Here, translators can translate each line one-by-one using the panel on the right. Remember to save your work frequently!
 
-When a translation is finished...
+When you're done, let the team at Cadasta know so that your work can be reviewed and pushed to live.
 
-> David, what happens when a translation is finished?
+## Important Notes: Transifex & Translation {#important-notes}
+
+There are a couple of things to keep in mind when it comes to translating the Cadasta platform using Transifex. 
+
+1. **Keep an eye on your translation**. New releases bring with them edits to copy and new sections to be translated. 
+
+2. **Use the Transifex online editor!** Transifex offers both an online and offline editor. At this time, we don't recommend using the offline editor for translation. Instead, please use the online editor described above. 
+
+### Requesting a New Translation Project {#new-project}
+
+If you would like to request a new translation of the Cadasta platform, please don't hesitate to <a href="http://cadasta.org/contact/" target="_blank">contact Us</a>.
 
 
-### Starting a New Translation Project {#new-project}
-
-> David, do we need to add this section, or is this something that the Cadasta team does?
-
-
-### Adding Translators to your Translation Project {#adding-translators}
-
-
-> David, do we need to add this section, or is this something that the Cadasta team does?
 
 
 
