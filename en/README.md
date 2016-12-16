@@ -1,6 +1,6 @@
 # Cadasta Platform User Guide
 
-> Last updated 15 Dec. 2016 // see the [Change Log](12-change-log) for information about what's changed.
+> Last updated 16 Dec. 2016 // see the [Change Log](12-change-log) for information about what's changed.
 
 ### Welcome!
 
