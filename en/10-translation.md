@@ -41,7 +41,7 @@ On the next screen, you can select which resources you'd like to start with:
 
 ![](/assets/transifex-04-ai.png)
 
-Here, the blue lines underneath the file names (`allauth`, `javascript`, and `resources`) indicate how much of the file has been translated. 
+Here, the blue lines underneath the file names (`allauth`, `javascript`, and `main`) indicate how much of the file has been translated. 
 
 In some cases, like below, you'll see both a light blue and a dark blue line. The light blue line indicates how much has been translated, while dark blue indicates how many have been reviewed.
 
