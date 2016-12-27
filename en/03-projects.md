@@ -148,6 +148,28 @@ Once you've navigated to the Edit Member Permissions page, you can change your m
 
 To learn more about member permissions and what they mean, read on to the next section.
 
+####Archiving a Project
+
+When it's time for your project to come to a close, you can easily archive it. Archiving allows you to keep all of your data in the Cadasta platform, while keeping it out of the way of current projects. 
+
+To archive a project, go to the project's Overview page. From there, click the three dots in the upper right, then select **Archive Project**. 
+
+![](/assets/archive-project-01.png)
+
+You'll be asked to confirm that you want to archive the project:
+
+![](/assets/archive-project-02.png)
+
+If you'd like to unarchive the project, first navigate to the Organization Overview page. Then, select Archive from the dropdown menu at the top of the list of projects:
+
+![](/assets/archive-project-03.png)
+
+Then, on the archived project's page, select the three dots in the upper right, then **Unarchive Project**. 
+
+![](/assets/archive-project-04.png)
+
+Now the project is active again.
+
 ### Project Members & Member Permissions {#project-members-member-permissions}
 
 When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for that project. Currently, there are five user roles, each with their own set of privileges:
