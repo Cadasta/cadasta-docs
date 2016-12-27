@@ -1,202 +1,202 @@
-# Questionnaires & Custom Data Collection
+# Kuesioner & Pengumpulan Data yang Disesuaikan
 
-* [Overview](#overview)
-* [Minimum Questionnaire](#minimal-form)
-* [Standard Questionnaire](#standard-form)
-* [Customizing Your Questionnaire](#customizing-your-questionnaire)
+* [Ringkasan](#overview)
+* [Kuesioner Minimal](#minimal-form)
+* [Kuesioner Standar](#standard-form)
+* [Menyesuaikan Kuesioner Anda](#customizing-your-questionnaire)
 
-### Overview {#overview}
+### Ringkasan {#overview}
 
-Every data collection project is different - starting with the questions you're asking. These questions shape everything about the project- including the entry fields for data collection.
+Setiap proyek pengumpulan data dapat berbeda - dimulai dari pertanyaan yang Anda tanyakan. Pertanyan-pertanyaan ini dapat membentuk proyek yang terbentuk - termasuk kolom isian untuk pengumpulan data.
 
-The Cadasta Platform allows you to define your own data collection schema, so you can tailor it around the specific questions you're asking. These questions could include contact details, geographic place names or how the land was acquired.
+Platform Cadasta memfasilitasi Anda untuk menetukan skema pengumpulan data Anda sendiri, sehingga Anda dapat menyesuaikannya sesuai dengan pertanyaan yang Anda ajukan. Pertanyaan-pertanyaan ini dapat termasuk rincian kontak, nama tempat, atau bagaimana tanah tersebut diakuisisi.
 
-In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
+Pada Platform Cadasta, prinsip teknologi seperti ini diperoleh dari [XLSForm](http://xlsform.org/). XLSForm adalah formulir isian standar yang memfasilitasi Anda untuk membuat formulir isiang menggunakan sebuah tabel. Formulit ini \(atau yang kita sebut dengan kuesioner\) merupakan alternatif sebuah database yang sederhana. Tetapi mereka juga dirancang untuk mengelola informasi dengan berbagai tingkat kompleksitas. 
 
-You can start your project with one of these two ready-to-go questionnaires:
+Anda dapat memulai proyek Anda dengan salah satu dari dua kuesioner yang telah disiapkan:
 
-* [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) - which creates a schema for the bare minimum of data needed by the platform; and
+* [Kuesioner minimal](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) - dimana membuat sebuah skema minimal untuk data yang dibutuhkan oleh platform; dan 
 
-* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) - which is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
+* [Kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) - dimana merupakan sebuah titik awal untuk rekan-rekan kami. Kuesioner ini termasuk kolom isian yang ada di kuesioner minimum, dengan beberapa tambahan. 
 
-You can use either of these forms as starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
+Anda dapat menggunakan kedua formulir ini sebagai titik awal untuk proyek Anda. Anda juga dapat memodifikasi bagian dari formulir ini untuk menyesuaikan kebutuhan koleksi data Anda. 
 
-If you need to significantly modify these data entry fields, see the section on [customizing your questionnaire](#customizing-your-questionnaire). 
+Jika Anda membutuhkan modifikasi yang signifikan dari kolom isian kuesioner, lihat bagian [menyesuaikan kuesioner Anda](#customizing-your-questionnaire). 
 
-_**Important note:** You can make small changes to your questionnaire - such as adding a row - and reupload it to an existing project. However, if your questionnaire changes significantly, you may need to start a new project._
+_**Catatan penting:** Anda dapat melakukan perubahan kecil pada kuesioner Anda - misalnya menambahkan baris - dan mengupload ulang pada proyek yang tersedia sebelumnya. Bagaimanapun, jika kuesioner Anda berubah secara signifikan, Anda mungkin harus memulai sebuah proyek baru._
 
-If you have questions about how to use these questionnaires, [contact us](http://cadasta.org/contact/) at any time.
+Jika Anda memiliki pertanyaan tentang bagaimana untuk menggunakan kuesioner ini, silahkan [hubungi kami](http://cadasta.org/contact/) kapanpun.
 
-### The Minimum Questionnaire {#minimal-form}
+### Kuesioner Minimal {#minimal-form}
 
-[The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) has the essential fields you need for data collection using the Cadasta Platform.
+[Kuesioner minimal](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) memiliki kolom isian yang penting untuk pengumpulan data menggunakan Platform Cadasta. 
 
-This questionnaire has three tabs:
+Kuesioner ini memiliki tiga tab:
 
 * Survey
-* Choices, and
+* Choices, dan
 * Settings.
 
-The **Survey** tab shows the overall data collection schema.
+Tab **Survey** menunjukan skema pengumpulan data secara menyeluruh.
 
 ![](/assets/minimum-survey.png)
 
-The areas in gray are fields that the Cadasta platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes, so you'll never see them in the Platform, ODK, or GeoODK. _(Note! Do not tamper with any of the gray fields!)_
+Area yang berwarna abu-abu adalah kolom isian pada Platform Cadasta yang akan bekerja. Beberapa dari kolom isian tersebut \(contohnya `deviceid`\) digunakan dibalik proses, sehingga Anda tidak akan melihatnya di dalam Platform, ODK, atau GeoODK. _(Catatan! Jangan mengubah apapun yang ada di dalam kotak abu-abu!)_
 
-The first three columns are important ones for you to know about:
-* `type` specifies the type of entry you're adding - be it text, a date, a dropdown or something else. 
-* `name` specifies the variable used for that entry. No two names can be the same!
-* `label` shows the text that will actually be seen on the form. Fields in white can be modified as needed.
+Penting bagi Anda untuk mengetahui tiga kolom pertama: 
+* `type` menentukan tipe data yang Anda tambakan - misalnya teks, tanggal, sebuah pilihan, atau lainnya. 
+* `name` menentukan variabel yang digunakan untuk pemasukan data. Tidak boleh ada dua nama yang sama! 
+* `label` menunjukan teks yang akan dilihat pada formulir. Kolom isian yang berwarna putih dapat dimodifikasi sesuai kebutuhan. 
 
-The **Choices** tab is where the choices for all the drop-down menus are stored.
+Tab **Choices** merupakan pilihan dimana menu pilihan ganda akan disimpan. 
 
 ![](/assets/minimum-choices.png)
 
-For example, the `respondent` entries Group, Individual and Corporation (A2 - A4 in the image above) correspond with this dropdown menu in the Add Relationship popup:
+Sebagai contoh, `respondent` terdiri dari Grup, Individual dan Korporat (A2 - A4 pada gambar di atas) berkaitan dengan menu pilihan pada jendela Tambah Hubungan:
 
 ![](/assets/relationship-dropdown.png)
 
-The **Settings** tab shows you the `form_id` and title of the questionnaire. You'll use this ID when you set up data collection with ODK and GeoODK.
+Tab **Settings** menunjukan `form_id` dan judul kuesioner Anda. Anda akan menggunakan ID ini ketika Anda memasang pengumpulan data dengan ODK dan GeoODK. 
 
-Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces.
+Pastikan seluruh kuesioner pada organisasi Anda memiliki ID formulir yang unik. Karena jika tidak, kuesioner Anda tidak akan termuat, dan Anda akan terpaksa menggunakan form yang asli dengan ID tersebut. Sebagai tambahan, pastikan ketika membuat nama dimulai dengan huruf kecil dan tidak memiliki spasi. 
 
-### The Standard Questionnaire {#standard-form}
+### Kuesioner Standar {#standard-form}
 
-[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has all the same questions as the mininimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
+[Kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) memiliki pertanyaan yang sama dengan versi minimal, dengan beberapa sedikit tambahan. Anda dapat melihat pilihan yang lebih banyak pada tab **Survey**.
 
 ![](/assets/standard-survey.png)
 
-The image above shows all the entries that will be collected in addition to the minimal information. These entries are organized by section:
+Gambar di atas menunjukan seluruh pemasukan data yang akan dikumpulkan dan ditambahkan pada informasi minimal. The image above shows all the entries that will be collected in addition to the minimal information. Pemasukan data tersebut diorganisir berdasarkan bagian: 
 
-* Location Attributes \(rows 22-28\)
-* Default Party Attributes \(rows 20-32\)
-* Individual Party Attributes \(rows 34-38\)
-* Group Party Attributes \(rows 40-43\)
-* Party Relationship Attributes \(45-47\)
-* Tenure Relationship Attributes \(49-51\)
+* Atribut Lokasi \(baris 22-28\)
+* Atribut Kelompok Standar \(baris 20-32\)
+* Atribut Kelompok Individual \(baris 34-38\)
+* Atribut Kelompok Grup \(baris 40-43\)
+* Atribut Hubungan Kelompok \(baris 45-47\)
+* Atribut Hubungan Kepemilikan \(baris 49-51\)
 
-Each of these sections relates to a data collection window in the cadasta platform.
+Setiap bagian ini berhubungan dengan jendela pengumpulan data di Platform Cadasta. 
 
-The **Choices** tab has the same options as the minimal questionnaire, with some additional drop-down choices as well.  
+Tab **Choices** memiliki pilihan yang sama dengan kuesioner minimal, dengan tambahan pilihan. 
 
 ![](/assets/standard-choices-2.png)
 
-For example, rows 38-47 show the choices for the different types of location acquisitions, which correspond with row 25 on the Survey tab (above).
+Sebagai contoh, baris 38-47 menunjukan pilihan untuk berbagai macam tipe akuisisi lokasi, yang terhubung dengan baris 25 pada tab Survey (atas).
 
-The **Settings** tab of the standard questionnaire is exactly the same as it is in the minimal version - providing the `form_id`, which is your identifier for the questionnaire in ODK or GeoODK.
+Tab **Settings** pada kuesioner standar sama dengan versi minimal - menyediakan `form_id`, untuk mengidentifikasi kuesioner Anda pada ODK atau GeoODK. 
 
 ![](/assets/standard-settings.png)
 
-Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces. 
+Pastikan seluruh kuesioner pada organisasi Anda memiliki ID formulir yang unik. Karena jika tidak, kuesioner Anda tidak akan termuat, dan Anda akan terpaksa menggunakan form yang asli dengan ID tersebut. Sebagai tambahan, pastikan ketika membuat nama dimulai dengan huruf kecil dan tidak memiliki spasi. 
 
-### Customizing Your Questionnaire {#customizing-your-questionnaire}
+### Menyesuaikan Kuesioner Anda {#customizing-your-questionnaire}
 
-If you need to collect different data than what's in the standard questionnaire, and more than what's in the minimum questionnaire, you can customize these forms to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for everything to work.
+Jika Anda akan mengumpulkan data yang berebda dengan apa yang ada di dalam kuesioner standar, dan lebih daripada yang terdapat di kuesioner minimal, Anda dapat mengubah formulit ini untuk menyesuaikan dengan kebutuhan Anda. Apapun yang terdapat pada kolom isian berwarna putih dapat dimodifikasi. Kolom isian dengan warna abu-abu harus tetap sama agar semuanya tetap bekerja. 
 
-#### Basic Customization
+#### Penyesuaian Dasar
 
-##### Deleting Unnecessary Fields
+##### Menghapus Kolom Isian yang Tidak Diperlukan
 
-If there's a field that you don't want to include, simply delete its row from the survey tab of the questionnaire. To do this in Excel, right-click the row and then select Delete.
+Jika ada sebuah kolom isian yang tidak ingin Anda masukan, Anda dapat menghapus baris kolom isian tersebut dari tab survey pada kuesioner. Untuk melakukan ini di Excel, klik kanan pada baris kemudian klik Delete. 
 
-_**Important note!** Remember that fields in gray cannot be deleted or modified; only delete rows that have completely white backgrounds._
+_**Catatan Penting!** Ingat bahwa kolom isian yang berwarna abu-abu tidak dapat dihapus atau dimodifikasi; Anda hanya dapat menghapus baris yang seluruhnya berlatar belakang putih._
 
-##### Editing Drop-Down Fields
+##### Mengubah Menu Pilihan Ganda
 
-To edit a field in a drop-down menu, navigate to the Choices tab. There, you can modify the `name` and `label` of the fields as needed.
+Untuk mengubah sebuah menu pilihan ganda, arahkan ke tab choices. Di sana, Anda dapat memodifikasi kolom isian `name` dan `label` sesuai kebutuhan.
 
-For example, to add a new field to the location acquisition dropdown \(`l_acquired_how`\):
+Sebagai contoh, untuk menambahkan sebuah kolom isian pada menu pilihan lokasi akusisi \(`l_acquired_how`\):
 
-* Add a new row, and give it a `list_name` of `l_acquired_how`.
-* Add a new name and label.
+* Tambahkan sebuah garis baru, beri nama `list_name` dari `l_acquired_how`.
+* Tambahkan sebuah nama dan label.
 
-In the example below, a new category for the dropdown \("Unknown"\) has been added to the questionnaire.
+Pada contoh di bawah ini, sebuah kategori untuk menu pilihan \("Tidak Diketahui"\) telah ditambahkan pada kuesioner. 
 
 ![](/assets/land-acquision-new-row.png)
 
-Once that questionnaire is saved and loaded into the project, the new "Unknown" option will appear in the dropdown under, "How was this location acquired?"
+Saat kuesioner telah disimpan dan dimuat ke dalam proyek, pilihan "Tidak Diketahui" yang baru dimasukan akan muncul pada menu pilihan di bagian, "Bagaimana lokasi ini diakusisi?"
 
 ![](/assets/standard-new-field.png)
 
-#### GeoTrace, GeoShape and GeoPoint
+#### GeoTrace, GeoShape dan GeoPoint
 
-In your location data collection, you may choose to collect point, line, or polygon data. In both the standard and minimum questionnaires, you have the option to choose one of these using `geopoint`, `geotrace`, or `geoshape`. 
+Pada lokasi pengumpulan data Anda, Anda dapat memilih di antara data titik, garis, atau bentuk. Pada kedua kuesioner baik standar maupun minimal, Anda memiliki pilihan untuk menggunakan salah satu diantara pilihan berikut `geopoint`, `geotrace`, atau `geoshape`. 
 
-* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimum and standard questionnaires. With `geotrace`, location pins are added based on the user's GPS coordinates. 
+* `geotrace` merekam sebuah garis dari dua koordinat GPS atau lebih. Ini merupakan pengaturan standar baik di dalam kuesioner minimal maupun standar. Dengan `geotrace`, lokasi ditandai berdasarkan koordinat GPS penggguna.
 
-* `geoshape` records a polygon made of multiple GPS coordinates, which are drawn on-screen. 
+* `geoshape` merekam sebuah bentuk yang dibuat dari sejumlah koordinat GPS, yang digambar pada layar. 
 
-* `geopoint` collects single points of data based on the user's GPS coordinates. 
+* `geopoint` memperoleh satu titik data berdasarkan koordinat GPS pengguna. 
 
-To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaire. 
+Untuk merubah tipe data apa yang Anda kumpulkan, Anda dapat memodifikasi sel A11 baik di kuesioner minimal maupun standar. 
 
-#### Advanced Customization
+#### Penyesuaian Tingkat Lanjut
 
-If you need to do more than simply edit a few existing fields, then advanced customization may be for you.
+Jika Anda memerlukan perubahan kolom isian yang lebih banyak, makan penyesuaian tingkat lanjut ini mungkin berguna untuk Anda. 
 
-##### Data Entry Types {#data-types}
+##### Tipe Pemasukan Data {#data-types}
 
-To fully take advantage of customizing the questionnaire, it's important to figure out which data entry type will work best for the kind of information you're collecting. Some of the most common ones that you'll use are:
+Untuk memanfaatkan penyesuaian kuesioner, sangat penting untuk mengetahui tipe pemasukan daya yang terbaik untuk tipe informasi yang Anda kumpulkan. Beberapa yang paling umum yang akan Anda gunakan contohnya: 
 
-* `text` - which specifies that you're collecting basic text.
-* `date` - which specifies that you're logging the date.
-* `select_one` - which specifies that you're using a dropdown menu
+* `text` - dimana menentukan bahwa Anda akan memperoleh teks dasar. 
+* `date` - dimana menentukan bahwa Anda mencatat tanggal. 
+* `select_one` - dimana menentukan bahwa Anda menggunakan sebuah menu pilihan ganda. 
 
 ![](/assets/standard-survey-example.png)
 
-You can see each of these at work in the above example, taken from the survey tab of the standard questionnaire.
+Anda dapat melihat masing-masing tipe pada contoh di atas, yang diambil dari tab survey pada kuesioner standar. 
 
-Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specifies that cell A24 is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
+Perhatikan bahwa `select_one` - menu pilihan ganda - memerlukan identifikasi sebuah set pilihan yang terkait. Pada contoh di atas, menu pilihan ganda yang pertama menentukan bahwa sel A24 terkait dengan pilihan yang diberi nama `l_quality_choices`. Pada tab Choices, Anda dapat melihat berbagai macam pilihan untuk `l_quality_choices`:
 
 ![](/assets/standard-choices-example.png)
 
-These options will appear in the dropdown when it's selected.
+Pilihan ini akan muncul pada menu pilihan ganda setelah dipilih. 
 
-In addition to these basic data types, [XLSForm offers many different data types for you to choose from](http://xlsform.org/#question-types).
+Sebagai tambahan untuk tipe data dasar ini, [XLSForm menawarkan berbagai macam tipe data yang dapat Anda pilih](http://xlsform.org/#question-types).
 
 ![](/assets/xls-form-question-types.png)
 
-The type you need depends on the kinds of questions you need to ask. For example, if you need to collect an audio sample from an interviewee, you could select `audio`, which will prompt you to take an audio recording.
+Tipe yang Anda pilih bergantung pada jenis pertanyaan yang Anda ajukan. Contohnya, jika Anda perlu mengumpulkan sebuah sampel suara dari sebuah interview, Anda dapat memilih `audio`, dimana akan memberi tahu Anda untuk merekam suara. 
 
-##### Questionnaire Sections
+##### Bagian Kuesioner
 
 ![](/assets/standard-survey.png)
 
-The customizable portion of the questionnaire has been organized into the following sections: 
+Bagian kuesioner yang dapat disesuaikan telah diorganisir berdasarkan bagian-bagian berikut: 
 
-* **Location Attributes** relate to to information about the location - like its name and boundaries. 
+* **Atribut Lokasi** berhubungan dengan informasi tentang lokasi, misalnya nama lokasi dan batas lokasi. 
 
-* **Default Party Attributes** specify the information that you collect about any party, be it an individual, group, or corporation.
+* **Atribut Kelompok Standar** menentukan informasi yang Anda kumpulkan tentang kelompok apapun, baik individual, grup, maupun korporat. 
 
-* **Individual Party Attributes** and **Group Party Attributes** each provide information specific to whether a party is an individual or group.
+* **Atribut Kelompok Individual** dan **Atribut Kelompok Grup** masing-masing menyediakan informasi spesifik untuk apakah kelompok tersebut merupakan satu individu atau grup.
 
-* **Party Relationship Attributes** is for information specific to the relationship between a party and the location. 
+* **Atribut Hubungan Kelompok** merupakan informasi spesifik untuk hubungan antar sebuah kelompok terhadap satu lokasi.  
 
-* **Tenure Relationship Attributes** specify information about a party's tenure on the land.
+* **Atribut Hubungan Kepemilikan** menentukan informasi terkait tentang suatu kepemilikan kelompok pada sebuah bidang tanah.
 
-Each of these sections relates to a piece of the Cadasta Platform's internal workings. In order for your questions to appear in the platform, they need to be in one of these sections.
+Setiap bagian-bagian ini berhubungan dengan sebagian dasar internal Platform Cadasta. Agar pertanyaan Anda dapat muncul di platform, mereka harus berada dalam salah satu bagian ini. 
 
-The below image is taken from a custom questionnaire used by one of our partners. Here, they've added a number of custom fields in the `party_attributes_default` section:
+Gambar di bawah ini diambil dari sebuah kuesioner yang disesuaikan dari salah satu rekan kerja kami. Di sini, mereka menambahkan sejumlah kolom isian yang disesuaikan pada bagian `party_attributes_default`:
 
 ![](/assets/example-xls-1.png)
 
-It is possible to create new sections, as another Cadasta partner has done below. Here, they've added a section on witnesses:
+Menambahkan bagian baru juga memungkinkan, dimana contoh di bawah ini merupakan salah satu contoh yang pernah dilakkan oleh salah satu rekan kerja Cadasta. Di sini mereka menambahkan sebuah bagian pada saksi: 
 
 ![](/assets/example-xls-2.png)
 
-If you'd like to create new sections or significantly customize your questionnaire, we highly recommend that you [contact us](http://cadasta.org/contact/) first. We're here to help! 
+Jika Anda ingin membuat sebuah bagian baru atau menyesuaiakan kuesioner Anda secara signifikan, kami sangat merekomendasikan Anda untuk [menghubungi kami](http://cadasta.org/contact/) pertama kali. Kami di sini untuk membantu! 
 
-##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
+##### Menu Pilihan Ganda dengan Semua GeoTypes (GeoTrace, GeoPoint & GeoShape)
 
-In some cases, you may want to give your data collectors the option to choose collecting data using GeoTrace, GeoPoint or GeoShape. If you do, you can modify to your form to make this possible. Alternatively, you can build out your questionnaire [starting from this one](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire-all-geo.xlsx). 
+Pada kasus tertentu, Anda mungkin ingin memberikan pilihan bagi data kolektor Anda untuk mengumpulkan data menggunakan GeoTrace, GeoPoint atau GeoShape. Jika demikian, Anda dapat memodifikasi formulir Anda. Cara alternatif, Anda juga dapat membuat kuesioner Anda [dimulai dari kuesioner ini](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire-all-geo.xlsx). 
 
-If you'd like to update an existing questionnaire, here's what you need to do. 
+Jika Anda ingin memperbarui kuesioner sebelumnya, berikut adalah hal yang perlu Anda lakukan. 
 
-In the **Survey tab** of your questionnaire, add three rows just below row 11. 
+Pada **tab Survey** dari kuesioner Anda, tambahkan tiga baris di bawah bari ke-11. 
 
 ![](/assets/allgeo-modify-1.png)
 
-Then, copy and paste the below into rows 11 - 14. 
+Kemudian, copy dan paste informasi di bawah ini pada baris ke-11 hingga baris ke-14. 
 
 <table>
 <tbody>
@@ -248,11 +248,11 @@ Then, copy and paste the below into rows 11 - 14.
 </table>
 
 
-Note that you may need to use the _Paste Special_ option and select Text in the pop-up window that follows.
+Catatan bahwa Anda mungkin perlu menggunakan pilihan _Paste Special_ dan pilih Text pada jendela selanjutnya. 
 
 ![](/assets/allgeo-modify-2.png)
 
-Next, you'll need to add the following options to the the Choices tab of your spreadsheet. Again, you may need to paste this using the _Paste Special_ option. 
+Selanjutnya, Anda perlu menambahkan pilihan berikut pada tab Choices dari lembar kerja Anda. Anda mungkin perlu menyalin teks dibawah ini menggunakan pilihan _Paste Special_ .
 
 <table>
 <tbody>
@@ -274,31 +274,31 @@ Next, you'll need to add the following options to the the Choices tab of your sp
 </tbody>
 </table>
 
-In the image below, the fields above have been pasted into a minimum questionnaire. 
+Pada gambar di bawah ini, kolom isian di atas telah disalin pada sebuah kuesioner minimal. 
 
 ![](/assets/allgeo-modify-3.png)
 
-Now, when data collectors are collecting data in the field, they can choose which data collection method is best: GeoTrace, GeoPoint or GeoShape.
+Sekarang, ketika kolektor data mengumpulkan data di lapangan, mereka dapat memilih metode pengumpulan data yang terbaik: GeoTrace, GeoPoint or GeoShape.
 
-##### Steps to Creating Your Custom Questionnaire
+##### Langkah-Langkah Membuat Kuesioner yang Disesuaikan oleh Anda
 
-The first thing you need to do is think through the questions you'll be asking in your data collection.
+Hal pertama yang perlu Anda lakukan adalah memikirkan pertanyaan yang akan Anda ajukan pada saat mengumpulkan data. 
 
-1. Identify your questions. What information do you need to collect in your project? 
+1. Identifikasi pertanyaan Anda. Informasi apa yang Anda butuhkan untuk dikumpulkan dalam proyek Anda? 
 
-2. Identify each question's data entry type. What kind of  entry would work best for each question - a date? A text field? A drop-down or multiple choice?
+2. Identifikasi setiap tipe data dari tiap pertanyaan Anda. Tipe data seperti apa yang cocok untuk setiap pertanyaan - sebuah tanggal? Isian teks? Atau pilihan berganda? 
 
-3. Identify where each question should go. Is this question about a party, location, relationship, or something else?
+3. Identifikasi kemana setiap pertanyaan akan diajukan. Apakah pertanyaan tersebut terkait dengan sebuah kelompok, lokasi, hubungan, atau hal yang lain? 
 
-Once you've thought this through, you can start adding your questions to their appropriate section.
+Setelah Anda memikirkan hal-hal tersebut, Anda dapat memulai menambahkan pertanyaan Anda pada bagian yang sesuai. 
 
-Before uploading your questionnaire to your project, check to make sure that:
+Sebelum mengupload kuesioner Anda ke dalam proyek, pastikan bahwa: 
 
-* all of your data entry `types` match those listed on [XLSForm](http://xlsform.org/#question-types) and are spelled correctly. 
-* all of your `names` are lowercase and contain no spaces. 
-* all of your `list_names` in the Choices tab match the name you've given to your dropdowns in the Survey tab.
-* all of your `form_ids` are distinct, contain no spaces, and start with a lowercase letter.
+* seluruh  `types` (tipe pemasukan data) Anda sama dengan yang terdaftar pada XLSForm dan memiliki ejaan yang benar. 
+* seluruh `names` ditulis dalam huruf kecil dan tidak mengandung spasi. 
+* seluruh `list_names` pada tab Choices sama dengan nama yang Anda berikan pada pilihan ganda Anda di tab Survey. 
+* seluruh `form_ids` berbeda (unik), tidak memiliki spasi, dan dimulai dengan sebuah huruf kecil. 
 
-Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
+Salah ejaan dan format yang tidak konsisten dana menyebabkan kesalahan saat Anda mengumpulkan data. Untuk itulah kami sangat merekomendasikan Anda untuk melakukan uji coba pengumpulan data sebelum pergi ke lapangan. 
 
-If you're having trouble with your questionnaires, don't hesistate to [contact us](http://cadasta.org/contact/) at any time - we're here to help you get your data collection just right.
+Jika Anda memiliki permasalahan dengan kuesioner Anda, jangan ragu untuk [menghubungi kami](http://cadasta.org/contact/) kapanpun - kami hadir untuk membantu pengumpulan data Anda.

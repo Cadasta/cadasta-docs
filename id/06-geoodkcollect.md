@@ -1,210 +1,215 @@
-# Collecting Data with GeoODK Collect (Geographical Open Data Kit) 
+# Mengumpulkan Data dengan GeoODK Collect (Geographical Open Data Kit) 
 
-* [Overview](#overview)
-* [Initial Setup](#initial-setup)
-* [Loading Your Questionnaire](#loading-your-form)
-* [Data Collection](#data-collection)
-* [Uploading Data](#uploading-data)
-* [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing)
-* [Editing Data](#editing-data)
-* [Deleting Questionnaires](#deleting-questionnaires)
-* [GeoODK Troubleshooting](#geoodk-troubleshooting)
+* [Ringkasan](#overview)
+* [Pemasangan Awal](#initial-setup)
+* [Memuat Kuesioner Anda](#loading-your-form)
+* [Pengumpulan Data](#data-collection)
+* [Mengupload Data](#uploading-data)
+* [Mengumpulkan Data Lokasi : GeoTrace, GeoPoint and GeoShape](#geotracing)
+* [Mengubah Data](#editing-data)
+* [Menghapus Kuesioner](#deleting-questionnaires)
+* [GPenyelesaian Masalah GeoODK](#geoodk-troubleshooting)
 
 ###Overview {#overview}
 
-Geographical Open Data Kit \(GeoODK Collect\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like Open Data Kit (ODK Collect), GeoODK can be used for data collection projects in the Cadasta Platform. 
+Geographical Open Data Kit \(GeoODK Collect\) adalah aplikasi pengumpulan data untuk perangkat Android (sayangnya belum tersedia untuk perangkat Apple). Seperti Open Data Kit (ODK Collect), GeoODK dapat digunakan untuk proyek pengumpulan data di Platform Cadasta. 
 
-This section provides an overview of how GeoODK and Cadasta work together:
+Bagian ini menjelaskan secara ringkat bagaimana GeoODK dan Cadasta dapat bekerja sama: 
 
-1. First, you'll [set up GeoODK](#initial-setup) on an Android device.
-2. Then you'll [load the questionnaire](#loading-your-form) you want to use for data collection.
-3. Finally, it's time to [collect your data](#data-collection)! 
-4. When you're back to WiFi, [upload your data](#uploading-data) to the Cadasta Platform.
+1. Pertama, Anda perlu [memasang GeoODK](#initial-setup) pada sebuah perangkat Android.
+2. Kemudian Anda akan [memuat kuesioner](#loading-your-form) yang Anda inginkan untuk pengumpulan data. 
+3. Terakhir, saatnya untuk [mengumpulkan data Anda](#data-collection)! 
+4. Ketika Anda sudah memiliki jaringan WiFi, [upload data Anda](#uploading-data) ke Platform Cadasta.
 
-**Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to [troubleshoot](#geoodk-troubleshooting) or make any changes. 
+**Penting!** Langkah 1, 2, dan 4 membutuhkan jaringan WiFi. Anda juga mungkin ingin melakukan ujio coba langkah ke-3 sebelum keluar lapangan, untuk menjaga apabila Anda perlu [menyelesaikan masalah](#geoodk-troubleshooting) atau membuat perubahan. 
 
-For more information and documentation about GeoODK generally, visit [geoodk.com](http://geoodk.com/).
+Untuk informasi dan dokumentasi terkait GeoODK secara umum, kunjungi [geoodk.com](http://geoodk.com/).
 
-### Initial Setup {#initial-setup}
+### Pemasangan Awal {#initial-setup}
 
-To get started, [download GeoODK from the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), or wherever you acquire your applications.
 
-If this is the first time you've used GeoODK with the Cadasta Platform, you'll need to configure GeoODK for direct syncing. To do this, you'll need to set up your Cadasta account if you haven't already \(see [Getting Started](01-gettingstarted.md)\).
+Untuk segera memulai, [download GeoODK dari the Google Play Store](https://play.google.com/store/apps/details?id=com.geoodk.collect.android), atau dari sumber manapun dimana Anda memperoleh aplikasi Anda. 
 
-1. Once you've created your account and installed GeoODK, open the application.
-2. From the map screen, hit the button with the four squares on the right. Then select **Settings** from the Main Menu, then **General Settings**, then **Configure Platform Settings**. 
+Jika ini adalah pertama kali Anda menggunakan GeoODK dengan Platform Cadasta, Anda perlu untuk mengatur GeoODK untuk sinkronisasi langsung. Untuk melakukan ini, Anda memerlukan perngaturan akun Cadasta Anda, jika Anda belum punya, silahkan \(lihat [Mulai Menggunakan](01-gettingstarted.md)\).
+
+
+1. Setelah Anda membuat akun dan memasang GeoODK, buka aplikasi GeoODK.
+2. Dari tampilan peta, sentuh tombol dengan empat persegi di sebelah kanan. Kemudian pilih  **Settings** dari menu utama, kemudian **General Settings**, kemudian **Configure Platform Settings**. 
 
     ![](/assets/geo-odk-1-configure-settings.png)
 
-3. On this screen, enter the Platform URL along with your username and password. The username and password do not have to be the same as they are on your Cadasta account, but it may be helpful to keep them consistent. The URL you need should be similar to the one you used when you signed up for your Cadasta account. 
-    * https://platform.cadasta.org/collect \(if for active projects\); or
-    * https://demo.cadasta.org/collect  \(if for testing\)
+3. Pada layar ini, masukan URL Platform dengan nama pengguna Anda dan kata kunci. Nama pengguna dan kata kunci tidak harus sama dengan akun Cadasta Anda, tetapi akan lebih membantu apabila mereka konsisten. Untuk URL, Anda harus menyesuaikan dengan yang Anda gunakan saat Anda mendaftar akun Cadasta Anda.  
+
+    * https://platform.cadasta.org/collect \(untuk proyek aktif\); atau
+
+    * https://demo.cadasta.org/collect  \(untuk uji coba\)
 
     ![](/assets/geo-odk-2-url.png)
 
-You now have a GeoODK account that's synced with the Cadasta Platform.
+Sekarang Anda telah memiliki akun GeoODK yang akan tersinkronisasi dengan Platform Cadasta. 
 
-Click the back button 3 times to return to the main menu.
+Klik tombol kembali tiga kali untuk kembali ke menu utama. 
 
-### Loading your Questionnaire {#loading-your-form}
+### Memuat Kuesioner Anda {#loading-your-form}
 
-Once you've connected GeoODK with Cadasta, the next thing you need to do is load the questionnaire you're using for your data collection project. 
+Setelah GeoODK dan Cadasta Anda terhubung, hal selanjutnya yang perlu Anda lakukan adalah memuat kuesioner yang akan Anda gunakan untuk proyek pengumpulan data.
 
-1. From the Main Menu, select **Settings**, then **Form Management**. 
+1. Dari menur utama, pilih **Settings**, kemudian **Form Management**. 
 
     ![](/assets/geo-odk-3-form-management.png)
 
-2. At this stage, you may be asked to provide your Cadasta username and password. Enter this information and then wait a few moments to be connected to the server. _Having trouble with this step? See [GeoODK Troubleshooting](#geoodk-troubleshooting)._
+2. Pada tahap ini, Anda akan diminta untuk memasukan nama pengguna dan kata kunci dari akun Cadasta Anda. Masukan informasi tersebut kemudian tunggu beberapa saat untuk terhubung ke server. _Anda mengalami masalah di langkah ini? Lihat [Penyelesaian Masalah GeoODK](#geoodk-troubleshooting)._
 
     ![](/assets/geo-odk-4-user-pass.png)
 
-3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you'd like to download and tap **Get Selected**.
+3. Pada halaman yang telah Anda ikuti, Anda akan melihat sebuah daftar kuesioner yang telah dimuat untuk proyek organisasi Anda. Centang atau tandai pada formulir yang ingin Anda gunakan, dan sentuh **Get Selected**.
 
     ![](/assets/geo-odk-5-questionnaire-list.png)
 
-Now, GeoODK is configured to record data using the questions in your questionnaire. 
+Sekarang, GeoODK telah terkonfigurasi untuk mencatat data dengan menggunakan pertanyaan yang terdapat pada kuesioner Anda. 
 
-### Data Collection {#data-collection}
+### Pengumpulan Data {#data-collection}
 
-Once you've initialized GeoODK and loaded your questionnaire, now it’s time to collect some data!
+Setelah Anda menyiapkan GeoODK dan memuat kuesioner Anda, saatnya untuk mengumpulkan beberapa data! 
 
-1. From the Main Menu select **Collect Data** then the questionnaire that you want to use. 
+1. Dari menu utama, pilih **Collect Data** kemudian pilih kuesioner yang ingin Anda gunakan. 
 
     ![](/assets/geo-odk-6-collect-data.png)
 
-2. Swipe left twice to get started completing the form.
-3. Continue answering all the survey questions until you reach the "End of survey" message. During this step, swipe left after you've answered each question. 
-    * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
-4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
+2. Geser ke kiri dua kali untuk mulai mengisi formulir tersebut. 
+3. Lanjutkan untuk menjawab seluruh pertanyaan survey hingga Anda menemukan pesan "End of survey" yang menandakan survey telah selesai. Pada langkah ini, geser ke kiri setelah Anda menjawab setiap pertanyaan. 
+    * Saat bagian ini, Anda akan ditanyakan untuk mencatat data lokasi dengan GeoTrace, atau menambahkan sebuah GeoShape atau GeoPoint. Informasi lebih lanjut terkait bagaimana mereka bekerja, lihat [Mengumpulkan Data Lokasi: GeoTrace, GeoPoint and GeoShape](#geotracing).
+4. Ketika semua pertanyaan telah selesai, pilih **Mark Form as finalized** dan **Save Form and Exit**. 
 
     ![](/assets/geo-odk-7-finalized-form.png)
 
-### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
+### Mengumpulkan Data Lokasi: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
-During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
+Saat [pengumpulan data](#data-collection), Anda akan diminta untuk memperoleh data yang menunjukan lokasi Anda dengan menggunakan beberapa pilihan sebagai berikut. 
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. It's also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** membuat garis (kumpulan dua koordinat GPS atau lebih) berdasarkan lokasi Anda. Pilihan ini merupakan pilihan standar yang tersedia pada kuesioner standar dan minimal. 
 
-* **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
+* **[GeoShape](#geoshape)** membuat bentuk (bentuk tertutup). Untuk membuat sebuah GeoShape, Anda dapat menggunakan jari Anda untuk menggambar sebuah bentuk pada peta.   
 
-* **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
+* **[GeoPoint](#geopoint)** membuat titik (satu koordinat GPS) berdasarkan lokasi Anda. 
 
-To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](08-XLSForms.md).
+Untuk mempelajari lebih lanjut bagaimana mengatur pilihan-pilihan tersebut dalam kuesioner Anda, lihat [Kuesioner & Pengumpulan Data yang Disesuaikan](08-XLSForms.md).
 
 #### GeoTrace {#geotrace}
 
-To start geotracing, hit the Play button in the upper left:
+Untuk memulai GeoTrace, sentuh tombol Play (mulai) di sebelah kiri atas: 
 
 ![](/assets/geo-odk-geotrace-1-play.png)
 
-From there, you'll be asked to select either Automatic or Manual mode. 
+Selanjutnya, Anda akan diminta untuk memilih mode Automatic atau Manual. 
 
 ![](/assets/geo-odk-geotrace-2-manual-automatic.png)
 
-**Manual mode** allows you to record your geotrace manually. Every time you want to drop a pin, click the **Record Location Point** button at the top of the map. For example, it's common practice to drop pins at each corner of a location. 
+**Manual mode** memperbolehkan Anda untuk merekam GeoTrace secara manual. Setiap kali Anda menentukan sebuah pin, klik pada tombol **Record Location Point** pada bagian atas peta. Sebagai contoh, idealnya pin dapat diletakan di setiap sudut dari sebuah lokasi. 
 
 ![](/assets/geo-odk-geotrace-3-record-location-point.png)
 
-**Automatic mode** records your location at set intervals, such as once every 20 seconds. This mode is helpful if you're recording a large area. 
+**Automatic mode** merekam lokasi Anda pada jangkauan waktu tertentu, misalnya setiap 20 detik. Mode ini akan berguna jika Anda merekam sebuah wilayah yang luas. 
 
-The amount of time you should set for your interval depends on how you're collecting the data. For example, if you're driving, you may want to set the interval to be once every 5 seconds. If you're walking, you may want to record once every 20-30 seconds. 
+Jangkauan waktu yang ditentukan seharusnya diatur sesuai dengan bagaimana Anda mengumpulkan data. Misalnya, jika Anda menggunakan kendaraan, Anda mungkin ingin mengatur interval setiap 5 detik. Jika Anda berjalan kaki, Anda mungkin ingin mengatur jangkauan waktu setiap 20-30 detik. 
 
-If you know you need to record the corners of a large area, then you might want to try manual mode. Or, if you're using automatic mode, pause on the corner long enough for the pin to drop. Alternatively, in automatic mode, you can also use the **Record Location Point** button to manually drop a pin.
+Jika Anda tahu bahwa Anda memerlukan untuk merekam sebuah wilayah yang luas, Anda mungkin dapat mencoba mode manual. Atau jika Anda menggunakan mode Automatic, Anda dapat berhenti sejenak di bagian sudut wilayah untuk menandakannya dengan sebuah pin. Sebagai alternatif, pada mode Automatic, Anda juga dapat menggunakan tombol **Record Location Point** untuk menandakan sebuah lokasi secara manual.
 
-For either automatic or manual mode, keep in mind that the more points you record, the bigger your data file will be and the harder it will be to upload when you return to WiFi or you mobile network. Collect all the points you need - and only the points you need!
+Baik mode automatic maupun manual, mohon perhatikan bahwa semakin banyak titik yang Anda rekam, semakin besar berkas data Anda dan akan semakin sulit untuk diupload ketika menggunakan WiFi atau jaringan seluler Anda. Kumpulkan titik-titik seperlunya - dan hanya tambahkan titik-titik yang Anda butuhkan. 
 
-When you're done geotracing, hit the pause button. You'll then be asked to save your information as a polyline or polygon.
+Saat Anda telah selesai dengan GeoTrace, tekan tombol Pause. Anda akan ditanyakan untuk menyimpan informasi Anda sebagai garis atau bentuk. 
 
 ![](/assets/geo-odk-geotrace-4-save-geotrace.png)
 
-If you've recording a point or line, choose polyline. If you've recording an area and created a closed shape, choose polygon.
+Jika Anda merekam sebuah titik atau garis, pilih polyline. Jika Anda merekam sebuah wilayah dan membuat bentuk tertutup, pilih polygon.
 
-Finally, you'll be brought to a confirmation screen where you can view your GeoTrace. 
+Akhirnya, Anda akan dibawa ke layar konfirmasi dimana Anda dapat melihat GeoTrace Anda. 
 
 ![](/assets/geo-odk-geotrace-5-confirmation.png)
 
-_Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is._
+_Catatan bahwa GeoODK akan menyebut sebuah parsel dengan geotrace tanpa menghiraukan jenis lokasi tersebut._
 
 #### GeoShape {#geoshape}
 
-GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area.  
+GeoShape dirancang untuk membuat bentuk (atau polygon) untuk menggambarkan sebuah lokasi spesifik. Misalnya, Anda dapat menggunakan GeoShape untuk menggambar sebuah batas di sekeliling bangunan atau wilayah tanah. 
 
 ![](/assets/geo-odk-geoshape-1.png)
 
-To collect location data with GeoShape, you can use your finger to draw a shape on the map. 
+Untuk memperoleh dat alokasi dengan GeoShape, Anda dapat menggunakan jari Anda untuk menggambar sebuah bentuk pada peta. 
 
-To create the shape, press and hold your finger on a point on the map until a marker appears. Then, hold your finger on another point. You'll see a red line appear between the two points. 
+Untuk membuat bentuk, sentuh dan tahan jari Anda pada sebuah titik hingga sebuah penanda muncul. Kemudian, tahan jari Anda pada sebuah titik yang lain. Anda akan melihat sebuah garis berwarna merah diantara kedua titik. 
 
-Keep placing markers on key points around your polygon. When it's time to complete the polygon, press the **Polygon** button in the upper right. 
+Taruh beberapa penanda pada titik-titik utama disekitar wilayah Anda. Jika sudah waktunya untuk menyelesaikan bentuk wilayah Anda, tekan tombol **Polygon** di sebelah kanan atas.
 
 ![](/assets/geoodk-geoshape-4.png)
 
-This will connect the last and first marker you drew, creating a complete and closed polygon.
+Ini akan menghubungkan penanda terakhir dengan penanda awal yang Anda gambar, membuat sebuah bentuk yang tertutup dengan sempurna. 
 
-When you're done, tap the **Save button** and continue your data collection.
+Jika Anda sudah selesai, sentuh **Save button** dan lanjutkan pengumpulan data Anda. 
 
 #### GeoPoint {#geopoint}
 
-To collect single GPS coordinates, you can use GeoPoint. GeoPoint only works by tracking your specific location (drawing with your finger is not available).
+Untuk mengumpulkan sebuah koordinat GPS, Anda dapat menggunakan GeoPoint. GeoPoint hanya bekerja dengan menandakan lokasi spesifik Anda (menggambarkan lokasi dengan jari tidak tersedia).
 
-First you'll come to a screen asking you to record the location of your parcel. Click **Record Location**. 
+Pertama-tama Anda akan melihat tampilan layar yang menanyakan ASnda untuk merekam lokasi parsel Anda. Klik **Record Location**. 
 
 ![](/assets/geoodk-geopoint-1.png)
 
-In the screen that follows, you'll see a map with your location. To save your pin location, hit the **Save** icon in the upper right. Also note the GPS accuracy logged at the top of the screen. 
+Pada tampilan layar berikutnya, Anda akan melihat sebuah peta lokasi Anda. Untuk menyimpan penanda lokasi, sentuh ikon **Save** di sebelah kanan atas. Mohon perhatikan bahwa akurasi GPS tercantum di bagian atas layar. 
 
 ![](/assets/geoodk-geopoint-2.png)
 
-When you're done, you'll come to a screen that looks like the one below. You can use this screen to view or edit your recording.
+Jika Anda telah selesai, Anda akan melihat tampilan layar seperti di bawah ini. Anda dapat melihat atau mengubah titik lokasi Anda di tampilan ini. 
 
 ![](/assets/geoodk-geopoint-3.png)
 
 ### Uploading Data {#uploading-data}
 
-When you get back to WiFi or a mobile network, you can upload your completed questionnaires to the Cadasta Platform. 
+Ketika Anda kembali mendapatkan jaringan WiFi atau jaringan seluler, Anda dapat mengupload kuesioner yang telah diisi ke Platform Cadasta.
 
-From the main menu, click **Send Data** and then check off all the forms that you want to upload (use the **Toggle All** button to select all questionnaires). Then select **Send Selected**.
+Dari menu utama, klik **Send Data** dan tandai seluruh formulir yang ingin Anda upload (gunakan tombol **Toggle All** untuk memilih seluruh kuesioner). Kemudian pilih **Send Selected**.
 
 ![](/assets/geo-odk-8-send-data.png)
 
-Next, you'll get a confirmation message confirming that the data has been sent. 
+Terakhir, Anda akan mendapatkan sebuah pesan konfirmasi bahwa data Anda sudah terkirim. 
 
 ![](/assets/geo-odk-9-confirmation.png)
 
-It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed questionnaires](#deleting-questionnaires) from your Android device.
+Sebaiknya Anda memeriksa untuk melakukan konfirmasi bahwa data Anda sudah tersedia di Platform Cadasta. Kemudian Anda dapat [menghapus seluruh kersioner yang terisi](#deleting-questionnaires) dari perangkat Android Anda.
 
-### Editing Data {#editing-data}
+### Mengubah Data {#editing-data}
 
-ODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
+GeoODK dapat membuat perubahan formulir Anda menjadi mudah. Dari menu utama, pilih **Edit Data**, kemudian pilih formulir yang ingin Anda ubah. Jika Anda sudah selesai, simpan perubahan Anda. 
 
 ### Deleting Questionnaires {#deleting-questionnaires}
 
-You can also easily delete unwanted questionnaires by selecting **Delete Saved Form** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
+Anda juga dapat menghapus kuesioner yang tidak dibutuhkan dengan memilih **Delete Saved Form** dari menu utama. Pada halaman selanjutnya, Anda dapat beralih antara Saved Forms dan Blank Forms untuk menghapus salah satunya. 
 
-### GeoODK Troubleshooting {#geoodk-troubleshooting}
+### Penyelesaian Masalah GeoODK {#geoodk-troubleshooting}
 
-If you're having trouble using GeoODK, the answer to your question may be here. If not, please [contact us](http://cadasta.org/contact/) and we'll do our best to help you work through the issue.
+Jika Anda memiliki masalah menggunakan GeoODK, Anda mungkin akan menemukan jawaban di sini. Jika tidak, mohon [hubungi kami](http://cadasta.org/contact/) dan kami akan melakukan yang terbaik untuk membantu menyelesaikan permasalahan Anda. 
 
 #### Trouble Loading Your Questionnaire
 
-##### ISSUE: I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
+##### Masalah: Saya tidak dapat terhubung dengan server Cadasta karena nama pengguna dan kata kunci saya tidak bekerja. (Dan ya, saya telah memeriksanya untuk memastikan keduanya benar!)
 
-The easiest thing to do here is to go to the Cadasta platform and change your password. Then, return to GeoODK and enter your new password there.  
+Hal yang paling mudah adalah pergi ke Platform Cadasta dan ubah kata kunci Anda. Kemudian, kembali ke ODK dan masukan kata kunci Anda yang baru.   
 
-##### ISSUE: I'm getting a message that says to "Please wait a few moments," but it's been much much longer than that.
+##### Masalah: Saya mendapatkan pesan "Please wait a few moments," tetapi pesan tersebut muncul lebih lama dari biasanya. 
 
 ![](/assets/geo-odk-error-1-wait-a-moment-forever.png)
 
-If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again. 
+Jika Anda mendapatkan respon lebih lama dari biasanya, sentuh Cancel. Anda mungkin sudah terhubung secara benar, atau Anda mungkin ingin mencoba kembali memasukan nama pengguna dan kata kunci Anda.
 
 #### Trouble Uploading Completed Questionnaires
 
-##### ISSUE: I'm getting an error when I upload my completed questionnaires.
+##### Masalah: Saya mendapatkan pesan kesalahan ketika mengupload kuesioner yang telah diisi. 
 
-If you're having trouble uploading your questionnaires, the most likely culprit is collecting data using a questionnaire that doesn't exactly match the questionnaire loaded on the Cadasta Platform. This can happen if you modify your questionnaire, load it to Cadasta, and then continue collecting data using an older version. 
+Jika Anda memiliki masalah untuk mengupload kuesioner Anda, kemungkinan penyebab utamanya adalah jika Anda mengumpulkan data dengan kuesioner yang tidak sama dengan kuesioner yang dimuat di Platform Cadasta. Ini dapat terjadi jika Anda memodifikasi 
+kuesioner Anda, memuatnya di Cadasta, dan melanjutkan pengumpulan data dengan versi kuesioner yang lama. 
 
-Unfortunately, the easiest way to fix this is to uninstall the old form and completed questionnaire and start over. This is why we recommend that you test GeoODK before heading out into the field. We also recommend refreshing your questionnaire before heading out to the field if you think that it might have changed. 
+Sayangnya, hal yang termudah untuk memperbaiki hal ini adalah membuang formulir beserta kuesioner yang telah terisi dan memulai dari awal. Inilah mengapa kami merekomendasikan Anda untuk melakukan uji coba GeoODK sebelum pergi ke lapangan. Kami juga merekomendasikan Anda untuk memperbarui kuesioner sebelum pergi ke lapangan jika Anda berpikir ada perubahan. 
 
-If you've collected too much data to start over, please [contact us](http://cadasta.org/contact/). 
+Jika Anda telah terlanjur mengumpulkan banyak data kemudian perlu mengulang, mohon [hubungi kami](http://cadasta.org/contact/). 
 
 

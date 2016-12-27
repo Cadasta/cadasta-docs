@@ -8,11 +8,11 @@
 
 If you've already been collecting data in another system and are switching to the Cadasta Platform, you can import your data in a .csv. This can be useful if you have many questionnaires to import, whether you have 10 or 10,000.
 
-Data importing is also a relatively new feature. We recommend that you <a href="http://http://cadasta.org/contact/" target="_blank">reach out to us</a> so that we can help you through the process. 
+Data importing is also a relatively new feature. We recommend that you <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> so that we can help you through the process. 
 
 ### Setting Up{#setting-up}
 
-Before importing your data, you'll want to make sure that the structure of your dataset matches the structure of the [questionnaire](#09-XLSForms.md) that you're using for your project. 
+Before importing your data, you'll want to make sure that the structure of your dataset matches the structure of the [questionnaire](09-XLSForms.md) that you're using for your project. 
 
 In this example, you can see a .csv of responses:
 
@@ -32,7 +32,7 @@ If you look at the `choices` tab of the questionnaire, you can also see that the
 
 ![](/assets/upload-sample-questionnaire-choices.png)
 
-If you have questions about whether your questionnaire matches your data set, need to create a questionnaire to match your data set, or are having trouble importing data from your .csv, please don't hesitate to <a href="http://http://cadasta.org/contact/" target="_blank">reach out to us</a> for assistance. 
+If you have questions about whether your questionnaire matches your data set, need to create a questionnaire to match your data set, or are having trouble importing data from your .csv, please don't hesitate to <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> for assistance. 
 
 ### Importing Data {#importing-data}
 
@@ -58,7 +58,7 @@ On the next page, you'll need to configure a couple types of fields.
 
 One type is for selecting the type of default party name and party type (individual, group, or corporation). The other is for selecting the type of location and geometry field. These simply create default inputs for required fields not shown in the .csv.
 
-When you're done, select **Finish** from the bottom right. Note that this might take a few moments. If the upload takes more than a minute, then you'll likely get a timeout message and need to try again. If the problem persists, try splitting your .csv into two smaller files and uploading them one at a time.
+When you're done, select **Import Data** from the bottom right. Note that this might take a few moments. If the upload takes more than a minute, then you'll likely get a timeout message and need to try again. If the problem persists, try splitting your .csv into two smaller files and uploading them one at a time.
 
 If the upload is completed successfully, you'll be able to see all of the records you've imported from the project location overview page. 
 

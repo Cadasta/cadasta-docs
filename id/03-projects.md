@@ -1,160 +1,161 @@
-# Projects
+# Proyek
 
-* [Overview](#overview)
-* [Setting Up a New Project](#setting-up-new-project)
-* [Editing a Project](#editing-a-project)
-* [Project Members & Member Permissions](#project-members-member-permissions)
+* [Ringkasan](#overview)
+* [Menambahkan sebuah Proyek Baru](#setting-up-new-project)
+* [Mengubah sebuah Proyek](#editing-a-project)
+* [Anggota Proyek & Izin Anggota](#project-members-member-permissions)
 
-### Overview {#overview}
+### Ringkasan {#overview}
 
-Within any organization, there may be any number of projects: initiatives to collect information about a series of locations in a given area. This section goes over how to [create a new project](#setting-up-a-new-project) in the Cadasta Platform, as well as how to [edit it](#editing-a-project) and [assign member permissions](#assign-member-permissions) for different projects. 
+Dalam organisasi apapun, terdapat sejumlah proyek: inisiatif untuk mengumpulkan informasi tentang sejumlah lokasi pada suatu area tertentu. Bagian ini akan menjelaskan bagaimana untuk [membuat sebuah proyek baru](#setting-up-a-new-project) pada Platform Cadasta, dan juga bagaimana untuk [mengubahnya](#editing-a-project) dan [menentukan izin anggota](#assign-member-permissions) untuk proyek yang berbeda. 
 
-### Setting Up a New Project {#setting-up-new-project}
+### Menambahkan sebuah Proyek Baru {#setting-up-new-project}
 
-Once your organization exists, administrators can start to add projects to it. 
+Setelah organisasi Anda tersedia, administrator dapat mulai menambahkan proyek di dalamnya.  
 
-#### 1. Navigate to the "Add project" button.
+#### 1. Arahkan ke tombol "Tambah proyek".
 
-You can find the **Add project** button in one of two ways. The first way is from your Organization Overview page:
+Anda dapat menemukan tombol **Tambah proyek** dengan salah satu dari kedua cara berikut. Cara pertama adalah dari halaman Ringkasan Organisasi Anda: 
 
 ![](/assets/add-project-1.png)
 
-And the second way is by clicking the **Projects** button at the top of the page, and then clicking **Add**.
+Dan cara kedua adalah dengan mengklik tombol **Proyek** pada bagian atas halaman, dan kemudian klik **Tambah**.
 
 ![](/assets/add-project-2.png)
 
-#### 2. Navigate to your project area
+#### 2. Arahkan ke wilayah proyek Anda
 
-Your project area is the geographic area where field data collection activities take place. You can find your area on the map using a couple different approaches.
+Wilayah proyek Anda merupakan wilayah geografis dimana aktivitas pengumpulan data di lapangan akan berlangsung. Anda dapat menemukan wilayah Anda pada peta dengan menggunakan beberapa pendekatan yang berbeda. 
 
-##### a. Zooming from the map
+##### a. Memperbesar peta
 
 ![](/assets/Cadasta-Map-Overview.png)
 
-From the map view, use the `+` and `-` signs on the upper left to zoom in and out.
+Pada tampilan peta, gunakan tanda `+` dan `-` pada kiri atas untuk memperbesar dan memperkecil tampilan peta. 
 
-In the upper right, you can choose from a couple of different layers depending on what kind of map you need.
+Pada kanan atas, Anda dapat memilih sejumlah layer yang berbeda tergantung pada tampilan peta yang Anda butuhkan. 
 
-The default layer is the graphic OpenStreetMap layer, shown above. You can also select the DigitalGlobe Satellite layer:
+Layer standar adalah layer OpenStreetMap seperti yang ditunjukan di atas. Anda juga dapat memilih layer Satelit DigitalGlobe: 
 
 ![](/assets/cadasta-map-satellite.png)
 
-##### b. Search by a geographic Place Name
+##### b. Mencari berdasarkan sebuah Nama Tempat Geografis 
 
-Click on the magnifying glass in the upper left to search for your location by name.
+Klik pada kaca pembesar pada sebelah kiri atas untuk mencari lokasi berdasarkan nama.
 
 ![](/assets/cadasta-map-search.png)
 
-#### 3. Create your project boundary.
+#### 3. Buat batas proyek Anda. 
 
-The next thing you need to do is create your project boundary by drawing either a rectangle or polygon on the map. 
+Hal selanjutnya yang Anda utuhkan adalah membuat batas proyek dengan menggambarkan bentuk persegi ataupun bentuk lainnya pada peta.  
 
-Note that your project boundary does not need to be exact. To ensure full coverage, add a little bit of space outside the area where you'll be working.
+Catatan, bahwa batas proyek Anda tidak harus tepat atau akurat. Untuk memastikan keseluruhan jangkauan, tambahkan sedikit ruang di luar wilayah dimana Anda akan bekerja. 
 
-**To draw a polygon**, click the polygon button. Then, start clicking points on the map to draw your shape.
+**Untuk menggambar sebuah bentuk**, Klik pada tombol bentuk. Kemudian, mulai dengan mengklik sebuah titik pada peta untuk mulai menggambar bentuk yang Anda kehendaki. 
 
 ![](/assets/cadasta-map-polygon.png)
 
-You can edit your polygon by clicking the Edit Location button.
+Anda dapat mengubah bentuk gambar Anda dengan mengklik tombol Ubah Lokasi. 
 
-From there, you can click to add each point of your polygon and move it to its intended location. To close the polygon, click on the first point that you added.
+Setelah itu, Anda dapat mengklik untuk menambahkan setiap titik dari bentuk yang Anda buat dan memindahkannya pada lokasi yang sesuai. Untuk menutup bentuk, klik pada titik pertama yang Anda tambahkan. 
 
-**To draw a rectangle**, select the rectangle icon. Then, click and drag over your project area on the map.
+**Untuk menambah sebuah persegi**, pilih tombol persegi. Kemudian, klik dan geser pada wilayah proyek Anda pada peta. 
 
 ![](/assets/cadasta-map-rectangle.png)
 
-**To edit your project area**, select the edit icon. Then, click and drag the points on your polygon or rectangle to their correct location. When you're done, click the gray Save button on the left
+**Untuk mengubah wilayah proyek Anda**, pilih tombol ubah. Kemudian, klik dan geser titik-titik pada bentuk atau persegi pada lokasi yang benar. Jika Anda telah selesai, klik pada tombol Simpan berwarna abu-abu di sebelah kiri. 
 
-Once you've drawn your project area to your satisfaction, click the green **Next** button on the right.
+Setelah Anda puas menggambarkan wilayah proyek Anda, klik pada tombol **Lanjut** berwarna hijau di sebelah kanan. 
 
-_Note that if your project is a global one, simply click the green **Next** button without drawing any polygons or rectangles._
+_Catatan, jika proyek Anda melingkupi seluruh dunia, klik tombol **Lanjut** yang berwarna hijau tanpa menggambar bentuk apapun._
 
 
-#### 4. Provide some general information about the project.
+#### 4. Berikan informasi umum mengenai proyek.
 
-At this stage, you will be asked to fill out some General Information regarding the project, including:
+Pada tahap ini, Anda akan diminta untuk mengisi sejumlah Informasi Umum terkait dengan proyek Anda, termasuk: 
 
-* **Project name**
+* **Nama proyek**
 
-* **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to members of your organization.
+* **Pilihan privasi proyek**, atau apakah proyek Anda akan bersifat Publik atau Pribadi. Proyek publik dapat dilihat oleh siapapun, dan proyek pribadi hanya dapat tersedia pada anggota dari organisasi Anda. 
 
-* **Project description**
+* **Deskripsi proyek**
 
-* **Project URL**, which must start with _http://_ or _https://_
+* **URL proyek**, dimana harus diawali dengan _http://_ atau _https://_
 
-* **Project Questionnaire**, a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read the section on [custom data collection](XLSForms.md)
+* **Kuesioner Proyek**, sebuah daftar yang menyediakan dasar untuk pengumpulan data Anda. Kuesioner seharusnya tidak diubah secara besar-besaran setelah proyek Anda dibuat. Untuk mempelajari lebih lanjut bagaimana mereka bekerja dan mendapatkan contoh kuesioner, baca bagian [pengumpulan data yang disesuaikan](XLSForms.md)
 
-* **Project contacts**, if any. These contacts do not have to be project members, but may be people who are important to the project. For example, you may be working with an administrator or communications specialist who is not involved with data collection, but who may have integral roles in what you're doing. 
+* **Kontak Proyek**, jika ada. Kontak ini tidak harus merupakan anggota proyek, tetapi dapat merupakan orang-orang penting yang terkait dengan proyek. Misalnya, Anda mungkin dapat bekerja dengan seorang administrator atau spesialis komunikasi yang tidak terlibat dengan pengumpulan data, tetapi memiliki peran penting terhadap apa yang Anda lakukan. 
 
-If you're adding a project by navigating from the Project page, you'll also be asked to select the project's organization from a dropdown menu at the top.
+Jika Anda menambahkan sebuah proyek dengan mengarahkan pada halaman Proyek, Anda juga akan diminta untuk memilih organisasi proyek dari menu pilihan di atas. 
 
-#### 5. Assign Project Member Permissions {#assign-member-permissions}
+#### 5. Mengatur Izin Anggota {#assign-member-permissions}
 
-When you're done adding your general information, you can assign member permissions. Project members are members of your organization, and their permissions reflect their role in any given project. 
+Jika Anda telah selesai menambahkan informasi umum, Anda dapat mengatur izin anggota. Anggota proyek merupakan anggota dari organisasi Anda, dan izin mereka menggambarkan peran mereka pada proyek yang diberikan. 
 
-To learn more about member permissions, see the  [Project Members & Member Permissions](#project-members-member-permissions) section below.
+Untuk mempelajari lebih lanjut tentang izin anggota, lihat pada bagian [Anggota Proyek & Izin Anggota](#project-members-member-permissions) di bawah ini. 
 
 ![](/assets/project-member-permissions.png)
 
-When you're done, **congratulations!** You've created your very first project. 
+Jika Anda telah selesai, **selamat!** Anda telah membuat proyek pertama Anda.
 
-Your next steps are to start collecting records for your project, including:
-* **project locations** - all the parcels, buildings, boundaries and other locations relevant to your project;
-* **location relationships** to **parties** that have some right or access to one or more of your locations, and 
-* **resources** like photos, deeds, and other documentation related to your project, or an associated location or party. 
+Langkah selanjutnya Adalah mengumpulkan catatan untuk proyek Anda, termasuk: 
+* **lokasi proyek** - seluruh parsel, bangunan, batasm dan lokasi lainnya yang sesuai dengan proyek Anda; 
+* **hubungan lokasi** untuk **kelompok** yang memiliki sejumlah hak atau akses untuk satu lokasi atau lebih, dan  
+* **sumber daya** seperti foto, akte, atau dokumen lainnya terkait dengan proyek Anda, atau berhubungan dengan satu lokasi atau kelompok. 
 
-Read more about these records in the next section: [Project Records: Locations, Parties, Relationships, and Resources](04-records.md). 
+Baca lebih lanjut mengenai catatan ini pada bagian selanjutnya: [Catatan Proyek: Lokasi, Kelompok, Hubungan, dan Sumber Daya](04-records.md). 
 
-### Editing a Project {#editing-a-project}
+### Mengubah sebuah Proyek {#editing-a-project}
 
-Once you've created a project, you may find that you need to make some changes. There are three aspects of a project that you can change:
+Setelah Anda membuah sebuah proyek, Anda dapat membuat beberapa perubahan. Terdapat tiga aspek dalam sebuah proyek yang dapat Anda ubah: 
 
-* Project Boundary (the area of the project)
+* Batas Proyek (wilayah proyek)
 
-* Project Details, and
+* Rincian Proyek, dan
 
-* Member Permissions. 
+* Izin Anggota. 
 
-To change any of these aspects of your project, navigate to your project page, and then click the three dots on the upper right of your screen. 
+Untuk mengubah aspek-aspek tersebut dalam proyek Anda, arahkan ke halaman proyek, kemudian klik pada tiga titik pada sebelah kanan atas layar Anda. 
 
 ![](/assets/edit-project-info.png)
 
-From there, select the item that needs to be edited. 
+Kemudian, pilih salah satu aspek yang perlu diubah. 
 
-#### Editing a Project Boundary
+#### Mengubah sebuah Batas Proyek
 
-Once you've navigated to the Edit Project Boundary page, you can use the tools on the left of the map to make your project location changes. 
+Setelah Anda mengarahkan pada halaman Ubah Batas Proyek, Anda dapat menggunakan fungsi pada sebelah kiri untuk mengubah lokasi proyek Anda. 
 
-You can either click the edit icon and drag your boundary points as needed:
+Anda dapat mengklik tombol ubah atau menggeser titik batas proyek Anda sesuai yang Anda inginkan: 
 
 ![](/assets/edit-project-boundary.png)
 
-Or you can select the polygon or rectangle tools to draw completely new boundaries. 
+Atau Anda dapat memilih fungsi bentuk atau persegi untuk menggambar batas yang baru secara keseluruhan. 
 
-When you're done, click the **gray Save button** on the left to save your shape, and the **green Save button** on the right to save your project location. 
+Setelah Anda selesai, klik pada **tombol Simpan berwarna abu-abu** pada sebelah kiri bentuk Anda, dan **tombol Simpan berwarna hijau** pada sebelah kanan untuk menyimpan lokasi proyek Anda. 
 
-####Editing Project Details
+####Mengubah Rincian Proyek
 
-Once you've navigated to the Project Details page, you can edit information like the name, description, questionnaire or privacy settings. When you're done, save your changes by clicking the **Save** button at the bottom of the page. 
+Setelah Anda mengarahkan ke halaman Rincian Proyek, Anda dapat mengubah informasi seperti nama, rincian, kuesioner atau pengaturan privasi. Jika Anda selesai, simpan perubahan Anda dengan mengklik tombol **Simpan** di bawah halaman. 
 
-####Editing Member Permissions
 
-Once you've navigated to the Edit Member Permissions page, you can change your member permissions by using the drop-down menu for each member. 
+####Mengubah Izin Anggota
 
-To learn more about member permissions and what they mean, read on to the next section.
+Setelah Anda mengarahkan ke halaman Ubah Izin Anggota, Anda dapat mengubah izin dari anggota Anda dengan menggunakan menu pilihan untuk setiap anggota. 
 
-### Project Members & Member Permissions {#project-members-member-permissions}
+Untuk mempelajari lebih lanjut mengenai izin anggota dan pengertiannya, baca pada bagian selanjutnya. 
 
-When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for that project. Currently, there are five user roles, each with their own set of privileges:
+### Anggota Proyek & Izin Anggota {#project-members-member-permissions}
 
-* **Administrator**. The Administrator can create new projects within an organization and manage user roles and access. This role has full permissions regarding accessing and editing data in the project.
+Ketika Anda membuat anggota untuk proyek Anda, Anda harus menentukan izin mereka. Izin ini akan menetukan akses dan hak istimewa pengguna untuk proyek tersebut. Saat ini, terdapat lima jenis peran, setiap peran memiliki sejumlah hak istimewa: 
 
-* **Project Manager**. The Project Manager works within an organization on a specific project. This role can also access and edit all data within the project, including adding new users and setting access rights.
+* **Administrator**. Seorang Administrator dapat membuat sebuah proyek baru dalam organisasi dan mengatur peran dan akses pengguna. Peran ini memiliki izin secara penuh rekait akses dan perubahan data pada proyek. 
 
-* **Data Collector**. The Data Collector primarily works in the field with communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data to a project, but cannot edit existing data.
+* **Manajer Proyek**. Seorang Manajer Proyek bekerja dalam sebuah organisasi untuk sebuah proyek yang spesifik. Peran ini juga memberikan akses dan perubahan data secara keseluruhan di dalam proyek, termasuk menambahkan pengguna baru dan mengubah hak akses pengguna. 
 
-* **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data.
+* **Pengumpul Data**. Seorang Pengumpul Data secara umum bekerja di lapangan dengan komunitas untuk mengumpulkan data menggunakan Field Papers, Aplikasi Mobile, atau memasukan data secara langsung pada platform. Pengumpul Data dapat menambahkan data pada sebuah proyek, tetapi tidak dapat mengubah data yang telah tersedia. 
 
-* **Public User**. A Public User can only view data that is publicly available.
+* **Pengguna Proyek**. Seorang Pengguna Proyek dapat melihat seluruh data dalam proyek, meskipun proyek termasuk dalam proyek pribadi. Pengguna Proyek tidak memiliki kemampuan untuk menambahkan atau mengubah data. 
+
+* **Pengguna Publik**. Seorang Pengguna Publik hanya dapat melihat data yang tersedia secara publik. 
 
 

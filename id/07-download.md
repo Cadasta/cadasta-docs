@@ -1,20 +1,20 @@
-#Downloading Data
+#Mendownload Data
 
-At some point during the project, you may need to download your data - perhaps for analysis using third-party software, creating a localized backup, or migrating data to another platform.
+Pada beberapa saat ketika Anda mengerjakan proyek, Anda mungkin perlu mendownload data Anda - mungkin untuk analisis menggunakan perangkat lunak pihak ketiga, membuat back-up lokal, atau memindahkan data ke platform yang lain. 
 
-The Cadasta Platform makes this a relatively straightforward process. 
+Platform Cadasta membuat proses download menjadi lebih mudah. 
 
-1. From the project overview page, select the three-dots menu at the top right. Then select **Download data**. 
+1. Dari halaman ringkasan proyek, pilih menu dengan mengklik tiga titik di pojok kanan atas. Kemudian pilih **Download data**. 
 
   ![](/assets/download-data.png)
 
-2. Next, select your desired file format:
-  * **SHP** - a .zip full of shape files for your project locations, relationships, and parties; 
-  * **XLS** - details of the locations, relationships and parties as an XLS file;
-  * **Resources** - a .zip file containing all project resource files (images, videos, audio and other associated files); or
-  * **All data** - a .zip file containing both the details of all locations, relationships and parties as well as the resource files.
+2. Selanjutnya, pilih format berkas yang Anda inginkan: 
+  * **SHP** - sebuah .zip dengan berkas-berkas format shapefiles untuk lokasi, hubungan, dan kelompok dari proyek Anda; 
+  * **XLS** - rincian lokasi, hubungan, dan kelompok dalam sebuah berkas XLS (tabel Excel); 
+  * **Sumber daya** - sebuah .zip yang berisi berkas-berkas proyek (gambar, video, suara dan berkas-berkas terkait lainnya); atau 
+  * **Seluruh data** - sebuah .zip yang berisi kedua rincian dari seluruh lokasi, hubungan, dan kelompok, termasuk sumber daya. 
     ![](/assets/DownloadingData_DownloadProjectData2.png)
 
-3. Finally, select **Download** and the file will begin downloading.
+3. Terakhir, pilih **Download** dan berkas akan mulai didownload. 
 
 

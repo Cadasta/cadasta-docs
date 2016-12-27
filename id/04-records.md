@@ -1,183 +1,183 @@
-# Project Records: Locations, Parties, Relationships, and Resources
+# Catatan Proyek: Lokasi, Kelompok, Hubungan, dan Sumber Daya
 
-* [Overview](#overview)
-* [Project Locations, Location Types, and Location Acquisition](#project-locations)    
-* [Parties and Their Relationship to a Location](#location-relationships)
-* [Resources](#project-resources)
+* [Ringkasan](#overview)
+* [Lokasi Proyek, Tipe Lokasi, dan Perolehan Lokasi](#project-locations)    
+* [Kelompok dan Hubungan Mereka pada sebuah Lokasi](#location-relationships)
+* [Sumber Daya Proyek](#project-resources)
 
-### Overview{#overview}
+### Ringkasan {#overview}
 
-Within any given project, you may be working with lots of different [locations](#project-locations). For example, within a forested area, there may be a national park boundary as well as a building that you'll need to track.
+Dalam sebuah proyek apapun, Anda dapat bekerja dengan jumlah [lokasi](#project-locations) yang berbeda. Sebagai contoh, dalam sebuah wilayah hutan, mungkin terdapat beberapa batas taman nasional dan juga sebuah bangunan yang mungkin perlu Anda lacak. 
 
-Each of these locations may have a [relationship](#relationships) with one or more [parties](#parties). For example, a park may be owned by the government, but a community group may have special access to it. Each of these parties has their own relationship to that bit of land. That relationship is known as their [tenure](#tenure). There are often many [resources](#project-resources) to track this, like photos, letters, and deeds. 
+Setiap lokasi ini mungkin telah memiliki [hubungan](#relationships) dengan salah satu [kelompok](#parties) atau lebih. Sebagai contoh, sebuah taman kemungkinan dapat dimiliki oleh pemerintah, tetapi satu grup komunitas mungkin memiliki akses khusus pada taman tersebut. Setiap kelompok ini memiliki hubungan terhadap sebagian tanah. Hubungan ini dikenal sebagai [kepemilikan](#tenure) mereka. Seringkali terdapat banyak [sumber daya](#project-resources) untuk melacak hubungan kepemilikan tersebut, seperti foto, surat, dan akte.
 
-The Cadasta Platform is designed to deal with this complexity. This section outlines how the Platform handles tracking locations, parties, relationships, and all the resources that go with them. 
+Platform Cadasta dirancang untuk menghadapi kompleksitas ini. Bagian ini menjelaskan bagaimana Platform ini dapat mengatur pelacakan lokasi, kelompok, hubungan, dan seluruh sumber daya yang terkait. 
 
-### Project Locations, Location Types, & Location Aquisition {#project-locations}
+### Lokasi Proyek, Tipe Lokasi, dan Perolehan Lokasi {#project-locations}
 
-#### Adding a Location {#adding-a-location}
+#### Menambah sebuah lokasi {#adding-a-location}
 
-From the main project page, select either **Add location** or **Add a location**: 
+Dari halaman utama proyek, pilih **Tambah lokasi** atau **Tambah sebuah lokasi**: 
 
 ![](/assets/add-project-location.png)
 
-On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
+Pada halaman selanjutnya, Anda akan ditanyakan untuk menggambar lokasi Anda pada peta sebagai sebuah titik, garis, bentuk, atau persegi. 
 
 ![](/assets/project-location-info.png)
 
-Here, you'll also be asked to provide some information about your location (shown on the right). If you're using the [minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) , you'll just need to indicate the type of location. 
+Di dini, Anda juga akan diminta untuk meyediakan informasi terkait lokasi Anda (ditunjukan di sebelah kanan). Jika Anda menggunakan [kuesioner minimal](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx), Anda hanya perlu untuk menentukan tipe lokasi. 
 
-If you're using the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), you'll be asked to specify the following (as shown above):
+Jika Anda menggunakan [kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), Anda akan ditanyakan untuk menetukan hal-hal berikut (seperti yang ditunjukan di atas):
 
-* [Location type](#location-types)
-* Name of Location
-* Spatial Unit Quality
-* [How Location was Acquired](#location-acquisition), 
-* When the location was acquired, and
-* Location Notes.
+* [Tipe lokasi](#location-types)
+* Nama lokasi
+* Kualitas Unit Spasial
+* [Bagaimana lokasi diperoleh](#location-acquisition), 
+* Kapan lokasi tersebut diperoleh, dan
+* Catatan lokasi.
 
-When you're done, save your location. 
+Ketika Anda selesai, simpan lokasi Anda. 
 
-To access this location, click on it from the main project page. 
+Untuk mengakses lokasi ini, klik pada lokasi tersebut pada halaman utama proyek. 
 
 ![](/assets/access-project-location.png)
 
-#### Location Types {#location-types}
+#### Tipe Lokasi {#location-types}
 
-Location types define the type of location you're uploading. The following are defined in the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx):
+Tipe lokasi menentukan tipe lokasi yang akan Anda upload. Berikut ini adalah tipe lokasi yang termasuk dalam [kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx):
 
-* **Parcel** - a plot of land.
-* **Community Boundary** - a formal or informal boundary between two groups of people.
-* **Building** - any kind of structure.
-* **Apartment** - an apartment or apartment building.
-* **Project Extent** - the full boundary of the project.
-* **Right-of-Way** - an easement that allows a person or group of people to pass throuh another's land.
-* **Utility Corridor** - a passage, either overground or underground, meant to carry utility lines like electricity and water. 
-* **National Park Boundary** - the boundary between a national park and another kind of land. 
-* **Miscellaneous** - another kind of location that doesn't fit into any of your categories.
+* **Parsel** - sebuah plot tanah.
+* **Batas Komunitas** - sebuah batas resmi atau tidak resmi antara dua kelompok masyarakat.
+* **Bangunan** - jenis struktur apapun.
+* **Apartment** - sebuah apartemen atau bangunan apartemen. 
+* **Jangkauan Proyek** - batas proyek keseluruhan. 
+* **Hak Pakai** - sebuah hak yang memperbolehkan seseorang atau sekelompok masyarakat untuk melalui tanah pihak lain.
+* **Koridor Utilitas** - sebuah jalur, baik di atas tanah maupun di bawah tanah, yang diperuntukan untuk jalur utilitas seperti listrik dan air. 
+* **Batas Taman Nasional** - batas di antara sebuah taman nasional dan jenis tanah lainnya.
+* **Lain-lain** - tipe lokasi lainnya yang tidak termasuk dalam kategori Anda. 
 
-To change the location types that you're using, [edit your questionnaire](08-XLSForms.md). 
+Untuk mengubah tipe lokasi yang Anda gunakan, [ubah kuesioner Anda](08-XLSForms.md). 
 
-#### Location Acquisition {#location-acquisition}
+#### Perolehan Lokasi {#location-acquisition}
 
-If you're using the standard questionnaire for your data collection, you'll be asked to define how your location was acquired. You can choose from one of the following categories:
+Jika Anda menggunakan kuesioner standar untuk pengumpulan data Anda, Anda akan diminta untuk menentukan bagaimana lokasi diperoleh. Anda dapat memilih salah satu dari kategori berikut ini: 
 
-* CS - Contractual Share Crop
-* CA - Customary Arrangement
-* GF - Gift
-* HS - Homestead
-* IO - Informal Occupant
-* IN - Inheritance
-* LH - Leasehold 
-* PF - Purchased Freehold
-* RN - Rental
-* OT - Other
+* BH - Kontaktual Bagi Hasil
+* PA - Pengaturan Adat
+* HB - Hibah
+* RT - Rumah Tinggal
+* PI - Penghuni Informal
+* WA - Warisan
+* KO - Kontrak 
+* HM - Pembelian Hak Milik
+* SW - Sewa
+* LA - Lainnya
 
-### Parties and Their Relationship to a Location{#location-relationships}
+### Kelompok dan Hubungan Mereka pada sebuah Lokasi {#location-relationships}
 
-#### Parties{#Parties}
+#### Kelompok{#Parties}
 
-Parties are the individuals, groups or corporations who have a relationship to one or more of the locations in your project.
+Kelompok merupakan kumpulan individu, grup ata korporat yang memiliki hubungan pada satu lokasi atau lebih pada proyek Anda. 
 
-* **Individuals** are single people, like a landowner or lessee.
+* **Individual** adalah satu orang, misalnya seorang pemilik lahan atau penyewa. 
 
-* **Groups** are collections of people who may not have an officially documented organization, such as a tribe, community group or family.
+* **Grup** adalah kumpulan dari orang-orang yang mungkin tidak memiliki organisasi resmi yang tercatat, misalnya suku, grup komunitas atau keluarga. 
 
-* **Corporations** are organizations like companies, NGOs, or government bodies.
-
-
-#### Relationships {#relationships}
-
-Any given location has a relationship to a number of [parties](#parties). For example, a municipality may own a utility corridor, which a local community may use as a right-of-way. 
+* **Korporat** adalah organisasi seperti perusahaan, misalnya organisasi bukan pemerintah, atau organisasi pemerintahan. 
 
 
-#### Adding a New Relationship {#adding-a-new-relationship}
+#### Hubungan {#relationships}
 
-To add a new relationship for a project location, clik on the Relationships tab. Then, click on **Add relationship**. 
+Lokasi apapun memiliki sebuah hubungan dengan sejumlah [kelompok](#parties). Misalnya, sebuah kecamatan mungkin memiliki sebuah koridor utilitas, dimana komunitas lokal mungkin menggunakannya sebagai suatu hak pakai.
+
+
+#### Menambahkan sebuah Hubungan {#adding-a-new-relationship}
+
+Untuk menambahkan sebuah hubungan baru dari satu lokasi proyek, klik pada tab Hubungan. Kemudian, klik pada **Tambah hubungan**. 
 
 ![](/assets/add-location-relationship.png)
 
-In the pop-up that follows, you'll be first asked to either choose from an existing party or add a new one. 
+Pada jendela yang muncul, pertama Anda akan ditanyakan untuk memilih salah satu kelompok yang tersedia atau membuat sebuah kelompok baru. 
 
 ![](/assets/add-new-relationship-popup.png)
 
-If you're adding a new one, you'll need to provide:
+Jika Anda membuat sebuah kelompok baru, maka Anda harus memasukan: 
 
-* Party name, 
-* Party type (individual, group, or corporation), and
-* Party notes. 
+* Nama kelompok, 
+* Tipe kelompok (individual, grup, atau korporat), dan
+* Catatan kelompok. 
 
-Next, you'll be asked to add relationship details: including the [tenure type](#tenure-type) and notes about the tenure. 
+Selanjutnya, Anda akan ditanyakan untuk menambah rincian hubungan: [tipe kepemilikan](#tenure-type) dan catatan terkait kepemilikan. 
 
-When you're done adding notes about the relationship, click save. 
+Ketika Anda selesai menambahkan catatan terkait hubungan, klik simpan. 
 
-#### Tenure Type {#tenure-type}
+#### Tipe Kepemilikan {#tenure-type}
 
-**Tenure type** refers to the type of ownership or right that a party may have with regards to a location. In the Cadasta Platform, you can define a party's tenure type in a variety of ways. 
+**Tipe kepemilikan** menunjukan tipe dari kepemilikan atau hak yang dimiliki sebuah kelompok terkait satu lokasi. Pada Platform Cadasta, Anda dapat menentukan kepemilikan dari sebuah kelompok dalam sejumlah cara. 
 
-* Carbon Rights
-* Concessionary Rights
-* Customary Rights
-* Easement
-* Equitable Servitude
-* Freehold
-* Grazing Rights
-* Hunting / Fishing / Harvest rights
-* Indigneous Land Rights
-* Joint Tenancy
-* Leasehold
-* Longterm Leasehold
-* Mineral Rights
-* Occupancy (No documented rights)
-* Tenancy (Documented Sub-Lease)
-* Tenancy in Common
-* Undivided Co-Ownership
-* Water Rights
+* Hak Karbon
+* Hak Konsesi
+* Hak Adat
+* Hak Pakai (Easement)
+* Hak Pakai (Equitable Servitude)
+* Hak Milik
+* Hak Guna Usaha (Ternak)
+* Hak Guna Usaha (Berburu/Memancing/Pertanian)
+* Hak Atas Tanah Adat
+* Hak Bersama
+* Kontrak
+* Kontrak Jangka Panjang
+* Hak Mineral
+* Kependudukan (Tanpa Dokumen Hak)
+* Kontrak (Sub-kontrak Terdaftar)
+* Hak Milik (Bersama)
+* Hak Milik Bersama (Tak Terbagi)
+* Hak Air
 
-To learn more about many of these terms, see the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e). 
+Untuk mempelajari lebih lanjut mengenai istilah tersebut, lihat glosarium dari [Focus on Land di Africa](http://www.focusonland.com/resources/glossary/#e). 
 
-### Resources {#project-resources}
+### Sumber Daya {#project-resources}
 
-Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
+Proyek hak tanah dapat terdiri dari seluruh jenis pencatatan - misalnya dokumen resmi, surat, gambar, dan sebagainya. Beberapa dokumen pencatatan mungkin dapat terkait dengan beberapa lokasi dalam sebuah proyek, atau satu lokasi, atau mungkin hanya terkait proyek secara umum. 
 
-The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
+Platform Cadasta memiliki rancangan untuk mengatur kompleksitas ini dengan mengatur sumber daya ke dalam beberapa jenis:
 
-* Resources pertaining a specific location,
-* Resources pertaining to a party, and
-* Resources pertaining to the project generally.
+* Sumber daya berkaitan dengan satu lokasi spesifik, 
+* Sumber daya berkaitan dengan satu kelompok, dan
+* Sumber daya berkaitan dengan proyek pada umumnya. 
 
 
-####Adding a New Resource {#adding-new-resource}
+####Menambahkan sebuah Sumber Daya Baru {#adding-new-resource}
 
-There are a few ways to add a new resource, depending on what it pertains to.
+Terdapat beberapa cara untuk menambahkan sebuah sumber daya baru, bergantung pada hal yang terkait sumber daya tersebut.
 
-If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Add resource.**
+Jika Anda menambahkan sebuah **sumber daya lokasi proyek**, pilih **Tab sumber daya** dari halaman rincian lokasi, kemudian **Tambah sumber daya** 
 
 ![](/assets/add-location-resource.png)
 
-To add a **resource that pertains to a certain party**, go to the **Relationships tab** from the location overview page. Then, select the party you'd like to add a resource for.
+Untuk menambahkan sebuah **sumber daya yang terkait dengan satu kelompok tertentu**, arahkan ke **Tab hubungan** dari halaman rincian lokasi. Kemudian, pilih kelompok yang Anda ingin tambahkan pada sebuah sumber daya.
 
 ![](/assets/resource-party-1.png)
 
-At the bottom of that party's page, select the **Attach** button and upload your resource.
+Pada bagian bawah halaman kelompok tersebut, pilih tombol **Lampirkan** dan upload sumber daya Anda.
 
 ![](/assets/resource-party-2.png)
 
-To add a **resource that pertains to the overall project**, go to the project's overview page by clicking **Overview**. Then, click **Resources.** 
+Untuk menambahkan sebuah **sumber daya yang terkait dengan proyek pada umumnya**, arahkan ke halaman rincian proyek dengan mengklik **Ringkasan**. Kemudian klik **Sumber Daya.** 
 
 ![](/assets/resources-from-overview.png)
 
-Clicking on resources from the project overview page will take you to your project library, which will have all of the resources related to your project.
+Dengan mengklik pada sumber daya dari halaman rincian proyek akan membawa Anda ke koleksi proyek, dimana koleksi proyek akan memiliki seluruh sumber daya yang terkait pada proyek Anda.
 
 ![](/assets/project-library.png)
 
-To add a resource while you're in the the library, click **Add** on the upper right.
+Untuk menambah sebuah sumber daya saat Anda berada dalam katalog, klik **Tambah** pada kanan atas. 
 
-From any of these starting points, you'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
+Kemudian, Anda akan dipandu oleh sebuah jendela yang akan muncul. Di sini, Anda akan diminta untuk meng-upload sebuah berkas, dan memberikan berkas tersebut nama beserta deskripsinya.
 
 ![](/assets/project-library.png)
 
-Acceptable file types are:
+Tipe berkas yang diterima adalah:
 
 * .pdf
 * .mp3
@@ -190,4 +190,4 @@ Acceptable file types are:
 * .tiff
 * .xls
 * .xlsx
-* .xml (This file type is particularly useful if you need to upload a .gpx document; just change the file extension from .gpx to .xml)
+* .xml (Tipe berkas ini akan berguna jika Anda ingin mengupload dokumen .gpx; Anda hanya perlu untuk mengubah ekstensi berkas dari .gpx ke .xml)

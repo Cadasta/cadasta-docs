@@ -1,74 +1,74 @@
-# Getting Started
+# Mulai Menggunakan
 
-* [How Cadasta is Structured](#how-cadasta-is-organized)
-* [Quick Guide to Getting Started](#quick-guide-to-getting-started)
-* [Creating a New Account](#createnewaccount)
+* [Tentang Struktur Cadasta](#how-cadasta-is-organized)
+* [Panduan Cepat untuk Mulai Menggunakan](#quick-guide-to-getting-started)
+* [Membuat Akun Baru](#createnewaccount)
 
-### How Cadasta is Structured {#how-cadasta-is-organized}
+### Tentang Struktur Cadasta {#how-cadasta-is-organized}
 
-While anyone can use the Cadasta Platform, it's designed primarily for organizations working to document land and resource rights of individuals and communities. The structure of the Platform matches this design.
+Meski siapapun dapat menggunakan Platform Cadasta, platform ini dirancang terutama bagi organisasi yang mencatat hak-hak atas tanah beserta sumber daya dari individu dan komunitas. Struktur dari platform ini disamakan dengan rancangan tersebut. 
 
-Before jumping in, it's important to understand this structure and how everything works together.
+Sebelum memulai, sangat penting untuk memahami struktur ini dan bagaimana mereka bekerja secara keseluruhan. 
 
 ![](/assets/diagram-organizations-projects-members-orig.png)
 
-* At the core of the Cadasta platform are a series of **[projects](03-projects.md)**. A project covers a specific geographic area, from a small parcel of land to the entire globe. Within the specified project area, there can be numerous project **locations**. A project may also have multiple **project members**, each of whom will have permissions specific to the project.
+* Inti dari platform Cadasta adalah sejumlah **[proyek](03-projects.md)**. Sebuah proyek melingkupi satu wilayah geografi yang spesifik, dari sebuah parsel kecil lahan hingga keseluruhan dunia. Dalam wilayah proyek yang ditentukan, terdapat sejumlah **lokasi** proyek. Sebuah proyek juga memiliki sejumlah **anggota proyek**, dimana setiap anggota akan memiliki perizinan tertentu pada proyek tersebut. 
 
-* Each project must belong to an **[organization](02-organizations.md)**. An organization represents an organized body of people with a particular purpose. In most cases, organizations are NGOs helping communities to document their land rights. In the Cadasta system, people who belong to an organization are called **organization members**. 
+* Setiap proyek harus dimiliki oleh sebuah **[organisasi](02-organizations.md)**. Sebuah organisasi mewakili satu badan organisasi masyarakat dengan tujuan tertentu. Kebanyakan organisasi adalah organisasi-organisasi bukan pemerintah yang membantu komunitas untuk mencatat hak-hak tanah mereka. Dalam sistem Cadasta, orang-orang yang mewakili satu organisasi yang disebut **anggota organisasi**.
 
-* The structure of the data you're collecting for your project depends on how you've structured your **[questionnaire](08-XLSForms.md)**, which is required to set up your project.
+* Struktur data yang Anda kumpulkan dalam proyek Anda bergantung pada bagaimana Anda menyusun **kuesioner** Anda, dimana dibutuhkan untuk menyiapkan proyek Anda. 
 
 ![](/assets/diagram-resources.png)
 
-* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as scanned documents, images, video, audio testimonials or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various **parties** may have to one or more of it's locations.
+* Sebagai tambahan untuk menyimpan data geografis, setiap proyek juga berhak untuk menyimpang sejumlah **arsip**. Arsip-arsip ini dapat termasuk **sumber daya** terkait lokasi, misalnya dokumen yang di-scan, gambar, video, suara testimoni atau apapun yang dapat membantu dalam pencatatan hak-hak tanah. Seluruh lokasi sumber daya akan disimpan dalam **koleksi** proyek. Sebagai tambahan, setiap proyek juga dapat menandai **hubungan** dalam berbagai **kelompok** yang mungkin berhubungan dengan satu lokasi atau lebih. 
 
-If you were to view all these parts as an outline, it would look something like this:
+Jika Anda melihat bagian-bagian ini secara ringkas, bagian-bagian tersebut akan terlihat seperti berikut ini: 
 
-* Organization
-  * Organization Members
-  * Project
-    * Project Members
-    * Questionnaire (which determines the structure of your data collection)
-    * Project Locations
-      * Relationships
-      * Resources
+* Organisasi
+  * Anggota Organisasi
+  * Proyek
+    * Anggota Proyek
+    * Kuesioner (yang akan menentukan struktur pengumpulan data Anda)
+    * Lokasi Proyek
+      * Hubungan
+      * Sumber Daya
 
 
-Typically data for each project is collected in the field. This might be done using mobile applications, paper questionnaires, or applications like Field Papers. The Cadasta Platform currently supports two mobile data collection platforms, which are both available for use on Android devices:
+Pada umumnya, data untuk setiap proyek dikumpulkan di lapangan. Hal tersebut pada umumnya dapat diselesaikan menggunakan aplikasi mobile, kuesioner kertas, atau aplikasi seperti Field Papers. Platform Cadasta saat ini mendukung dua platform pengumpulan data mobile, dimana keduanya tersedia untuk digunakan di Android:
 
-* **[Open Data Kit \(ODK Collect\)](05-odkcollect.md)**, and
+* **[Open Data Kit \(ODK Collect\)](05-odkcollect.md)**, dan
 * **[Geographical Open Data Kit \(GeoODK Collect\)](06-geoodkcollect.md)**.
 
-Both of these applications integrate with the questionnaire you're using to collect your data and allow it all to be stored on the Cadasta Platform.
+Kedua aplikasi tersebut terintegrasi dengan kuesioner yang Anda gunakan untuk pengumpulan data dan memungkinkan data tersebut disimpan dalam platform Cadasta. 
 
-Whenever you need to get your data and resources out of the Platform, all you have to do is **[download it](07-download.md)**.
+Kapanpun Anda membutuhkan data dan sumber daya keluar dari platform, yang Anda lakukan hanyalah  **[men-download](07-download.md)** data tersebut.
 
-### Quick Guide to Getting Started {#quick-guide-to-getting-started}
+### Panduan Cepat untuk Mulai Menggunakan {#quick-guide-to-getting-started}
 
-To get started, follow the steps below! For more information and images, follow the links on each step.* 
+Untuk memulai, ikutilah langkah di bawah ini! Untuk informasi dan petunjuk gambar lebih lanjut, ikutilah tautan di setiap langkah.* 
 
-1. **[Create your new account](#createnewaccount)** by clicking **register** and entering your name, email, and a few other key pieces of information. _Note that you have up to 48 hours to verify your account using the verification link sent to your registered email address._
+1. **[Membuat akun baru Anda](#createnewaccount)** dengan meng-klik **daftar** dan melengkapi nama Anda, email, dan beberapa informasi penting lainnya. _Catatan bahwa Anda memiliki 48 jam untuk melakukan ferifikasi akun Anda dengan menggunakan tautan yang akan dikirimkan melalui alamat email Anda yang terdaftar._ 
 
-2. Next, you need to be added to an organization. To do this, contact your organization's administrator to add you as an organization member. Note that you can be added to multiple organizations in the Cadasta sytem.  
+2. Selanjutnya, anda harus ditambahkan ke dalam sebuah organisasi. Untuk melakukan hal ini, mohon hubungi administrator organsiasi untuk menambahkan Anda sebagai anggota organisasi. Catatan, Anda dapat ditambahkan ke dalam beberapa organisasi dalam sistem Cadasta.  
 
-    * If you're going to be the administrator of a new organization in Cadasta, you can **[create your organization](02-organizations.md)** by selecting the **Organizations** button and then **Add**. You'll be asked to enter some basic information about your organization and save it. The person who creates an organization becomes the organization's administrator by default. Note that most users will not create their own organizations; instead they will be added to one. 
+    * Jika Anda ingin menjadi administrator dalam sebuah organisasi yang baru di Cadasta, Anda dapat **[membuat organisasi Anda](02-organizations.md)** dengan memilih tombol**Organisasi** dan kemudian pilih **Tambah**. Anda akan ditanyakan untuk memasukan sejumlah informasi dasar terkait organisasi Anda dan menyimpannya. Orang yang membuat sebuah organisasi secara otomatis akan menjadi administrator organisasi tersebut. Catanan, kebanyakan pengguna tidak dapat membuat orgnaisasi mereka sendiri; tetapi mereka akan ditambahkan ke dalam satu organisasi. 
 
-3. Next, you need to be added to a project by your organization or project administrator. Administrators can also **[create new projects](03-projects.md)** and add members to it. As part of the project creation process, you'll be asked to upload a questionnaire, which creates the structure for your data collection. You can use either the [minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) or the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), or modify one of them to meet your needs. You'll also need to add project members, project locations, and project resources as needed. 
+3. Selanjutnya, Anda perlu ditambahkan ke sebuah proyek oleh administrator organisasi atau proyek Anda. Administrator juga dapat **membuat proyek baru** dan menambah anggota kedalamnya. Sebagai bagian dari proses pembuatan proyek, Anda akan diminta untuk meng-upload sebuah kuesioner, dimana untuk membuat struktur pengumpulan data Anda. Anda dapat menggunakan contoh   [kuesioner minimum](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) atau [kuesioner standar](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), atau memodifikasi salah satunya untuk memenuhi kebutuhan Anda. Anda juga diharuskan untuk menambahk anggota proyek, lokasi proyek, dan sumber daya proyek yang dibutuhkan. 
 
-4. Once you have an account, organization, and project, it's time to start gathering data! If you need to collect data in the field, you can use either [ODK Collect](/en/05-odkcollect.md) or [GeoODK Collect](/en/06-geoodkcollect.md), which are both applications for Android. If you don't need to be in the field, you can use the Cadasta Platform directly.
+4. Setelah Anda membuat akun, organisasi, dan proyek, saatnya untuk mengumpulkan data! Jika Anda perlu mengumpulkan data di lapangan, Anda dapat menggunakan [ODK Collect](/en/05-odkcollect.md) atau [GeoODK Collect](/en/06-geoodkcollect.md), dimana keduanya merupakan aplikasi Android. Jika Anda tidak memerlukan pengumpulan data di lapangan, Anda dapat langsung menggunakan Platform Cadasta. 
 
-_* For printed versions, go to the associated section in the document._
+_* Untuk versi cetak, silahkan menuju ke bagian yang terkait dalam dokumen ini._
 
-### **Creating a New Account** {#createnewaccount}
+### **Membuat Sebuah Akun Baru** {#createnewaccount}
 
 ![](/assets/sign-in-register-arrow.png)
 
-To get started with Cadasta, the first thing you need to do to is create a user account.
+Untuk memulai dengan Cadasta, hal yang pertama Anda lakukan adalah membuat sebuah akun pengguna. 
 
-1. If you're just trying out the Platform, navigate to [demo.cadasta.org](https://demo.cadasta.org). Partners with live projects should create accounts at [platform.cadasta.org](https://platform.cadasta.org).
-2. Select **Register** from the upper right of the screen. 
-3. Input a username, valid email address, password and your full name.
-4. Select **Register**.
+1. Jika Anda hanya ingin mencoba Platform ini, silahkan menuju ke [demo.cadasta.org](https://demo.cadasta.org). Rekan dengan proyek yang berlangsung harus membuat akun pada [platform.cadasta.org](https://platform.cadasta.org).
+2. Pilih **Daftar** dari sebelah kanan atas layar. 
+3. Masukan sebuah nama pengguna, alamat email yang berlaku, kata kunci dan nama lengkap Anda. 
+4. Pilih **Daftar**.
 
-After a successful login, you'll return to the home screen, where you can view public projects and organizations.
+Setelah berhasil masuk, Anda dapat kembali ke halaman utama, dimana Anda dapat meilihat proyek publik dan organisasi. 
 

@@ -1,88 +1,88 @@
-# Organizations
+# Organisasi
 
-* [Overview](#overview)
-* [Creating a New Organization](#creating-a-new-organization)
-* [Editing Your Organization's Information](#editing-your-organizations-information)
-* [Adding Organization Members](#adding-organization-members)
-* [Editing Organization Member Permissions](#editing-member-organization-permissions)
-* [Removing Organization Members](#removing-organization-members)
+* [Ringkasan](#overview)
+* [Membuat sebuah Organisasi Baru](#creating-a-new-organization)
+* [Mengubah Informasi Organisasi Anda](#editing-your-organizations-information)
+* [Menambah Anggota Organisasi](#adding-organization-members)
+* [Mengubah Izin Anggota Organisasi](#editing-member-organization-permissions)
+* [Menghapus Anggota Organisasi](#removing-organization-members)
 
-### Overview{#overview}
+### Ringkasan {#overview}
 
-Organizations in the Cadasta System represent organizations in the real world – typically NGOs who are working with communities to help them document their land rights and resources. This section outlines how to [create](#creating-a-new-organization) and [edit](#editing-your-organizations-information) organizations in the Cadasta Platform, along with how to [add organization members](#adding-organization-members) and [assign permissions to them](#editing-member-organization-permissions). 
+Organisasi dalam sistem Cadasta menggambarkan organisasi di dunia yang nyata - secara umum organisasi-organisasi bukan pemerintah yang bekerja dengan konmunitas untuk membantu mereka dalam pencatatan hak-hak tanah dan sumber daya. Bagian ini akan menjelaskan bagaimana untuk  [membuat](#creating-a-new-organization) dan [mengubah](#editing-your-organizations-information) organisasi dalam Platform Cadasta, berikut bagaimana untuk [menambahkan anggota organisasi](#adding-organization-members) dan [mengatur izin anggota organisasi](#editing-member-organization-permissions). 
 
-### Creating a New Organization {#creating-a-new-organization}
+### Membuat sebuah Organisasi Baru {#creating-a-new-organization}
 
-If your organization doesn't already exist in the Cadasta Platform, then one of the first things you need to do is set up your organization's account. You'll use this account to manage projects, organization members, data collection questionnaires, and more.
+Jika organisasi Anda belum tersedia dalam Platform Cadasta, maka hal pertama yang harus Anda lakukan adalah mengatur akun organisasi Anda. Anda akan menggunakan akun ini untuk mengatur proyek, anggota organisasi, kuesioner pengumpulan data, dan lain-lain.
 
-##### 1. Log in & Navigate to the Organizations Page
+##### 1. Masuk & Arahkan ke Halaman Organisasi
 
-First, log into your account, which will take you to the main Cadasta Platform page. In the upper right, select the **Organizations** button.
+Pertama, masuk ke akun Anda, dimana akan membawa Anda ke halaman utama Platform Cadasta. Pada sebelah kanan atas, pilih tombol **Organisasi**.
 
 ![](/assets/cadasta-main-platform-organization-button.png)
 
-##### 2. Add Your Organization
+##### 2. Tambah Organisasi Anda
 
-On the next page, you'll see an index of all the organizations using the Cadasta Platform. To add yours, select **Add** on the upper right.
+Pada halaman selanjutnya, Anda akan melihat daftar seluruh organisasi yang menggunakan Platform Cadasta. Untuk menambahkan organisasi Anda, pilih **Tambah** pada sebelah kanan atas.
 
 ![](/assets/add-organization-button.png)
 
-##### 3. Enter Your Organization's Information
+##### 3. Masukan Informasi tentang Organisasi Anda
 
-On the page that follows, provide your organization's name, a brief description, the URL for your organization's website and your own contact information. If you'd like, you can add additional contacts here as well.
+Pada halaman yang telah Anda ikuti, masukan nama organisasi Anda, sebuah deskripsi singkat, berikut URL untuk website organisasi Anda dan informasi kontak Anda. Jika Anda berminat, Anda juga dapat menambahkan kontak tambahan di sini. 
 
 ![](/assets/add-organization-info.png)
 
-_**NOTE!**_ _Adding someone's contact information here does not create user accounts for them within the Cadasta Platform. That is a separate step that they should do on their own. See [Getting Started](01-gettingstarted.md). _
+_**CATATAN!**_ _Menambahkan informasi kontak seseorang di sini tidak akan membuat akun pengguna bagi mereka dalam Platform Cadasta. Ini merupakan langkah terpisah yang mereka harus lakukan sendiri. Lihat [Mulai Menggunakan](01-gettingstarted.md). _
 
-Once you hit save...
+Setelah Anda meng-klik simpan...
 
-**Congratulations!**
+**Selamat!**
 
-You've established an organization within the Cadasta Platform!
+Anda telah mendirikan sebuah organisasi dalam Platform Cadasta!
 
-As the person who has created the organization, you are now the organization's administrator by default.
+Sebagai orang yang membuat organisasi, Anda secara otomatis menjadi administrator organisasi tersebut. 
 
-### Editing Your Organization's Information {#editing-your-organizations-information}
+### Mengubah Informasi Organisasi Anda {#editing-your-organizations-information}
 
-Administrators can edit an organization's information from the Organization Overview page. Click on the three dots in the upper right corner of the page, select **Edit organization**, and then modify the information as needed.
+Administrator dapat mengubah informasi organisasi dari halaman Ringkasan Organisasi. Klik pada tiga titik di pojok kanan atas halaman, pilih **Ubah organisasi**, kemudian ubah informasi seperlunya. 
 
-Administrators may also archive their organization by selecting **Archive organization **from the same menu.
+Administrator juga dapat mengarsipkan organisasi Anda dengan memilih **Arsipkan Organisasi** dari menu yang sama.
 
 ![](/assets/organization-overview-edit-org.png)
 
-### Adding Organization Members
+### Menambah Anggota Organisasi
 
-Once an organization is set up, the administrator can add organization members. Members must already have accounts set up on the Cadasta Platform.
+Setelah sebuah organisasi teratur, administrator dapat menambahkan anggota organisasi. Anggota harus sudah memiliki akun yang terdaftar pada Platform Cadasta. 
 
-To add an organization member, click **View All **from the Organization Overview page.
+Untuk menambahkan anggota organisasi, klik **Lihat semua** dari halaman Ringkasan Organisasi. 
 
 ![](/assets/organization-add-member-1.png)
 
-Then, click **Add**, in the upper right hand corner.
+Kemudian, klik **Tambah**, pada sebelah pojok kanan atas.
 
 ![](/assets/organization-add-member-2.png)
 
-A pop-up window will appear. Here, add the member's username or email and click save.
+Sebuah jendela terpisah akan muncul. Di sini, tambahkan nama pengguna anggota atau email anggota dan klik simpan. 
 
 ![](/assets/organization-add-member-3.png)
 
-### Editing Member Organization Permissions {#editing-member-organization-permissions}
+### Mengubah Izin Anggota Organisasi {#editing-member-organization-permissions}
 
-At the organizational level, there are two levels of permissions: Administrator and Member.
+Pada tingkatan organisasi, terdapat dua tingkat perizinan: Administrator dan Anggota.
 
-* **Administrators** can edit and archive the organization, as well as add, delete, and edit permissions for organization members.
+* **Administrator** dapat mengubah dan mengarsikpan organisasi, juga menambah, menghapus, dan mengubah izin dari anggota organisasi.
 
-* **Members** can be added to projects within the organization.
+* **Anggota** dapat ditambahkan ke sebuah proyek dalam organisasi.
 
-Administrators may change the permissions of an organization member from the Member Profile page using the drop-down menu towards the left side of the page. 
+Administrator dapat mengubah perizinan seorang anggota organisasi dari Profil Anggota dengan menggunakan menu pilihan pada sisi kiri halaman. 
 
 ![](/assets/organization-add-member-4.png)
 
-### Removing Organization Members {#removing-organization-members}
+### Menghapus Anggota Organisasi {#removing-organization-members}
 
-Administrators may also remove organization members by clicking the **Remove member** button on the the Member Profile page. 
+Administrator juga dapat menghapus anggota organisasi dengan meng-klik tombol **Hapus anggota** pada halaman Profil Anggota.  
 
 ![](/assets/organization-add-member-5.png)
 
-Note that this will not remove the user account from the Cadasta Platform; only from your organization.
+Catatan, bahwa hal ini tidak akan menghapus akun pengguna dari Platform Cadasta; tetapi hanya dari organisasi Anda.
