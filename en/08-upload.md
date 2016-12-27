@@ -48,7 +48,7 @@ Note that here you need to select whether you'll be uploading an Excel file or a
 
 ![](/assets/import-03.png)
 
-On the page that follows, you'll be shown some fields that have no corresponding data. These messages indicate required fields in the questionnaire that do not have corresponding fields in the data. Just click Next to get to the next stage.
+On the page that follows, you'll be shown some messages indicating required fields in the questionnaire that do not have corresponding fields in the data. Just click Next to get to the next stage.
 
 ![](/assets/import-04.png)
 
@@ -58,7 +58,7 @@ On the next page, you'll need to configure a couple types of fields.
 
 One type is for selecting the type of default party name and party type (individual, group, or corporation). The other is for selecting the type of location and geometry field. These simply create default inputs for required fields not shown in the .csv.
 
-When you're done, select **Import Data** from the bottom right. Note that this might take a few moments. If the upload takes more than a minute, then you'll likely get a timeout message and need to try again. If the problem persists, try splitting your .csv into two smaller files and uploading them one at a time.
+When you're done, select **Finish** from the bottom right. Note that this might take a few moments. If the upload takes more than a minute, then you'll likely get a timeout message and need to try again. If the problem persists, try splitting your .csv into two smaller files and uploading them one at a time.
 
 If the upload is completed successfully, you'll be able to see all of the records you've imported from the project location overview page. 
 

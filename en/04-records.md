@@ -23,7 +23,7 @@ From the main project page, select either **Add location** or **Add a location**
 
 On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
 
-![](/assets/location-02.png)
+![](/assets/add-location-02.png)
 
 Here, you'll also be asked to provide some information about your location (shown on the right). If you're using the [minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) , you'll just need to indicate the type of location. 
 
@@ -40,7 +40,7 @@ When you're done, save your location.
 
 To access this location, click on it from the main project page. 
 
-![](/assets/location-03.png)
+![](/assets/add-location-03.png)
 
 #### Location Types {#location-types}
 
@@ -165,13 +165,13 @@ If you're adding a **project location resource**, select the **Resources tab** f
 
 ![](/assets/add-resource-01.png)
 
-To add a **resource that pertains to a certain party**, go to the **Parties page**. from the location overview page. 
+To add a **resource that pertains to a certain party**, go to the **Parties page** from the location overview page. 
 
 ![](/assets/parties-button-02.png)
 
 Then, select the party you'd like to add a resource for.
 
-![](/assets/resource-party-1.png)
+![](/assets/parties-button-04.png)
 
 At the bottom of that party's page, select the **Attach** button and upload your resource.
 
