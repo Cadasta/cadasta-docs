@@ -19,11 +19,11 @@ The Cadasta Platform is designed to deal with this complexity. This section outl
 
 From the main project page, select either **Add location** or **Add a location**: 
 
-![](/assets/add-project-location.png)
+![](/assets/add-location-01.png)
 
 On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
 
-![](/assets/project-location-info.png)
+![](/assets/location-02.png)
 
 Here, you'll also be asked to provide some information about your location (shown on the right). If you're using the [minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) , you'll just need to indicate the type of location. 
 
@@ -40,7 +40,7 @@ When you're done, save your location.
 
 To access this location, click on it from the main project page. 
 
-![](/assets/access-project-location.png)
+![](/assets/location-03.png)
 
 #### Location Types {#location-types}
 
@@ -93,7 +93,7 @@ To view all of the parties who have a relationship with a project or location, c
 
 This will take you to a new page listing all of the parties related to the project:
 
-![](/assets/parties-button-02.png)
+![](/assets/parties-button-04.png)
 
 
 #### Relationships {#relationships}

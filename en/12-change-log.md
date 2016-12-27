@@ -1,6 +1,6 @@
 # Change Log
 
-## Version 1.3.0 – Dec. 23, 2016
+## Version 1.3.0 – Dec. 26, 2016
   
 * Cadasta .xlsx format (same as used in Downloads) is now supported in Data Imports. 
 * Added party specific pages to project navigation
