@@ -85,6 +85,16 @@ Parties are the individuals, groups or corporations who have a relationship to o
 
 * **Corporations** are organizations like companies, NGOs, or government bodies.
 
+#### Viewing Parties
+
+To view all of the parties who have a relationship with a project or location, click the **Parties** button on the left:
+
+![](/assets/parties-button-01.png)
+
+This will take you to a new page listing all of the parties related to the project:
+
+![](/assets/parties-button-02.png)
+
 
 #### Relationships {#relationships}
 
@@ -93,13 +103,13 @@ Any given location has a relationship to a number of [parties](#parties). For ex
 
 #### Adding a New Relationship {#adding-a-new-relationship}
 
-To add a new relationship for a project location, clik on the Relationships tab. Then, click on **Add relationship**. 
+To add a new relationship for a project location, click on the Relationships tab. Then, click on **Add relationship**. 
 
-![](/assets/add-location-relationship.png)
+![](/assets/add-relationship-01.png)
 
 In the pop-up that follows, you'll be first asked to either choose from an existing party or add a new one. 
 
-![](/assets/add-new-relationship-popup.png)
+![](/assets/add-relationship-02.png)
 
 If you're adding a new one, you'll need to provide:
 
@@ -151,31 +161,33 @@ The Cadasta Platform is set up to handle this kind of complexity, organizing res
 
 There are a few ways to add a new resource, depending on what it pertains to.
 
-If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Add resource.**
+If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Attach.**
 
-![](/assets/add-location-resource.png)
+![](/assets/add-resource-01.png)
 
-To add a **resource that pertains to a certain party**, go to the **Relationships tab** from the location overview page. Then, select the party you'd like to add a resource for.
+To add a **resource that pertains to a certain party**, go to the **Parties page**. from the location overview page. 
+
+![](/assets/parties-button-02.png)
+
+Then, select the party you'd like to add a resource for.
 
 ![](/assets/resource-party-1.png)
 
 At the bottom of that party's page, select the **Attach** button and upload your resource.
 
-![](/assets/resource-party-2.png)
+![](/assets/parties-button-03.png)
 
 To add a **resource that pertains to the overall project**, go to the project's overview page by clicking **Overview**. Then, click **Resources.** 
 
-![](/assets/resources-from-overview.png)
-
 Clicking on resources from the project overview page will take you to your project library, which will have all of the resources related to your project.
 
-![](/assets/project-library.png)
+![](/assets/add-resource-02.png)
 
 To add a resource while you're in the the library, click **Add** on the upper right.
 
 From any of these starting points, you'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
 
-![](/assets/project-library.png)
+![](/assets/add-resource-03.png)
 
 Acceptable file types are:
 
