@@ -1,5 +1,14 @@
 # Change Log
 
+## Version 1.3.0 – Dec. 23, 2016
+  
+* Cadasta .xlsx format (same as used in Downloads) is now supported in Data Imports. 
+* Added party specific pages to project navigation
+* UI improvements for Public and Anonymous users 
+* API related improvements and completion of API documentation
+* Performance optimizations 
+
+
 ## Update: Dec. 16, 2016
 
 Added information about [how to translate the platform using Transifex](10-translation.md).

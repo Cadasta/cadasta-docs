@@ -38,31 +38,27 @@ If you have questions about whether your questionnaire matches your data set, ne
 
 To import your data, navigate to the main project page. There, select the three dots on the upper right, and then Import Data. 
 
-![](/assets/upload-01.png)
+![](/assets/import-01.png)
 
 Next, you'll come to a page where you can give the file a name and select your .csv for uploading. 
 
-![](/assets/upload-02.png)
+![](/assets/import-02.png)
 
-On the page that follows, you'll be asked to select your input fields. 
+Note that here you need to select whether you'll be uploading an Excel file or a CSV. Make sure that the selected file type matches the one of the file being uploaded.
 
-![](/assets/upload-03.png)
+![](/assets/import-03.png)
 
-Note that grayed-out checkboxes indicate required questions in your questionnaire (i.e. questions marked `yes` in the `required` column). They must be included with the file upload. 
+On the page that follows, you'll be shown some fields that have no corresponding data. These messages indicate required fields in the questionnaire that do not have corresponding fields in the data. Just click Next to get to the next stage.
 
-At the bottom of this page, you may see some notes like `The following fields have no corresponding attribute`. These messages indicate required fields in the questionnaire that do not have corresponding fields in the data. 
+![](/assets/import-04.png)
 
 On the next page, you'll need to configure a couple types of fields. 
 
-![](/assets/upload-04.png)
+![](/assets/import-05.png)
 
 One type is for selecting the type of default party name and party type (individual, group, or corporation). The other is for selecting the type of location and geometry field. These simply create default inputs for required fields not shown in the .csv.
-
-_Please note that this section will likely change as of December 2016. In the meantime, please <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> if you have any questions.
 
 When you're done, select **Import Data** from the bottom right. Note that this might take a few moments. If the upload takes more than a minute, then you'll likely get a timeout message and need to try again. If the problem persists, try splitting your .csv into two smaller files and uploading them one at a time.
 
 If the upload is completed successfully, you'll be able to see all of the records you've imported from the project location overview page. 
-
-![](/assets/upload-05.png)
 

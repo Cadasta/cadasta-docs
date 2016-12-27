@@ -15,8 +15,6 @@ The Cadasta Platform allows you to define your own data collection schema, so yo
 
 In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
 
-> David, would love your insight on how to make this a little bit more intuitive. 
-
 You can start your project with one of the following ready-to-go questionnaires. They fall into two categories:
 
 * Non-Repeating Questionnaires
@@ -25,8 +23,6 @@ You can start your project with one of the following ready-to-go questionnaires.
 The difference is based on whether or not you want the options for some questions to repeat during your data collection. For example, you may need to collect data for multiple locations that all have the same relationship to a certain party. In that case, you would want to use a repeating questionnaire. If not, you'd want a non-repeating questionnaire. 
 
 Non-Repeating Questionnaires:
-
-> 11.23.2016 - all links need to be replaced
 
 * [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) creates a schema for the bare minimum of data needed by the platform; and
 
