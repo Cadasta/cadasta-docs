@@ -1,11 +1,14 @@
-# Questionnaires & Custom Data Collection
+# Cadasta XLSForms & Custom Data Collection
+
+// redo table of contents
 
 * [Overview](#overview)
-* [Minimum Questionnaire](#minimal-form)
-* [Standard Questionnaire](#standard-form)
-* [Multiple Location Questionnaires](#multiple-location-questionnaires)
-* [Multiple Party Questionnaires](#multiple-party-questionnaires)
-* [Customizing Your Questionnaire](#customizing-your-questionnaire)
+* Parts of a Cadasta Form
+	* Survey Tab
+	* Choices Tab
+	* Settings Tab
+* Data Entry Types
+* Customizing Your Form
 
 ### Overview {#overview}
 
@@ -15,175 +18,161 @@ The Cadasta Platform allows you to define your own data collection schema, so yo
 
 In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
 
-You can start your project with one of the following ready-to-go questionnaires. They fall into two categories:
+In this section, you'll learn about how to use XLSForms designed specifically for use with the Cadasta system. 
 
-* Non-Repeating Questionnaires
-* Repeating Questionnaires
+### Types of Cadasta Template Forms
 
-The difference is based on whether or not you want the options for some questions to repeat during your data collection. For example, you may need to collect data for multiple locations that all have the same relationship to a certain party. In that case, you would want to use a repeating questionnaire. If not, you'd want a non-repeating questionnaire. 
+When it comes to data schemas, land rights documentation often falls into one of three different categories:
 
-Non-Repeating Questionnaires:
+// need project example for Standard Questionnaire
 
-* [The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) creates a schema for the bare minimum of data needed by the platform; and
+* One person (or group of people) using one piece of land ([project example - ]()),
+* Many different people (or groups of people) using one piece of land ([project example - Urban Informal Settlements]()), and
+* One person (or group of people) using many pieces of land ([project example - Smallholder Agriculture]()). 
 
-* [The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) is the starting point for many of our partners. It includes the same entry fields as the minimum questionnaire, with some added. 
+Cadasta has designed a template form for each of these use cases, which you can download here: 
 
-Repeating Questionnaires:
+// Katrina - please check links below. Are they correct still?
 
-* [The multiple location questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_standard_cadasta_questionnaire.xlsx) lets you collect data for multiple locations that all relate to a single party, but may have different relationships to each one. For example, a community group may hold a lease for one property and have right-of-way access for another. If a party has the same relationship to all the locations, then a similar, alternative form is available - the [multiple location, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx). Both of these forms have many of the same fields as the minimum questionnaire. 
+* [Standard Form(also knows as a One-to-One Form)](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx)
+* [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx)
+* [Many-to-One Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_standard_cadasta_questionnaire.xlsx)
 
-* [The multiple party questionnaire]( https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx) lets you collect data for multiple parties that may have relationships with a single location. For example, a building may be leased by many tenants and owned by another individual. In the event that the parties all have the same relationship with the location, then an alternative is available: the [multiple party, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_minus_tenure_standard_cadasta_questionnaire.xlsx). Like the other repeating questionnaires, these forms have many of the same fields as the minimum questionnaire. 
+**These forms should be the starting point of any Cadasta project.** Keep reading to learn about how they work and how to customize them.
 
-You can use any of these forms as starting points for your project. You can also modify parts of these forms to fit your data collection needs. 
+// Link to customization.
 
-If you need to significantly modify these data entry fields, see the section on [customizing your questionnaire](#customizing-your-questionnaire). 
+### Parts of a Cadasta Form
 
-_**Important note:** You can make small changes to your questionnaire - such as adding a row - and reupload it to an existing project. However, if your questionnaire changes significantly, you may need to start a new project._
+Each Cadasta form follows a similar structure. Here, we're looking at the [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx). 
 
-If you have questions about how to use these questionnaires, [contact us](http://cadasta.org/contact/) at any time.
+#### Form Tabs
 
-### The Minimum Questionnaire {#minimal-form}
+There are 3 tabs. 
 
-[The minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) has the essential fields you need for data collection using the Cadasta Platform.
+* **Survey** shows all of the survey questions you’re asking. 
+* **Choices** lists all of the choices that appear in multiple choice questions or drop-down menus. 
+* And finally, **Settings** has some basic information about the form and its default language.
 
-This questionnaire has three tabs:
 
-* Survey
-* Choices, and
-* Settings.
+#### Survey Tab
 
-The **Survey** tab shows the overall data collection schema.
+// Section notes:
+* Indicate required and nonrequired fees.
 
-![](/assets/minimum-survey.png)
+// [add image]
 
-The areas in gray are fields that the Cadasta platform requires to work. Some of them \(like `deviceid`\) are used behind the scenes, so you'll never see them in the Platform, ODK, or GeoODK. _(Note! Do not tamper with any of the gray fields!)_
+The survey tab includes some important column headers you need to know about.
 
-The first three columns are important ones for you to know about:
-* `type` specifies the type of entry you're adding - be it text, a date, a dropdown or something else. 
-* `name` specifies the variable used for that entry. No two names can be the same!
-* `label` shows the text that will actually be seen on the form. Fields in white can be modified as needed.
+##### **Sections & Color Coding**
 
-The **Choices** tab is where the choices for all the drop-down menus are stored.
+In Cadasta’s structure, the questions are divided into four parts, each with its own color coding:
 
-![](/assets/minimum-choices.png)
+* **Mandatory Fields**, which house some of the required meta information as well as geographic data collection options. These fields cannot be modified.
+* **Location Information**, for collecting basic information such as how the land is used or whether there has been recent flooding.
+* **Party Information**, for information about people using the location.
+* **Relationship information**, describing the kind relationship (or tenure) between the land and the people who use it.
 
-For example, the `respondent` entries Group, Individual and Corporation (A2 - A4 in the image above) correspond with this dropdown menu in the Add Relationship popup:
+//link to Project Resources
 
-![](/assets/relationship-dropdown.png)
+Any photos, videos or audio collected are stored as **Project Resources** 
 
-The **Settings** tab shows you the `form_id`, the title of the questionnaire, and the default language. 
+// QUESTION FOR PROGRAMS TEAM: do any of the below sections still apply? I like the less technical sounding wording above. 
 
-You'll use the `form_id` when you set up data collection with ODK and GeoODK. 
+##### Form Sections
 
-Each form ID in your organization needs to be unique. Make sure all of the questionnaires follow this rule. Otherwise, they won't load, and you'll default to using the original form with that ID. Also be sure to create names that start with lowercase letters and contain no spaces.
+![](/assets/standard-survey.png)
 
+The customizable portion of the questionnaire has been organized into the following sections: 
 
-### The Standard Questionnaire {#standard-form}
+* **Location Attributes** relate to to information about the location - like its name and boundaries. 
 
-[The standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx) has most of the same questions as the minimal version, with quite a few added. You can see many of these choices indicated in the **Survey** tab.
+* **Default Party Attributes** specify the information that you collect about any party, be it an individual, group, or corporation.
 
-In the required fields, at the top of the survey above the yellow lines, one section that's different from the minimal questionnaire can be seen on rows 13-16: the selection of `geoshape`, `geotrace`, and `geopoint`.
+* **Individual Party Attributes** and **Group Party Attributes** each provide information specific to whether a party is an individual or group.
 
-![](/assets/new-standard-01.png)
+* **Party Relationship Attributes** is for information specific to the relationship between a party and the location. 
 
-This setting allows data collectors to choose how they'd like to log their location while they're in the field. 
+* **Tenure Relationship Attributes** specify information about a party's tenure on the land.
 
-_[Read more about GeoTrace, GeoShape, and GeoPoint here](#geo)_
+##### **Headings**
 
-Another important difference is can be seen in column D: the use of a different language. 
+* `type` defines the type of question it is, like a text, date, integer, or multiple choice question. 
+* `name`  gives a database-readable name to the question. It must start with a letter only be made of letters, numbers, and underscores.
+* `label` is where you write the question you want to actually show up on the survey. 
+* `label::fr` is an optional column for adding additional languages to your survey. To add a language, append `label::` with the desired <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+" target="_blank">2-digit ISO country code</a>. Here, FR means French.
+* `required` indicates whether a question is required. Please note that some fields must be marked as required in order to work. See the table below for more info. 
 
-If you need to use other languages in your questionnaire (such as a combination of Spanish and English), you can indicate the preferred language in the column header in your form questionnaire using a notation like this:
+// link table 
 
-```
-label::es
-```
+* `default` is where you can indicate a default response to multiple choice questions. In the above example, in line 22, the default selection is set to `renter`.
+* `relevant` adds visibility logic. In other words, it allows you to show or hide questions based on an answer to another question.  
 
-To make this work, you'll need to add a third column to the Settings tab and give it the heading `default_language`.
+// add example of visibility logic (David)
 
-![](/assets/new-standard-02.png)
+##### **Repeats**
 
-This indicates the default language you prefer for your data collection. It's set using <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">two-letter ISO 639-1 codes</a>. For example, to set the default language to Swahili, you would use the abbreviation `sw`. 
+// [add image]
 
-![](/assets/new-standard-03.png)
+Both the Many-to-One (shown above) and One-to-Many forms make use of Repeats. Repeats allow you the option of repeating a section of questions without having to start the whole survey all over again. 
 
-Let's walk through some of the other columns you'll see in the standard questionnaire (shown above). 
+In GeoODK, for example, a repeat gives you a screen like the one shown below. 
 
-* Images and audio recordings (rows 20-23)
-* Location Attributes \(rows 27-32\)
-* Default Party Attributes \(rows 34-36\)
-* Individual Party Attributes \(rows 38-43\)
-* Group Party Attributes \(rows 45-48\)
-* Tenure Relationship Attributes \(50-52\)
+You have the option to repeat the section or not. This is the feature that allows you to collect information for many people associated with a single location, or for many locations associated with a single person or group of people.
 
-Each of these sections relates to a data collection window in the Cadasta platform.
+**Important**! `begin repeat` and `end repeat` separate the questions that repeat from the ones that don't, and they **should not** be edited or modified! 
 
-The **Choices** tab has the same options as the minimal questionnaire, with some additional drop-down choices as well.  
+To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaire. 
 
-![](/assets/new-standard-04.png)
+####Choices Tab
 
-For example, rows 41-44 show the choices for the different types of location problems, which correspond with row 30 on the Survey tab. Additionally, you'll notice the choices for `geo_type`, and the inclusion of a column for answers in Spanish.   
+// [add image]
 
-The **Settings** tab of the standard questionnaire is similar to how it is in the minimal version - providing the title and `form_id`, which is your identifier for the questionnaire in ODK or GeoODK. The only difference is the addition of the `default_language` section, which provides the default language for the questionnaire.
+The Choices tab is where you enter choices for your multiple choice survey questions. 
 
-![](/assets/new-standard-02.png)
+* `list_name` gives the set of responses a database-readable name. 
+* `name` is the database-readable version of a possible answer. 
+* `label` is choice that the user sees. Like in the survey tab, you can add a column for different language options by appending the header `label::` with a <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+" target="_blank">2-digit ISO country code</a>.
 
-**Important!** Make sure all of the questionnaires in your organization have unique form IDs. Otherwise, they won't load in ODK or GeoODK. Also be sure to create names that start with lowercase letters and contain no spaces. 
+To get your multiple choice options to show up on the form, add the `list_name` to the `type` field in the survey tab, following either a `select_one` or `select_multiple` type. 
 
-### Multiple Location Questionnaires {#multiple-location-questionnaires}
+For example, you can see `main_use` listed by `select_one` on row 14:
 
-If you are collecting data for multiple locations as they relate to a single party, then one of these two multiple location questionnaires may be for you:
+// [add image]
 
-* [The multiple location questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_standard_cadasta_questionnaire.xlsx), and 
-* [multiple location, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_minus_tenure_standard_cadasta_questionnaire.xlsx). 
+Which looks like this in GeoODK:
 
-The first questionnaire lets you collect data for multiple locations that all relate to a single party, but may have different relationships to each one. For example, a community group may hold a lease for one property and have right-of-way access for another. 
+// [add image]
 
-The second questionnaire is better if you're collecting data for a party that has the same relationship to all the locations. For example, if an individual inherited a number of buildings and properties, then the second questionnaire will be better. 
+#### Settings Tab
 
-Both of these forms have many of the same fields as the minimum questionnaire, but they are formatted a little bit differently.
+// [add image]
 
-![](/assets/repeating-01-location.png)
+The Settings tab is devoted to a few special settings. 
 
-In the above image, there are two important things to note:
+* `form_id` provides a unique ID for this form. Make sure that you have a different ID for each of your Cadasta projects!
+* `title` is what shows up on ODK or GeoODK when you load the form. 
+* `default_language` shows the default language being used on the form, indicated by the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+" target="_blank">2-digit ISO country code</a>. Here, we’ve marked the default language as English.
 
-* **`begin repeat` and `end repeat`. These rows separate the questions that repeat from the ones that don't, and they **should not** be edited or modified.  
+### Data Entry Types
 
-* **Light and dark colors for each question group.** These indicate the questions that can be modified or edited (darker colors), and which ones can't (lighter colors). For example, rows 18 and 19 can be edited, and more questions can be added there. _See [customizing your questionnaire](#customizing-your-questionnaire) for more information about how to do that._
+Here is a table with all of the data entry types:
 
-The multiple location, single relationship questionnaire works similarly. The difference is simply in the location of the the `begin repeat` and `end repeat` rows. 
+// Insert Table
 
-![](/assets/repeating-02-location-one-rel.png)
 
-As with the standard and minimal questionnaires, fields in gray should not be edited or moved: they are required for the forms to work. 
+#### GeoTrace, GeoShape and GeoPoint {#geo}
 
+In your location data collection, you may choose to collect point, line, or polygon data. In both the standard and minimum questionnaires, you have the option to choose one of these using `geopoint`, `geotrace`, or `geoshape`. 
 
-###Multiple Party Questionnaires 
-{#multiple-party-questionnaires}
+* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimum and standard questionnaires. With `geotrace`, location pins are added based on the user's GPS coordinates. 
 
-If you are collecting data for multiple parties as they relate to a single location, then one of these two multiple party questionnaires may be for you:
+* `geoshape` records a polygon made of multiple GPS coordinates, which are drawn on-screen. 
 
-* [The multiple party questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx), and 
-* [the multiple party, single relationship questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_minus_tenure_standard_cadasta_questionnaire.xlsx). 
-
-The first questionnaire lets you collect data for multiple parties that may have relationships with a single location. For example, a building may be leased by many tenants and owned by another individual. 
-
-In the event that the parties all have the same relationship with the location, then you may want to use the second questionnaire. 
-
-Both of these forms have many of the same fields as the minimum questionnaire. 
-
-![](/assets/repeating-02-party.png)
-
-In the above image, there are two important things to note:
-
-* **`begin repeat` and `end repeat`. These rows separate the questions that repeat from the ones that don't, and they **should not** be edited or modified.  
-
-* **Light and dark colors for each question group.** These indicate the questions that can be modified or edited (darker colors), and which ones can't (lighter colors). For example, rows 18 and 19 can be edited, and more questions can be added there. _See [customizing your questionnaire](#customizing-your-questionnaire) for more information about how to do that._
-
-The multiple location, single relationship questionnaire works similarly. The difference is simply in the location of the the `begin repeat` and `end repeat` rows. 
-
-![](/assets/repeating-02-party-one-rel.png)
-
-As with the standard and minimal questionnaires, fields in gray should not be edited or moved: they are required for the forms to work. 
+* `geopoint` collects single points of data based on the user's GPS coordinates
 
 
 ### Customizing Your Questionnaire {#customizing-your-questionnaire}
@@ -215,27 +204,17 @@ For example, to add a new field to the location acquisition dropdown \(`l_acquir
 * Add a new row, and give it a `list_name` of `l_acquired_how`.
 * Add a new name and label.
 
-In the example below, a new category for the dropdown \("Unknown"\) has been added to the questionnaire.
+In the example below, a new category for the dropdown \("Unknown"\) has been added to the Cadasta Form.
 
 ![](/assets/land-acquision-new-row.png)
 
-Once that questionnaire is saved and loaded into the project, the new "Unknown" option will appear in the dropdown under, "How was this location acquired?"
+Once that form is saved and loaded into the project, the new "Unknown" option will appear in the dropdown under, "How was this location acquired?"
 
 ![](/assets/standard-new-field.png)
 
-#### GeoTrace, GeoShape and GeoPoint {#geo}
-
-In your location data collection, you may choose to collect point, line, or polygon data. In both the standard and minimum questionnaires, you have the option to choose one of these using `geopoint`, `geotrace`, or `geoshape`. 
-
-* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimum and standard questionnaires. With `geotrace`, location pins are added based on the user's GPS coordinates. 
-
-* `geoshape` records a polygon made of multiple GPS coordinates, which are drawn on-screen. 
-
-* `geopoint` collects single points of data based on the user's GPS coordinates. 
-
-To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaire. 
-
 ##### Attachment of Multiple Resources
+
+// David, does this still apply to forms?
 
 If you need to attach multiple resources during your data collection in the field, you can do so using two special codes:
 
@@ -245,11 +224,11 @@ If you need to attach multiple resources during your data collection in the fiel
 
 * `location_resource_*`, for uploading multiple resources related to a location. 
 
-Here's an example of these codes at work in a questionnaire, under `name` in rows 11, 12, 19, 20, 31, 32, and 33:
+Here's an example of these codes at work in a form, under `name` in rows 11, 12, 19, 20, 31, 32, and 33:
 
 ![](/assets/questionnaire-mulitiple-resource-example.png)
 
-The codes can be used multiple times in your questionnaire, preceding unique words like `_pic1` and `_pic2`. 
+The codes can be used multiple times in your form, preceding unique words like `_pic1` and `_pic2`. 
 
 #### Advanced Customization
 
@@ -268,7 +247,7 @@ Fields that **cannot** be modified:
 
 ##### Data Entry Types {#data-types}
 
-To fully take advantage of customizing the questionnaire, it's important to figure out which data entry type will work best for the kind of information you're collecting. Some of the most common ones that you'll use are:
+To fully take advantage of customizing your Cadasta Form, it's important to figure out which data entry type will work best for the kind of information you're collecting. Some of the most common ones that you'll use are:
 
 * `text` - which specifies that you're collecting basic text.
 * `date` - which specifies that you're logging the date.
@@ -276,7 +255,7 @@ To fully take advantage of customizing the questionnaire, it's important to figu
 
 ![](/assets/standard-survey-example.png)
 
-You can see each of these at work in the above example, taken from the survey tab of the standard questionnaire.
+You can see each of these at work in the above example, taken from the survey tab of the standard form.
 
 Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specifies that cell A24 is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
 
@@ -292,11 +271,11 @@ In addition to these basic data types, [XLSForm offers many different data types
 
 The type you need depends on the kinds of questions you need to ask. For example, if you need to collect an audio sample from an interviewee, you could select `audio`, which will prompt you to take an audio recording.
 
-##### Questionnaire Sections
+##### Form Sections
 
 ![](/assets/standard-survey.png)
 
-The customizable portion of the questionnaire has been organized into the following sections: 
+The customizable portion of the form has been organized into the following sections: 
 
 * **Location Attributes** relate to to information about the location - like its name and boundaries. 
 
@@ -310,7 +289,7 @@ The customizable portion of the questionnaire has been organized into the follow
 
 Each of these sections relates to a piece of the Cadasta Platform's internal workings. In order for your questions to appear in the platform, they need to be in one of these sections.
 
-The below image is taken from a custom questionnaire used by one of our partners. Here, they've added a number of custom fields in the `party_attributes_default` section:
+The below image is taken from a custom form used by one of our partners. Here, they've added a number of custom fields in the `party_attributes_default` section:
 
 ![](/assets/example-xls-1.png)
 
@@ -318,9 +297,9 @@ It is possible to create new sections, as another Cadasta partner has done below
 
 ![](/assets/example-xls-2.png)
 
-If you'd like to create new sections or significantly customize your questionnaire, we highly recommend that you [contact us](http://cadasta.org/contact/) first. We're here to help! 
-
 ##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
+
+// David, is this something that we want partners to mess with?
 
 In some cases, you may want to give your data collectors the option to choose collecting data using GeoTrace, GeoPoint or GeoShape. If you do, you can modify to your form to make this possible. Alternatively, you can build out your questionnaire [starting from this one](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx). 
 
@@ -414,25 +393,31 @@ In the image below, the fields above have been pasted into a minimum questionnai
 
 Now, when data collectors are collecting data in the field, they can choose which data collection method is best: GeoTrace, GeoPoint or GeoShape.
 
-##### Steps to Creating Your Custom Questionnaire
+##### Steps to Creating Your Custom Cadasta Form
 
 The first thing you need to do is think through the questions you'll be asking in your data collection.
 
 1. Identify your questions. What information do you need to collect in your project? 
 
-2. Identify each question's data entry type. What kind of  entry would work best for each question - a date? A text field? A drop-down or multiple choice?
+2. Identify where each question should go. Is this question about a party, location, relationship, or something else?
 
-3. Identify where each question should go. Is this question about a party, location, relationship, or something else?
+3. Identify each question's data entry type. What kind of  entry would work best for each question - a date? A text field? A drop-down or multiple choice?
+
+4. Choose your starter template form based on your use case:
+Are you documenting one group of people per location? Or many different groups in a single location? Or how one group of people uses many different locations? 
+
+// add links to forms
+
 
 Once you've thought this through, you can start adding your questions to their appropriate section.
 
-Before uploading your questionnaire to your project, check to make sure that:
+Before uploading your form to your project, check to make sure that:
 
-* all of your data entry `types` match those listed on [XLSForm](http://xlsform.org/#question-types) and are spelled correctly. 
+* all of your data entry `types` match those listed in the table above and and are spelled correctly. 
 * all of your `names` are lowercase and contain no spaces. 
 * all of your `list_names` in the Choices tab match the name you've given to your dropdowns in the Survey tab.
 * all of your `form_ids` are distinct, contain no spaces, and start with a lowercase letter.
 
 Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
 
-If you're having trouble with your questionnaires, don't hesistate to [contact us](http://cadasta.org/contact/) at any time - we're here to help you get your data collection just right.
+If you're having trouble with your form, please don't hesistate to [contact us](http://cadasta.org/contact/) at any time - we're here to help you get your data collection just right.
