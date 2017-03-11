@@ -1,6 +1,6 @@
 # Cadasta XLSForms & Custom Data Collection
 
-// redo table of contents
+> redo table of contents
 
 * [Overview](#overview)
 * Parts of a Cadasta Form
@@ -24,7 +24,7 @@ In this section, you'll learn about how to use XLSForms designed specifically fo
 
 When it comes to data schemas, land rights documentation often falls into one of three different categories:
 
-// need project example for Standard Questionnaire
+> need project example for Standard Questionnaire
 
 * One person (or group of people) using one piece of land ([project example - ]()),
 * Many different people (or groups of people) using one piece of land ([project example - Urban Informal Settlements]()), and
@@ -32,7 +32,7 @@ When it comes to data schemas, land rights documentation often falls into one of
 
 Cadasta has designed a template form for each of these use cases, which you can download here: 
 
-// Katrina - please check links below. Are they correct still?
+> Katrina - please check links below. Are they correct still?
 
 * [Standard Form(also knows as a One-to-One Form)](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx)
 * [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx)
@@ -40,7 +40,7 @@ Cadasta has designed a template form for each of these use cases, which you can 
 
 **These forms should be the starting point of any Cadasta project.** Keep reading to learn about how they work and how to customize them.
 
-// Link to customization.
+> Link to customization.
 
 ### Parts of a Cadasta Form
 
@@ -57,10 +57,10 @@ There are 3 tabs.
 
 #### Survey Tab
 
-// Section notes:
+> Section notes:
 * Indicate required and nonrequired fees.
 
-// [add image]
+> [add image]
 
 The survey tab includes some important column headers you need to know about.
 
@@ -73,11 +73,11 @@ In Cadasta’s structure, the questions are divided into four parts, each with i
 * **Party Information**, for information about people using the location.
 * **Relationship information**, describing the kind relationship (or tenure) between the land and the people who use it.
 
-//link to Project Resources
+> link to Project Resources
 
 Any photos, videos or audio collected are stored as **Project Resources** 
 
-// QUESTION FOR PROGRAMS TEAM: do any of the below sections still apply? I like the less technical sounding wording above. 
+> QUESTION FOR PROGRAMS TEAM: do any of the below sections still apply? I like the less technical sounding wording above. 
 
 ##### Form Sections
 
@@ -104,16 +104,16 @@ The customizable portion of the questionnaire has been organized into the follow
 " target="_blank">2-digit ISO country code</a>. Here, FR means French.
 * `required` indicates whether a question is required. Please note that some fields must be marked as required in order to work. See the table below for more info. 
 
-// link table 
+> link table 
 
 * `default` is where you can indicate a default response to multiple choice questions. In the above example, in line 22, the default selection is set to `renter`.
 * `relevant` adds visibility logic. In other words, it allows you to show or hide questions based on an answer to another question.  
 
-// add example of visibility logic (David)
+> add example of visibility logic (David)
 
 ##### **Repeats**
 
-// [add image]
+> [add image]
 
 Both the Many-to-One (shown above) and One-to-Many forms make use of Repeats. Repeats allow you the option of repeating a section of questions without having to start the whole survey all over again. 
 
@@ -127,7 +127,7 @@ To change what data type you're collecting, modify cell A11 on either your stand
 
 ####Choices Tab
 
-// [add image]
+> [add image]
 
 The Choices tab is where you enter choices for your multiple choice survey questions. 
 
@@ -140,15 +140,15 @@ To get your multiple choice options to show up on the form, add the `list_name` 
 
 For example, you can see `main_use` listed by `select_one` on row 14:
 
-// [add image]
+> [add image]
 
 Which looks like this in GeoODK:
 
-// [add image]
+> [add image]
 
 #### Settings Tab
 
-// [add image]
+> [add image]
 
 The Settings tab is devoted to a few special settings. 
 
@@ -161,7 +161,7 @@ The Settings tab is devoted to a few special settings.
 
 Here is a table with all of the data entry types:
 
-// Insert Table
+> Insert Table
 
 
 #### GeoTrace, GeoShape and GeoPoint {#geo}
@@ -214,7 +214,7 @@ Once that form is saved and loaded into the project, the new "Unknown" option wi
 
 ##### Attachment of Multiple Resources
 
-// David, does this still apply to forms?
+> David, does this still apply to forms?
 
 If you need to attach multiple resources during your data collection in the field, you can do so using two special codes:
 
@@ -406,7 +406,7 @@ The first thing you need to do is think through the questions you'll be asking i
 4. Choose your starter template form based on your use case:
 Are you documenting one group of people per location? Or many different groups in a single location? Or how one group of people uses many different locations? 
 
-// add links to forms
+> add links to forms
 
 
 Once you've thought this through, you can start adding your questions to their appropriate section.
