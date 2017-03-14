@@ -1,14 +1,24 @@
 # Cadasta XLSForms & Custom Data Collection
 
-> redo table of contents
+> need:
+* Final one-to-many form from David
+* Replace all images (based on Form)
+* Links to all revised forms as Excel Spreadsheets, hosted on Amazon server
+
+> Questions
+* Do we want partners to mess with geopoint, geotrace, geoshape? Same with the geopoint, geotrace, geoshape dropdowns?
+
+//
+
 
 * [Overview](#overview)
-* Parts of a Cadasta Form
-	* Survey Tab
-	* Choices Tab
-	* Settings Tab
-* Data Entry Types
-* Customizing Your Form
+* [Types of Cadasta Template Forms](#types)
+* [Parts of a Cadasta Form](#parts)
+	* [Survey Tab](#survey-tab)
+	* [Choices Tab](#choices-tab)
+	* [Settings Tab](#settings-tab)
+* [Data Entry Types](#data-type)
+* [Customizing Your XLSForm for Cadasta](#customizing-your-xlsform)
 
 ### Overview {#overview}
 
@@ -20,7 +30,7 @@ In the Cadasta Platform, the underlying technology that enables this comes from 
 
 In this section, you'll learn about how to use XLSForms designed specifically for use with the Cadasta system. 
 
-### Types of Cadasta Template Forms
+### Types of Cadasta Template Forms {#types}
 
 When it comes to data schemas, land rights documentation often falls into one of three different categories:
 
@@ -42,7 +52,7 @@ Cadasta has designed a template form for each of these use cases, which you can 
 
 > Link to customization.
 
-### Parts of a Cadasta Form
+### Parts of a Cadasta Form {#parts}
 
 Each Cadasta form follows a similar structure. Here, we're looking at the [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx). 
 
@@ -55,14 +65,14 @@ There are 3 tabs.
 * And finally, **Settings** has some basic information about the form and its default language.
 
 
-#### Survey Tab
+#### Survey Tab {#survey-tab}
 
 > Section notes:
 * Indicate required and nonrequired fees.
 
 > [add image]
 
-The survey tab includes some important column headers you need to know about.
+The Survey Tab shows all of the survey questions you're asking. This section outlines everything you need to know about this important tab.
 
 ##### **Sections & Color Coding**
 
@@ -77,66 +87,94 @@ In Cadasta’s structure, the questions are divided into four parts, each with i
 
 Any photos, videos or audio collected are stored as **Project Resources** 
 
-> QUESTION FOR PROGRAMS TEAM: do any of the below sections still apply? I like the less technical sounding wording above. 
-
-##### Form Sections
-
-![](/assets/standard-survey.png)
-
-The customizable portion of the questionnaire has been organized into the following sections: 
-
-* **Location Attributes** relate to to information about the location - like its name and boundaries. 
-
-* **Default Party Attributes** specify the information that you collect about any party, be it an individual, group, or corporation.
-
-* **Individual Party Attributes** and **Group Party Attributes** each provide information specific to whether a party is an individual or group.
-
-* **Party Relationship Attributes** is for information specific to the relationship between a party and the location. 
-
-* **Tenure Relationship Attributes** specify information about a party's tenure on the land.
 
 ##### **Headings**
 
-* `type` defines the type of question it is, like a text, date, integer, or multiple choice question. 
-* `name`  gives a database-readable name to the question. It must start with a letter only be made of letters, numbers, and underscores.
-* `label` is where you write the question you want to actually show up on the survey. 
-* `label::fr` is an optional column for adding additional languages to your survey. To add a language, append `label::` with the desired <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-" target="_blank">2-digit ISO country code</a>. Here, FR means French.
-* `required` indicates whether a question is required. Please note that some fields must be marked as required in order to work. See the table below for more info. 
+The Survey tab includes some important column headers you need to know about.
 
-> link table 
+> link to relevant tables, esp. `required`
 
-* `default` is where you can indicate a default response to multiple choice questions. In the above example, in line 22, the default selection is set to `renter`.
-* `relevant` adds visibility logic. In other words, it allows you to show or hide questions based on an answer to another question.  
+| Item | Description | Synonyms | Notes |
+|`type` | defines the type of question it is, like a text, date, integer, or multiple choice question.| ||
+|`name`| gives a database-readable name to the question. || It must start with a letter only be made of letters, numbers, and underscores.|
+|`label`| where you write the question you want to actually show up on the survey.|`label::[language]`|To add a language, append `label::` with the desired <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+" target="_blank">2-digit ISO country code</a>. e.g. `fr` is French|
+|`required`| indicates whether a question is required | bind:required| Allowed values: yes, no, TRUE, FALSE, true(), false(); or a statement that evaluates as true or false. Note that Some fields must be marked as required in order to work. (See table below)|
+|`hint`|Optional.  This column allows you to give additional information to the person filling out the form.|||
+|`default`| A default value that is pre-filled before the user gets to the question ||In the above example, in line 22, the default selection is set to `renter`.|
+|`relevant`| adds visibility logic. In other words, it allows you to show or hide questions based on an answer to another question. |||
 
 > add example of visibility logic (David)
+
+##### **Data Entry Types**
+
+The `type` field can take many different data entry types. 
+
+These data entry types go with **meta questions**. These questions are hidden to the user.
+
+| Item | Description | Synonyms | Notes |
+| `start` | Records when the form was loaded| | |
+| `end` | Records when the form was finished| | |
+| `today` | Records the date the form was loaded| | |
+| `deviceid` | Get the device ID (for Android devices) | | |
+
+The below data entry types go with **regular questions**, which do appear to the user. 
+
+| Item | Description | Synonyms | Notes |
+| `select_one` `[list_name]` `[or_other]`  | User can choose one of several choices| | Must be set to Required to work|
+| `select_multiple` `[list_name]` `[or_other]`  | User can choose one or more of several choices| | Must be set to Required to work|
+| `text`  | User can enter a text response| | |
+| `integer`  | User can enter an integer| | |
+| `decimal`  | User can enter a decimal number | | |
+| `date`  | User can enter a date| | Must be set to Required to work|
+| `image`  | User can take or attach a picture| `photo`| |
+| `audio`  | User can record or attach audio | | |
+| `video`  | User can record or attach video| | |
+| `note`  | User is shown a note (no response possible)| | |
+| `geopoint`  | Collects a single point of data based on the user's GPS coordinates.| | |
+| `geoshape`  | records a polygon made of multiple GPS coordinates, which are drawn on-screen. | | |
+| `geotrace`  | records a line of two or more GPS coordinates.  | |Location pins are added based on the user's GPS coordinates. 
+
+
+##### **Groups**
+
+> David, is this a sufficient description of Groups?
+
+Groups contain one or more questions or other nested groups. Some of may repeat, which is described in the next section.
+
+| Item | Description | Synonyms | Notes |
+| `begin_group` | Sets the beginning of a group | | Do not edit this row! |
+| `end_group` | Sets the beginning of a group | | Do not edit this row!|
+
+
 
 ##### **Repeats**
 
 > [add image]
 
-Both the Many-to-One (shown above) and One-to-Many forms make use of Repeats. Repeats allow you the option of repeating a section of questions without having to start the whole survey all over again. 
+Both the Many-to-One and One-to-Many (shown above) forms make use of Repeats. Repeats allow you the option of repeating a section of questions without having to start the whole survey all over again. 
 
 In GeoODK, for example, a repeat gives you a screen like the one shown below. 
 
 You have the option to repeat the section or not. This is the feature that allows you to collect information for many people associated with a single location, or for many locations associated with a single person or group of people.
 
-**Important**! `begin repeat` and `end repeat` separate the questions that repeat from the ones that don't, and they **should not** be edited or modified! 
+| Item | Description | Synonyms | Notes | 
+| `begin_repeat` | Sets the beginning of a repeat group | | Do not edit this row! |
+| `end_repeat` | Ends the repeat group| | Do not edit this row!|
 
-To change what data type you're collecting, modify cell A11 on either your standard or minimum questionnaire. 
+####Choices Tab {#choices-tab}
 
-####Choices Tab
+The Choices tab is where you enter choices for your multiple choice survey questions. These are the headers required on this tab: 
 
-> [add image]
-
-The Choices tab is where you enter choices for your multiple choice survey questions. 
-
-* `list_name` gives the set of responses a database-readable name. 
-* `name` is the database-readable version of a possible answer. 
-* `label` is choice that the user sees. Like in the survey tab, you can add a column for different language options by appending the header `label::` with a <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-" target="_blank">2-digit ISO country code</a>.
+| Item | Description | Synonyms | Notes |
+|`list_name` | defines the type of question it is, like a text, date, integer, or multiple choice question.| ||
+|`name`| gives a database-readable name to the question. || It must start with a letter only be made of letters, numbers, and underscores.|
+|`label`| choice that the user sees|label::[language]| Add different language options by appending the header `label::` with a <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+" target="_blank">2-digit ISO country code</a>, e.g. `label::fr`|
 
 To get your multiple choice options to show up on the form, add the `list_name` to the `type` field in the survey tab, following either a `select_one` or `select_multiple` type. 
+
+> Edit based on final form
 
 For example, you can see `main_use` listed by `select_one` on row 14:
 
@@ -146,7 +184,7 @@ Which looks like this in GeoODK:
 
 > [add image]
 
-#### Settings Tab
+#### Settings Tab {#settings-tab}
 
 > [add image]
 
@@ -157,25 +195,9 @@ The Settings tab is devoted to a few special settings.
 * `default_language` shows the default language being used on the form, indicated by the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 " target="_blank">2-digit ISO country code</a>. Here, we’ve marked the default language as English.
 
-### Data Entry Types
-
-Here is a table with all of the data entry types:
-
-> Insert Table
 
 
-#### GeoTrace, GeoShape and GeoPoint {#geo}
-
-In your location data collection, you may choose to collect point, line, or polygon data. In both the standard and minimum questionnaires, you have the option to choose one of these using `geopoint`, `geotrace`, or `geoshape`. 
-
-* `geotrace` records a line of two or more GPS coordinates. It's also the default setting of both the minimum and standard questionnaires. With `geotrace`, location pins are added based on the user's GPS coordinates. 
-
-* `geoshape` records a polygon made of multiple GPS coordinates, which are drawn on-screen. 
-
-* `geopoint` collects single points of data based on the user's GPS coordinates
-
-
-### Customizing Your Questionnaire {#customizing-your-questionnaire}
+### Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}
 
 If you need to collect different data than what's in the standard questionnaire, and more than what's in the minimum questionnaire, you can customize these forms to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for everything to work.
 
@@ -271,27 +293,23 @@ In addition to these basic data types, [XLSForm offers many different data types
 
 The type you need depends on the kinds of questions you need to ask. For example, if you need to collect an audio sample from an interviewee, you could select `audio`, which will prompt you to take an audio recording.
 
-##### Form Sections
+##### Editing Form Sections
 
 ![](/assets/standard-survey.png)
 
 The customizable portion of the form has been organized into the following sections: 
 
-* **Location Attributes** relate to to information about the location - like its name and boundaries. 
+In Cadasta’s structure, the questions are divided into four parts, each with its own color coding:
 
-* **Default Party Attributes** specify the information that you collect about any party, be it an individual, group, or corporation.
+* **Mandatory Fields**, which house some of the required meta information as well as geographic data collection options. These fields cannot be modified.
 
-* **Individual Party Attributes** and **Group Party Attributes** each provide information specific to whether a party is an individual or group.
+* **Location Information**, for collecting basic information such as how the land is used or whether there has been recent flooding.
 
-* **Party Relationship Attributes** is for information specific to the relationship between a party and the location. 
+* **Party Information**, for information about people using the location.
 
-* **Tenure Relationship Attributes** specify information about a party's tenure on the land.
+* **Relationship information**, describing the kind relationship (or tenure) between the land and the people who use it.
 
 Each of these sections relates to a piece of the Cadasta Platform's internal workings. In order for your questions to appear in the platform, they need to be in one of these sections.
-
-The below image is taken from a custom form used by one of our partners. Here, they've added a number of custom fields in the `party_attributes_default` section:
-
-![](/assets/example-xls-1.png)
 
 It is possible to create new sections, as another Cadasta partner has done below. Here, they've added a section on witnesses:
 
@@ -299,7 +317,7 @@ It is possible to create new sections, as another Cadasta partner has done below
 
 ##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
 
-// David, is this something that we want partners to mess with?
+> David, is this something that we want partners to mess with?
 
 In some cases, you may want to give your data collectors the option to choose collecting data using GeoTrace, GeoPoint or GeoShape. If you do, you can modify to your form to make this possible. Alternatively, you can build out your questionnaire [starting from this one](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx). 
 
