@@ -20,7 +20,7 @@
 * [Customizing Your XLSForm for Cadasta](#customizing-your-xlsform)
 * [Troubleshooting](#troubleshooting)
 
-### Overview {#overview}
+## Overview {#overview}
 
 Every data collection project is different - starting with the questions you're asking. These questions shape everything about the project- including the entry fields for data collection.
 
@@ -30,7 +30,7 @@ In the Cadasta Platform, the underlying technology that enables this comes from 
 
 In this section, you'll learn about how to use XLSForms designed specifically for use with the Cadasta system. 
 
-### Types of Cadasta Template Forms {#types}
+## Types of Cadasta Template Forms {#types}
 
 When it comes to data schemas, land rights documentation often falls into one of three different categories:
 
@@ -52,11 +52,11 @@ Cadasta has designed a template form for each of these use cases, which you can 
 
 > Link to customization.
 
-### Parts of a Cadasta Form {#parts}
+## Parts of a Cadasta Form {#parts}
 
 Each Cadasta form follows a similar structure. Here, we're looking at the [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx). 
 
-#### Form Tabs
+### Form Tabs
 
 There are 3 tabs. 
 
@@ -65,7 +65,7 @@ There are 3 tabs.
 * And finally, **Settings** has some basic information about the form and its default language.
 
 
-#### Survey Tab {#survey-tab}
+### Survey Tab {#survey-tab}
 
 > Section notes:
 * Indicate required and nonrequired fees.
@@ -74,7 +74,7 @@ There are 3 tabs.
 
 The Survey Tab shows all of the survey questions you're asking. This section outlines everything you need to know about this important tab.
 
-##### **Sections & Color Coding**
+#### Sections & Color Coding
 
 In Cadasta’s structure, the questions are divided into four parts, each with its own color coding:
 
@@ -88,13 +88,14 @@ In Cadasta’s structure, the questions are divided into four parts, each with i
 Any photos, videos or audio collected are stored as **Project Resources** 
 
 
-##### **Headings**
+#### Headings
 
 The Survey tab includes some important column headers you need to know about.
 
 > link to relevant tables, esp. `required`
 
 | Item | Description | Synonyms | Notes |
+|:--------|:--------|:--------|:--------|
 |`type` | defines the type of question it is, like a text, date, integer, or multiple choice question.| ||
 |`name`| gives a database-readable name to the question. || It must start with a letter only be made of letters, numbers, and underscores.|
 |`label`| where you write the question you want to actually show up on the survey.|`label::[language]`|To add a language, append `label::` with the desired <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
@@ -106,7 +107,7 @@ The Survey tab includes some important column headers you need to know about.
 
 > add example of visibility logic (David)
 
-##### **Data Entry Types**
+#### Data Entry Types
 
 The `type` field can take many different data entry types. 
 
@@ -136,7 +137,7 @@ The below data entry types go with **regular questions**, which do appear to the
 | `geotrace`  | records a line of two or more GPS coordinates.  | |Location pins are added based on the user's GPS coordinates. 
 
 
-##### **Groups**
+#### Groups
 
 > David, is this a sufficient description of Groups?
 
@@ -147,8 +148,7 @@ Groups contain one or more questions or other nested groups. Some of may repeat,
 | `end_group` | Sets the beginning of a group | | Do not edit this row!|
 
 
-
-##### **Repeats**
+#### Repeats
 
 > [add image]
 
@@ -162,7 +162,7 @@ You have the option to repeat the section or not. This is the feature that allow
 | `begin_repeat` | Sets the beginning of a repeat group | | Do not edit this row! |
 | `end_repeat` | Ends the repeat group| | Do not edit this row!|
 
-####Choices Tab {#choices-tab}
+### Choices Tab {#choices-tab}
 
 The Choices tab is where you enter choices for your multiple choice survey questions. These are the headers required on this tab: 
 
@@ -184,7 +184,7 @@ Which looks like this in GeoODK:
 
 > [add image]
 
-#### Settings Tab {#settings-tab}
+### Settings Tab {#settings-tab}
 
 > [add image]
 
@@ -196,9 +196,9 @@ The Settings tab is devoted to a few special settings.
 " target="_blank">2-digit ISO country code</a>. Here, we’ve marked the default language as English.
 
 
-### Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}
+## Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}
 
-#### Steps to Creating Your Custom Cadasta Form
+### Steps to Creating Your Custom Cadasta Form
 
 The first thing you need to do is think through the questions you'll be asking in your data collection.
 
@@ -213,9 +213,9 @@ Are you documenting one group of people per location? Or many different groups i
 
 Once you've thought this through, you can start adding your questions to their appropriate section.
 
-#### Basic Customization
+### Basic Customization
 
-##### Rows that Can & Cannot Be Edited
+#### Rows that Can & Cannot Be Edited
 
 > David, what else can't be edited?
 
@@ -227,13 +227,13 @@ Areas that cannot be edited or deleted:
 
 Everything else is up for grabs.
 
-##### Adding New Questions
+#### Adding New Questions
 
 To add a new question, create a new row. 
 
 From there, the easiest way to create a new question is to copy and paste a row with the same question `type`. From there, you can edit the `name`, `label`, and other fields as needed. 
 
-##### Editing Multiple Choice Options
+#### Editing Multiple Choice Options
 
 > Beth update based on final form
 
@@ -252,7 +252,7 @@ Once that form is saved and loaded into the project, the new "Unknown" option wi
 
 ![](/assets/standard-new-field.png)
 
-##### Attachment of Multiple Resources
+#### Attachment of Multiple Resources
 
 If you need to attach multiple resources during your data collection in the field, you can do so using a few special codes:
 
@@ -268,7 +268,7 @@ Here's an example of these codes at work in a form, under `name` in rows 11, 12,
 
 The codes can be used multiple times in your form, preceding unique words like `_pic1` and `_pic2`. 
 
-#### Advanced Customization
+### Advanced Customization
 
 > David, what else cannot be edited or deleted??
 
@@ -281,7 +281,7 @@ Areas that cannot be edited or deleted:
 * Pre-loaded header rows (except for `label::[language]`; that column can be deleted if it won't be used).
 
 
-##### Editing Form Sections
+#### Editing Form Sections
 
 ![](/assets/standard-survey.png)
 
@@ -303,7 +303,7 @@ It is possible to create new sections, as another Cadasta partner has done below
 
 ![](/assets/example-xls-2.png)
 
-##### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
+#### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
 
 > David, is this something that we want partners to mess with?
 
@@ -399,7 +399,7 @@ In the image below, the fields above have been pasted into a minimum questionnai
 
 Now, when data collectors are collecting data in the field, they can choose which data collection method is best: GeoTrace, GeoPoint or GeoShape.
 
-### Troubleshooting {#troubleshooting}
+## Troubleshooting {#troubleshooting}
 
 > David & Katrina, what should be edited here?
 
