@@ -92,21 +92,19 @@ Any photos, videos or audio collected are stored as **Project Resources**
 
 The Survey tab includes some important column headers you need to know about.
 
-> link to relevant tables, esp. `required`
-
 | Item | Description | Synonyms | Notes |
 |:--------|:--------|:--------|:--------|
 |`type` | defines the type of question it is, like a text, date, integer, or multiple choice question.| ||
 |`name`| gives a database-readable name to the question. || It must start with a letter only be made of letters, numbers, and underscores.|
 |`label`| where you write the question you want to actually show up on the survey.|`label::[language]`|To add a language, append `label::` with the desired 2-digit ISO country code. e.g. `fr` is French. You can find a list of ISO codes here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes|
-|`required`| indicates whether a question is required | `bind:required`| Allowed values: `yes`, `no`, `TRUE`, `FALSE`, `true()`, `false()`; or a statement that evaluates as true or false. Note that Some fields must be marked as required in order to work. (See table below)|
+|`required`| indicates whether a question is required | `bind:required`| Allowed values: `yes`, `no`, `TRUE`, `FALSE`, `true()`, `false()`; or a statement that evaluates as true or false. The following [data entry types](#data-entry-types) must be set to `required`in order to work: `select_one`, `select_multiple`, and `date`. |
 |`hint`|Optional.  This column allows you to give additional information to the person filling out the form.|||
 |`default`| A default value that is pre-filled before the user gets to the question ||In the above example, in line 22, the default selection is set to `renter`.|
 |`relevant`| adds visibility logic. In other words, it allows you to show or hide questions based on an answer to another question. |||
 
 > add example of visibility logic (David)
 
-#### Data Entry Types
+#### Data Entry Types{#data-entry-types}
 
 The `type` field can take many different data entry types. 
 
