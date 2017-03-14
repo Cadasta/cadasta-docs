@@ -207,8 +207,7 @@ The Settings tab is devoted to a few special settings.
 |:--------|:--------|:--------|:--------|
 | `form_id`| Provides a unique ID for this form. | | Make sure that you have a different ID for each of your Cadasta projects!|
 | `title`| What shows up on ODK or GeoODK when you load the form | | |
-| `default_language`| Shows the default language being used on the form. | | Use the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-" target="_blank">2-digit ISO country code</a> to choose your language. For example, `en` sets the form to English.|
+| `default_language`| Shows the default language being used on the form. | | Use the 2-digit ISO country code</a> to choose your language. For example, `en` sets the form to English. You can find the ISO codes listed here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes|
 
 
 ## Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}
