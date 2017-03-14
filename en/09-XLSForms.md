@@ -17,8 +17,8 @@
 	* [Survey Tab](#survey-tab)
 	* [Choices Tab](#choices-tab)
 	* [Settings Tab](#settings-tab)
-* [Data Entry Types](#data-type)
 * [Customizing Your XLSForm for Cadasta](#customizing-your-xlsform)
+* [Troubleshooting](#troubleshooting)
 
 ### Overview {#overview}
 
@@ -26,7 +26,7 @@ Every data collection project is different - starting with the questions you're 
 
 The Cadasta Platform allows you to define your own data collection schema, so you can tailor it around the specific questions you're asking. These questions could include contact details, geographic place names or how the land was acquired.
 
-In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms \(which we call questionnaires\) are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
+In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
 
 In this section, you'll learn about how to use XLSForms designed specifically for use with the Cadasta system. 
 
@@ -196,30 +196,48 @@ The Settings tab is devoted to a few special settings.
 " target="_blank">2-digit ISO country code</a>. Here, we’ve marked the default language as English.
 
 
-
 ### Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}
 
-If you need to collect different data than what's in the standard questionnaire, and more than what's in the minimum questionnaire, you can customize these forms to meet your needs. Any entry with a white background can be modified. Fields with a gray background need to remain as they are in order for everything to work.
+#### Steps to Creating Your Custom Cadasta Form
+
+The first thing you need to do is think through the questions you'll be asking in your data collection.
+
+1. Identify your questions. What information do you need to collect in your project? 
+
+2. Identify where each question should go. Is this question about a party, location, relationship, or something else?
+
+3. Identify each question's data entry type. What kind of  entry would work best for each question - a date? A text field? A drop-down or multiple choice?
+
+4. Choose your starter template form based on your use case:
+Are you documenting one group of people per location? Or many different groups in a single location? Or how one group of people uses many different locations? 
+
+Once you've thought this through, you can start adding your questions to their appropriate section.
 
 #### Basic Customization
 
-##### Deleting Unnecessary Fields
+##### Rows that Can & Cannot Be Edited
 
-If there's a field that you don't want to include, simply delete its row from the survey tab of the questionnaire. To do this in Excel, right-click the row and then select Delete.
+> David, what else can't be edited?
 
-Fields that can be deleted:
+Before editing your form, it's important to note that some rows cannot be edited. Changing them in any way will cause the form to break and result in errors. 
 
-* Fields in white (all forms)
-* Darker colored fields (repeating forms only)
+Areas that cannot be edited or deleted:
+* Any field in gray
+* Pre-loaded header rows (except for `label::[language]`; that column can be deleted if it won't be used).
 
-Fields that **cannot** be deleted: 
-* Fields in gray cannot (all forms)
-* Fields in lighter colors (repeating forms only)
+Everything else is up for grabs.
 
+##### Adding New Questions
 
-##### Editing Drop-Down Fields
+To add a new question, create a new row. 
 
-To edit a field in a drop-down menu, navigate to the Choices tab. There, you can modify the `name` and `label` of the fields as needed.
+From there, the easiest way to create a new question is to copy and paste a row with the same question `type`. From there, you can edit the `name`, `label`, and other fields as needed. 
+
+##### Editing Multiple Choice Options
+
+> Beth update based on final form
+
+To edit a field in a multiple choice question, navigate to the Choices tab. There, you can modify the `name` and `label` of the fields as needed.
 
 For example, to add a new field to the location acquisition dropdown \(`l_acquired_how`\):
 
@@ -236,9 +254,7 @@ Once that form is saved and loaded into the project, the new "Unknown" option wi
 
 ##### Attachment of Multiple Resources
 
-> David, does this still apply to forms?
-
-If you need to attach multiple resources during your data collection in the field, you can do so using two special codes:
+If you need to attach multiple resources during your data collection in the field, you can do so using a few special codes:
 
 * `tenure_resource_*`, for uploading multiple resources related to relationships, 
 
@@ -254,44 +270,16 @@ The codes can be used multiple times in your form, preceding unique words like `
 
 #### Advanced Customization
 
+> David, what else cannot be edited or deleted??
+
 If you need to do more than simply edit a few existing fields, then advanced customization may be for you.
 
-Remember, when it comes to editing forms, only some fields that can be modified.
+Remember, when it comes to editing forms, some of the fields cannot be modified.
 
-Fields that can be modified:
+Areas that cannot be edited or deleted:
+* Any field in gray
+* Pre-loaded header rows (except for `label::[language]`; that column can be deleted if it won't be used).
 
-* Fields in white (all forms)
-* Darker colored fields (repeating forms only)
-
-Fields that **cannot** be modified: 
-* Fields in gray cannot (all forms)
-* Fields in lighter colors (repeating forms only)
-
-##### Data Entry Types {#data-types}
-
-To fully take advantage of customizing your Cadasta Form, it's important to figure out which data entry type will work best for the kind of information you're collecting. Some of the most common ones that you'll use are:
-
-* `text` - which specifies that you're collecting basic text.
-* `date` - which specifies that you're logging the date.
-* `select_one` - which specifies that you're using a dropdown menu
-
-![](/assets/standard-survey-example.png)
-
-You can see each of these at work in the above example, taken from the survey tab of the standard form.
-
-Notice that `select_one` - the dropdown option - requires identifying a set of choices to go with it. In the example above, the first dropdown menu specifies that cell A24 is linked to the choices tagged `l_quality_choices`. In the Choices tab, you can see the different options for `l_quality_choices`:
-
-![](/assets/standard-choices-example.png)
-
-_Note that using `select_multiple` follows the same logic; only rather than selecting a single item from a dropdown, it allows the user to select multiple items._
-
-These options will appear in the dropdown when it's selected.
-
-In addition to these basic data types, [XLSForm offers many different data types for you to choose from](http://xlsform.org/#question-types).
-
-![](/assets/xls-form-question-types.png)
-
-The type you need depends on the kinds of questions you need to ask. For example, if you need to collect an audio sample from an interviewee, you could select `audio`, which will prompt you to take an audio recording.
 
 ##### Editing Form Sections
 
@@ -411,23 +399,9 @@ In the image below, the fields above have been pasted into a minimum questionnai
 
 Now, when data collectors are collecting data in the field, they can choose which data collection method is best: GeoTrace, GeoPoint or GeoShape.
 
-##### Steps to Creating Your Custom Cadasta Form
+### Troubleshooting {#troubleshooting}
 
-The first thing you need to do is think through the questions you'll be asking in your data collection.
-
-1. Identify your questions. What information do you need to collect in your project? 
-
-2. Identify where each question should go. Is this question about a party, location, relationship, or something else?
-
-3. Identify each question's data entry type. What kind of  entry would work best for each question - a date? A text field? A drop-down or multiple choice?
-
-4. Choose your starter template form based on your use case:
-Are you documenting one group of people per location? Or many different groups in a single location? Or how one group of people uses many different locations? 
-
-> add links to forms
-
-
-Once you've thought this through, you can start adding your questions to their appropriate section.
+> David & Katrina, what should be edited here?
 
 Before uploading your form to your project, check to make sure that:
 
