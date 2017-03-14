@@ -183,8 +183,7 @@ The Choices tab is where you enter choices for your multiple choice survey quest
 |:--------|:--------|:--------|:--------|
 |`list_name` | defines the type of question it is, like a text, date, integer, or multiple choice question.| ||
 |`name`| gives a database-readable name to the question. || It must start with a letter only be made of letters, numbers, and underscores.|
-|`label`| choice that the user sees|label::[language]| Add different language options by appending the header `label::` with a <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-" target="_blank">2-digit ISO country code</a>, e.g. `label::fr`|
+|`label`| choice that the user sees|label::[language]| Add different language options by appending the header `label::` with a 2-digit ISO country code, e.g. `label::fr`. List of ISO codes here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes|
 
 To get your multiple choice options to show up on the form, add the `list_name` to the `type` field in the survey tab, following either a `select_one` or `select_multiple` type. 
 
