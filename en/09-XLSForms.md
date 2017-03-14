@@ -114,6 +114,7 @@ The `type` field can take many different data entry types.
 These data entry types go with **meta questions**. These questions are hidden to the user.
 
 | Item | Description | Synonyms | Notes |
+|:--------|:--------|:--------|:--------|
 | `start` | Records when the form was loaded| | |
 | `end` | Records when the form was finished| | |
 | `today` | Records the date the form was loaded| | |
@@ -122,6 +123,7 @@ These data entry types go with **meta questions**. These questions are hidden to
 The below data entry types go with **regular questions**, which do appear to the user. 
 
 | Item | Description | Synonyms | Notes |
+|:--------|:--------|:--------|:--------|
 | `select_one` `[list_name]` `[or_other]`  | User can choose one of several choices| | Must be set to Required to work|
 | `select_multiple` `[list_name]` `[or_other]`  | User can choose one or more of several choices| | Must be set to Required to work|
 | `text`  | User can enter a text response| | |
@@ -144,6 +146,7 @@ The below data entry types go with **regular questions**, which do appear to the
 Groups contain one or more questions or other nested groups. Some of may repeat, which is described in the next section.
 
 | Item | Description | Synonyms | Notes |
+|:--------|:--------|:--------|:--------|
 | `begin_group` | Sets the beginning of a group | | Do not edit this row! |
 | `end_group` | Sets the beginning of a group | | Do not edit this row!|
 
@@ -159,14 +162,25 @@ In GeoODK, for example, a repeat gives you a screen like the one shown below.
 You have the option to repeat the section or not. This is the feature that allows you to collect information for many people associated with a single location, or for many locations associated with a single person or group of people.
 
 | Item | Description | Synonyms | Notes | 
+|:--------|:--------|:--------|:--------|
 | `begin_repeat` | Sets the beginning of a repeat group | | Do not edit this row! |
 | `end_repeat` | Ends the repeat group| | Do not edit this row!|
+
+#### Form Variable References
+
+> David, help me to explain this!
+
+| Item | Description | Synonyms | Notes | 
+|:--------|:--------|:--------|:--------|
+| `${variable_name}` | Reference another question (can be used in skip logic condition [relevant], validation, inside another question or hint label| | |
+| `.` | Current question| | |
 
 ### Choices Tab {#choices-tab}
 
 The Choices tab is where you enter choices for your multiple choice survey questions. These are the headers required on this tab: 
 
 | Item | Description | Synonyms | Notes |
+|:--------|:--------|:--------|:--------|
 |`list_name` | defines the type of question it is, like a text, date, integer, or multiple choice question.| ||
 |`name`| gives a database-readable name to the question. || It must start with a letter only be made of letters, numbers, and underscores.|
 |`label`| choice that the user sees|label::[language]| Add different language options by appending the header `label::` with a <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
@@ -190,10 +204,12 @@ Which looks like this in GeoODK:
 
 The Settings tab is devoted to a few special settings. 
 
-* `form_id` provides a unique ID for this form. Make sure that you have a different ID for each of your Cadasta projects!
-* `title` is what shows up on ODK or GeoODK when you load the form. 
-* `default_language` shows the default language being used on the form, indicated by the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-" target="_blank">2-digit ISO country code</a>. Here, we’ve marked the default language as English.
+| Item | Description | Synonyms | Notes |
+|:--------|:--------|:--------|:--------|
+| `form_id`| Provides a unique ID for this form. | | Make sure that you have a different ID for each of your Cadasta projects!|
+| `title`| What shows up on ODK or GeoODK when you load the form | | |
+| `default_language`| Shows the default language being used on the form. | | Use the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+" target="_blank">2-digit ISO country code</a> to choose your language. For example, `en` sets the form to English.|
 
 
 ## Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}
