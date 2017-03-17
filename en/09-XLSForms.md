@@ -2,11 +2,17 @@
 
 > need:
 * Final one-to-many form from David
+* Restyled many-to-one and one-to-one forms from David
 * Replace all images (based on Form)
 * Links to all revised forms as Excel Spreadsheets, hosted on Amazon server
 
-> Questions
-* Do we want partners to mess with geopoint, geotrace, geoshape? Same with the geopoint, geotrace, geoshape dropdowns?
+
+> Add
+* Section about Tips column
+* Example of conditionals
+* Explanation of what to do to edit the People Types groups 
+* Explanation of moving sections around
+
 
 //
 
@@ -34,25 +40,28 @@ In this section, you'll learn about how to use XLSForms designed specifically fo
 
 When it comes to data schemas, land rights documentation often falls into one of three different categories:
 
-> need project example for Standard Questionnaire
+* One person (or group of people) using one piece of land ([project example - Sustainable Sourcing](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/sustainable-sourcing-palm-oil-indonesia/)),
+* Many different people (or groups of people) using one piece of land ([project example - Urban Informal Settlements](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/urban-informal-settlement-enumeration/)), and
+* One person (or group of people) using many pieces of land ([project example - Smallholder Farming](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/smallholder-farmers-india/)). 
 
-* One person (or group of people) using one piece of land ([project example - ]()),
-* Many different people (or groups of people) using one piece of land ([project example - Urban Informal Settlements]()), and
-* One person (or group of people) using many pieces of land ([project example - Smallholder Agriculture]()). 
+_To fully view these projects, log in with the following credentials:_
+
+* username: `demo123`
+* password: `password`
 
 Cadasta has designed a template form for each of these use cases, which you can download here: 
 
-> Katrina - please check links below. Are they correct still?
+> Need new links to each of these
 
-* [Standard Form(also knows as a One-to-One Form)](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx)
+* [Standard Form (also knows as a One-to-One Form)](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx)
 * [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx)
 * [Many-to-One Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_standard_cadasta_questionnaire.xlsx)
 
-**These forms should be the starting point of any Cadasta project.** Keep reading to learn about how they work and how to customize them.
-
-> Link to customization.
+**These forms should be the starting point of any Cadasta project.** Keep reading to learn about how they work and [how to customize them](#customizing-your-xlsform).
 
 ## Parts of a Cadasta Form {#parts}
+
+> Need new link to form
 
 Each Cadasta form follows a similar structure. Here, we're looking at the [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx). 
 
@@ -68,7 +77,7 @@ There are 3 tabs.
 ### Survey Tab {#survey-tab}
 
 > Section notes:
-* Indicate required and nonrequired fees.
+* Indicate required and nonrequired fields.
 
 > [add image]
 
@@ -87,6 +96,11 @@ In Cadasta’s structure, the questions are divided into four parts, each with i
 
 Any photos, videos or audio collected are stored as **Project Resources** 
 
+#### Tips Columns
+
+> Add image
+
+The first two columns in the tab provide tips about the form, such as notes about how to format different fields and indication of what rows can and cannot be edited (indicated by a `*`).
 
 #### Headings
 
@@ -290,6 +304,7 @@ Remember, when it comes to editing forms, some of the fields cannot be modified.
 Areas that cannot be edited or deleted:
 * Any field in gray
 * Pre-loaded header rows (except for `label::[language]`; that column can be deleted if it won't be used).
+* Any field with a `*` marked in column B. 
 
 
 #### Editing Form Sections
@@ -314,101 +329,6 @@ It is possible to create new sections, as another Cadasta partner has done below
 
 ![](/assets/example-xls-2.png)
 
-#### Dropdown with All GeoTypes (GeoTrace, GeoPoint & GeoShape)
-
-> David, is this something that we want partners to mess with?
-
-In some cases, you may want to give your data collectors the option to choose collecting data using GeoTrace, GeoPoint or GeoShape. If you do, you can modify to your form to make this possible. Alternatively, you can build out your questionnaire [starting from this one](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx). 
-
-If you'd like to update an existing questionnaire, here's what you need to do. 
-
-In the **Survey tab** of your questionnaire, add three rows just below row 11. 
-
-![](/assets/allgeo-modify-1.png)
-
-Then, copy and paste the below into rows 11 - 14. 
-
-<table>
-<tbody>
-<tr>
-    <td>select_one geo_type</td>
-    <td>geo_type</td>
-    <td>Select type of geo collection</td>
-    <td></td>
-    <td>yes</td>
-    <td></td>
-    <td></td>
-    <td>geoshape</td>
-    <td></td>
-</tr>
-<tr>
-    <td>geoshape</td>
-    <td>location_geoshape</td>
-    <td>Draw the location boundaries on the map	</td>
-    <td></td>
-    <td>yes</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>${geo_type}='geoshape'</td>
-</tr>
-<tr>
-    <td>geotrace</td>
-    <td>location_geotrace</td>
-    <td>Please, walk through the location boundaries</td>
-    <td></td>
-    <td>yes</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>${geo_type}='geoshape'</td>
-</tr>
-<tr>
-    <td>geopoint</td>
-    <td>location_geopoint</td>
-    <td>Please, select a point</td>
-    <td></td>
-    <td>yes</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>${geo_type}='geoshape'</td>
-</tr>
-</tbody>
-</table>
-
-
-Note that you may need to use the _Paste Special_ option and select Text in the pop-up window that follows.
-
-![](/assets/allgeo-modify-2.png)
-
-Next, you'll need to add the following options to the the Choices tab of your spreadsheet. Again, you may need to paste this using the _Paste Special_ option. 
-
-<table>
-<tbody>
-<tr>
-    <td>geo_type</td>
-    <td>geoshape</td>
-    <td>Drawing coordinates on a map</td>
-</tr>
-<tr>
-    <td>geo_type</td>
-    <td>geotrace</td>
-    <td>Walking around the boundaries</td>
-</tr>
-<tr>
-    <td>geo_type</td>
-    <td>geopoint</td>
-    <td>Select a location point</td>
-</tr>
-</tbody>
-</table>
-
-In the image below, the fields above have been pasted into a minimum questionnaire. 
-
-![](/assets/allgeo-modify-3.png)
-
-Now, when data collectors are collecting data in the field, they can choose which data collection method is best: GeoTrace, GeoPoint or GeoShape.
 
 ## Troubleshooting {#troubleshooting}
 
