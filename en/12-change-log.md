@@ -1,5 +1,9 @@
 # Change Log
 
+## Update: March 17, 2017
+
+* Created new documentation for newly styled Cadasta XLSForm Templates
+
 ## Version 1.3.0 – Dec. 26, 2016
   
 * Cadasta .xlsx format (same as used in Downloads) is now supported in Data Imports. 
