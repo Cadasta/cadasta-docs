@@ -1,22 +1,3 @@
-# Cadasta XLSForms & Custom Data Collection
-
-> need:
-* Final one-to-many form from David
-* Restyled many-to-one and one-to-one forms from David
-* Replace all images (based on Form)
-* Links to all revised forms as Excel Spreadsheets, hosted on Amazon server
-
-
-> Add
-* Section about Tips column
-* Example of conditionals
-* Explanation of what to do to edit the People Types groups 
-* Explanation of moving sections around
-
-
-//
-
-
 * [Overview](#overview)
 * [Types of Cadasta Template Forms](#types)
 * [Parts of a Cadasta Form](#parts)
@@ -32,7 +13,7 @@ Every data collection project is different - starting with the questions you're 
 
 The Cadasta Platform allows you to define your own data collection schema, so you can tailor it around the specific questions you're asking. These questions could include contact details, geographic place names or how the land was acquired.
 
-In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
+In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms are low-fi alternatives to using a database. They are also designed to handle information of varying degrees of complexity.  
 
 In this section, you'll learn about how to use XLSForms designed specifically for use with the Cadasta system. 
 
@@ -46,24 +27,21 @@ When it comes to data schemas, land rights documentation often falls into one of
 
 _To fully view these projects, log in with the following credentials:_
 
-* username: `demo123`
+* username: `demo`
 * password: `password`
 
 Cadasta has designed a template form for each of these use cases, which you can download here: 
 
-> Need new links to each of these
 
-* [Standard Form (also knows as a One-to-One Form)](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx)
-* [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx)
-* [Many-to-One Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_location_standard_cadasta_questionnaire.xlsx)
+* [Sustainable Sourcing (One person (or party) to one location, a.k.a. 1:1)](https://docs.google.com/spreadsheets/d/1hyF_uxZb4959lxD6vDMM574cQEFTyq636VAS7n3e0MA/pub?output=xlsx)
+* [Smallholder Agriculture (One person (or party) to many locations (a.k.a 1:Many)](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx)
+* [Urban Informal Settlements (Many people (or parties) to one location (a.k.a Many:1)](https://docs.google.com/spreadsheets/d/1iORFg75ofq-QzLB5x-WvuggEZN6JaE0iS6yqc7dE1Y0/pub?output=xlsx)
 
 **These forms should be the starting point of any Cadasta project.** Keep reading to learn about how they work and [how to customize them](#customizing-your-xlsform).
 
 ## Parts of a Cadasta Form {#parts}
 
-> Need new link to form
-
-Each Cadasta form follows a similar structure. Here, we're looking at the [One-to-Many Form](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/multiple_party_standard_cadasta_questionnaire.xlsx). 
+Each Cadasta form follows a similar structure. Here, we're looking at the [Smallholder Agriculture (Many:1) Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx). 
 
 ### Form Tabs
 
@@ -76,9 +54,6 @@ There are 3 tabs.
 
 ### Survey Tab {#survey-tab}
 
-> Section notes:
-* Indicate required and nonrequired fields.
-
 > [add image]
 
 The Survey Tab shows all of the survey questions you're asking. This section outlines everything you need to know about this important tab.
@@ -87,16 +62,16 @@ The Survey Tab shows all of the survey questions you're asking. This section out
 
 In Cadasta’s structure, the questions are divided into four parts, each with its own color coding:
 
-* **Mandatory Fields**, which house some of the required meta information as well as geographic data collection options. These fields cannot be modified.
+* **Mandatory Fields**, at the top, houses the required meta information. These fields cannot be modified.
 * **Location Information**, for collecting basic information such as how the land is used or whether there has been recent flooding.
 * **Party Information**, for information about people using the location.
 * **Relationship information**, describing the kind relationship (or tenure) between the land and the people who use it.
 
-> link to Project Resources
+**Areas that cannot be edited are given a grey or colorful background.** Areas in white can be edited.
 
-Any photos, videos or audio collected are stored as **Project Resources** 
+Any photos, videos or audio collected are stored as **[Project Resources](/04-records.md)**. 
 
-#### Tips Columns
+#### Tips Column
 
 > Add image
 
@@ -307,27 +282,7 @@ Areas that cannot be edited or deleted:
 * Any field with a `*` marked in column B. 
 
 
-#### Editing Form Sections
 
-![](/assets/standard-survey.png)
-
-The customizable portion of the form has been organized into the following sections: 
-
-In Cadasta’s structure, the questions are divided into four parts, each with its own color coding:
-
-* **Mandatory Fields**, which house some of the required meta information as well as geographic data collection options. These fields cannot be modified.
-
-* **Location Information**, for collecting basic information such as how the land is used or whether there has been recent flooding.
-
-* **Party Information**, for information about people using the location.
-
-* **Relationship information**, describing the kind relationship (or tenure) between the land and the people who use it.
-
-Each of these sections relates to a piece of the Cadasta Platform's internal workings. In order for your questions to appear in the platform, they need to be in one of these sections.
-
-It is possible to create new sections, as another Cadasta partner has done below. Here, they've added a section on witnesses:
-
-![](/assets/example-xls-2.png)
 
 
 ## Troubleshooting {#troubleshooting}
