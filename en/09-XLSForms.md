@@ -33,9 +33,9 @@ _To fully view these projects, log in with the following credentials:_
 Cadasta has designed a template form for each of these use cases, which you can download here: 
 
 
-* [Sustainable Sourcing (One person (or party) to one location, a.k.a. 1:1)](https://docs.google.com/spreadsheets/d/1hyF_uxZb4959lxD6vDMM574cQEFTyq636VAS7n3e0MA/pub?output=xlsx)
-* [Smallholder Agriculture (One person (or party) to many locations (a.k.a 1:Many)](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx)
-* [Urban Informal Settlements (Many people (or parties) to one location (a.k.a Many:1)](https://docs.google.com/spreadsheets/d/1iORFg75ofq-QzLB5x-WvuggEZN6JaE0iS6yqc7dE1Y0/pub?output=xlsx)
+* [Sustainable Sourcing](https://docs.google.com/spreadsheets/d/1hyF_uxZb4959lxD6vDMM574cQEFTyq636VAS7n3e0MA/pub?output=xlsx) -  One person (or party) to one location (a.k.a. 1:1)
+* [Smallholder Agriculture](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx) - One person (or party) to many locations (a.k.a 1:Many)
+* [Urban Informal Settlements](https://docs.google.com/spreadsheets/d/1iORFg75ofq-QzLB5x-WvuggEZN6JaE0iS6yqc7dE1Y0/pub?output=xlsx) – Many people (or parties) to one location (a.k.a Many:1)
 
 **These forms should be the starting point of any Cadasta project.** Keep reading to learn about how they work and [how to customize them](#customizing-your-xlsform).
 
@@ -51,10 +51,11 @@ There are 3 tabs.
 * **Choices** lists all of the choices that appear in multiple choice questions or drop-down menus. 
 * And finally, **Settings** has some basic information about the form and its default language.
 
+A Reference Table tab has been added as well, to make it easy to look up the fields and syntax required by the form. 
 
 ### Survey Tab {#survey-tab}
 
-> [add image]
+![](/assets/cadasta-xlsform-01-survey-tab.png)
 
 The Survey Tab shows all of the survey questions you're asking. This section outlines everything you need to know about this important tab.
 
@@ -73,9 +74,13 @@ Any photos, videos or audio collected are stored as **[Project Resources](/04-re
 
 #### Tips Column
 
-> Add image
+The first column in the Survey tab provides tips about the form, such as notes about how to format different fields. 
 
-The first two columns in the tab provide tips about the form, such as notes about how to format different fields and indication of what rows can and cannot be edited (indicated by a `*`).
+If it gets in your way, feel free to hide the column at any time.
+
+![](/assets/cadasta-xlsform-02-hide.png)
+
+Additional information can be found in the Reference Tables tab.
 
 #### Headings
 
@@ -91,7 +96,6 @@ The Survey tab includes some important column headers you need to know about.
 |`default`| A default value that is pre-filled before the user gets to the question ||In the above example, in line 22, the default selection is set to `renter`.|
 |`relevant`| adds visibility logic. In other words, it allows you to show or hide questions based on an answer to another question. |||
 
-> add example of visibility logic (David)
 
 #### Data Entry Types{#data-entry-types}
 
@@ -137,7 +141,7 @@ Groups contain one or more questions or other nested groups. Some of may repeat,
 
 #### Repeats
 
-> [add image]
+![](/assets/cadasta-xlsform-03-repeats.png)
 
 Both the Many-to-One and One-to-Many (shown above) forms make use of Repeats. Repeats allow you the option of repeating a section of questions without having to start the whole survey all over again. 
 
@@ -161,6 +165,8 @@ Form Variables create conditional logic in the form. They can be used in the `re
 
 ### Choices Tab {#choices-tab}
 
+![](/assets/cadasta-xlsform-04-choices-tab.png)
+
 The Choices tab is where you enter choices for your multiple choice survey questions. These are the headers required on this tab: 
 
 | Item | Description | Synonyms | Notes |
@@ -171,19 +177,17 @@ The Choices tab is where you enter choices for your multiple choice survey quest
 
 To get your multiple choice options to show up on the form, add the `list_name` to the `type` field in the survey tab, following either a `select_one` or `select_multiple` type. 
 
-> Edit based on final form
+For example, you can see `spoken_languages` listed by `select_multipe` on row 20:
 
-For example, you can see `main_use` listed by `select_one` on row 14:
+![](/assets/cadasta-xlsform-05-select-multiple.png)
 
-> [add image]
+On the choices tab, you can see all of the `spoken_languages` attribute.
 
-Which looks like this in GeoODK:
-
-> [add image]
+![](/assets/cadasta-xlsform-06-list-name.png)
 
 ### Settings Tab {#settings-tab}
 
-> [add image]
+![](/assets/cadasta-xlsform-07-settings-tab.png)
 
 The Settings tab is devoted to a few special settings. 
 
@@ -191,7 +195,7 @@ The Settings tab is devoted to a few special settings.
 |:--------|:--------|:--------|:--------|
 | `form_id`| Provides a unique ID for this form. | | Make sure that you have a different ID for each of your Cadasta projects!|
 | `title`| What shows up on ODK or GeoODK when you load the form | | |
-| `default_language`| Shows the default language being used on the form. | | Use the 2-digit ISO country code</a> to choose your language. For example, `en` sets the form to English. You can find the ISO codes listed here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes|
+| `default_language`| Shows the default language being used on the form. | | Use the 2-digit ISO country code to choose your language. For example, `en` sets the form to English. You can find the ISO codes listed here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes|
 
 
 ## Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}
@@ -213,8 +217,6 @@ Once you've thought this through, you can start adding your questions to their a
 
 ### Rows that Can & Cannot Be Edited
 
-> David, what else can't be edited?
-
 Before editing your form, it's important to note that some rows cannot be edited. Changing them in any way will cause the form to break and result in errors. 
 
 Areas that cannot be edited or deleted:
@@ -231,14 +233,12 @@ From there, the easiest way to create a new question is to copy and paste a row 
 
 ### Editing Multiple Choice Options
 
-> Beth update based on final form
-
 To edit a field in a multiple choice question, navigate to the Choices tab. There, you can modify the `name` and `label` of the fields as needed.
 
-For example, to add a new field to the location acquisition dropdown \(`l_acquired_how`\):
+For example, to add a new field to the spoken languages options \(`spoken_languages\):
 
-* Add a new row, and give it a `list_name` of `l_acquired_how`.
-* Add a new name and label.
+* Add a new row, and give it a `list_name` of `spoken_languages`.
+* Give it a new name and fill in the labels.
 
 In the example below, a new category for the dropdown \("Unknown"\) has been added to the Cadasta Form.
 
