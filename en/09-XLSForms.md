@@ -127,8 +127,6 @@ The below data entry types go with **regular questions**, which do appear to the
 
 #### Groups
 
-> David, is this a sufficient description of Groups?
-
 Groups contain one or more questions or other nested groups. Some of may repeat, which is described in the next section.
 
 | Item | Description | Synonyms | Notes |
@@ -154,7 +152,7 @@ You have the option to repeat the section or not. This is the feature that allow
 
 #### Form Variable References
 
-> David, help me to explain this!
+Form Variables create conditional logic in the form. They can be used in the `relevant` field.
 
 | Item | Description | Synonyms | Notes | 
 |:--------|:--------|:--------|:--------|
@@ -213,27 +211,25 @@ Are you documenting one group of people per location? Or many different groups i
 
 Once you've thought this through, you can start adding your questions to their appropriate section.
 
-### Basic Customization
-
-#### Rows that Can & Cannot Be Edited
+### Rows that Can & Cannot Be Edited
 
 > David, what else can't be edited?
 
 Before editing your form, it's important to note that some rows cannot be edited. Changing them in any way will cause the form to break and result in errors. 
 
 Areas that cannot be edited or deleted:
-* Any field in gray
-* Pre-loaded header rows (except for `label::[language]`; that column can be deleted if it won't be used).
+* Any field with a gray or colorful background.
+* Pre-loaded header rows (except for `label::[language]`; that column can be renamed to indicate an added language, or deleted if it won't be used).
 
-Everything else is up for grabs.
+All fields in white **can** be edited.
 
-#### Adding New Questions
+### Adding New Questions
 
 To add a new question, create a new row. 
 
 From there, the easiest way to create a new question is to copy and paste a row with the same question `type`. From there, you can edit the `name`, `label`, and other fields as needed. 
 
-#### Editing Multiple Choice Options
+### Editing Multiple Choice Options
 
 > Beth update based on final form
 
@@ -250,9 +246,7 @@ In the example below, a new category for the dropdown \("Unknown"\) has been add
 
 Once that form is saved and loaded into the project, the new "Unknown" option will appear in the dropdown under, "How was this location acquired?"
 
-![](/assets/standard-new-field.png)
-
-#### Attachment of Multiple Resources
+### Attachment of Multiple Resources
 
 If you need to attach multiple resources during your data collection in the field, you can do so using a few special codes:
 
@@ -268,26 +262,8 @@ Here's an example of these codes at work in a form, under `name` in rows 11, 12,
 
 The codes can be used multiple times in your form, preceding unique words like `_pic1` and `_pic2`. 
 
-### Advanced Customization
-
-> David, what else cannot be edited or deleted??
-
-If you need to do more than simply edit a few existing fields, then advanced customization may be for you.
-
-Remember, when it comes to editing forms, some of the fields cannot be modified.
-
-Areas that cannot be edited or deleted:
-* Any field in gray
-* Pre-loaded header rows (except for `label::[language]`; that column can be deleted if it won't be used).
-* Any field with a `*` marked in column B. 
-
-
-
-
 
 ## Troubleshooting {#troubleshooting}
-
-> David & Katrina, what should be edited here?
 
 Before uploading your form to your project, check to make sure that:
 
