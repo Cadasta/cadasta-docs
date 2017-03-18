@@ -4,7 +4,7 @@ Have a question? Your answer may be here, in one of the following sections:
 
 * [Cadasta & Data](#data)
 * [Getting Around in the Cadasta Platform](#getting-started)
-* [Using the Questionnaire](#using-the-questionnaire)
+* [Using the Cadasta XLSForm](#using-the-questionnaire)
 
 If you can't find what you're looking for here or elsewhere in the documentation, please don't hesitate to [contact us](http://cadasta.org/contact/). 
 
@@ -43,21 +43,17 @@ To find your project once you log in, click on **Projects** in the upper right.
 
 On the page that follows, you’ll find all the projects in Cadasta listed alphabetically. There, you can either scroll through the projects until you find the one you're looking for, or you can search for your project using the search bar.
 
-##Using the Questionnaire{#using-the-questionnaire}
+##Using the Cadasta XLSForm{#using-the-questionnaire}
 
-####I significantly modified my questionnaire after starting my project. Will it still work? 
+####I significantly modified my XLSForm after starting my project. Will it still work? 
 
-If you've only changed or added a few lines to your questionnaire, it should still be able to work with your project. However, if you've significantly modified your questionnaire, it may not work. If your questionnaire had changed a lot, it's probably a good idea to start a new project.
+If you've only changed or added a few lines to your form, it should still be able to work with your project. However, if you've significantly modified your form, it may not work. If your Cadasta XLSForm had changed a lot, it's probably a good idea to start a new project.
 
-####Why are some fields gray in the questionnaire while others are white?
+####Why are some fields gray or colorful in the Cadasta XLSForm while others are white?
 
-Fields that are in gray indicate that they shouldn't be modified. Fields in white, however, easily can be. Read [Questionnaires & Custom Data Collection](09-XLSForms.md) to learn more about how to modify your questionnaire. 
+Fields that are in gray indicate that they shouldn't be modified. Fields in white, however, easily can be. Read [Cadasta XLSForms & Custom Data Collection](09-XLSForms.md) to learn more about how to modify your form. 
 
 ####Can I delete or modify fields that are in gray?
 
-You can, but it's not a good idea. The only exception is when creating a dropdown for toggling between GeoTrace, GeoShape, and GeoPoint options. Read more about that in the Advanced Customization section of the [Questionnaires & Custom Data Collection](08-XLSForms.md) page. 
-
-####I need help customizing my questionnaire. Is there anyone who can help me?
-
-Cadasta would be happy to help you customize your questionnaire. [Contact us](http://cadasta.org/contact/) about this any time, and we'll get back to you as soon as we can.
+You can, but it's not a good idea. The only exception is when creating a dropdown for toggling between GeoTrace, GeoShape, and GeoPoint options. Read more about that in the Advanced Customization section of the [Cadasta XLSForms & Custom Data Collection](08-XLSForms.md) page. 
 

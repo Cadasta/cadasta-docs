@@ -13,7 +13,7 @@ Organizations in the Cadasta System represent organizations in the real world â€
 
 ### Creating a New Organization {#creating-a-new-organization}
 
-If your organization doesn't already exist in the Cadasta Platform, then one of the first things you need to do is set up your organization's account. You'll use this account to manage projects, organization members, data collection questionnaires, and more.
+If your organization doesn't already exist in the Cadasta Platform, then one of the first things you need to do is set up your organization's account. You'll use this account to manage projects, organization members, Cadasta XLSForms, and more.
 
 ##### 1. Log in & Navigate to the Organizations Page
 

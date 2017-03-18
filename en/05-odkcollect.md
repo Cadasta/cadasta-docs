@@ -2,12 +2,12 @@
 
 * [Overview](#overview)
 * [Initial Setup](#initial-setup)
-* [Loading Your Questionnaire](#loading-your-form)
+* [Loading Your Cadasta XLSForm](#loading-your-form)
 * [Data Collection](#data-collection)
 * [Uploading Data](#uploading-data)
 * [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing)
 * [Editing Data](#editing-data)
-* [Deleting Questionnaires](#deleting-questionnaires)
+* [Deleting Forms](#deleting-questionnaires)
 * [ODK Troubleshooting](#odk-troubleshooting)
 
 
@@ -20,7 +20,7 @@ ODK is a free, open source mobile data collection application for Android device
 This section provides an overview of how ODK and Cadasta work together:
 
 1. First, you'll [set up ODK](#initial-setup) on an Android device.
-2. Then you'll [load the questionnaire](#loading-your-form) you want to use for data collection.
+2. Then you'll [load the Cadasta XLSForm](#loading-your-form) you want to use for data collection.
 3. Finally, it's time to [collect your data](#data-collection)! 
 4. When you're back to WiFi, [upload your data](#uploading-data) to the Cadasta Platform.
 
@@ -54,11 +54,11 @@ You now have an ODK account that's synced with the Cadasta Platform.
 
 Click the back button twice to return to the main menu.
 
-### Loading your Questionnaire {#loading-your-form}
+### Loading your Cadasta XLSForm {#loading-your-form}
 
 _**Note:** This step requires being near WiFi!_
 
-Once you've connected ODK with Cadasta, the next thing you need to do is load the questionnaire you're using for your data collection project.
+Once you've connected ODK with Cadasta, the next thing you need to do is load the form you're using for your data collection project.
 
 1. From the main menu, select **Get Blank Form**.
 
@@ -70,15 +70,15 @@ Once you've connected ODK with Cadasta, the next thing you need to do is load th
 
     ![](/assets/odk-4-get-blank-form.png)
 
-Now, ODK is configured to record data using the questions in your questionnaire.
+Now, ODK is configured to record data using the questions in your form.
 
 ### Data Collection {#data-collection}
 
-Once you've initialized ODK and loaded your questionnaire, now it’s time to collect some data!
+Once you've initialized ODK and loaded your Cadasta XLSForm, now it’s time to collect some data!
 
 For this step, make sure that GPS is enabled on your device and turned on.
 
-1. From the ODK Main Menu select **Fill Blank Form** then the questionnaire that you want to use. 
+1. From the ODK Main Menu select **Fill Blank Form** then the form that you want to use. 
 
     ![](/assets/odk-5-fill-blank-form.png)
 
@@ -89,7 +89,7 @@ For this step, make sure that GPS is enabled on your device and turned on.
 
 #### Collecting Data in Multiple Languages
 
-If you need to collect data in multiple languages, you can set it up in your questionnaire. _Read about the [standard questionnaire](09-XLSForms.md#standard-form) to learn how._
+If you need to collect data in multiple languages, you can set it up in your Cadasta XLSform. _[Learn how.](09-XLSForms.md)_
 
 Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the three dots in the upper right, then **Change Language**, then the language of your choice. 
 
@@ -100,13 +100,11 @@ Once you've chosen your default language and set up your questions in all the la
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is the default option provided. 
 
 * **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
 * **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
-
-To learn more about how to configure these options in your questionnaire, see [Questionnaires & Custom Data Collection](09-XLSForms.md).
 
 #### GeoTrace {#geotrace}
 
@@ -177,29 +175,29 @@ Once the location and accuracy information is loaded, you're ready to save your 
 
 ###Uploading Data {#uploading-data}
 
-When you get back to WiFi or a mobile network, you can upload your completed questionnaires to the Cadasta Platform. 
+When you get back to WiFi or a mobile network, you can upload your completed forms to the Cadasta Platform. 
 
-From the main menu, click **Send Finalized Form** and then check off all the forms that you want to upload (use the **Toggle All** button to select all questionnaires). Then select **Send Selected**.
+From the main menu, click **Send Finalized Form** and then check off all the forms that you want to upload (use the **Toggle All** button to select all forms). Then select **Send Selected**.
 
 ![](/assets/odk-send-finalized-form.png)
 
 Finally, you'll get a confirmation message confirming that the data has been sent. 
 
-It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed questionnaires](#deleting-questionnaires) from your Android device.
+It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed XLSForms](#deleting-questionnaires) from your Android device.
 
 ### Editing Data {#editing-data}
 
 ODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
 
-### Deleting Questionnaires {#deleting-questionnaires}
+### Deleting Cadasta XLSForms {#deleting-questionnaires}
 
-You can also delete unwanted questionnaires by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
+You can also delete unwanted forms by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
 
 ### ODK Troubleshooting {#odk-troubleshooting}
 
 If you're having trouble using ODK, the answer to your question may be here. If not, please [contact us](http://cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
-#### Trouble Loading Your Questionnaire
+#### Trouble Loading Your Cadasta XLSForm
 
 ##### ISSUE: I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
 

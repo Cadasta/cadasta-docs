@@ -9,7 +9,7 @@
 * [Collecting Data with GeoODK Collect (Geographical Open Data Kit)](06-geoodkcollect.md)
 * [Downloading Data](07-download.md)
 * [Importing Data](08-upload.md)
-* [Questionnaires & Custom Data Collection](09-XLSForms.md)
+* [Cadasta XLSForms & Custom Data Collection](09-XLSForms.md)
 * [Translation](10-translation.md)
 * [Frequently Asked Questions](11-faq.md)
 * [Change Log](12-change-log.md)
