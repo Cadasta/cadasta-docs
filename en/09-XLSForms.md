@@ -187,8 +187,6 @@ On the choices tab, you can see all of the `spoken_languages` attribute.
 
 ### Settings Tab {#settings-tab}
 
-![](/assets/cadasta-xlsform-07-settings-tab.png)
-
 The Settings tab is devoted to a few special settings. 
 
 | Item | Description | Synonyms | Notes |
