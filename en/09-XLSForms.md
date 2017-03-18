@@ -23,19 +23,19 @@ In this section, you'll learn about how to use XLSForms designed specifically fo
 
 When it comes to data schemas, land rights documentation often falls into one of three different categories:
 
-* One person (or group of people) using one piece of land ([project example - Sustainable Sourcing](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/sustainable-sourcing-palm-oil-indonesia/)),
-* Many different people (or groups of people) using one piece of land ([project example - Urban Informal Settlements](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/urban-informal-settlement-enumeration/)), and
+* One person (or group of people) using one piece of land ([project example - Customary Rights](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/customary-rights-ghana/)),
 * One person (or group of people) using many pieces of land ([project example - Smallholder Farming](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/smallholder-farmers-india/)). 
+* Many different people (or groups of people) using one piece of land ([project example - Urban Informal Settlements](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/urban-informal-settlement-enumeration/)), and
+
 
 _To fully view these projects, log in with the following credentials:_
 
-* username: `demo`
-* password: `password`
+* _username: `demo`_
+* _password: `password`_
 
 Cadasta has designed a template form for each of these use cases, which you can download here: 
 
-
-* [Sustainable Sourcing (1:1) Form](https://docs.google.com/spreadsheets/d/1hyF_uxZb4959lxD6vDMM574cQEFTyq636VAS7n3e0MA/pub?output=xlsx) -  for situations where you're documenting one person (or party) along with one location.
+* [Customary Rights(1:1) Form](https://docs.google.com/spreadsheets/d/1MHg6iok4SkDxN2NdMVt3P2W9UZe81VxH6CpAz_eUtOY/pub?output=xlsx) -  for situations where you're documenting one person (or party) along with one location.
 * [Smallholder Agriculture (1:Many) Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx) - for when you're documenting person (or party) in relation to many locations
 * [Urban Informal Settlements (Many:1) Form](https://docs.google.com/spreadsheets/d/1iORFg75ofq-QzLB5x-WvuggEZN6JaE0iS6yqc7dE1Y0/pub?output=xlsx) – for documenting may people (or parties) to one location.
 
@@ -57,7 +57,7 @@ A Reference Table tab has been added as well, to make it easy to look up the fie
 
 ### Survey Tab {#survey-tab}
 
-![](/assets/cadasta-xlsform-01-survey-tab.png)
+![](/assets/xls-01-survey-tab.png)
 
 The Survey Tab shows all of the survey questions you're asking. This section outlines everything you need to know about this important tab.
 
@@ -141,7 +141,7 @@ Groups contain one or more questions or other nested groups. Some of may repeat,
 
 #### Repeats
 
-![](/assets/cadasta-xlsform-03-repeats.png)
+![](/assets/xls-02-repeats.png)
 
 Both the Many-to-One and One-to-Many (shown above) forms make use of Repeats. Repeats allow you the option of repeating a section of questions without having to start the whole survey all over again. 
 
@@ -165,7 +165,7 @@ Form Variables create conditional logic in the form. They can be used in the `re
 
 ### Choices Tab {#choices-tab}
 
-![](/assets/cadasta-xlsform-04-choices-tab.png)
+![](/assets/xls-03-choices-tab.png)
 
 The Choices tab is where you enter choices for your multiple choice survey questions. These are the headers required on this tab: 
 
@@ -179,11 +179,11 @@ To get your multiple choice options to show up on the form, add the `list_name` 
 
 For example, you can see `spoken_languages` listed by `select_multipe` on row 20:
 
-![](/assets/cadasta-xlsform-05-select-multiple.png)
+![](/assets/xls-04-select-multiple.png)
 
 On the choices tab, you can see all of the `spoken_languages` attribute.
 
-![](/assets/cadasta-xlsform-06-list-name.png)
+![](/assets/xls-05-list-name.png)
 
 ### Settings Tab {#settings-tab}
 
@@ -240,11 +240,7 @@ For example, to add a new field to the spoken languages options \(`spoken_langua
 * Add a new row, and give it a `list_name` of `spoken_languages`.
 * Give it a new name and fill in the labels.
 
-In the example below, a new category for the dropdown \("Unknown"\) has been added to the Cadasta Form.
-
-![](/assets/land-acquision-new-row.png)
-
-Once that form is saved and loaded into the project, the new "Unknown" option will appear in the dropdown under, "How was this location acquired?"
+Once that form is saved and loaded into the project, the new option will appear in the appropriate dropdown or multiple choice selection.
 
 ### Attachment of Multiple Resources
 
