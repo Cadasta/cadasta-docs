@@ -35,7 +35,7 @@ _To fully view these projects, log in with the following credentials:_
 
 Cadasta has designed a template form for each of these use cases, which you can download here: 
 
-* [Customary Rights(1:1) Form](https://docs.google.com/spreadsheets/d/1MHg6iok4SkDxN2NdMVt3P2W9UZe81VxH6CpAz_eUtOY/pub?output=xlsx) -  for situations where you're documenting one person (or party) along with one location.
+* [Customary Rights (1:1) Form](https://docs.google.com/spreadsheets/d/1MHg6iok4SkDxN2NdMVt3P2W9UZe81VxH6CpAz_eUtOY/pub?output=xlsx) -  for situations where you're documenting one person (or party) along with one location.
 * [Smallholder Agriculture (1:Many) Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx) - for when you're documenting person (or party) in relation to many locations
 * [Urban Informal Settlements (Many:1) Form](https://docs.google.com/spreadsheets/d/1iORFg75ofq-QzLB5x-WvuggEZN6JaE0iS6yqc7dE1Y0/pub?output=xlsx) – for documenting may people (or parties) to one location.
 
