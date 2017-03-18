@@ -87,7 +87,7 @@ At this stage, you will be asked to fill out some General Information regarding 
 
 * **Project URL**, which must start with _http://_ or _https://_
 
-* **Project Questionnaire**, a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample questionnaires, read the section on [custom data collection](09-XLSForms.md)
+* **Cadasta XLSForm** (previously called a Questionnaire), a spreadsheet that serves as the basis for your data collection. It should not be heavily changed once your project is created. To learn more about how they work and get sample forms, read the section on [custom data collection](09-XLSForms.md)
 
 * **Project contacts**, if any. These contacts do not have to be project members, but may be people who are important to the project. For example, you may be working with an administrator or communications specialist who is not involved with data collection, but who may have integral roles in what you're doing. 
 
@@ -140,7 +140,7 @@ When you're done, click the **gray Save button** on the left to save your shape,
 
 ####Editing Project Details
 
-Once you've navigated to the Project Details page, you can edit information like the name, description, questionnaire or privacy settings. When you're done, save your changes by clicking the **Save** button at the bottom of the page. 
+Once you've navigated to the Project Details page, you can edit information like the name, description, or privacy settings. When you're done, save your changes by clicking the **Save** button at the bottom of the page. 
 
 ####Editing Member Permissions
 

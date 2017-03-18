@@ -6,33 +6,33 @@
 
 ### Overview{#overview}
 
-If you've already been collecting data in another system and are switching to the Cadasta Platform, you can import your data in a .csv. This can be useful if you have many questionnaires to import, whether you have 10 or 10,000.
+If you've already been collecting data in another system and are switching to the Cadasta Platform, you can import your data in a .csv. This can be useful if you have many completed Cadasta XLSForms to import, whether you have 10 or 10,000.
 
 Data importing is also a relatively new feature. We recommend that you <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> so that we can help you through the process. 
 
 ### Setting Up{#setting-up}
 
-Before importing your data, you'll want to make sure that the structure of your dataset matches the structure of the [questionnaire](09-XLSForms.md) that you're using for your project. 
+Before importing your data, you'll want to make sure that the structure of your dataset matches the structure of the [Cadasta XLSForm](09-XLSForms.md) that you're using for your project. 
 
 In this example, you can see a .csv of responses:
 
 ![](/assets/upload-sample-csv.png)
 
-Which works with this questionnaire:
+Which works with this form:
 
 ![](/assets/upload-sample-questionnaire.png)
 
 Here you can see that: 
 
-* each header in the data corresponds with a `name` in the questionnaire. 
+* each header in the data corresponds with a `name` in the form. 
 
 * all of the required fields – all marked in gray - are preserved, even if there is no corresponding data or fields in the .csv. 
 
-If you look at the `choices` tab of the questionnaire, you can also see that the options in the `name` column match entries in the .csv. Note that these options need to match exactly in both spelling and format. 
+If you look at the `choices` tab of the form, you can also see that the options in the `name` column match entries in the .csv. Note that these options need to match exactly in both spelling and format. 
 
 ![](/assets/upload-sample-questionnaire-choices.png)
 
-If you have questions about whether your questionnaire matches your data set, need to create a questionnaire to match your data set, or are having trouble importing data from your .csv, please don't hesitate to <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> for assistance. 
+If you have questions about whether your form matches your data set, need to create a form to match your data set, or are having trouble importing data from your .csv, please don't hesitate to <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> for assistance. 
 
 ### Importing Data {#importing-data}
 
@@ -48,7 +48,7 @@ Note that here you need to select whether you'll be uploading an Excel file or a
 
 ![](/assets/import-03.png)
 
-On the page that follows, you'll be shown some messages indicating required fields in the questionnaire that do not have corresponding fields in the data. Just click Next to get to the next stage.
+On the page that follows, you'll be shown some messages indicating required fields in the Cadasta XLSForm that do not have corresponding fields in the data. Just click Next to get to the next stage.
 
 ![](/assets/import-04.png)
 

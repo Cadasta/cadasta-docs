@@ -25,9 +25,9 @@ On the next page, you'll be asked to draw your location on the map as a point, l
 
 ![](/assets/add-location-02.png)
 
-Here, you'll also be asked to provide some information about your location (shown on the right). If you're using the [minimum questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/minimum_cadasta_questionnaire.xlsx) , you'll just need to indicate the type of location. 
+Here, you'll also be asked to provide some information about your location (shown on the right).  
 
-If you're using the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx), you'll be asked to specify the following (as shown above):
+This might be information like:
 
 * [Location type](#location-types)
 * Name of Location
@@ -44,7 +44,7 @@ To access this location, click on it from the main project page.
 
 #### Location Types {#location-types}
 
-Location types define the type of location you're uploading. The following are defined in the [standard questionnaire](https://s3-us-west-2.amazonaws.com/cadasta-resources/sample-forms/standard_cadasta_questionnaire.xlsx):
+Location types define the type of location you're uploading:
 
 * **Parcel** - a plot of land.
 * **Community Boundary** - a formal or informal boundary between two groups of people.
@@ -56,11 +56,11 @@ Location types define the type of location you're uploading. The following are d
 * **National Park Boundary** - the boundary between a national park and another kind of land. 
 * **Miscellaneous** - another kind of location that doesn't fit into any of your categories.
 
-To change the location types that you're using, [edit your questionnaire](09-XLSForms.md). 
+To change the location types that you're using, [edit your Cadasta XLSForm](09-XLSForms.md). 
 
 #### Location Acquisition {#location-acquisition}
 
-If you're using the standard questionnaire for your data collection, you'll be asked to define how your location was acquired. You can choose from one of the following categories:
+You may also be asked to define how your location was acquired. You can choose from one of the following categories:
 
 * CS - Contractual Share Crop
 * CA - Customary Arrangement

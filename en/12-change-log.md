@@ -3,6 +3,7 @@
 ## Update: March 17, 2017
 
 * Created new documentation for newly styled Cadasta XLSForm Templates
+* Replaced "questionnaire" with "Cadasta XLSForm" or similar throughout documentation. 
 
 ## Version 1.3.0 – Dec. 26, 2016
   

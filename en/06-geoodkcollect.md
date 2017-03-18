@@ -2,12 +2,12 @@
 
 * [Overview](#overview)
 * [Initial Setup](#initial-setup)
-* [Loading Your Questionnaire](#loading-your-form)
+* [Loading Your Cadasta XLSForm](#loading-your-form)
 * [Data Collection](#data-collection)
 * [Uploading Data](#uploading-data)
 * [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing)
 * [Editing Data](#editing-data)
-* [Deleting Questionnaires](#deleting-questionnaires)
+* [Deleting Forms](#deleting-questionnaires)
 * [GeoODK Troubleshooting](#geoodk-troubleshooting)
 
 ###Overview {#overview}
@@ -17,7 +17,7 @@ Geographical Open Data Kit \(GeoODK Collect\) is a data collection application f
 This section provides an overview of how GeoODK and Cadasta work together:
 
 1. First, you'll [set up GeoODK](#initial-setup) on an Android device.
-2. Then you'll [load the questionnaire](#loading-your-form) you want to use for data collection.
+2. Then you'll [load the Cadasta XLSForm](#loading-your-form) you want to use for data collection.
 3. Finally, it's time to [collect your data](#data-collection)! 
 4. When you're back to WiFi, [upload your data](#uploading-data) to the Cadasta Platform.
 
@@ -48,11 +48,11 @@ You now have a GeoODK account that's synced with the Cadasta Platform.
 
 Click the back button 3 times to return to the main menu.
 
-### Loading your Questionnaire {#loading-your-form}
+### Loading your Cadasta XLSForm {#loading-your-form}
 
 _**Note:** This step requires being near WiFi!_
 
-Once you've connected GeoODK with Cadasta, the next thing you need to do is load the questionnaire you're using for your data collection project. 
+Once you've connected GeoODK with Cadasta, the next thing you need to do is load the form you're using for your data collection project. 
 
 1. From the Main Menu, select **Settings**, then **Form Management**. 
 
@@ -62,19 +62,19 @@ Once you've connected GeoODK with Cadasta, the next thing you need to do is load
 
     ![](/assets/geo-odk-4-user-pass.png)
 
-3. In the page that follows, you'll see a list of questionnaires that have been loaded for your organization's projects. Place a checkmark next to the form you'd like to download and tap **Get Selected**.
+3. In the page that follows, you'll see a list of Cadasta XLSForms that have been loaded for your organization's projects. Place a checkmark next to the form you'd like to download and tap **Get Selected**.
 
     ![](/assets/geo-odk-5-questionnaire-list.png)
 
-Now, GeoODK is configured to record data using the questions in your questionnaire. 
+Now, GeoODK is configured to record data using the questions in your form. 
 
 ### Data Collection {#data-collection}
 
-Once you've initialized GeoODK and loaded your questionnaire, now it’s time to collect some data!
+Once you've initialized GeoODK and loaded your Cadasta XLSForm, now it’s time to collect some data!
 
 For this step, make sure that GPS is enabled on your device and turned on.
 
-1. From the Main Menu select **Collect Data** then the questionnaire that you want to use. 
+1. From the Main Menu select **Collect Data** then the form that you want to use. 
 
     ![](/assets/geo-odk-6-collect-data.png)
 
@@ -87,7 +87,7 @@ For this step, make sure that GPS is enabled on your device and turned on.
 
 #### Collecting Data in Multiple Languages
 
-If you need to collect data in multiple languages, you can set it up in your questionnaire. _Read about the [standard questionnaire](09-XLSForms.md#standard-form) to learn how._
+If you need to collect data in multiple languages, you can set it up in your form. _[Learn how](09-XLSForms.md)_
 
 Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the three dots in the upper right, then **Change Language**, then the language of your choice. 
 
@@ -98,13 +98,13 @@ Once you've chosen your default language and set up your questions in all the la
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode.  GeoTrace is also the default option provided in both the standard and minimum questionnaires. 
+* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode.  GeoTrace is the default option provided. 
 
 * **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
 * **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
 
-To learn more about how to configure these options in your questionnaire, see the [Questionnaires & Custom Data Collection](09-XLSForms.md).
+To learn more about how to configure these options in your form, see the [Cadasta XLSForms & Custom Data Collection](09-XLSForms.md) section.
 
 #### GeoTrace {#geotrace}
 
@@ -176,9 +176,9 @@ When you're done, you'll come to a screen that looks like the one below. You can
 
 ### Uploading Data {#uploading-data}
 
-When you get back to WiFi or a mobile network, you can upload your completed questionnaires to the Cadasta Platform. 
+When you get back to WiFi or a mobile network, you can upload your completed forms to the Cadasta Platform. 
 
-From the main menu, click **Send Data** and then check off all the forms that you want to upload (use the **Toggle All** button to select all questionnaires). Then select **Send Selected**.
+From the main menu, click **Send Data** and then check off all the forms that you want to upload (use the **Toggle All** button to select all forms). Then select **Send Selected**.
 
 ![](/assets/geo-odk-8-send-data.png)
 
@@ -186,21 +186,21 @@ Next, you'll get a confirmation message confirming that the data has been sent.
 
 ![](/assets/geo-odk-9-confirmation.png)
 
-It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed questionnaires](#deleting-questionnaires) from your Android device.
+It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed forms](#deleting-questionnaires) from your Android device.
 
 ### Editing Data {#editing-data}
 
 ODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
 
-### Deleting Questionnaires {#deleting-questionnaires}
+### Deleting Forms {#deleting-questionnaires}
 
-You can also easily delete unwanted questionnaires by selecting **Delete Saved Form** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
+You can also easily delete unwanted Cadasta XLSForms by selecting **Delete Saved Form** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
 
 ### GeoODK Troubleshooting {#geoodk-troubleshooting}
 
 If you're having trouble using GeoODK, the answer to your question may be here. If not, please [contact us](http://cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
-#### Trouble Loading Your Questionnaire
+#### Trouble Loading Your Cadasta XLSForm
 
 ##### ISSUE: I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
 
@@ -212,13 +212,13 @@ The easiest thing to do here is to go to the Cadasta platform and change your pa
 
 If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again. 
 
-#### Trouble Uploading Completed Questionnaires
+#### Trouble Uploading Completed Forms
 
-##### ISSUE: I'm getting an error when I upload my completed questionnaires.
+##### ISSUE: I'm getting an error when I upload my completed form.
 
-If you're having trouble uploading your questionnaires, the most likely culprit is collecting data using a questionnaire that doesn't exactly match the questionnaire loaded on the Cadasta Platform. This can happen if you modify your questionnaire, load it to Cadasta, and then continue collecting data using an older version. 
+If you're having trouble uploading your Cadasta XLSForms, the most likely culprit is collecting data using a form that doesn't exactly match the one loaded on the Cadasta Platform. This can happen if you modify your form, load it to Cadasta, and then continue collecting data using an older version. 
 
-Unfortunately, the easiest way to fix this is to uninstall the old form and completed questionnaire and start over. This is why we recommend that you test GeoODK before heading out into the field. We also recommend refreshing your questionnaire before heading out to the field if you think that it might have changed. 
+Unfortunately, the easiest way to fix this is to uninstall the old form and start over. This is why we recommend that you test GeoODK before heading out into the field. We also recommend refreshing your form before heading out to the field if you think that it might have changed. 
 
 If you've collected too much data to start over, please [contact us](http://cadasta.org/contact/). 
 
