@@ -80,8 +80,6 @@ The first column in the Survey tab provides tips about the form, such as notes a
 
 If it gets in your way, feel free to hide the column at any time.
 
-![](/assets/cadasta-xlsform-02-hide.png)
-
 Additional information can be found in the Reference Tables tab.
 
 #### Headings
@@ -257,10 +255,6 @@ If you need to attach multiple resources during your data collection in the fiel
 * `party_resource_*`, for uploading multiple resources related to the party, and
 
 * `location_resource_*`, for uploading multiple resources related to a location. 
-
-Here's an example of these codes at work in a form, under `name` in rows 11, 12, 19, 20, 31, 32, and 33:
-
-![](/assets/questionnaire-mulitiple-resource-example.png)
 
 The codes can be used multiple times in your form, preceding unique words like `_pic1` and `_pic2`. 
 
