@@ -260,9 +260,11 @@ The codes can be used multiple times in your form, preceding unique words like `
 Before uploading your form to your project, check to make sure that:
 
 * all of your data entry `types` match those listed in the table above and and are spelled correctly. 
-* all of your `names` are lowercase and contain no spaces. 
+* all of your `names` are lowercase, start with a letter, and are made of letters, numbers and underscores. 
 * all of your `list_names` in the Choices tab match the name you've given to your dropdowns in the Survey tab.
 * all of your `form_ids` are distinct, contain no spaces, and start with a lowercase letter.
+* all of your photos are smaller than 10MB. 
+* none of mandatory fields have been edited or deleted.
 
 Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
 

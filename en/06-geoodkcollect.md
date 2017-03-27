@@ -46,6 +46,8 @@ If this is the first time you've used GeoODK with the Cadasta Platform, you'll n
 
 You now have a GeoODK account that's synced with the Cadasta Platform.
 
+_**Important!** Notice the `s` at the end of `https` in the URLs above. That's an important part of our URLs! Forgetting it will produce an error. `https` provides authentication of the website and associated web server, meaning that the information being sent and received is more secure than it would be as just `http`. <a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank">Read more.</a> _
+
 Click the back button 3 times to return to the main menu.
 
 ## Loading your Cadasta XLSForm {#loading-your-form}

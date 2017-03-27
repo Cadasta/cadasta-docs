@@ -4,7 +4,7 @@
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)    
 * [Parties and Their Relationship to a Location](#location-relationships)
 * [Resources](#project-resources)
-* [Search](#search)
+* [Searching Through Records](#search)
 
 ## Overview{#overview}
 
@@ -207,6 +207,16 @@ Acceptable file types are:
 
 ####.gpx Files as Project Resources
 
-If you've been collecting data in .gpx format, you can store it as a resource in the Cadasta system. All you need to do is change the .gpx extension to  .xml.  
+![](/assets/gpx.png)
+
+If you've been collecting data in .gpx format (which is the filetype created by most GPS devices) you can store it as a resource in the Cadasta system. All you need to do is change the .gpx extension to  .xml.  
 
 At this time, .gpx files do not produce new project locations for you; this is a feature that's coming soon. 
+
+## Searching Through Records {#search}
+
+If you need to find a record in the data you've collected, you can Search for it using the search bar at the top of the Project Overview page. 
+
+> add image
+
+At this time, you cannot use Search to look through geographic records (a.k.a. the points, lines, and polygons you see on the map); however, you can use it to search for people and parties. 
