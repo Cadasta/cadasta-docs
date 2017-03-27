@@ -2,11 +2,11 @@
 
 > Last updated 17 Mar. 2017 // see the [Change Log](12-change-log.md) for information about what's changed.
 
-### Welcome!
+## Welcome!
 
 We're glad you've found the Cadasta Platform – a land and resource rights management system developed by the Cadasta Foundation. Our goal is to empower people to understand and document their land rights, a goal that this mapping platform helps to fulfill.
 
-### Contents
+## Contents
 
 * [Getting Started](01-gettingstarted.md)
 * [Organizations](02-organizations.md)
@@ -21,7 +21,7 @@ We're glad you've found the Cadasta Platform – a land and resource rights mana
 * [Frequently Asked Questions](11-faq.md)
 * [Change Log](12-change-log.md)
 
-### Why We Do What We Do
+## Why We Do What We Do
 
 As the human population continues to grow – and as land and resources become more and more scarce – land rights become increasingly important. An estimated 70% of land in emerging economies remains undocumented or unregistered. This can pose serious problems for people who rely on that land but don't have the information or resources they need to formally document their right to use it.
 

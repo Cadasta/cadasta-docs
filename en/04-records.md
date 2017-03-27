@@ -4,18 +4,19 @@
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)    
 * [Parties and Their Relationship to a Location](#location-relationships)
 * [Resources](#project-resources)
+* [Search](#search)
 
-### Overview{#overview}
+## Overview{#overview}
 
 Within any given project, you may be working with lots of different [locations](#project-locations). For example, within a forested area, there may be a national park boundary as well as a building that you'll need to track.
 
-Each of these locations may have a [relationship](#relationships) with one or more [parties](#parties). For example, a park may be owned by the government, but a community group may have special access to it. Each of these parties has their own relationship to that bit of land. That relationship is known as their [tenure](#tenure). There are often many [resources](#project-resources) to track this, like photos, letters, and deeds. 
+Each of these locations may have a [relationship](#relationships) with one or more [parties](#parties). For example, a park may be owned by the government, but a community group may have special access to it. Each of these parties has their own relationship to that bit of land. That relationship is known as their tenure. There are often many [resources](#project-resources) to track this, like photos, letters, and deeds. 
 
 The Cadasta Platform is designed to deal with this complexity. This section outlines how the Platform handles tracking locations, parties, relationships, and all the resources that go with them. 
 
-### Project Locations, Location Types, & Location Aquisition {#project-locations}
+## Project Locations, Location Types, & Location Aquisition {#project-locations}
 
-#### Adding a Location {#adding-a-location}
+### Adding a Location {#adding-a-location}
 
 From the main project page, select either **Add location** or **Add a location**: 
 
@@ -42,7 +43,7 @@ To access this location, click on it from the main project page.
 
 ![](/assets/add-location-03.png)
 
-#### Location Types {#location-types}
+### Location Types {#location-types}
 
 Location types define the type of location you're uploading:
 
@@ -58,7 +59,7 @@ Location types define the type of location you're uploading:
 
 To change the location types that you're using, [edit your Cadasta XLSForm](09-XLSForms.md). 
 
-#### Location Acquisition {#location-acquisition}
+### Location Acquisition {#location-acquisition}
 
 You may also be asked to define how your location was acquired. You can choose from one of the following categories:
 
@@ -73,9 +74,9 @@ You may also be asked to define how your location was acquired. You can choose f
 * RN - Rental
 * OT - Other
 
-### Parties and Their Relationship to a Location{#location-relationships}
+##Parties and Their Relationship to a Location{#location-relationships}
 
-#### Parties{#Parties}
+### Parties{#Parties}
 
 Parties are the individuals, groups or corporations who have a relationship to one or more of the locations in your project.
 
@@ -85,7 +86,7 @@ Parties are the individuals, groups or corporations who have a relationship to o
 
 * **Corporations** are organizations like companies, NGOs, or government bodies.
 
-#### Viewing Parties
+### Viewing Parties
 
 To view all of the parties who have a relationship with a project or location, click the **Parties** button on the left:
 
@@ -96,12 +97,12 @@ This will take you to a new page listing all of the parties related to the proje
 ![](/assets/parties-button-04.png)
 
 
-#### Relationships {#relationships}
+### Relationships {#relationships}
 
 Any given location has a relationship to a number of [parties](#parties). For example, a municipality may own a utility corridor, which a local community may use as a right-of-way. 
 
 
-#### Adding a New Relationship {#adding-a-new-relationship}
+###Adding a New Relationship {#adding-a-new-relationship}
 
 To add a new relationship for a project location, click on the Relationships tab. Then, click on **Add relationship**. 
 
@@ -121,7 +122,7 @@ Next, you'll be asked to add relationship details: including the [tenure type](#
 
 When you're done adding notes about the relationship, click save. 
 
-#### Tenure Type {#tenure-type}
+### Tenure Type {#tenure-type}
 
 **Tenure type** refers to the type of ownership or right that a party may have with regards to a location. In the Cadasta Platform, you can define a party's tenure type in a variety of ways. 
 
@@ -146,7 +147,7 @@ When you're done adding notes about the relationship, click save.
 
 To learn more about many of these terms, see the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e). 
 
-### Resources {#project-resources}
+## Resources {#project-resources}
 
 Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
 
@@ -157,7 +158,7 @@ The Cadasta Platform is set up to handle this kind of complexity, organizing res
 * Resources pertaining to the project generally.
 
 
-####Adding a New Resource {#adding-new-resource}
+###Adding a New Resource {#adding-new-resource}
 
 There are a few ways to add a new resource, depending on what it pertains to.
 
@@ -204,7 +205,7 @@ Acceptable file types are:
 * .xlsx
 * .xml (This file type is particularly useful if you need to upload a .gpx document; just change the file extension from .gpx to .xml)
 
-#####.gpx Files as Project Resources
+####.gpx Files as Project Resources
 
 If you've been collecting data in .gpx format, you can store it as a resource in the Cadasta system. All you need to do is change the .gpx extension to  .xml.  
 

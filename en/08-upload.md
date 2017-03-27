@@ -4,13 +4,13 @@
 * [Setting Up](#setting-up)
 * [Importing Data](#importing-data)
 
-### Overview{#overview}
+## Overview{#overview}
 
 If you've already been collecting data in another system and are switching to the Cadasta Platform, you can import your data in a .csv. This can be useful if you have many completed Cadasta XLSForms to import, whether you have 10 or 10,000.
 
 Data importing is also a relatively new feature. We recommend that you <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> so that we can help you through the process. 
 
-### Setting Up{#setting-up}
+##Setting Up{#setting-up}
 
 Before importing your data, you'll want to make sure that the structure of your dataset matches the structure of the [Cadasta XLSForm](09-XLSForms.md) that you're using for your project. 
 
@@ -34,9 +34,9 @@ If you look at the `choices` tab of the form, you can also see that the options 
 
 If you have questions about whether your form matches your data set, need to create a form to match your data set, or are having trouble importing data from your .csv, please don't hesitate to <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> for assistance. 
 
-### Importing Data {#importing-data}
+## Importing Data {#importing-data}
 
-To import your data, navigate to the main project page. There, select the three dots on the upper right, and then Import Data. 
+To import your data, navigate to the main project page. There, select the **More actions** button on the upper right, and then Import Data. 
 
 ![](/assets/import-01.png)
 

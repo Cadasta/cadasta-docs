@@ -15,7 +15,7 @@ The map data we use comes from [OpenStreetMap](http://www.openstreetmap.org/#map
 
 ####Can anyone see my project once I've created it on Cadasta?
 
-When setting up a project, you have the option to make it public or private. If you'd like to change a public project to a private one, you can do so by selecting **Edit Project Details**, which you can find under the three dots in the upper right of the platform:
+When setting up a project, you have the option to make it public or private. If you'd like to change a public project to a private one, you can do so by selecting **Edit Project Details**, which you can find under the **More actions** button in the upper right of the platform:
 
 ![](/assets/edit-project-info.png)
 

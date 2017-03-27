@@ -10,7 +10,7 @@
 * [Deleting Forms](#deleting-questionnaires)
 * [GeoODK Troubleshooting](#geoodk-troubleshooting)
 
-###Overview {#overview}
+##Overview {#overview}
 
 Geographical Open Data Kit \(GeoODK Collect\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like Open Data Kit (ODK Collect), GeoODK can be used for data collection projects in the Cadasta Platform. 
 
@@ -25,7 +25,7 @@ This section provides an overview of how GeoODK and Cadasta work together:
 
 For more information and documentation about GeoODK generally, visit [geoodk.com](http://geoodk.com/).
 
-### Initial Setup {#initial-setup}
+## Initial Setup {#initial-setup}
 
 _**Note:** This step requires being near WiFi!_
 
@@ -48,7 +48,7 @@ You now have a GeoODK account that's synced with the Cadasta Platform.
 
 Click the back button 3 times to return to the main menu.
 
-### Loading your Cadasta XLSForm {#loading-your-form}
+## Loading your Cadasta XLSForm {#loading-your-form}
 
 _**Note:** This step requires being near WiFi!_
 
@@ -68,7 +68,7 @@ Once you've connected GeoODK with Cadasta, the next thing you need to do is load
 
 Now, GeoODK is configured to record data using the questions in your form. 
 
-### Data Collection {#data-collection}
+## Data Collection {#data-collection}
 
 Once you've initialized GeoODK and loaded your Cadasta XLSForm, now it’s time to collect some data!
 
@@ -85,16 +85,16 @@ For this step, make sure that GPS is enabled on your device and turned on.
 
 ![](/assets/geo-odk-7-finalized-form.png)
 
-#### Collecting Data in Multiple Languages
+### Collecting Data in Multiple Languages
 
 If you need to collect data in multiple languages, you can set it up in your form. _[Learn how](09-XLSForms.md)_
 
-Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the three dots in the upper right, then **Change Language**, then the language of your choice. 
+Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the **More actions** button in the upper right, then **Change Language**, then the language of your choice. 
 
 ![](/assets/multi-lang-geoodk.png)
 
 
-### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
+## Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
@@ -106,7 +106,7 @@ During [data collection](#data-collection), you'll be asked to collect data spec
 
 To learn more about how to configure these options in your form, see the [Cadasta XLSForms & Custom Data Collection](09-XLSForms.md) section.
 
-#### GeoTrace {#geotrace}
+### GeoTrace {#geotrace}
 
 To start geotracing, hit the Play button in the upper left:
 
@@ -140,7 +140,7 @@ Finally, you'll be brought to a confirmation screen where you can view your GeoT
 
 _Note that GeoODK calls a geotrace a parcel regardless of what kind of location it is._
 
-#### GeoShape {#geoshape}
+### GeoShape {#geoshape}
 
 GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area.  
 
@@ -158,7 +158,7 @@ This will connect the last and first marker you drew, creating a complete and cl
 
 When you're done, tap the **Save button** and continue your data collection.
 
-#### GeoPoint {#geopoint}
+### GeoPoint {#geopoint}
 
 To collect single GPS coordinates, you can use GeoPoint. GeoPoint only works by tracking your specific location (drawing with your finger is not available).
 
@@ -174,7 +174,7 @@ When you're done, you'll come to a screen that looks like the one below. You can
 
 ![](/assets/geoodk-geopoint-3.png)
 
-### Uploading Data {#uploading-data}
+## Uploading Data {#uploading-data}
 
 When you get back to WiFi or a mobile network, you can upload your completed forms to the Cadasta Platform. 
 
@@ -188,19 +188,19 @@ Next, you'll get a confirmation message confirming that the data has been sent.
 
 It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed forms](#deleting-questionnaires) from your Android device.
 
-### Editing Data {#editing-data}
+## Editing Data {#editing-data}
 
 ODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
 
-### Deleting Forms {#deleting-questionnaires}
+## Deleting Forms {#deleting-questionnaires}
 
 You can also easily delete unwanted Cadasta XLSForms by selecting **Delete Saved Form** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
 
-### GeoODK Troubleshooting {#geoodk-troubleshooting}
+## GeoODK Troubleshooting {#geoodk-troubleshooting}
 
 If you're having trouble using GeoODK, the answer to your question may be here. If not, please [contact us](http://cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
-#### Trouble Loading Your Cadasta XLSForm
+### Trouble Loading Your Cadasta XLSForm
 
 ##### ISSUE: I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
 
@@ -212,7 +212,11 @@ The easiest thing to do here is to go to the Cadasta platform and change your pa
 
 If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again. 
 
-#### Trouble Uploading Completed Forms
+### Trouble Uploading Completed Forms
+
+##### ISSUE: I'm getting an error that my file is too big. 
+
+ODK cannot upload files that are bigger than 10 MB. Usually, the culprit is a high-resolution photograph. To resolve the issue, find the photograph (or other large file), remove it, and re-attach it with a lower-resolution version. 
 
 ##### ISSUE: I'm getting an error when I upload my completed form.
 

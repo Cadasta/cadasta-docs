@@ -4,7 +4,7 @@ At some point during the project, you may need to download your data - perhaps f
 
 The Cadasta Platform makes this a relatively straightforward process. 
 
-1. From the project overview page, select the three-dots menu at the top right. Then select **Download data**. 
+1. From the project overview page, select the **More actions** button at the top right. Then select **Download data**. 
 
   ![](/assets/download-01.png)
 
