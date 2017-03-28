@@ -13,6 +13,8 @@ You can view which languages are currently available using the drop-down menu on
 
 ![](/assets/translation.png)
 
+> Add information about how this is different from XLS form languages
+
 To create and manage translations, Cadasta uses <a href="https://www.transifex.com/" target="_blank">Transifex</a> – an online translation management application. In this section, you'll learn how to use Transifex to translate the Cadasta Platform.
 
 For complete documentation about Transifex, visit <a href="https://docs.transifex.com/" target="_blank">docs.transifex.com</a>.

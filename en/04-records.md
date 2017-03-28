@@ -1,4 +1,4 @@
-# Project Records: Locations, Parties, Relationships, and Resources
+# Project Records: Locations, People (Parties), Relationships, and Resources
 
 * [Overview](#overview)
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)    
@@ -10,9 +10,9 @@
 
 Within any given project, you may be working with lots of different [locations](#project-locations). For example, within a forested area, there may be a national park boundary as well as a building that you'll need to track.
 
-Each of these locations may have a [relationship](#relationships) with one or more [parties](#parties). For example, a park may be owned by the government, but a community group may have special access to it. Each of these parties has their own relationship to that bit of land. That relationship is known as their tenure. There are often many [resources](#project-resources) to track this, like photos, letters, and deeds. 
+Each of these locations may have a [relationship](#relationships) with one or more [people (or parties)](#parties). For example, a park may be owned by the government, but a community group may have special access to it. Each of these has their own relationship to that bit of land. That relationship is known as their tenure. There are often many [resources](#project-resources) to track this, like photos, letters, and deeds. 
 
-The Cadasta Platform is designed to deal with this complexity. This section outlines how the Platform handles tracking locations, parties, relationships, and all the resources that go with them. 
+The Cadasta Platform is designed to deal with this complexity. This section outlines how the Platform handles tracking locations, people, their relationship(s) to the land, and all of the documentation and resources.. 
 
 ## Project Locations, Location Types, & Location Aquisition {#project-locations}
 
@@ -74,11 +74,11 @@ You may also be asked to define how your location was acquired. You can choose f
 * RN - Rental
 * OT - Other
 
-##Parties and Their Relationship to a Location{#location-relationships}
+##People (a.k.a. Parties) and Their Relationship to a Location{#location-relationships}
 
-### Parties{#Parties}
+### People (a.k.a Parties) {#Parties}
 
-Parties are the individuals, groups or corporations who have a relationship to one or more of the locations in your project.
+People are the individuals, groups or corporations who have a relationship to one or more of the locations in your project.
 
 * **Individuals** are single people, like a landowner or lessee.
 
@@ -86,9 +86,9 @@ Parties are the individuals, groups or corporations who have a relationship to o
 
 * **Corporations** are organizations like companies, NGOs, or government bodies.
 
-### Viewing Parties
+### Viewing People
 
-To view all of the parties who have a relationship with a project or location, click the **Parties** button on the left:
+To view all of the people / parties who have a relationship with a project or location, click the **Parties** button on the left:
 
 ![](/assets/parties-button-01.png)
 
@@ -114,9 +114,9 @@ In the pop-up that follows, you'll be first asked to either choose from an exist
 
 If you're adding a new one, you'll need to provide:
 
-* Party name, 
-* Party type (individual, group, or corporation), and
-* Party notes. 
+* Name, 
+* Type (individual, group, or corporation), and
+* Any that you might have. 
 
 Next, you'll be asked to add relationship details: including the [tenure type](#tenure-type) and notes about the tenure. 
 
@@ -124,7 +124,7 @@ When you're done adding notes about the relationship, click save.
 
 ### Tenure Type {#tenure-type}
 
-**Tenure type** refers to the type of ownership or right that a party may have with regards to a location. In the Cadasta Platform, you can define a party's tenure type in a variety of ways. 
+**Tenure type** refers to the type of ownership or right that people may have to a location. In the Cadasta Platform, you can define tenure type in a variety of ways. 
 
 * Carbon Rights
 * Concessionary Rights
@@ -154,7 +154,7 @@ Land rights projects can come with all kinds of documentation - like legal docum
 The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
 
 * Resources pertaining a specific location,
-* Resources pertaining to a party, and
+* Resources pertaining to a person or party, and
 * Resources pertaining to the project generally.
 
 
@@ -166,7 +166,7 @@ If you're adding a **project location resource**, select the **Resources tab** f
 
 ![](/assets/add-resource-01.png)
 
-To add a **resource that pertains to a certain party**, go to the **Parties page** from the location overview page. 
+To add a **resource that pertains to a certain person or party**, go to the **Parties page** from the location overview page. 
 
 ![](/assets/parties-button-02.png)
 
@@ -174,7 +174,7 @@ Then, select the party you'd like to add a resource for.
 
 ![](/assets/parties-button-04.png)
 
-At the bottom of that party's page, select the **Attach** button and upload your resource.
+Then click on the Resources tab. There, select the **Attach** button and upload your resource.
 
 ![](/assets/parties-button-03.png)
 
@@ -184,7 +184,7 @@ Clicking on resources from the project overview page will take you to your proje
 
 ![](/assets/add-resource-02.png)
 
-To add a resource while you're in the the library, click **Add** on the upper right.
+To add a resource while you're in the the library, click **Attach** on the upper right.
 
 From any of these starting points, you'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
 
