@@ -56,7 +56,7 @@ On the next page, you'll need to configure a couple types of fields.
 
 ![](/assets/import-05.png)
 
-One type is for selecting the type of default party name and party type (individual, group, or corporation). The other is for selecting the type of location and geometry field. These simply create default inputs for required fields not shown in the .csv.
+One type is for selecting the type of default people / party name and type (individual, group, or corporation). The other is for selecting the type of location and geometry field. These simply create default inputs for required fields not shown in the .csv.
 
 When you're done, select **Finish** from the bottom right. Note that this might take a few moments. If the upload takes more than a minute, then you'll likely get a timeout message and need to try again. If the problem persists, try splitting your .csv into two smaller files and uploading them one at a time.
 

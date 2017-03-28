@@ -105,10 +105,10 @@ When you're done, **congratulations!** You've created your very first project.
 
 Your next steps are to start collecting records for your project, including:
 * **project locations** - all the parcels, buildings, boundaries and other locations relevant to your project;
-* **location relationships** to **parties** that have some right or access to one or more of your locations, and 
+* **location relationships** to **people (or parties)** that have some right or access to one or more of your locations, and 
 * **resources** like photos, deeds, and other documentation related to your project, or an associated location or party. 
 
-Read more about these records in the next section: [Project Records: Locations, Parties, Relationships, and Resources](04-records.md). 
+Read more about these records in the next section: [Project Records: Locations, People (Parties), Relationships, and Resources](04-records.md). 
 
 ## Editing a Project {#editing-a-project}
 
