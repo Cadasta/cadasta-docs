@@ -201,8 +201,25 @@ The Settings tab is devoted to a few special settings.
 
 ## Cadasta XLSForm & Language {#xlsform-language}
 
-> Add info about the language thing here
+You can add one or more language options to your Cadasta XLSForm, making it possible to collect survey data in a variety of languages.
 
+To add a new language, create a new `label` column in the Survey tab, and give it a title like `label::fr`. Here, `fr` is the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">two-digit ISO code</a> for French, but you can choose any language you like. 
+
+In your new `label::[language]` column, provide translations for each label line by line. 
+
+Similarly, in the `choices` tab, add a `label::[language]` column for multiple choice selections you'd like to see in a different language. 
+
+In GeoODK, you can select your language by [add info]:
+
+> add information 
+
+> add image
+
+On the Platform, you can toggle language options in the upper right: 
+
+> add image
+
+Note that the language selected on the upper right only changes the language of the survey questions and answers, not the whole platform. Similarly, the language selected on the lower right does not change the language shown on the
 
 
 ## Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}

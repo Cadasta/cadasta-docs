@@ -3,6 +3,7 @@
 * [Overview](#overview)
 * [Setting Up](#setting-up)
 * [Importing Data](#importing-data)
+* [Troubleshooting](#troubleshooting)
 
 ## Overview{#overview}
 
@@ -62,3 +63,14 @@ When you're done, select **Finish** from the bottom right. Note that this might 
 
 If the upload is completed successfully, you'll be able to see all of the records you've imported from the project location overview page. 
 
+## Troubleshooting {#troubleshooting}
+
+If you're getting an error with your import, make sure that:
+
+* **The import is the right size.** The platform can import up to 10 MB at a time. 
+Too large of an import (imports can only handle so many records at this time)
+Poorly spelled or not matching field names or values
+Values that do not map to the choice values listed in the form
+Mismatched columns (an error in the 2nd step with matching up the column headers to the form names)
+Improperly formatted geo column
+Missing required fields (location_type, party_name, tenure_type, party_type, etc)

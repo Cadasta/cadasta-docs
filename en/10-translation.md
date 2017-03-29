@@ -1,6 +1,7 @@
-# Translation
+# Language Management & Translation 
 
 * [Overview](#overview)
+* [Language Options on the Platform & Via Cadasta XLSForms](#language-options)
 * [Translating the Cadasta Platform with Transifex](#translating-with-transifex)
 * [Important Notes: Transifex & Translation](#important-notes)
 * [Requesting a New Translation Project](#new-project)
@@ -9,17 +10,26 @@
 
 The Cadasta Platform has a global audience, which means it should ideally be translated into as many languages as possible. 
 
-You can view which languages are currently available using the drop-down menu one the bottom right of the screen:
+In this section, you'll learn about the language options available on the Cadasta platform and via your [Cadasta XLSForm](09-XLSForms.md), as well as how to translate the platform to your desired language.
+
+## Language Options on the Platform & Via Cadasta XLSForms {#language-options}
+
+The Cadasta Platform has been translated into a few different languages. You can view which languages are currently available using the drop-down menu one the bottom right of the screen:
 
 ![](/assets/translation.png)
 
-> Add information about how this is different from XLS form languages
+The dropdown above is available anywhere on the platform.
 
-To create and manage translations, Cadasta uses <a href="https://www.transifex.com/" target="_blank">Transifex</a> – an online translation management application. In this section, you'll learn how to use Transifex to translate the Cadasta Platform.
+In addition, [Cadasta XLSForms](09-XLSForms.md) can be written in over 100 different supported languages. To view your questions or data that has been collected in one of these languages, navigate to the Project Overview page, and then use the drop-down menu on the top right to select your language.
 
-For complete documentation about Transifex, visit <a href="https://docs.transifex.com/" target="_blank">docs.transifex.com</a>.
+> add image
+
 
 ## Translating the Cadasta Platform with Transifex {#translating-with-transifex}
+
+To create and manage Platform translations, Cadasta uses <a href="https://www.transifex.com/" target="_blank">Transifex</a> – an online translation management application. In this section, you'll learn how to use Transifex to translate the Cadasta Platform.
+
+For complete documentation about Transifex, visit <a href="https://docs.transifex.com/" target="_blank">docs.transifex.com</a>.
 
 Transifex works by identifying all of the strings (non-code portions of the software files) and organizing them into a checklist-like format. This format allows users to translate each string file by file, line by line. 
 

@@ -2,7 +2,7 @@
 
 * [Overview](#overview)
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)    
-* [Parties and Their Relationship to a Location](#location-relationships)
+* [People (a.k.a Parties) and Their Relationship to a Location](#location-relationships)
 * [Resources](#project-resources)
 * [Searching Through Records](#search)
 

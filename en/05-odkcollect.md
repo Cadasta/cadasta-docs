@@ -102,7 +102,9 @@ Once you've chosen your default language and set up your questions in all the la
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is the default option provided. 
+* **[GeoTrace](#geotrace)** gives you the option of creating polylines or polygons based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is the default option provided. _**Important!** If you get to the screen below, be sure to select the Polygon option if you are trying to map an enclosed area._
+
+	> add image: polygon-vs-polyline.png
 
 * **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
