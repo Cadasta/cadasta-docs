@@ -136,6 +136,11 @@ When you're done geotracing, hit the pause button. You'll then be asked to save 
 
 If you've recording a point or line, choose polyline. If you've recording an area and created a closed shape, choose polygon.
 
+**Important!** If you are trying to create a closed area (like, around a property), then choose **Save as Polygon** on this page:
+
+![](/assets/geo-odk-10-polyline-polygon.png)
+
+
 Finally, you'll be brought to a confirmation screen where you can view your GeoTrace. 
 
 ![](/assets/geo-odk-geotrace-5-confirmation.png)

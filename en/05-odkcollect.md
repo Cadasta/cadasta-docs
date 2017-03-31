@@ -104,7 +104,7 @@ During [data collection](#data-collection), you'll be asked to collect data spec
 
 * **[GeoTrace](#geotrace)** gives you the option of creating polylines or polygons based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is the default option provided. _**Important!** If you get to the screen below, be sure to select the Polygon option if you are trying to map an enclosed area._
 
-	> add image: polygon-vs-polyline.png
+![](/assets/geo-odk-10-polyline-polygon.png)
 
 * **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
