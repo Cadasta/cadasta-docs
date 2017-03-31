@@ -43,6 +43,24 @@ To access this location, click on it from the main project page.
 
 ![](/assets/add-location-03.png)
 
+#### Adding a Location from a GPX File {#gpx-location}
+
+If you've been collecting location using a GPS device, you can upload GPX files and use them to create a new location. 
+
+To do this, first upload your GPX file as a [Project Resource](#project-resources). 
+
+![](/assets/gpx-00-project-resource.png)
+
+Then, go to the Project Overview page and select **Add Location**.
+
+From this screen, click the Map Layers icon at the top right of the map. There, you'll see your GPX file as a layer option. Select it.
+
+![](/assets/gpx-01-select-waypoints.png)
+
+Now you can use those points to trace your new location. 
+
+![](/assets/gpx-02-trace.png)
+
 ### Location Types {#location-types}
 
 Location types define the type of location you're uploading:
@@ -209,14 +227,16 @@ Acceptable file types are:
 
 ![](/assets/gpx.png)
 
-If you've been collecting data in .gpx format (which is the filetype created by most GPS devices) you can store it as a resource in the Cadasta system. All you need to do is change the .gpx extension to  .xml.  
-
-At this time, .gpx files do not produce new project locations for you; this is a feature that's coming soon. 
+If you've been collecting data in .gpx format (which is the filetype created by most GPS devices) you can store it as a resource in the Cadasta system. [You can use these files to create new project locations](#gpx-location). 
 
 ## Searching Through Records {#search}
 
-If you need to find a record in the data you've collected, you can Search for it using the search bar at the top of the Project Overview page. 
+If you need to find a record in the data you've collected, you can search for it using the search bar at the top of the Project Overview page. 
 
-> add image
+![](/assets/search-00.png)
+
+This will produce a search result with the record you're looking for. 
+
+![](/assets/search-01.png)
 
 At this time, you cannot use Search to look through geographic records (a.k.a. the points, lines, and polygons you see on the map); however, you can use it to search for people and parties. 

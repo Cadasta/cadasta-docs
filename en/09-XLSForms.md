@@ -209,15 +209,9 @@ In your new `label::[language]` column, provide translations for each label line
 
 Similarly, in the `choices` tab, add a `label::[language]` column for multiple choice selections you'd like to see in a different language. 
 
-In GeoODK, you can select your language by [add info]:
-
-> add information 
-
-> add image
-
 On the Platform, you can toggle language options in the upper right: 
 
-> add image
+![](/assets/translation-01.png)
 
 Note that the language selected on the upper right only changes the language of the survey questions and answers, not the whole platform. Similarly, the language selected on the lower right does not change the language shown on the
 
