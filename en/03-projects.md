@@ -122,7 +122,7 @@ Once you've created a project, you may find that you need to make some changes. 
 
 To change any of these aspects of your project, navigate to your project page, and then click **More actions** button in on the upper right of your screen. 
 
-![](/assets/edit-project-info.png)
+![](/assets/project-03.png)
 
 From there, select the item that needs to be edited. 
 
@@ -132,7 +132,7 @@ Once you've navigated to the Edit Project Boundary page, you have a few options 
 
 One is simply to drag the points already drawn on the map. 
 
-![](/assets/edit-project-boundary-easy.png)
+![](/assets/project-04.png)
 
 Alternatively, you can select the polygon or rectangle tools to draw completely new boundaries. 
 
@@ -154,19 +154,11 @@ When it's time for your project to come to a close, you can easily archive it. A
 
 To archive a project, go to the project's Overview page. From there, click the **More actions** button in the upper right, then select **Archive Project**. 
 
-![](/assets/archive-project-01.png)
+You'll be asked to confirm that you want to archive the project.
 
-You'll be asked to confirm that you want to archive the project:
-
-![](/assets/archive-project-02.png)
-
-If you'd like to unarchive the project, first navigate to the Organization Overview page. Then, select Archive from the dropdown menu at the top of the list of projects:
-
-![](/assets/archive-project-03.png)
+If you'd like to unarchive the project, first navigate to the Organization Overview page. Then, select Archive from the dropdown menu at the top of the list of projects.
 
 Then, on the archived project's page, select the **More actions** button in the upper right, then **Unarchive Project**. 
-
-![](/assets/archive-project-04.png)
 
 Now the project is active again.
 
