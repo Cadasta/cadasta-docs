@@ -20,11 +20,11 @@ The Cadasta Platform is designed to deal with this complexity. This section outl
 
 From the main project page, select either **Add location** or **Add a location**: 
 
-![](/assets/add-location-01.png)
+![](/assets/records-01-add-location.png)
 
 On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
 
-![](/assets/add-location-02.png)
+![](/assets/records-02-polygon.png)
 
 Here, you'll also be asked to provide some information about your location (shown on the right).  
 
@@ -32,7 +32,6 @@ This might be information like:
 
 * [Location type](#location-types)
 * Name of Location
-* Spatial Unit Quality
 * [How Location was Acquired](#location-acquisition), 
 * When the location was acquired, and
 * Location Notes.
@@ -41,7 +40,7 @@ When you're done, save your location.
 
 To access this location, click on it from the main project page. 
 
-![](/assets/add-location-03.png)
+![](/assets/records-02-polygon-03.png)
 
 #### Adding a Location from a GPX File {#gpx-location}
 
@@ -104,27 +103,30 @@ People are the individuals, groups or corporations who have a relationship to on
 
 * **Corporations** are organizations like companies, NGOs, or government bodies.
 
-### Viewing People
+### Viewing People / Parties
 
 To view all of the people / parties who have a relationship with a project or location, click the **Parties** button on the left:
 
-![](/assets/parties-button-01.png)
+![](/assets/parties-00-button.png)
 
 This will take you to a new page listing all of the parties related to the project:
 
-![](/assets/parties-button-04.png)
+![](/assets/parties-01-page.png)
 
+If you click on a name, it will take you to a detail page where you can see an overview of information about that party, the relationships they have to one or more locations, and any resources associated with them.
+
+parties-02-party-detail.png
 
 ### Relationships {#relationships}
 
-Any given location has a relationship to a number of [parties](#parties). For example, a municipality may own a utility corridor, which a local community may use as a right-of-way. 
+Any given location has a relationship to a number of parties. For example, a municipality may own a utility corridor, which a local community may use as a right-of-way. 
 
 
 ###Adding a New Relationship {#adding-a-new-relationship}
 
 To add a new relationship for a project location, click on the Relationships tab. Then, click on **Add relationship**. 
 
-![](/assets/add-relationship-01.png)
+![](/assets/records-05.png)
 
 In the pop-up that follows, you'll be first asked to either choose from an existing party or add a new one. 
 
@@ -134,7 +136,7 @@ If you're adding a new one, you'll need to provide:
 
 * Name, 
 * Type (individual, group, or corporation), and
-* Any that you might have. 
+* Any other information you might have. 
 
 Next, you'll be asked to add relationship details: including the [tenure type](#tenure-type) and notes about the tenure. 
 
@@ -182,7 +184,7 @@ There are a few ways to add a new resource, depending on what it pertains to.
 
 If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Attach.**
 
-![](/assets/add-resource-01.png)
+![](/assets/records-06.png)
 
 To add a **resource that pertains to a certain person or party**, go to the **Parties page** from the location overview page. 
 

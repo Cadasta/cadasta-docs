@@ -141,6 +141,7 @@ Groups contain one or more questions or other nested groups. Some of may repeat,
 | `begin_group` | Sets the beginning of a group | | Do not edit this row! |
 | `end_group` | Sets the beginning of a group | | Do not edit this row!|
 
+It's important to include the groups section headers. This ensures the information inside shows up in the platform and on GeoODK and ODK.
 
 #### Repeats
 
