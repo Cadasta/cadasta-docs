@@ -1,5 +1,15 @@
 # Change Log
 
+## Update: March 31, 2017
+
+Added documentation about:
+* Search Feature
+* GPX Documents
+* Importing troubleshooting
+* Language selection for XLSForms
+* Detail Page for People / Parties
+
+
 ## Update: March 17, 2017
 
 * Created new documentation for newly styled Cadasta XLSForm Templates
