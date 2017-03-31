@@ -11,7 +11,7 @@
 * [ODK Troubleshooting](#odk-troubleshooting)
 
 
-###Overview {#overview}
+##Overview {#overview}
 
 Field data collection is an important part of the land and resource rights documentation process. The Cadasta Platform is designed to accommodate a couple of tools for data collection, allowing for ingestion of data. One of those tools is Open Data Kit, or ODK Collect (which we refer to as ODK for short).
 
@@ -28,7 +28,7 @@ This section provides an overview of how ODK and Cadasta work together:
 
 For more information and documentation about ODK generally, visit [opendatakit.org](https://opendatakit.org/).
 
-### Initial Setup {#initial-setup}
+## Initial Setup {#initial-setup}
 
 _**Note:** This step requires being near WiFi!_
 
@@ -38,7 +38,7 @@ If this is the first time you've used ODK with the Cadasta Platform, you'll need
 
 1. Once you've created your account and installed ODK, open the application.
 
-2. From the opening screen (the Main Menu), tap the three dots in the upper right, then select **General Settings**, then **Configure Platform Settings**. 
+2. From the opening screen (the Main Menu), tap the **More actions** button in the upper right, then select **General Settings**, then **Configure Platform Settings**. 
 
     ![](/assets/odk-1-setup.png)
 
@@ -52,9 +52,11 @@ If this is the first time you've used ODK with the Cadasta Platform, you'll need
 
 You now have an ODK account that's synced with the Cadasta Platform.
 
+_**Important!** Notice the `s` at the end of `https` in the URLs above. That's an important part of our URLs! Forgetting it will produce an error. `https` provides authentication of the website and associated web server, meaning that the information being sent and received is more secure than it would be as just `http`. <a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank">Read more.</a> _
+
 Click the back button twice to return to the main menu.
 
-### Loading your Cadasta XLSForm {#loading-your-form}
+## Loading your Cadasta XLSForm {#loading-your-form}
 
 _**Note:** This step requires being near WiFi!_
 
@@ -72,7 +74,7 @@ Once you've connected ODK with Cadasta, the next thing you need to do is load th
 
 Now, ODK is configured to record data using the questions in your form.
 
-### Data Collection {#data-collection}
+## Data Collection {#data-collection}
 
 Once you've initialized ODK and loaded your Cadasta XLSForm, now it’s time to collect some data!
 
@@ -87,26 +89,28 @@ For this step, make sure that GPS is enabled on your device and turned on.
     * During this section, you'll likely be asked to GeoTrace your location data, or add a GeoShape or GeoPoint. For more information about how this works, see [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geotracing).
 4. When all of your questions are completed, select the **Mark Form as finalized** checkbox and **Save Form and Exit**. 
 
-#### Collecting Data in Multiple Languages
+###Collecting Data in Multiple Languages
 
 If you need to collect data in multiple languages, you can set it up in your Cadasta XLSform. _[Learn how.](09-XLSForms.md)_
 
-Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the three dots in the upper right, then **Change Language**, then the language of your choice. 
+Once you've chosen your default language and set up your questions in all the languages you need, you'll be able to toggle between the languages during data collection. Select the **More actions** button in the upper right, then **Change Language**, then the language of your choice. 
 
 ![](/assets/multi-lang-odk.png)
 
 
-### Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
+##Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geotracing}
 
 During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
-* **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is the default option provided. 
+* **[GeoTrace](#geotrace)** gives you the option of creating polylines or polygons based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode. GeoTrace is the default option provided. _**Important!** If you get to the screen below, be sure to select the Polygon option if you are trying to map an enclosed area._
+
+![](/assets/geo-odk-10-polyline-polygon.png)
 
 * **[GeoShape](#geoshape)** creates polygons (closed shapes). To create a GeoShape, you can use your finger to draw a shape on the map.  
 
 * **[GeoPoint](#geopoint)** creates points (single GPS coordinates) based on your location. 
 
-#### GeoTrace {#geotrace}
+### GeoTrace {#geotrace}
 
 When it's time to start your GeoTrace, you'll be prompted to **Start GeoTrace**:
 
@@ -143,7 +147,7 @@ Finally, you'll be brought to a confirmation screen where you can view your GeoT
 
 _Note that ODK calls a geotrace a parcel regardless of what kind of location it is._
 
-#### GeoShape {#geoshape}
+### GeoShape {#geoshape}
 
 GeoShape is designed for making shapes (or polygons) to represent a specific location. For example, you can use GeoShape to draw a boundary around a building or land area. 
 
@@ -157,7 +161,7 @@ In the next screen, you'll be able to start making your shape. Press the screen 
 
 When you're ready to save your GeoShape, hit the **Save** icon on the right. If you wish to discard it, you can also hit the **Trash** button above it.
 
-#### GeoPoint {#geopoint}
+### GeoPoint {#geopoint}
 
 To collect single GPS coordinates, you can use GeoPoint. GeoPoint only works by tracking your specific location (drawing with your finger is not available).
 
@@ -173,7 +177,7 @@ Once the location and accuracy information is loaded, you're ready to save your 
 
 ![](/assets/odk-geopoint-3.png)
 
-###Uploading Data {#uploading-data}
+##Uploading Data {#uploading-data}
 
 When you get back to WiFi or a mobile network, you can upload your completed forms to the Cadasta Platform. 
 
@@ -185,19 +189,19 @@ Finally, you'll get a confirmation message confirming that the data has been sen
 
 It's a good idea to confirm that you see the data on the Cadasta Platform. Then you can [delete any completed XLSForms](#deleting-questionnaires) from your Android device.
 
-### Editing Data {#editing-data}
+## Editing Data {#editing-data}
 
 ODK makes editing your forms relatively easy. From the main menu, select **Edit Data**, then the form you want to edit. When you're done, save your changes.
 
-### Deleting Cadasta XLSForms {#deleting-questionnaires}
+## Deleting Cadasta XLSForms {#deleting-questionnaires}
 
 You can also delete unwanted forms by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
 
-### ODK Troubleshooting {#odk-troubleshooting}
+## ODK Troubleshooting {#odk-troubleshooting}
 
 If you're having trouble using ODK, the answer to your question may be here. If not, please [contact us](http://cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
-#### Trouble Loading Your Cadasta XLSForm
+### Trouble Loading Your Cadasta XLSForm
 
 ##### ISSUE: I can't connect to the Cadasta server because my username and password aren't working. (And yes, I've checked to make sure they're correct!)
 
@@ -207,7 +211,11 @@ The easiest thing to do here is to go to the Cadasta platform and change your pa
 
 If the above screen is taking longer than you think it should, hit Cancel. You may be correctly connected, or you may be asked to enter your username and password again.
 
-#### Trouble Adding Location Data
+##### ISSUE: I'm getting an error that my file is too big. 
+
+ODK cannot upload files that are bigger than 10 MB. Usually, the culprit is a high-resolution photograph. To resolve the issue, find the photograph (or other large file), remove it, and re-attach it with a lower-resolution version. 
+
+### Trouble Adding Location Data
 
 ##### ISSUE: ODK won't let me add any location data. 
 

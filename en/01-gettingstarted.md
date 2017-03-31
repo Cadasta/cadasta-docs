@@ -6,7 +6,7 @@
 
 _Looking for API documentation? <a href="https://cadasta.github.io/api-docs/#cadasta-api-documentation" target="_blank">Click here</a>._
 
-### How Cadasta is Structured {#how-cadasta-is-organized}
+## How Cadasta is Structured {#how-cadasta-is-organized}
 
 While anyone can use the Cadasta Platform, it's designed primarily for organizations working to document land and resource rights of individuals and communities. The structure of the Platform matches this design.
 
@@ -22,7 +22,7 @@ Before jumping in, it's important to understand this structure and how everythin
 
 ![](/assets/diagram-resources.png)
 
-* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as scanned documents, images, video, audio testimonials or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various **parties** may have to one or more of it's locations.
+* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as scanned documents, images, video, audio testimonials or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various **people (or parties)** may have to one or more of it's locations.
 
 If you were to view all these parts as an outline, it would look something like this:
 
@@ -32,7 +32,7 @@ If you were to view all these parts as an outline, it would look something like 
     * Project Members
     * Cadasta XLSForm (which determines the structure of your data collection)
     * Project Locations
-      * Relationships
+      * Relationships (to People or Parties)
       * Resources
 
 
@@ -45,7 +45,7 @@ Both of these applications integrate with the Cadasta XLSForm you're using to co
 
 Whenever you need to get your data and resources out of the Platform, all you have to do is **[download it](07-download.md)**.
 
-### Quick Guide to Getting Started {#quick-guide-to-getting-started}
+## Quick Guide to Getting Started {#quick-guide-to-getting-started}
 
 To get started, follow the steps below! For more information and images, follow the links on each step.* 
 
@@ -61,7 +61,7 @@ To get started, follow the steps below! For more information and images, follow 
 
 _* For printed versions, go to the associated section in the document._
 
-### **Creating a New Account** {#createnewaccount}
+## **Creating a New Account** {#createnewaccount}
 
 ![](/assets/sign-in-register-arrow.png)
 

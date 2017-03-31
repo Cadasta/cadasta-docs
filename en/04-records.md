@@ -1,29 +1,30 @@
-# Project Records: Locations, Parties, Relationships, and Resources
+# Project Records: Locations, People (Parties), Relationships, and Resources
 
 * [Overview](#overview)
 * [Project Locations, Location Types, and Location Acquisition](#project-locations)    
-* [Parties and Their Relationship to a Location](#location-relationships)
+* [People (a.k.a Parties) and Their Relationship to a Location](#location-relationships)
 * [Resources](#project-resources)
+* [Searching Through Records](#search)
 
-### Overview{#overview}
+## Overview{#overview}
 
 Within any given project, you may be working with lots of different [locations](#project-locations). For example, within a forested area, there may be a national park boundary as well as a building that you'll need to track.
 
-Each of these locations may have a [relationship](#relationships) with one or more [parties](#parties). For example, a park may be owned by the government, but a community group may have special access to it. Each of these parties has their own relationship to that bit of land. That relationship is known as their [tenure](#tenure). There are often many [resources](#project-resources) to track this, like photos, letters, and deeds. 
+Each of these locations may have a [relationship](#relationships) with one or more [people (or parties)](#parties). For example, a park may be owned by the government, but a community group may have special access to it. Each of these has their own relationship to that bit of land. That relationship is known as their tenure. There are often many [resources](#project-resources) to track this, like photos, letters, and deeds. 
 
-The Cadasta Platform is designed to deal with this complexity. This section outlines how the Platform handles tracking locations, parties, relationships, and all the resources that go with them. 
+The Cadasta Platform is designed to deal with this complexity. This section outlines how the Platform handles tracking locations, people, their relationship(s) to the land, and all of the documentation and resources.. 
 
-### Project Locations, Location Types, & Location Aquisition {#project-locations}
+## Project Locations, Location Types, & Location Aquisition {#project-locations}
 
-#### Adding a Location {#adding-a-location}
+### Adding a Location {#adding-a-location}
 
 From the main project page, select either **Add location** or **Add a location**: 
 
-![](/assets/add-location-01.png)
+![](/assets/records-01-add-location.png)
 
 On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
 
-![](/assets/add-location-02.png)
+![](/assets/records-02-polygon.png)
 
 Here, you'll also be asked to provide some information about your location (shown on the right).  
 
@@ -31,7 +32,6 @@ This might be information like:
 
 * [Location type](#location-types)
 * Name of Location
-* Spatial Unit Quality
 * [How Location was Acquired](#location-acquisition), 
 * When the location was acquired, and
 * Location Notes.
@@ -40,9 +40,27 @@ When you're done, save your location.
 
 To access this location, click on it from the main project page. 
 
-![](/assets/add-location-03.png)
+![](/assets/records-02-polygon-03.png)
 
-#### Location Types {#location-types}
+#### Adding a Location from a GPX File {#gpx-location}
+
+If you've been collecting location using a GPS device, you can upload GPX files and use them to create a new location. 
+
+To do this, first upload your GPX file as a [Project Resource](#project-resources). 
+
+![](/assets/gpx-00-project-resource.png)
+
+Then, go to the Project Overview page and select **Add Location**.
+
+From this screen, click the Map Layers icon at the top right of the map. There, you'll see your GPX file as a layer option. Select it.
+
+![](/assets/gpx-01-select-waypoints.png)
+
+Now you can use those points to trace your new location. 
+
+![](/assets/gpx-02-trace.png)
+
+### Location Types {#location-types}
 
 Location types define the type of location you're uploading:
 
@@ -58,7 +76,7 @@ Location types define the type of location you're uploading:
 
 To change the location types that you're using, [edit your Cadasta XLSForm](09-XLSForms.md). 
 
-#### Location Acquisition {#location-acquisition}
+### Location Acquisition {#location-acquisition}
 
 You may also be asked to define how your location was acquired. You can choose from one of the following categories:
 
@@ -73,11 +91,11 @@ You may also be asked to define how your location was acquired. You can choose f
 * RN - Rental
 * OT - Other
 
-### Parties and Their Relationship to a Location{#location-relationships}
+##People (a.k.a. Parties) and Their Relationship to a Location{#location-relationships}
 
-#### Parties{#Parties}
+### People (a.k.a Parties) {#Parties}
 
-Parties are the individuals, groups or corporations who have a relationship to one or more of the locations in your project.
+People are the individuals, groups or corporations who have a relationship to one or more of the locations in your project.
 
 * **Individuals** are single people, like a landowner or lessee.
 
@@ -85,27 +103,30 @@ Parties are the individuals, groups or corporations who have a relationship to o
 
 * **Corporations** are organizations like companies, NGOs, or government bodies.
 
-#### Viewing Parties
+### Viewing People / Parties
 
-To view all of the parties who have a relationship with a project or location, click the **Parties** button on the left:
+To view all of the people / parties who have a relationship with a project or location, click the **Parties** button on the left:
 
-![](/assets/parties-button-01.png)
+![](/assets/parties-00-button.png)
 
 This will take you to a new page listing all of the parties related to the project:
 
-![](/assets/parties-button-04.png)
+![](/assets/parties-01-page.png)
+
+If you click on a name, it will take you to a detail page where you can see an overview of information about that party, the relationships they have to one or more locations, and any resources associated with them.
+
+parties-02-party-detail.png
+
+### Relationships {#relationships}
+
+Any given location has a relationship to a number of parties. For example, a municipality may own a utility corridor, which a local community may use as a right-of-way. 
 
 
-#### Relationships {#relationships}
-
-Any given location has a relationship to a number of [parties](#parties). For example, a municipality may own a utility corridor, which a local community may use as a right-of-way. 
-
-
-#### Adding a New Relationship {#adding-a-new-relationship}
+###Adding a New Relationship {#adding-a-new-relationship}
 
 To add a new relationship for a project location, click on the Relationships tab. Then, click on **Add relationship**. 
 
-![](/assets/add-relationship-01.png)
+![](/assets/records-05.png)
 
 In the pop-up that follows, you'll be first asked to either choose from an existing party or add a new one. 
 
@@ -113,17 +134,17 @@ In the pop-up that follows, you'll be first asked to either choose from an exist
 
 If you're adding a new one, you'll need to provide:
 
-* Party name, 
-* Party type (individual, group, or corporation), and
-* Party notes. 
+* Name, 
+* Type (individual, group, or corporation), and
+* Any other information you might have. 
 
 Next, you'll be asked to add relationship details: including the [tenure type](#tenure-type) and notes about the tenure. 
 
 When you're done adding notes about the relationship, click save. 
 
-#### Tenure Type {#tenure-type}
+### Tenure Type {#tenure-type}
 
-**Tenure type** refers to the type of ownership or right that a party may have with regards to a location. In the Cadasta Platform, you can define a party's tenure type in a variety of ways. 
+**Tenure type** refers to the type of ownership or right that people may have to a location. In the Cadasta Platform, you can define tenure type in a variety of ways. 
 
 * Carbon Rights
 * Concessionary Rights
@@ -146,26 +167,26 @@ When you're done adding notes about the relationship, click save.
 
 To learn more about many of these terms, see the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e). 
 
-### Resources {#project-resources}
+## Resources {#project-resources}
 
 Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
 
 The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
 
 * Resources pertaining a specific location,
-* Resources pertaining to a party, and
+* Resources pertaining to a person or party, and
 * Resources pertaining to the project generally.
 
 
-####Adding a New Resource {#adding-new-resource}
+###Adding a New Resource {#adding-new-resource}
 
 There are a few ways to add a new resource, depending on what it pertains to.
 
 If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Attach.**
 
-![](/assets/add-resource-01.png)
+![](/assets/records-06.png)
 
-To add a **resource that pertains to a certain party**, go to the **Parties page** from the location overview page. 
+To add a **resource that pertains to a certain person or party**, go to the **Parties page** from the location overview page. 
 
 ![](/assets/parties-button-02.png)
 
@@ -173,7 +194,7 @@ Then, select the party you'd like to add a resource for.
 
 ![](/assets/parties-button-04.png)
 
-At the bottom of that party's page, select the **Attach** button and upload your resource.
+Then click on the Resources tab. There, select the **Attach** button and upload your resource.
 
 ![](/assets/parties-button-03.png)
 
@@ -183,7 +204,7 @@ Clicking on resources from the project overview page will take you to your proje
 
 ![](/assets/add-resource-02.png)
 
-To add a resource while you're in the the library, click **Add** on the upper right.
+To add a resource while you're in the the library, click **Attach** on the upper right.
 
 From any of these starting points, you'll be led to a pop-up window. Here, you'll be asked to upload a file, and give it a name and description. 
 
@@ -202,10 +223,23 @@ Acceptable file types are:
 * .tiff
 * .xls
 * .xlsx
-* .xml (This file type is particularly useful if you need to upload a .gpx document; just change the file extension from .gpx to .xml)
+* .xml 
+* .gpx
 
-#####.gpx Files as Project Resources
+####.gpx Files as Project Resources
 
-If you've been collecting data in .gpx format, you can store it as a resource in the Cadasta system. All you need to do is change the .gpx extension to  .xml.  
+![](/assets/gpx.png)
 
-At this time, .gpx files do not produce new project locations for you; this is a feature that's coming soon. 
+If you've been collecting data in .gpx format (which is the filetype created by most GPS devices) you can store it as a resource in the Cadasta system. [You can use these files to create new project locations](#gpx-location). 
+
+## Searching Through Records {#search}
+
+If you need to find a record in the data you've collected, you can search for it using the search bar at the top of the Project Overview page. 
+
+![](/assets/search-00.png)
+
+This will produce a search result with the record you're looking for. 
+
+![](/assets/search-01.png)
+
+At this time, you cannot use Search to look through geographic records (a.k.a. the points, lines, and polygons you see on the map); however, you can use it to search for people and parties. 

@@ -5,7 +5,7 @@
 * [Editing a Project](#editing-a-project)
 * [Project Members & Member Permissions](#project-members-member-permissions)
 
-### Overview {#overview}
+## Overview {#overview}
 
 Within any organization, there may be any number of projects: initiatives to collect information about a series of locations in a given area. This section goes over how to [create a new project](#setting-up-a-new-project) in the Cadasta Platform, as well as how to [edit it](#editing-a-project) and [assign member permissions](#assign-member-permissions) for different projects. 
 
@@ -105,12 +105,12 @@ When you're done, **congratulations!** You've created your very first project.
 
 Your next steps are to start collecting records for your project, including:
 * **project locations** - all the parcels, buildings, boundaries and other locations relevant to your project;
-* **location relationships** to **parties** that have some right or access to one or more of your locations, and 
+* **location relationships** to **people (or parties)** that have some right or access to one or more of your locations, and 
 * **resources** like photos, deeds, and other documentation related to your project, or an associated location or party. 
 
-Read more about these records in the next section: [Project Records: Locations, Parties, Relationships, and Resources](04-records.md). 
+Read more about these records in the next section: [Project Records: Locations, People (Parties), Relationships, and Resources](04-records.md). 
 
-### Editing a Project {#editing-a-project}
+## Editing a Project {#editing-a-project}
 
 Once you've created a project, you may find that you need to make some changes. There are three aspects of a project that you can change:
 
@@ -120,57 +120,49 @@ Once you've created a project, you may find that you need to make some changes. 
 
 * Member Permissions. 
 
-To change any of these aspects of your project, navigate to your project page, and then click the three dots on the upper right of your screen. 
+To change any of these aspects of your project, navigate to your project page, and then click **More actions** button in on the upper right of your screen. 
 
-![](/assets/edit-project-info.png)
+![](/assets/project-03.png)
 
 From there, select the item that needs to be edited. 
 
-#### Editing a Project Boundary
+### Editing a Project Boundary
 
 Once you've navigated to the Edit Project Boundary page, you have a few options for making edits.  
 
 One is simply to drag the points already drawn on the map. 
 
-![](/assets/edit-project-boundary-easy.png)
+![](/assets/project-04.png)
 
 Alternatively, you can select the polygon or rectangle tools to draw completely new boundaries. 
 
 When you're done, click the **gray Save button** on the left to save your shape, and the **green Save button** on the right to save your project location. 
 
-####Editing Project Details
+###Editing Project Details
 
 Once you've navigated to the Project Details page, you can edit information like the name, description, or privacy settings. When you're done, save your changes by clicking the **Save** button at the bottom of the page. 
 
-####Editing Member Permissions
+###Editing Member Permissions
 
 Once you've navigated to the Edit Member Permissions page, you can change your member permissions by using the drop-down menu for each member. 
 
 To learn more about member permissions and what they mean, read on to the next section.
 
-####Archiving a Project
+###Archiving a Project
 
 When it's time for your project to come to a close, you can easily archive it. Archiving allows you to keep all of your data in the Cadasta platform, while keeping it out of the way of current projects. 
 
-To archive a project, go to the project's Overview page. From there, click the three dots in the upper right, then select **Archive Project**. 
+To archive a project, go to the project's Overview page. From there, click the **More actions** button in the upper right, then select **Archive Project**. 
 
-![](/assets/archive-project-01.png)
+You'll be asked to confirm that you want to archive the project.
 
-You'll be asked to confirm that you want to archive the project:
+If you'd like to unarchive the project, first navigate to the Organization Overview page. Then, select Archive from the dropdown menu at the top of the list of projects.
 
-![](/assets/archive-project-02.png)
-
-If you'd like to unarchive the project, first navigate to the Organization Overview page. Then, select Archive from the dropdown menu at the top of the list of projects:
-
-![](/assets/archive-project-03.png)
-
-Then, on the archived project's page, select the three dots in the upper right, then **Unarchive Project**. 
-
-![](/assets/archive-project-04.png)
+Then, on the archived project's page, select the **More actions** button in the upper right, then **Unarchive Project**. 
 
 Now the project is active again.
 
-### Project Members & Member Permissions {#project-members-member-permissions}
+## Project Members & Member Permissions {#project-members-member-permissions}
 
 When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for that project. Currently, there are five user roles, each with their own set of privileges:
 

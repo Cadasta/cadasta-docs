@@ -1,11 +1,14 @@
 # Cadasta XLSForms & Custom Data Collection
 
+_Note! Check out our [Cadasta XLSForm video here](https://www.youtube.com/watch?v=m3vg7mxJjNM)._
+
 * [Overview](#overview)
 * [Types of Cadasta Template Forms](#types)
 * [Parts of a Cadasta Form](#parts)
 	* [Survey Tab](#survey-tab)
 	* [Choices Tab](#choices-tab)
 	* [Settings Tab](#settings-tab)
+* [Cadasta XLSForm & Language](#xlsform-language)
 * [Customizing Your XLSForm for Cadasta](#customizing-your-xlsform)
 * [Troubleshooting](#troubleshooting)
 
@@ -138,6 +141,7 @@ Groups contain one or more questions or other nested groups. Some of may repeat,
 | `begin_group` | Sets the beginning of a group | | Do not edit this row! |
 | `end_group` | Sets the beginning of a group | | Do not edit this row!|
 
+It's important to include the groups section headers. This ensures the information inside shows up in the platform and on GeoODK and ODK.
 
 #### Repeats
 
@@ -194,6 +198,23 @@ The Settings tab is devoted to a few special settings.
 | `form_id`| Provides a unique ID for this form. | | Make sure that you have a different ID for each of your Cadasta projects!|
 | `title`| What shows up on ODK or GeoODK when you load the form | | |
 | `default_language`| Shows the default language being used on the form. | | Use the 2-digit ISO country code to choose your language. For example, `en` sets the form to English. You can find the ISO codes listed here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes|
+
+
+## Cadasta XLSForm & Language {#xlsform-language}
+
+You can add one or more language options to your Cadasta XLSForm, making it possible to collect survey data in a variety of languages.
+
+To add a new language, create a new `label` column in the Survey tab, and give it a title like `label::fr`. Here, `fr` is the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">two-digit ISO code</a> for French, but you can choose any language you like. 
+
+In your new `label::[language]` column, provide translations for each label line by line. 
+
+Similarly, in the `choices` tab, add a `label::[language]` column for multiple choice selections you'd like to see in a different language. 
+
+On the Platform, you can toggle language options in the upper right: 
+
+![](/assets/translation-01.png)
+
+Note that the language selected on the upper right only changes the language of the survey questions and answers, not the whole platform. Similarly, the language selected on the lower right does not change the language shown on the
 
 
 ## Customizing Your XLSForm for Cadasta {#customizing-your-xlsform}
@@ -258,9 +279,11 @@ The codes can be used multiple times in your form, preceding unique words like `
 Before uploading your form to your project, check to make sure that:
 
 * all of your data entry `types` match those listed in the table above and and are spelled correctly. 
-* all of your `names` are lowercase and contain no spaces. 
+* all of your `names` are lowercase, start with a letter, and are made of letters, numbers and underscores. 
 * all of your `list_names` in the Choices tab match the name you've given to your dropdowns in the Survey tab.
 * all of your `form_ids` are distinct, contain no spaces, and start with a lowercase letter.
+* all of your photos are smaller than 10MB. 
+* none of mandatory fields have been edited or deleted.
 
 Simple misspellings and formatting inconsistencies can cause errors when it's time to collect data. For this reason, we highly recommend testing your data collection before heading out to the field. 
 
