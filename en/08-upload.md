@@ -17,11 +17,11 @@ Before importing your data, you'll want to make sure that the structure of your 
 
 In this example, you can see a .csv of responses:
 
-![](/assets/upload-sample-csv.png)
+![](/assets/import-00-example.png)
 
 Which works with this form:
 
-![](/assets/upload-sample-questionnaire.png)
+![](/assets/import-01-form.png)
 
 Here you can see that: 
 
@@ -31,7 +31,7 @@ Here you can see that:
 
 If you look at the `choices` tab of the form, you can also see that the options in the `name` column match entries in the .csv. Note that these options need to match exactly in both spelling and format. 
 
-![](/assets/upload-sample-questionnaire-choices.png)
+![](/assets/import-02-choices.png)
 
 If you have questions about whether your form matches your data set, need to create a form to match your data set, or are having trouble importing data from your .csv, please don't hesitate to <a href="http://cadasta.org/contact/" target="_blank">reach out to us</a> for assistance. 
 
@@ -39,23 +39,17 @@ If you have questions about whether your form matches your data set, need to cre
 
 To import your data, navigate to the main project page. There, select the **More actions** button on the upper right, and then Import Data. 
 
-![](/assets/import-01.png)
+![](/assets/import-04-select-import.png)
 
 Next, you'll come to a page where you can give the file a name and select your .csv for uploading. 
 
-![](/assets/import-02.png)
+![](/assets/import-05.png)
 
 Note that here you need to select whether you'll be uploading an Excel file or a CSV. Make sure that the selected file type matches the one of the file being uploaded.
 
-![](/assets/import-03.png)
-
 On the page that follows, you'll be shown some messages indicating required fields in the Cadasta XLSForm that do not have corresponding fields in the data. Just click Next to get to the next stage.
 
-![](/assets/import-04.png)
-
 On the next page, you'll need to configure a couple types of fields. 
-
-![](/assets/import-05.png)
 
 One type is for selecting the type of default people / party name and type (individual, group, or corporation). The other is for selecting the type of location and geometry field. These simply create default inputs for required fields not shown in the .csv.
 
@@ -68,9 +62,14 @@ If the upload is completed successfully, you'll be able to see all of the record
 If you're getting an error with your import, make sure that:
 
 * **The import is the right size.** The platform can import up to 10 MB at a time. 
-Too large of an import (imports can only handle so many records at this time)
-Poorly spelled or not matching field names or values
-Values that do not map to the choice values listed in the form
-Mismatched columns (an error in the 2nd step with matching up the column headers to the form names)
-Improperly formatted geo column
-Missing required fields (location_type, party_name, tenure_type, party_type, etc)
+* **Your field headers are spelled correctly.** If the headers on your import don't match the headers of the Cadasta XLSForm used to create your project, the import will not work. 
+* **Choice options align between your import and your Cadasta XLSForm.** The choices entered on your import must match the choice options in the choice tab of the Cadasta XLSForm used to create your project. 
+* **Columns match up.** The columns in both spreadsheets must be in the same order. 
+* **The geography sections are formatted correctly.** [See one of our sample forms](https://docs.cadasta.org/en/09-XLSForms.html#types) for more information. 
+* **All required fields are present.** Examples are `location_type` `party_name` and `tenure_type`. Again, [see one of our sample forms](https://docs.cadasta.org/en/09-XLSForms.html#types) for more information. 
+
+If you're importing a CSV, also be sure to format `select_multiple` options with quotes around them, like this:
+
+```
+select_multiple: "optionA, optionB"
+```
