@@ -40,8 +40,6 @@ When you're done, save your location.
 
 To access this location, click on it from the main project page. 
 
-![](/assets/records-02-polygon-03.png)
-
 #### Adding a Location from a GPX File {#gpx-location}
 
 If you've been collecting location using a GPS device, you can upload GPX files and use them to create a new location. 
