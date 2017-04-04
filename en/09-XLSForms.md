@@ -1,6 +1,6 @@
 # Cadasta XLSForms & Custom Data Collection
 
-_Note! Check out our [Cadasta XLSForm video here](https://www.youtube.com/watch?v=m3vg7mxJjNM)._
+_Note: Check out our [Cadasta XLSForm video here](https://www.youtube.com/watch?v=m3vg7mxJjNM)._
 
 * [Overview](#overview)
 * [Types of Cadasta Template Forms](#types)
@@ -14,27 +14,27 @@ _Note! Check out our [Cadasta XLSForm video here](https://www.youtube.com/watch?
 
 ## Overview {#overview}
 
-Every data collection project is different - starting with the questions you're asking. These questions shape everything about the project- including the entry fields for data collection.
+Each data collection project is different - starting with the goal of the survey. The format, order and structure of the questions you ask make a huge difference in the field and when you are conducting analysis on the data later.
 
-The Cadasta Platform allows you to define your own data collection schema, so you can tailor it around the specific questions you're asking. These questions could include contact details, geographic place names or how the land was acquired.
+The Cadasta Platform allows you to define your own data collection schema. You can customize your survey around specific themes that you are aiming to uncover through specific questions. These questions can include anything from text field of thea respondent's contact details to a drop down list of village names to a multiple select option of how the land was acquired.
 
-In the Cadasta Platform, the underlying technology that enables this comes from [XLSForm](http://xlsform.org/). XLSForm is a form standard that allow you to create forms using a spreadsheet. The forms are low-fi alternatives to using a database. They are also designed to handle information of varying degrees of complexity.  
+The underlying technology in the Cadasta Platform is [XLSForm](http://xlsform.org/). XLSForm is a form standard that allows you to create a custom questionaire using a spreadsheet (or Google sheet)-- instead of a clunky database. With XLSForm, you can add various types of fields, like integers, radio questions, checkbox questions, text fields, etc. You can also add default values or logic that will show certain questions depending on the answers of previous questions. The forms are low-fi alternatives to a database. They are also designed to handle information of varying degrees of complexity.  
 
-In this section, you'll learn about how to use XLSForms designed specifically for use with the Cadasta system. 
+The Cadasta Platform uses a subset of features from XLSForm so that users are able to focus on custom questions they want to ask in the field and on the web. In this section, you will learn about how to use XLSForms designed specifically for use with the Cadasta system. 
+  
 
 ## Types of Cadasta Template Forms {#types}
 
-When it comes to data schemas, land rights documentation often falls into one of three different categories:
+_Note: To fully view these projects, you can register your own account or log in with the following credentials:_
+
+* _username: `demo`_
+* _password: `password`_
+
+On the Cadasta platform, survey structure falls into one of three relationships:
 
 * One person (or group of people) using one piece of land ([project example - Customary Rights](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/customary-rights-ghana/)),
 * One person (or group of people) using many pieces of land ([project example - Smallholder Farming](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/smallholder-farmers-india/)). 
 * Many different people (or groups of people) using one piece of land ([project example - Urban Informal Settlements](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/urban-informal-settlement-enumeration/)), and
-
-
-_To fully view these projects, log in with the following credentials:_
-
-* _username: `demo`_
-* _password: `password`_
 
 Cadasta has designed a template form for each of these use cases, which you can download here: 
 
@@ -42,25 +42,25 @@ Cadasta has designed a template form for each of these use cases, which you can 
 * [Smallholder Agriculture (1:Many) Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx) - for when you're documenting person (or party) in relation to many locations
 * [Urban Informal Settlements (Many:1) Form](https://docs.google.com/spreadsheets/d/1iORFg75ofq-QzLB5x-WvuggEZN6JaE0iS6yqc7dE1Y0/pub?output=xlsx) – for documenting may people (or parties) to one location.
 
-**These forms should be the starting point of any Cadasta project.** Keep reading to learn about how they work and [how to customize them](#customizing-your-xlsform).
+**These forms are the starting point of any Cadasta project.** Keep reading to learn about how they work and [how to customize them](#customizing-your-xlsform).
 
 ## Parts of a Cadasta Form {#parts}
 
-Each Cadasta form follows a similar structure. Here, we're looking at the [Smallholder Agriculture (1:Many) Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx). 
+Each Cadasta form follows a similar structure. This guide will walk you through the [Smallholder Agriculture (1:Many) Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx). 
 
 ### Form Tabs
 
 There are 3 tabs. 
 
-* **Survey** shows all of the survey questions you’re asking. 
-* **Choices** lists all of the choices that appear in multiple choice questions or drop-down menus. 
-* And finally, **Settings** has some basic information about the form and its default language.
+* **Survey** shows all of the survey questions. 
+* **Choices** lists all of the choices that appear in single-choice (dropdown) or multiple-choice (checkboxes) questions.
+* And finally, **Settings** has the required form name and language information.
 
-A Reference Table tab has been added as well, to make it easy to look up the fields and syntax required by the form. 
+A Reference Table tab has been added, as well, to make it convinent to look up the fields and syntax required by the form. 
 
 ### Survey Tab {#survey-tab}
 
-![](/assets/xls-01-survey-tab.png)
+![survey tab](/assets/xls-01-survey-tab.png)
 
 The Survey Tab shows all of the survey questions you're asking. This section outlines everything you need to know about this important tab.
 
