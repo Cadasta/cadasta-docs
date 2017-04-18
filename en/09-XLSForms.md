@@ -25,28 +25,27 @@ The Cadasta Platform uses a subset of features from XLSForm so that users are ab
 
 ## Types of Cadasta Template Forms {#types}
 
-_Note: To fully view these projects, you can register your own account or log in with the following credentials:_
 
-* _username: `demo`_
-* _password: `password`_
+Since Cadasta XLSForms are the basis for all Cadasta projects, Cadasta has designed a variety of template forms for you to start from. Each starter form maps to a common land rights documentation use case. 
 
-On the Cadasta platform, survey structure falls into one of three relationships:
+To get started, choose the form that most closely matches your documentation needs. If you need help or have questions, [please contact us](http://cadasta.org/contact/).
 
-* One person (or group of people) using one piece of land ([project example - Customary Rights](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/customary-rights-ghana/)),
-* One person (or group of people) using many pieces of land ([project example - Smallholder Farming](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/smallholder-farmers-india/)). 
-* Many different people (or groups of people) using one piece of land ([project example - Urban Informal Settlements](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/urban-informal-settlement-enumeration/)), and
+* The [Customary Rights Form](https://docs.google.com/spreadsheets/d/1MHg6iok4SkDxN2NdMVt3P2W9UZe81VxH6CpAz_eUtOY/pub?output=xlsx) is designed for documenting the rights of a single group of people who are using a single parcel or piece of land, like in this [Customary Rights project in Ghana](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/customary-rights-ghana/). 
+* The [Sustainable Sourcing Form](https://docs.google.com/spreadsheets/d/1hyF_uxZb4959lxD6vDMM574cQEFTyq636VAS7n3e0MA/pub?output=xlsx) is for documenting land that's being used for sustainable agricultural production.
+* The [Smallholder Agriculture Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx) is designed for documenting a farmer's rights to use one or more plots of land. See this [Smallholder Farming project](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/smallholder-farmers-india/) as an example. 
+* The [Urban Informal Settlements Form](https://docs.google.com/spreadsheets/d/1iORFg75ofq-QzLB5x-WvuggEZN6JaE0iS6yqc7dE1Y0/pub?output=xlsx) is for documenting many people who may be living in a very small urban area, like in [this Urban Informal Settlements project](https://demo.cadasta.org/organizations/cadasta-demo-organization/projects/urban-informal-settlement-enumeration/).  
 
-Cadasta has designed a template form for each of these use cases, which you can download here: 
+To view the example projects listed above, visit <a href="https://demo.cadasta.org/dashboard/" target="_blank">demo.cadasta.org</a>. There you can create an account or log in using the following credentials:
 
-* [Customary Rights (1:1) Form](https://docs.google.com/spreadsheets/d/1MHg6iok4SkDxN2NdMVt3P2W9UZe81VxH6CpAz_eUtOY/pub?output=xlsx) -  for situations where you're documenting one person (or party) along with one location.
-* [Smallholder Agriculture (1:Many) Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx) - for when you're documenting person (or party) in relation to many locations
-* [Urban Informal Settlements (Many:1) Form](https://docs.google.com/spreadsheets/d/1iORFg75ofq-QzLB5x-WvuggEZN6JaE0iS6yqc7dE1Y0/pub?output=xlsx) – for documenting may people (or parties) to one location.
+* user: `demo`
+* pass: `password`
 
 **These forms are the starting point of any Cadasta project.** Keep reading to learn about how they work and [how to customize them](#customizing-your-xlsform).
 
 ## Parts of a Cadasta Form {#parts}
 
 Each Cadasta form follows a similar structure. This guide will walk you through the [Smallholder Agriculture (1:Many) Form](https://docs.google.com/spreadsheets/d/1HKal7WyNSji80cg7ID9FnXh9-4dFvjSuqHJKu4_vxxI/pub?output=xlsx). 
+
 
 ### Form Tabs
 
@@ -91,45 +90,45 @@ The Survey tab includes some important column headers you need to know about.
 
 | Item | Description | Synonyms | Notes |
 |:--------|:--------|:--------|:--------|
-|`type` | defines the type of question it is, like a text, date, integer, or multiple choice question.| ||
-|`name`| gives a database-readable name to the question. || It must start with a letter only be made of letters, numbers, and underscores.|
-|`label`| where you write the question you want to actually show up on the survey.|`label::[language]`|To add a language, append `label::` with the desired 2-digit ISO country code. e.g. `fr` is French. You can find a list of ISO codes here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes|
+|`type` | Defines the type of question it is, like a text, date, integer, or multiple choice question.| ||
+|`name`| Gives a database-readable name to the question. || It must start with a letter only be made of letters, numbers, and underscores.|
+|`label`| Where you write the question you want to actually show up on the survey.|`label::[language]`|To add a language, append `label::` with the desired 2-digit ISO country code. e.g. `fr` is French. You can find a list of ISO codes here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes|
 |`required`| indicates whether a question is required | `bind:required`| Allowed values: `yes`, `no`, `TRUE`, `FALSE`, `true()`, `false()`; or a statement that evaluates as true or false. The following [data entry types](#data-entry-types) must be set to `required`in order to work: `select_one`, `select_multiple`, and `date`. |
-|`hint`|Optional.  This column allows you to give additional information to the person filling out the form.|||
+|`hint`|_Optional._  This column allows you to give additional information to the person filling out the form.|||
 |`default`| A default value that is pre-filled before the user gets to the question ||In the above example, in line 22, the default selection is set to `renter`.|
-|`relevant`| adds visibility logic. In other words, it allows you to show or hide questions based on an answer to another question. |||
+|`relevant`| adds visibility logic. In other words, it allows you to show or hide questions based on an answer to another question. ||||
 
 
 #### Data Entry Types{#data-entry-types}
 
 The `type` field can take many different data entry types. 
 
-These data entry types go with **meta questions**. These questions are hidden to the user.
+These data entry types go with **meta questions**. These questions are hidden to the user, but required for the form to work.
 
 | Item | Description | Synonyms | Notes |
 |:--------|:--------|:--------|:--------|
 | `start` | Records when the form was loaded| | |
 | `end` | Records when the form was finished| | |
 | `today` | Records the date the form was loaded| | |
-| `deviceid` | Get the device ID (for Android devices) | | |
-
+| `deviceid` | Gets the device ID (for Android devices) | | | | |
+ 
 The below data entry types go with **regular questions**, which do appear to the user. 
 
 | Item | Description | Synonyms | Notes |
 |:--------|:--------|:--------|:--------|
-| `select_one` `[list_name]` `[or_other]`  | User can choose one of several choices| | Must be set to Required to work|
-| `select_multiple` `[list_name]` `[or_other]`  | User can choose one or more of several choices| | Must be set to Required to work|
+| `select_one` `[list_name]` `[or_other]`  | User can choose one of several choices| | Must be set to `required` to work|
+| `select_multiple` `[list_name]` `[or_other]`  | User can choose one or more of several choices| | Must be set to `required` to work|
 | `text`  | User can enter a text response| | |
 | `integer`  | User can enter an integer| | |
 | `decimal`  | User can enter a decimal number | | |
-| `date`  | User can enter a date| | Must be set to Required to work|
+| `date`  | User can enter a date| | Must be set to `required` to work|
 | `image`  | User can take or attach a picture| `photo`| |
 | `audio`  | User can record or attach audio | | |
 | `video`  | User can record or attach video| | |
 | `note`  | User is shown a note (no response possible)| | |
 | `geopoint`  | Collects a single point of data based on the user's GPS coordinates.| | |
-| `geoshape`  | records a polygon made of multiple GPS coordinates, which are drawn on-screen. | | |
-| `geotrace`  | records a line of two or more GPS coordinates.  | |Location pins are added based on the user's GPS coordinates. 
+| `geoshape`  | Records a polygon made of multiple GPS coordinates, which are drawn on-screen. | | |
+| `geotrace`  | Records a line of two or more GPS coordinates.  | |Location pins are added based on the user's GPS coordinates. 
 
 
 #### Groups
@@ -141,17 +140,14 @@ Groups contain one or more questions or other nested groups. Some of may repeat,
 | `begin_group` | Sets the beginning of a group | | Do not edit this row! |
 | `end_group` | Sets the beginning of a group | | Do not edit this row!|
 
-It's important to include the groups section headers. This ensures the information inside shows up in the platform and on GeoODK and ODK.
+It's important to include the groups section headers. This ensures the information inside shows up in the right section of the platform, as well as in GeoODK and ODK.
 
 #### Repeats
 
 ![](/assets/xls-02-repeats.png)
 
-Both the Many-to-One and One-to-Many (shown above) forms make use of Repeats. Repeats allow you the option of repeating a section of questions without having to start the whole survey all over again. 
+Both the Urban Informal Settlements and Smallholder Agriculture forms make use of Repeats. Repeats allow you the option of repeating a section of questions without having to start the whole survey all over again. 
 
-In GeoODK, for example, a repeat gives you a screen like the one shown below. 
-
-You have the option to repeat the section or not. This is the feature that allows you to collect information for many people associated with a single location, or for many locations associated with a single person or group of people.
 
 | Item | Description | Synonyms | Notes | 
 |:--------|:--------|:--------|:--------|
@@ -165,7 +161,7 @@ Form Variables create conditional logic in the form. They can be used in the `re
 | Item | Description | Synonyms | Notes | 
 |:--------|:--------|:--------|:--------|
 | `${variable_name}` | Reference another question (can be used in skip logic condition [relevant], validation, inside another question or hint label| | |
-| `.` | Current question| | |
+| `.` | Current question| | | |
 
 ### Choices Tab {#choices-tab}
 
@@ -229,8 +225,7 @@ The first thing you need to do is think through the questions you'll be asking i
 
 3. Identify each question's data entry type. What kind of  entry would work best for each question - a date? A text field? A drop-down or multiple choice?
 
-4. Choose your starter template form based on your use case:
-Are you documenting one group of people per location? Or many different groups in a single location? Or how one group of people uses many different locations? 
+4. Choose your starter template form based on your use case. Is it most like a sustainable sourcing project? Or smallholder agriculture documentation? Or something else?
 
 Once you've thought this through, you can start adding your questions to their appropriate section.
 

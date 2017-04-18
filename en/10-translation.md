@@ -22,7 +22,7 @@ The dropdown above is available anywhere on the platform.
 
 In addition, [Cadasta XLSForms](09-XLSForms.md) can be written in over 100 different supported languages. To view your questions or data that has been collected in one of these languages, navigate to the Project Overview page, and then use the drop-down menu on the top right to select your language.
 
-![](/assets/translation-01.png)
+![](/assets/translation-01-xlsform.png)
 
 ## Translating the Cadasta Platform with Transifex {#translating-with-transifex}
 
