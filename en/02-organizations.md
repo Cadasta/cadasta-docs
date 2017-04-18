@@ -9,7 +9,7 @@
 
 ## Overview{#overview}
 
-Organizations in the Cadasta System represent organizations in the real world – typically NGOs who are working with communities to help them document their land rights and resources. This section outlines how to [create](#creating-a-new-organization) and [edit](#editing-your-organizations-information) organizations in the Cadasta Platform, along with how to [add organization members](#adding-organization-members) and [assign permissions to them](#editing-member-organization-permissions). 
+Organizations in the Cadasta System represent organizations in the real world – typically NGOs that are working with communities to help them document their land rights and resources. This section outlines how to [create](#creating-a-new-organization) and [edit](#editing-your-organizations-information) organizations in the Cadasta Platform, along with how to [add organization members](#adding-organization-members) and [assign permissions to them](#editing-member-organization-permissions). 
 
 ## Creating a New Organization {#creating-a-new-organization}
 
