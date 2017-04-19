@@ -11,6 +11,8 @@
 * [Importing Data](08-upload.md)
 * [Cadasta XLSForms & Custom Data Collection](09-XLSForms.md)
 * [Language Management & Translation](10-translation.md)
-* [Frequently Asked Questions](11-faq.md)
-* [Change Log](12-change-log.md)
+* [QGIS Plugin](11-qgis-plugin.md)
+* [Frequently Asked Questions](12-faq.md)
+* [Change Log](13-change-log.md)
+
 

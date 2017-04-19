@@ -1,6 +1,6 @@
 # Cadasta Platform User Guide
 
-> Last updated 31 Mar. 2017 // see the [Change Log](12-change-log.md) for information about what's changed.
+> Last updated 19 Apr. 2017 // see the [Change Log](13-change-log.md) for information about what's changed.
 
 ## Welcome!
 
@@ -18,8 +18,9 @@ We're glad you've found the Cadasta Platform – a land and resource rights mana
 * [Importing Data](08-upload.md)
 * [Cadasta XLSForms & Custom Data Collection](09-XLSForms.md)
 * [Language Management & Translation](10-translation.md)
-* [Frequently Asked Questions](11-faq.md)
-* [Change Log](12-change-log.md)
+* [QGIS Plugin](11-qgis-plugin.md)
+* [Frequently Asked Questions](12-faq.md)
+* [Change Log](13-change-log.md)
 
 ## Why We Do What We Do
 

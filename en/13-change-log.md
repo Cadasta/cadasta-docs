@@ -1,5 +1,9 @@
 # Change Log
 
+## Update: April 17, 2017
+
+Added a page linking to documentation about the in-development QGIS Plugin.
+
 ## Update: March 31, 2017
 
 Added documentation about:
