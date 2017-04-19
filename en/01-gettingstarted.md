@@ -36,7 +36,7 @@ If you were to view all these parts as an outline, it would look something like 
       * Resources
 
 
-Typically data for each project is collected in the field. This might be done using mobile applications, paper questionnaires, or applications like Field Papers. The Cadasta Platform currently supports two mobile data collection platforms, which are both available for use on Android devices:
+Typically data for each project is collected in the field. This might be done using mobile applications or paper questionnaires. The Cadasta Platform currently supports two mobile data collection platforms, which are both available for use on Android devices:
 
 * **[Open Data Kit \(ODK Collect\)](05-odkcollect.md)**, and
 * **[Geographical Open Data Kit \(GeoODK Collect\)](06-geoodkcollect.md)**.

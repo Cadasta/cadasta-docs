@@ -50,6 +50,10 @@ Click on the magnifying glass in the upper left to search for your location by n
 
 ![](/assets/cadasta-map-search.png)
 
+##### c. Click on My Location
+
+To zoom to your location, click the My Location button.
+
 #### 3. Create your project boundary.
 
 The next thing you need to do is create your project boundary by drawing either a rectangle or polygon on the map. 
@@ -77,11 +81,13 @@ _Note that if your project is a global one, simply click the green **Next** butt
 
 #### 4. Provide some general information about the project.
 
+![](/assets/project-info.png)
+
 At this stage, you will be asked to fill out some General Information regarding the project, including:
 
 * **Project name**
 
-* **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to members of your organization.
+* **Project privacy preference**, or whether the project will be Public or Private. Public projects are viewable by anyone, whereas private projects are only available to members of your organization. This is an important setting. If you want to contribute ot open data, make your project Public. If your project contains confidential information that you'd rather not share, select Private. Note that project administrators can change this setting at any time.
 
 * **Project description**
 
@@ -166,11 +172,9 @@ Now the project is active again.
 
 When you create members of your project, you must assign them permissions. These permissions will define user accesses and privileges for that project. Currently, there are five user roles, each with their own set of privileges:
 
-* **Administrator**. The Administrator can create new projects within an organization and manage user roles and access. This role has full permissions regarding accessing and editing data in the project.
-
 * **Project Manager**. The Project Manager works within an organization on a specific project. This role can also access and edit all data within the project, including adding new users and setting access rights.
 
-* **Data Collector**. The Data Collector primarily works in the field with communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data to a project, but cannot edit existing data.
+* **Data Collector**. The Data Collector primarily works in the field with communities to collect data using Field Papers, Mobile Applications, or by directly entering data into the platform. The Data Collector can add data to a project, as well as edit and delete it.
 
 * **Project User**. The Project User can view all data within the project, even if it is set to private. The Project User does not have the ability to add or edit data.
 

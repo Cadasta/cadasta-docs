@@ -49,7 +49,7 @@ Administrators can edit an organization's information from the Organization Over
 
 Administrators may also archive their organization by selecting **Archive organization **from the same menu.
 
-![](/assets/organization-overview-edit-org.png)
+![](/assets/organization-edit.png)
 
 ## Adding Organization Members
 

@@ -45,9 +45,9 @@ On the page that follows, you’ll find all the projects in Cadasta listed alpha
 
 ##Using the Cadasta XLSForm{#using-the-questionnaire}
 
-####I significantly modified my XLSForm after starting my project. Will it still work? 
+####I modified my XLSForm after starting my project. Will it still work? 
 
-If you've only changed or added a few lines to your form, it should still be able to work with your project. However, if you've significantly modified your form, it may not work. If your Cadasta XLSForm had changed a lot, it's probably a good idea to start a new project.
+Unfortunately, if you've changed your XLSForm, you'll need to start a new project. 
 
 ####Why are some fields gray or colorful in the Cadasta XLSForm while others are white?
 

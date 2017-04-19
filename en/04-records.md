@@ -66,7 +66,6 @@ Location types define the type of location you're uploading:
 * **Community Boundary** - a formal or informal boundary between two groups of people.
 * **Building** - any kind of structure.
 * **Apartment** - an apartment or apartment building.
-* **Project Extent** - the full boundary of the project.
 * **Right-of-Way** - an easement that allows a person or group of people to pass throuh another's land.
 * **Utility Corridor** - a passage, either overground or underground, meant to carry utility lines like electricity and water. 
 * **National Park Boundary** - the boundary between a national park and another kind of land. 
@@ -113,7 +112,9 @@ This will take you to a new page listing all of the parties related to the proje
 
 If you click on a name, it will take you to a detail page where you can see an overview of information about that party, the relationships they have to one or more locations, and any resources associated with them.
 
-parties-02-party-detail.png
+
+![](/assets/parties-02-party-detail.png)
+
 
 ### Relationships {#relationships}
 
@@ -140,28 +141,23 @@ Next, you'll be asked to add relationship details: including the [tenure type](#
 
 When you're done adding notes about the relationship, click save. 
 
-### Tenure Type {#tenure-type}
+### Relationship Type {#tenure-type}
 
-**Tenure type** refers to the type of ownership or right that people may have to a location. In the Cadasta Platform, you can define tenure type in a variety of ways. 
+**Relationship type** refers to the type of ownership or right that people may have to a location. In the Cadasta Platform, you can define tenure type in a variety of ways. 
 
-* Carbon Rights
-* Concessionary Rights
-* Customary Rights
-* Easement
-* Equitable Servitude
-* Freehold
-* Grazing Rights
-* Hunting / Fishing / Harvest rights
-* Indigneous Land Rights
-* Joint Tenancy
-* Leasehold
-* Longterm Leasehold
-* Mineral Rights
-* Occupancy (No documented rights)
-* Tenancy (Documented Sub-Lease)
-* Tenancy in Common
-* Undivided Co-Ownership
-* Water Rights
+* CU    Customary Rights
+* EA    Easement
+* ES    Equitable Servitude
+* FH    Freehold
+* JT    Joint Tenancy
+* LH    Leasehold
+* LL    Longterm leasehold
+* OC    Occupancy (No Documented Rights)
+* TN    Tenancy (Documented Sub-lease)
+* TC    Tenancy in Common
+* UC    Undivided Co-ownership
+* WR    Water Rights
+
 
 To learn more about many of these terms, see the glossary from [Focus on Land in Africa](http://www.focusonland.com/resources/glossary/#e). 
 
@@ -169,10 +165,11 @@ To learn more about many of these terms, see the glossary from [Focus on Land in
 
 Land rights projects can come with all kinds of documentation - like legal documents, letters, pictures and more. Some of that documentation may relate to multiple locations within a project, or to one location, or it may just relate to the project in general.
 
-The Cadasta Platform is set up to handle this kind of complexity, organizing resources into three different types:
+The Cadasta Platform is set up to handle this kind of complexity, organizing resources into four different types:
 
 * Resources pertaining a specific location,
-* Resources pertaining to a person or party, and
+* Resources pertaining to a person or party, 
+* Resources partaining to a relationship, and
 * Resources pertaining to the project generally.
 
 
@@ -186,15 +183,15 @@ If you're adding a **project location resource**, select the **Resources tab** f
 
 To add a **resource that pertains to a certain person or party**, go to the **Parties page** from the location overview page. 
 
-![](/assets/parties-button-02.png)
+![](/assets/parties-00-button.png)
 
 Then, select the party you'd like to add a resource for.
 
-![](/assets/parties-button-04.png)
+![](/assets/parties-01-page.png)
 
 Then click on the Resources tab. There, select the **Attach** button and upload your resource.
 
-![](/assets/parties-button-03.png)
+![](/assets/parties-02-party-detail.png)
 
 To add a **resource that pertains to the overall project**, go to the project's overview page by clicking **Overview**. Then, click **Resources.** 
 

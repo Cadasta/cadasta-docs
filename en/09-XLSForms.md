@@ -208,7 +208,7 @@ Similarly, in the `choices` tab, add a `label::[language]` column for multiple c
 
 On the Platform, you can toggle language options in the upper right: 
 
-![](/assets/translation-01.png)
+![](/assets/translation-01-xlsform.png)
 
 Note that the language selected on the upper right only changes the language of the survey questions and answers, not the whole platform. Similarly, the language selected on the lower right does not change the language shown on the
 
