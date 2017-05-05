@@ -253,4 +253,4 @@ To edit a polygon on the web...
 5. IMPORTANT: Click "Save" on the LEFT next to the polygon icon. 
 6. Click "Save" on the right. The large, green "Save" button.
 
-![](/assets/edit-00.png)
+![](https://cloud.githubusercontent.com/assets/25337622/25371067/005b8b2e-294c-11e7-9b16-f34edc9f3103.gif)
