@@ -5,6 +5,7 @@
 * [People (a.k.a Parties) and Their Relationship to a Location](#location-relationships)
 * [Resources](#project-resources)
 * [Searching Through Records](#search)
+* [Editing Records and its Polygons, Polylines and Points](#editing)
 
 ## Overview{#overview}
 
@@ -238,3 +239,18 @@ This will produce a search result with the record you're looking for.
 ![](/assets/search-01.png)
 
 At this time, you cannot use Search to look through geographic records (a.k.a. the points, lines, and polygons you see on the map); however, you can use it to search for people and parties. 
+
+## Editing Records and its Polygons, Polylines and Points {#edit}
+
+Sometimes you will find that you need to edit information from the record. Editing location information comes in two parts: (1) changing the geometry (2) changing the questions and answers.
+
+To edit a polygon on the web...
+
+1. Click on a location "Open Location".
+2. You will need to click the "edit" icon on the top right of the location view. 
+3. That should change the polygon outline to pink and dotted.
+4. Click on a white triangle and move it.  Continue editing the polygon until the layer is fixed.
+5. IMPORTANT: Click "Save" on the LEFT next to the polygon icon. 
+6. Click "Save" on the right. The large, green "Save" button.
+
+![](/assets/edit-00.png)
