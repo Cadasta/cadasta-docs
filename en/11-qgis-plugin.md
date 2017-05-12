@@ -24,21 +24,55 @@ Please note that this section assumes that you have already created a Cadasta ac
 Before getting started with the plugin, you'll need to install QGIS. Find the version you need on the <a href="http://www.qgis.org/en/site/forusers/download.html" target="_blank">QGIS download page</a> and then follow their instructions for installation. 
 
 
-### 2. Install the Cadasta Plugin for QGIS
+### 2. Install & Activate the Cadasta Plugin for QGIS
 
-Next, install the Cadasta Plugin. At this time, the installation must be completed on the command line. 
+Next, install and activate the Cadasta Plugin. 
 
-First, navigate to the folder where QGIS is installed. The command will 
+At this time, the first part of this process must be completed on the command line. 
 
+On a Mac, open Terminal and then navigate to the QGIS `plugins` folder by using the following command:
 
+```
+.qgis2/python/plugins
+```
 
-To do this, you need to open Terminal on your computer and enter the following command:
+Then, install the plugin directly from the repo using this command:
 
-cd ~.qgis/python/plugins
+```
 git clone https://github.com/Cadasta/cadasta-qgis-plugin.git
 ```
 
-* Installing the Plugin
+Once your installation is complete, start or restart QGIS.
+
+Inside the application, navigate to `Plugins > Manage & Install Plugins`. In the popup that appears, select Cadasta. Be sure that the checkbox to the right of the name is ticked (it's a little hard to see).
+
+> add image
+
+Then, you can close the popup window. 
+
+### 3. Connect to your Cadasta Account
+
+Now, select `Vector > Settings`. Before proceeding, hit **Clear** on the bottom right. 
+
+> add image
+
+Here, enter the platform you're working on (either `https://demo.cadasta.org/` or `https://platform.cadasta.org/`), as well as your username and password. 
+
+Then, hit **Test Connection** in the lower left. If all has been done correctly, you'll get a `Success`message. 
+
+Finally, hit **Save**.
+
+Now you're ready to get to work!
+
+### Additional Recommended Plugins
+
+To make your experience using QGIS the best it can be, Cadasta recommends activating a couple more plugins:
+
+* **OpenLayers** provides a satellite imagery basemap, so that you can see your map data in context of the area around it. 
+
+* **TableManager** makes it easier to edit the attribute tables associated with your spatial data. 
+
+Both of these plugins can be found by selecting `Plugins > Manage & Install Plugins`.
 
 
 ## Plugin Overview {#plugin-overview}
@@ -53,9 +87,6 @@ git clone https://github.com/Cadasta/cadasta-qgis-plugin.git
 * Join Tables
 * Analysis Options, such as styling, printing, and statistical analysis
 
-* Recommended plugins
-	* OpenLayers // basemap, get data in context
-	* TableManager // more aggressively edit the attribute tables
 
 
 ## Creating Projects {#creating}
