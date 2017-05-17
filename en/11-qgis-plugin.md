@@ -37,7 +37,7 @@ At this time, the first part of this process must be completed on the command li
 On a Mac, open Terminal and then navigate to the QGIS `plugins` folder by using the following command:
 
 ```
-.qgis2/python/plugins
+cd .qgis2/python/plugins
 ```
 
 Then, install the plugin directly from the repo using this command:
