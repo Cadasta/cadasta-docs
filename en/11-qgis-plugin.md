@@ -1,12 +1,11 @@
 # Cadasta QGIS Plugin
 
-_12 May 2017: please note that this page is in-progress; refresh to view any changes._
+_16 May 2017: please note that this page is in-progress; refresh to view any changes._
 
 
 * [Overview](#overview})
 * [Setting up the QGIS Plugin](#setup)
 * [Downloading Projects to QGIS](#downloading)
-* [Creating Projects](#creating)
 * [Updating Projects](#updating)
 * [Advanced](#advanced)
 
@@ -15,7 +14,7 @@ _12 May 2017: please note that this page is in-progress; refresh to view any cha
 
 [Quantum GIS (QGIS)](http://www.qgis.org/en/site/) is a free and open source geographic information system. It's a powerful tool that's used by organizations all over the world to work with geographic data, without any cost. Now it can be used to analyze and update the data you've collected using the Cadasta platfom through a custom plugin. 
 
-This section covers how to [set up the plugin](#setup), and then use it to [download](downloading), [create](#creating), and [update](#updating) your Cadasta project using the tool.
+This section covers how to [set up the plugin](#setup), and then use it to [download](downloading) and [update](#updating) your Cadasta project using the tool.
 
 Please note that this section assumes that you have already created a Cadasta account and have an active project. If you need help getting those set up, visit the first three sections of this documentation: [Getting Started](01-gettingstarted.md), [Organizations](02-organizations.md) and [Projects](03-projects.md).
 
@@ -49,17 +48,15 @@ git clone https://github.com/Cadasta/cadasta-qgis-plugin.git
 
 Once your installation is complete, start or restart QGIS.
 
-Inside the application, navigate to `Plugins > Manage & Install Plugins`. In the popup that appears, select Cadasta. Be sure that the checkbox to the right of the name is ticked (it's a little hard to see).
-
-> add image
+Inside QGIS, navigate to `Plugins > Manage & Install Plugins`. In the popup that appears, select Cadasta. 
 
 Then, you can close the popup window. 
 
 ### 3. Connect to your Cadasta Account
 
-Now, select `Vector > Cadsta > User Settings`. Before proceeding, hit **Clear** on the bottom right. 
+Now, select `Vector > Cadasta > User Settings`. Before proceeding, hit **Clear** on the bottom right. 
 
-> add image
+![](/assets/qgis-plugin-01.png)
 
 Here, enter the platform you're working on (either `https://demo.cadasta.org/` or `https://platform.cadasta.org/`), as well as your username and password. 
 
@@ -68,6 +65,9 @@ Then, hit **Test Connection** in the lower left. If all has been done correctly,
 Finally, hit **Save**.
 
 Now you're ready to get to work!
+
+
+
 
 ### Additional Recommended Plugins
 
@@ -102,9 +102,9 @@ Once the Cadasta QGIS plugin is installed and you've connected it to your Cadast
 
 To download the project, select `Vector > Cadasta > Download Project`. On the popup that follows, you can select any of the projects associated with your account. 
 
-> Add image
+![](/assets/qgis-plugin-02.png)
 
-If you're looking for a public project to download, select `Include all Cadasta public projects`.
+If you're looking for a public project to download, select `Include all Cadasta public projects` from below the dropdown.
 
 Once you've selected your project, click **Next** to start downloading. 
 
@@ -112,154 +112,98 @@ When you get a message that `Your data has been downloaded`, click **Close**.
 
 Now you should be able to see your map data in the main QGIS screen, with layers on the left.
 
-> Add image
+![](/assets/qgis-plugin-03.png)
+
+
+### File Layers Overview
+
+Digital maps are made using a series of layers – for example, roads may all be on one layer, while parcel polygons are on another. The basemap, providing background and context for this data, could be on its own layer at the very bottom. Organizing data this way makes it much easier to analyze and style. 
+
+QGIS uses this layering convention as part of its interface. You can see the layers in your project listed one the left of the platform (like in the above image). 
+
+Any basic Cadasta project comes with three different layers: one for parties data, one for relationship data, and one for each type of geographic data: the points, lines, and polygons you have stored on the Cadasta platform. 
+
+The parties and relationships layers do not have a visibility on the map; however they can be joined with your points, lines, and polygons so that you can see which geographic data relates to what party or relationship. _To learn more about joining data layers together, see [Joining Relationships and Parties to Location Geometry](#joining) below._
+
+You can change the order of these layers by dragging and dropping them on top of one another.
 
 
 ### Adding a Basemap
 
-If you'd like to add a little bit of background imagery, then you can add a basemap layer using the OpenLayers plugin, which you can install from `Plugins > Manage & Install Plugins`.
+If you'd like to add a little bit of background imagery to you newly-imported map data, then you can add a basemap layer using the OpenLayers plugin.
+
+You can install the plugin from `Plugins > Manage & Install Plugins`.
 
 Once installed, go to `Web > OpenLayers`, and then select the basemap you'd like to use. Below you can see Stamen's OSM watercolor map being used.
 
-> Add image
+![](/assets/qgis-plugin-04.png)
 
 It's not uncommon for the OpenLayer to appear above your map layer data, making it seem like your data has disappeared. 
 
 To fix, drag your basemap layer to the bottom of your layers. 
 
-> Add image
 
-### Layout of Files
 
-> Katrina, what does this mean?
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Creating Projects {#creating}
-
-_Please note that this feature is in development._
-
-In addition to downloading an existing project from the Cadasta platform, you can create new Cadasta projects using QGIS as well. 
-
-Creating a project with QGIS allows quite a bit of flexibility when it comes to using different data formats. You can upload data as: 
-
-* shapefiles, 
-* geojson, 
-* .kml,
-* .gpx, 
-* .csv,
-
-And any other layer that's supported by QGIS. 
-You can upload any layer, such as a s etc, that is supported by QGIS. _Learn more about supported data formats at <a href="https://docs.qgis.org/2.6/en/docs/user_manual/working_with_vector/supported_data.html" target="_blank">docs.qgis.org</a>._
-
-Please note that creating Cadasta projects using QGIS really only works with location data, with limited capabilities with regards to information about relationships, parties, and resources. If you are starting a project using a lot of that kind of information, Cadasta recommends starting that project on the platform.
-
-If you plan to start a project on QGIS from existing data, and then upload it to the Cadasta platform, then follow the following steps. 
-
-### 1. Prep the data
-
-> Katrina, I feel like we need examples of this. What do these fields look like in GeoJSON? As a shapefile? How does that even work? Or does this only work with certain data types?
-
-The purpose of prepping the data is to make sure that it works with some of the necessary fields in Cadasta: 
-
-* Location types
-* People / Party types
-* People / Party name
-* Relationship / Tenure types
-
-These fields need to be formatted like this:
-
-> add formatting examples
-
-> Katrina, in the below paragraph, you talk about layers. How do these layers come into play??
-
-You can use the Table Manager plugin or Toggle Edit Tool for editing the layer if need be. You will also need to make sure there a column that can be used for the party name field. 
-
-### 2. Create Your Project
-
-Once the data is prepped, select `Vector > Cadasta > Create Project`. This will open a popup window like the one shown below:
-
-> add image
-
-Here, fill out the general project information. Note that the only required field is the project name. 
-
-> Katrina, let's talk about the paragraph below: what if the data isn't formatted as a table?
-
-Beware that if the data does not have the proper required fields or has null values in some of those columns then the project information will be saved without the data. You may need to use a different project name if there are data issues)
-
-![image of step 1]
-
-3. Match up the Cadasta required fields with your layer's column headers.
-
-4. Submit the data
-
-### Part III. Troubleshooting
-
-At the moment there is no easy way to upload party and relationship field data. It is also a little bit trickier to set up select one or select multiple fields. We recommend that you create a questionnaire on the web, download the project with the QGIS project and use the "Update Project" option for being able to upload location layers with party and relationship data.
-
-You can use the "Advanced" settings for adjusting the questionnaire json. (will write up more later)
-
-Notes for more info:
-- format of CSVs-- WKT? 
-- need to check what happens if you edit the field type in the advanced settings
-- need to check about how to upload party and relationship fields via advanced settings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Updating Projects {#updating}
-
-* Editing Fields
-* Adding Fields
-* Details on Version Control
 
 
 ## Advanced {#advanced}
 
-* Joining CSV files
-* Uploading project
-* Advanced json
-* Troublshooting
+### Joining Relationships and Parties to Location Geometry {#joining}
+
+One of the more powerful features of QGIS is its capacity for geographic analysis. For example, for a customary rights Cadasta project, you can use QGIS to see which groups of people are using what piece of land. 
+
+To do this, the parties and relationship data needs to be **joined** to each layer of geographic data. 
+
+To link these layers, right click one of your map data layers and then select **Properties**.
+
+![](/assets/qgis-plugin-05.png)
+
+In the popup that appears, select Joins on the left, and the the green plus sign at the bottom. 
+
+![](/assets/qgis-plugin-06.png)
+
+This will take you to a new popup window where you can join the layers. 
+
+First, join your relationships to the geometry by creating the following settings:
+
+* Join layer: use the option ending in `/relationships`, such as `cadasta-foundation/concessions-in-liberia/relationships`
+* Join field: `spatial_id`
+* Target field: `id`
+
+The settings should look something like this:
+
+![](/assets/qgis-plugin-07.png)
+
+Next, join your parties to the relationships using the following settings:
+
+* Join layer: use the option ending in `/parties`, such as `cadasta-foundation/concessions-in-liberia/parties`
+* Join field: `id`
+* Target field: use the option ending in `/relationships_party_id`, such as `cadasta-foundation/concessions-in-liberia/relationships_party_id`
+
+These settings should look something like this:
+
+![](/assets/qgis-plugin-08.png)
+
+Repeat these steps for each map layer. Now, you can run analysis to see how these fields are joined together. 
 
 
-## Troubleshooting
+connects parties and relationships to geometry
+
+use a different project
+
+used for one to one
+used for one to many
+
+download project
+get relationship csv
+get party csv
+gqis - right click layers - join 
+
+
+_The following sections are in development:_
+
+* Advanced JSON
+* Troubleshooting
 
