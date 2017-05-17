@@ -1,5 +1,9 @@
 # Change Log
 
+## Update: May 16, 2017
+
+Added information about how to use the QGIS Plugin. This page is still in development.
+
 ## Update: April 17, 2017
 
 Added a page linking to documentation about the in-development QGIS Plugin.
