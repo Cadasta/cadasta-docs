@@ -57,7 +57,7 @@ Step 1: Here, fill out the general project information. Note that the only requi
 
 Beware that if the data does not have the proper required fields or has null values in some of those columns then the project information will be saved without the data. You may need to use a different project name if there are data issues)
 
-![image of step 1]
+> ![image of step 1]
 
 Step 2: Match up the Cadasta required fields with your layer's column headers.
 
@@ -71,20 +71,7 @@ At the moment there is no easy way to upload party and relationship field data. 
 
 You can use the "Advanced" settings for adjusting the questionnaire json. The json that you see when
 
-Notes for more info:
-- format of CSVs-- WKT? 
-- need to check what happens if you edit the field type in the advanced settings
-- need to check about how to upload party and relationship fields via advanced settings
-
-
-
-
-
-
-
-
-
-
-
-
-
+> Notes for more info:
+> - format of CSVs-- WKT? 
+> - need to check what happens if you edit the field type in the advanced settings
+> - need to check about how to upload party and relationship fields via advanced settings
