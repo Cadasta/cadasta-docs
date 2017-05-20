@@ -6,7 +6,7 @@ _16 May 2017: please note that this page is in-progress; refresh to view any cha
 * [Overview](#overview})
 * [Setting up the QGIS Plugin](#setup)
 * [Downloading Projects to QGIS](#downloading)
-* [Updating Projects](#updating)
+* [Updating Projects](#updating) -- still a work in progress
 * [Advanced](#advanced)
 
 
@@ -25,16 +25,21 @@ This section also assumes some knowledge of QGIS and how it works. If you are un
 
 ### 1. Download and install QGIS
 
-Before getting started with the plugin, you'll need to install QGIS. Find the version you need on the <a href="http://www.qgis.org/en/site/forusers/download.html" target="_blank">QGIS download page</a> and then follow their instructions for installation. 
-
+Before getting started with the plugin, you will need to install QGIS. Find the version you need on the <a href="http://www.qgis.org/en/site/forusers/download.html" target="_blank">QGIS download page</a> and then follow their instructions for installation. 
 
 ### 2. Install & Activate the Cadasta Plugin for QGIS
 
 Next, install and activate the Cadasta Plugin. 
 
-At this time, the first part of this process must be completed on the command line. 
+At this time, 
 
-On a Mac, open Terminal and then navigate to the QGIS `plugins` folder by using the following command:
+#### Windows
+Make sure that hidden files are viewable on your computer settings. Head to the qgis folder at the root of your computer (should look something like `C:/Users/{username}/qgis`). Then open the `python` folder and then the `plugin` folder.  We will need to extract a file into that folder. 
+
+Head to `https://github.com/Cadasta/cadasta-qgis-plugin` and click on the green button on the right to "Clone or Download" the file. Extract that file in the `python/plugin` folder that you went to.
+#### Mac
+
+On a Mac, the first part of this process must be completed on the command line. Open Terminal and then navigate to the QGIS `plugins` folder by using the following command:
 
 ```
 cd .qgis2/python/plugins
@@ -56,7 +61,7 @@ Then, you can close the popup window.
 
 Now, select `Vector > Cadasta > User Settings`. Before proceeding, hit **Clear** on the bottom right. 
 
-![](/assets/qgis-plugin-01.png)
+> ![](/assets/qgis-plugin-01.png)
 
 Here, enter the platform you're working on (either `https://demo.cadasta.org/` or `https://platform.cadasta.org/`), as well as your username and password. 
 
@@ -65,9 +70,6 @@ Then, hit **Test Connection** in the lower left. If all has been done correctly,
 Finally, hit **Save**.
 
 Now you're ready to get to work!
-
-
-
 
 ### Additional Recommended Plugins
 
@@ -141,11 +143,6 @@ Once installed, go to `Web > OpenLayers`, and then select the basemap you'd like
 It's not uncommon for the OpenLayer to appear above your map layer data, making it seem like your data has disappeared. 
 
 To fix, drag your basemap layer to the bottom of your layers. 
-
-
-
-
-
 
 
 ## Advanced {#advanced}
