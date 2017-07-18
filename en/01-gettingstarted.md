@@ -22,7 +22,7 @@ Before jumping in, it's important to understand this structure and how everythin
 
 ![](/assets/diagram-resources.png)
 
-* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as scanned documents, images, video, audio testimonials or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various **people (or parties)** may have to one or more of it's locations.
+* In addition to storing geographic data, each project is also meant to store a series of **[records](04-records.md)**. These records may include **resources** about the location, such as scanned documents, images, video, audio testimonials or anything else that can help with land rights documentation. All of the location resources are stored in the project **library**. In addition, each project can also track **relationships** that a various **people (or parties)** may have to one or more of its locations.
 
 If you were to view all these parts as an outline, it would look something like this:
 
