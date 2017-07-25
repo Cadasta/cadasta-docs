@@ -21,7 +21,7 @@ The Cadasta Platform is designed to deal with this complexity. This section outl
 
 From the main project page, select either **Add location** or **Add a location**: 
 
-![](/assets/records-01-add-location.png)
+![](/assets/add-location-0724.png)
 
 On the next page, you'll be asked to draw your location on the map as a point, line, polygon, or rectangle.
 
@@ -105,7 +105,7 @@ People are the individuals, groups or corporations who have a relationship to on
 
 To view all of the people / parties who have a relationship with a project or location, click the **Parties** button on the left:
 
-![](/assets/parties-00-button.png)
+![](/assets/parties-0724.png)
 
 This will take you to a new page listing all of the parties related to the project:
 
@@ -126,11 +126,11 @@ Any given location has a relationship to a number of parties. For example, a mun
 
 To add a new relationship for a project location, click on the Relationships tab. Then, click on **Add relationship**. 
 
-![](/assets/records-05.png)
+![](/assets/add-relationship-01-0724.png)
 
 In the pop-up that follows, you'll be first asked to either choose from an existing party or add a new one. 
 
-![](/assets/add-relationship-02.png)
+![](/assets/add-relationship-02-0724.png)
 
 If you're adding a new one, you'll need to provide:
 
@@ -180,11 +180,11 @@ There are a few ways to add a new resource, depending on what it pertains to.
 
 If you're adding a **project location resource**, select the **Resources tab** from the location overview page, and then **Attach.**
 
-![](/assets/records-06.png)
+![](/assets/attach-resource-0724.png)
 
 To add a **resource that pertains to a certain person or party**, go to the **Parties page** from the location overview page. 
 
-![](/assets/parties-00-button.png)
+![](/assets/parties-0724.png)
 
 Then, select the party you'd like to add a resource for.
 
@@ -232,11 +232,11 @@ If you've been collecting data in .gpx format (which is the filetype created by 
 
 If you need to find a record in the data you've collected, you can search for it using the search bar at the top of the Project Overview page. 
 
-![](/assets/search-00.png)
+![](/assets/search-01-0724.png)
 
 This will produce a search result with the record you're looking for. 
 
-![](/assets/search-01.png)
+![](/assets/search-02-0724.png)
 
 At this time, you cannot use Search to look through geographic records (a.k.a. the points, lines, and polygons you see on the map); however, you can use it to search for people and parties. 
 

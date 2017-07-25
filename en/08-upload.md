@@ -39,7 +39,7 @@ If you have questions about whether your form matches your data set, need to cre
 
 To import your data, navigate to the main project page. There, select the **More actions** button on the upper right, and then Import Data. 
 
-![](/assets/import-04-select-import.png)
+![](/assets/import-0724t.png)
 
 Next, you'll come to a page where you can give the file a name and select your .csv for uploading. 
 
