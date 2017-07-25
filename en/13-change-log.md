@@ -1,5 +1,9 @@
 # Change Log
 
+## Update: July 24, 2017
+
+Images (and some text) updated to reflect new version of OpenDataKit (ODK) and the new project dashboard.
+
 ## Update: May 16, 2017
 
 Added information about how to use the QGIS Plugin. This page is still in development.
