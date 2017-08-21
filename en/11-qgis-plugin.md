@@ -31,13 +31,13 @@ Before getting started with the plugin, you will need to install QGIS. Find the 
 
 Next, install and activate the Cadasta Plugin. Head to `Plugins` and click the first option `Manage and Install Plugins`. 
 
-> ![](/assets/qgis-plugin-install.png)
+![](/assets/qgis-plugin-install.png)
 
 A window will open up and you will have access to the list of plugins, or specialized libraries, that are available with QGIS. Scroll down until you see the "Cadasta" plugin. Click on that option and 
 
-> ![](/assets/qgis-plugin-install-02.png)
+![](/assets/qgis-plugin-install-02.png)
 
-> ![](/assets/qgis-plugin-install-03.png)
+![](/assets/qgis-plugin-install-03.png)
 
 ### 3. Connect to your Cadasta Account
 
