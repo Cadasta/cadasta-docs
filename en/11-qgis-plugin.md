@@ -29,33 +29,15 @@ Before getting started with the plugin, you will need to install QGIS. Find the 
 
 ### 2. Install & Activate the Cadasta Plugin for QGIS
 
-Next, install and activate the Cadasta Plugin. 
+Next, install and activate the Cadasta Plugin. Head to `Plugins` and click the first option `Manage and Install Plugins`. 
 
-At this time, 
+> ![](/assets/qgis-plugin-install.png)
 
-#### Windows
-Make sure that hidden files are viewable on your computer settings. Head to the qgis folder at the root of your computer (should look something like `C:/Users/{username}/qgis`). Then open the `python` folder and then the `plugin` folder.  We will need to extract a file into that folder. 
+A window will open up and you will have access to the list of plugins, or specialized libraries, that are available with QGIS. Scroll down until you see the "Cadasta" plugin. Click on that option and 
 
-Head to `https://github.com/Cadasta/cadasta-qgis-plugin` and click on the green button on the right to "Clone or Download" the file. Extract that file in the `python/plugin` folder that you went to.
-#### Mac
+> ![](/assets/qgis-plugin-install-02.png)
 
-On a Mac, the first part of this process must be completed on the command line. Open Terminal and then navigate to the QGIS `plugins` folder by using the following command:
-
-```
-cd .qgis2/python/plugins
-```
-
-Then, install the plugin directly from the repo using this command:
-
-```
-git clone https://github.com/Cadasta/cadasta-qgis-plugin.git
-```
-
-Once your installation is complete, start or restart QGIS.
-
-Inside QGIS, navigate to `Plugins > Manage & Install Plugins`. In the popup that appears, select Cadasta. 
-
-Then, you can close the popup window. 
+> ![](/assets/qgis-plugin-install-03.png)
 
 ### 3. Connect to your Cadasta Account
 
