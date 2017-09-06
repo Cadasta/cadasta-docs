@@ -5,16 +5,14 @@ _16 May 2017: please note that this page is in-progress; refresh to view any cha
 
 * [Overview](#overview})
 * [Setting up the QGIS Plugin](#setup)
-* [Downloading Projects to QGIS](#downloading)
-* [Updating Projects](#updating) -- still a work in progress
+* [Recommended Printing Workflows](#printing)
+* [Recommended Uploading Workflows](#uploading)
 * [Advanced](#advanced)
 
 
 ## Overview {#overview}
 
-[Quantum GIS (QGIS)](http://www.qgis.org/en/site/) is a free and open source geographic information system. It's a powerful tool that's used by organizations all over the world to work with geographic data, without any cost. Now it can be used to analyze and update the data you've collected using the Cadasta platfom through a custom plugin. 
-
-This section covers how to [set up the plugin](#setup), and then use it to [download](downloading) and [update](#updating) your Cadasta project using the tool.
+[Quantum GIS (QGIS)](http://www.qgis.org/en/site/) is a free and open source geographic information system. It's a powerful tool that's used by organizations all over the world to work with geographic data, without any cost. Now it can be used to analyze and update the data you've collected using the Cadasta platfom through a custom plugin.
 
 Please note that this section assumes that you have already created a Cadasta account and have an active project. If you need help getting those set up, visit the first three sections of this documentation: [Getting Started](01-gettingstarted.md), [Organizations](02-organizations.md) and [Projects](03-projects.md).
 
@@ -39,8 +37,6 @@ A window will open up and you will have access to the list of plugins, or specia
 
 ![install cadasta plugin](/assets/qgis-plugin-install-02.png)
 
-![install cadasta plugin](/assets/qgis-plugin-install-03.png)
-
 ### 3. Connect to your Cadasta Account
 
 Now, select `Vector > Cadasta > User Settings`. This is the window where you can switch accounts or platforms (demo vs platform).
@@ -56,6 +52,8 @@ Finally, hit **Save** so that your login credentials are saved for future use.
 Now you're ready to get to work!
 
 Tip: If you want to switch platforms or usernames, you must hit **Clear** on the bottom right. 
+
+### 4. Style and Adjust your Cadasta Data
 
 ### Additional Recommended Plugins
 
