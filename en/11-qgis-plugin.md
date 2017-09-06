@@ -27,31 +27,35 @@ This section also assumes some knowledge of QGIS and how it works. If you are un
 
 Before getting started with the plugin, you will need to install QGIS. Find the version you need on the <a href="http://www.qgis.org/en/site/forusers/download.html" target="_blank">QGIS download page</a> and then follow their instructions for installation. 
 
+If you are wondering whether you should install the 32-bit or 64-bit version, you can read more about the difference [here](https://www.digitaltrends.com/computing/32-bit-64-bit-operating-systems/).
+
 ### 2. Install & Activate the Cadasta Plugin for QGIS
 
 Next, install and activate the Cadasta Plugin. Head to `Plugins` and click the first option `Manage and Install Plugins`. 
 
-![](/assets/qgis-plugin-install.png)
+![install cadasta plugin](/assets/qgis-plugin-install.png)
 
 A window will open up and you will have access to the list of plugins, or specialized libraries, that are available with QGIS. Scroll down until you see the "Cadasta" plugin. Click on that option and 
 
-![](/assets/qgis-plugin-install-02.png)
+![install cadasta plugin](/assets/qgis-plugin-install-02.png)
 
-![](/assets/qgis-plugin-install-03.png)
+![install cadasta plugin](/assets/qgis-plugin-install-03.png)
 
 ### 3. Connect to your Cadasta Account
 
-Now, select `Vector > Cadasta > User Settings`. Before proceeding, hit **Clear** on the bottom right. 
+Now, select `Vector > Cadasta > User Settings`. This is the window where you can switch accounts or platforms (demo vs platform).
 
-> ![](/assets/qgis-plugin-01.png)
+![User settings](/assets/qgis-plugin-01.png)
 
-Here, enter the platform you're working on (either `https://demo.cadasta.org/` or `https://platform.cadasta.org/`), as well as your username and password. 
+Enter the platform you are working on (either `https://demo.cadasta.org/` or `https://platform.cadasta.org/`) and your username and password. 
 
-Then, hit **Test Connection** in the lower left. If all has been done correctly, you'll get a `Success`message. 
+Then, hit **Connect** in the lower left. Hitting "Connect" talks to the Cadasta server to make sure that If all has been done correctly, you'll get a `Success`message. 
 
-Finally, hit **Save**.
+Finally, hit **Save** so that your login credentials are saved for future use.
 
 Now you're ready to get to work!
+
+Tip: If you want to switch platforms or usernames, you must hit **Clear** on the bottom right. 
 
 ### Additional Recommended Plugins
 
