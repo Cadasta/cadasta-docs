@@ -5,9 +5,9 @@ _16 May 2017: please note that this page is in-progress; refresh to view any cha
 
 * [Overview](#overview})
 * [Setting up the QGIS Plugin](#setup)
-* [Recommended Printing Workflows](#printing)
+* [Recommended Map Making/Printing Workflows](#map-making)
 * [Recommended Uploading Workflows](#uploading)
-* [Advanced](#advanced)
+* [Other Tips and Tricks](#other)
 
 
 ## Overview {#overview}
@@ -49,44 +49,13 @@ Then, hit **Connect** in the lower left. Hitting "Connect" talks to the Cadasta 
 
 Finally, hit **Save** so that your login credentials are saved for future use.
 
-Now you're ready to get to work!
+Once the Cadasta QGIS plugin is installed and you have connected it to your Cadasta account, you can use it to download your project data, analyze it, make maps for print and/or upload some missing data. Now you're ready to get to work! 
 
-Tip: If you want to switch platforms or usernames, you must hit **Clear** on the bottom right. 
+*Tip:* If you want to switch platforms or usernames, you must hit **Clear** on right before editing the fields. 
 
-### 4. Style and Adjust your Cadasta Data
+#### Download a Public Project to Test
 
-### Additional Recommended Plugins
-
-To make your experience using QGIS the best it can be, Cadasta recommends activating a few more plugins:
-
-* **OpenLayers** provides a selection of basemaps - including OpenStreetMap and satellite imagery - so that you can see your map data in context of the area around it. 
-
-* **TableManager** makes it easier to edit the attribute tables associated with your spatial data. 
-
-* **mmqgis** is a set of Python plugins for manipulating vector map layers in Quantum GIS. 
-
-All of these plugins can be found by selecting `Plugins > Manage & Install Plugins`. Select the plugin on the left, and then click the **Install plugin** button on the bottom right.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Downloading Projects to QGIS {#downloading}
-
-Once the Cadasta QGIS plugin is installed and you've connected it to your Cadasta account, you can use it to download your project data, analyze it, and make maps for print or web.
-
-### Steps to Download
-
-To download the project, select `Vector > Cadasta > Download Project`. On the popup that follows, you can select any of the projects associated with your account. 
+Using the `demo` username and `password` password in `https://demo.cadasta.org/`, you can test out the plugin. To download the project, select `Vector > Cadasta > Download Project`. On the popup that follows, you can select any of the projects associated with your account. 
 
 ![](/assets/qgis-plugin-02.png)
 
@@ -100,6 +69,10 @@ Now you should be able to see your map data in the main QGIS screen, with layers
 
 ![](/assets/qgis-plugin-03.png)
 
+
+### 4. Recommended Map Making/Printing Workflows {#map-making}
+
+Once your data is collected and stored in Cadasta, you may want to be able to print out a summary map of all of the work that you have done or be able to print out individual reports on each parcel that you have collected information on. The Cadasta plugin allows you to do this using the power of QGIS' styling and print composer. In this section, we will walk through two ways of styling and prepping the data you collected for publishing: map summary and individual parcel reports.
 
 ### File Layers Overview
 
@@ -127,9 +100,6 @@ Once installed, go to `Web > OpenLayers`, and then select the basemap you'd like
 It's not uncommon for the OpenLayer to appear above your map layer data, making it seem like your data has disappeared. 
 
 To fix, drag your basemap layer to the bottom of your layers. 
-
-
-## Advanced {#advanced}
 
 ### Joining Relationships and Parties to Location Geometry {#joining}
 
@@ -183,8 +153,104 @@ get party csv
 gqis - right click layers - join 
 
 
+
+
+#### (1) Map Summary
+
+#### (2) Individual Reports
+
+
+### 5. Recommended Uploading Workflows
+
+At the moment, the best way to upload data to Cadasta is through converting the data into a csv or XLS file and uploading it on the web. The QGIS plugin only supports uploading location attributes consistently. 
+
+
+#### (1) Data Prep
+
+If you would like to try uploading data via the plugin, we recommend that you only use a couple of rows of data for those trials. If the data upload ends up erroring out then you only have a couple of errors on the server with a smaller upload. 
+
+There are a number of rules that layers must follow to upload in Cadasta: 
+
+	#1. The layer must have a `location_type` field
+	#2. The layer must have a geometry in a supported projection (CRS EPSG: 3857)
+	#3. Data formats must be precise. If you are uploading a data, make sure that the field is a date field. 
+	#4. There must not be any white space in integer or date fields. 
+
+
+### Other Tips and Tricks {#other}
+
+##### Recommended Plugins
+
+You can do most of your map making and data prep with the built-in tools that QGIS offers. However, if you would like to try a few more tools the Cadasta team has had good experience with these following plugins: 
+
+* **OpenLayers** provides a selection of basemaps - including OpenStreetMap and satellite imagery - so that you can see your map data in context of the area around it. 
+
+* **TableManager** makes it easier to edit the attribute tables associated with your spatial data. 
+
+* **mmqgis** is a set of Python plugins for manipulating vector map layers in Quantum GIS. 
+
+All of these plugins can be found by selecting `Plugins > Manage & Install Plugins`. Select the plugin on the left, and then click the **Install plugin** button on the bottom right.
+
+
 _The following sections are in development:_
 
-* Advanced JSON
-* Troubleshooting
+##### Editing the Questionnaire JSON in the "Create Project" step
+
+The Cadasta plugin permits users to upload a project from scratch. If there are additional fields, select one and/or select multiple choices that you would like to add to the project you can do so using the "Advanced" setting in the "Create Project" window.
+
+Here is a reference table for the type of fields in the project:
+
+`type` | XLSform | Answer Input
+---|---|---
+`IN` | `integer` |	Integer (i.e., whole number) input.
+`DE` | `decimal` |	Decimal input.
+`TX` | `text` |	Free text response.
+`S1` | `select_one` | Multiple choice question; only one answer can be selected.
+`SM` | `select_multiple` | Multiple choice question; multiple answers can be selected.
+`NO` | `note` |	Display a note on the screen, takes no input.
+`GP` | `geopoint` |	Collect a single GPS coordinates.
+`GT` | `geotrace` |	Record a line of two or more GPS coordinates.
+`GS` | `geoshape` |	Record a polygon of multiple GPS coordinates; the last point is the same as the first point.
+`DA` | `date` |	Date input.
+`TI` | `time` |	Time input.
+`DT` | `dateTime` |	Accepts a date and a time input.
+`PH` | `image` / `photo`| Take a picture.
+`AU` | `audio` | Take an audio recording.
+`VI` | `video` | Take a video recording.
+`BC` | `barcode` | Scan a barcode, requires the barcode scanner app to be installed.
+`CA` | `calculate` | Perform a calculation; see the Calculation section below.
+`AC` | `acknowledge` | Acknowledge prompt that sets value to “OK” if selected.
+
+To add choices to `select_one` and/or `select_multiple` fields, you will need to add an `options` property like so:
+
+```
+"options": [
+        {
+          "label": "Farm",
+          "name": "farm"
+        },{
+          "label": "Building",
+          "name": "building"
+        },{
+          "label": "Park",
+          "name": "park"
+        }
+      ],
+
+
+```
+
+Note: At the moment, updating and creating projects in QGIS does not support custom location type and tenure type values.  This is not the case when using the platform-- you are able to use custom values if you build a questionnaire with XLS.
+##### Troubleshooting
+
+Sometimes the best steps to figure out an issue are to start with small data sets. 
+
+Restart QGIS. 
+
+Make sure you are in the correct projection. (Click on the projection button on the bottom right, reproject the layer and save the layer as a new layer with the new projection)
+
+QGIS and the plugin are both finicky. If you get stuck on anything please do not hesitate to email katrina@cadasta.org. She is here to help!
+
+
+
 
