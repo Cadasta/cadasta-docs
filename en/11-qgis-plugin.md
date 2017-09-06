@@ -69,37 +69,17 @@ Now you should be able to see your map data in the main QGIS screen, with layers
 
 ![](/assets/qgis-plugin-03.png)
 
+#### File Layers Overview
 
-### 4. Recommended Map Making/Printing Workflows {#map-making}
-
-Once your data is collected and stored in Cadasta, you may want to be able to print out a summary map of all of the work that you have done or be able to print out individual reports on each parcel that you have collected information on. The Cadasta plugin allows you to do this using the power of QGIS' styling and print composer. In this section, we will walk through two ways of styling and prepping the data you collected for publishing: map summary and individual parcel reports.
-
-### File Layers Overview
-
-Digital maps are made using a series of layers – for example, roads may all be on one layer, while parcel polygons are on another. The basemap, providing background and context for this data, could be on its own layer at the very bottom. Organizing data this way makes it much easier to analyze and style. 
+Digital maps are made using a series of geometry layers (points, lines, polygons) – for example, roads may all be on one layer, while parcel polygons are on another. The basemap, providing background and context for this data, could be on its own layer at the very bottom. Organizing data this way makes it much easier to analyze and style. 
 
 QGIS uses this layering convention as part of its interface. You can see the layers in your project listed one the left of the platform (like in the above image). 
 
-Any basic Cadasta project comes with three different layers: one for parties data, one for relationship data, and one for each type of geographic data: the points, lines, and polygons you have stored on the Cadasta platform. 
+Any basic Cadasta project comes with three different layers: one for parties data, one for relationship data, and one for each type of geographic data (the points, lines, and polygons you have stored on the Cadasta platform). 
 
-The parties and relationships layers do not have a visibility on the map; however they can be joined with your points, lines, and polygons so that you can see which geographic data relates to what party or relationship. _To learn more about joining data layers together, see [Joining Relationships and Parties to Location Geometry](#joining) below._
+The parties and relationships layers are CSV files and do not have a visibility on the map; however, they have id fields that can be used to _join_ with the geometry layers. The relationship table can be unioned with the geometry layer and the party layer can be joined with the relationship layer. In other words, the  point, line, and polygon layers can access the party and relationship fields through a table join. _To learn more about joining data layers together, see [Joining Relationships and Parties to Location Geometry](#joining) below._
 
 You can change the order of these layers by dragging and dropping them on top of one another.
-
-
-### Adding a Basemap
-
-If you'd like to add a little bit of background imagery to you newly-imported map data, then you can add a basemap layer using the OpenLayers plugin.
-
-You can install the plugin from `Plugins > Manage & Install Plugins`.
-
-Once installed, go to `Web > OpenLayers`, and then select the basemap you'd like to use. Below you can see Stamen's OSM watercolor map being used.
-
-![](/assets/qgis-plugin-04.png)
-
-It's not uncommon for the OpenLayer to appear above your map layer data, making it seem like your data has disappeared. 
-
-To fix, drag your basemap layer to the bottom of your layers. 
 
 ### Joining Relationships and Parties to Location Geometry {#joining}
 
@@ -139,6 +119,30 @@ These settings should look something like this:
 
 Repeat these steps for each map layer. Now, you can run analysis to see how these fields are joined together. 
 
+*Tip*: We recommend renaming your layer names if they are too long.  Also, in the join process you are able to edit the field names by clicking the bottom checkbox "Custom field name prefix". In checking that checkbox, you are able to delete all of the layer name information that you do not need. 
+
+
+### 4. Recommended Map Making/Printing Workflows {#map-making}
+
+Once your data is collected and stored in Cadasta, you may want to be able to print out a summary map of all of the work that you have done or be able to print out individual reports on each parcel that you have collected information on. The Cadasta plugin allows you to do this using the power of QGIS' styling and print composer. In this section, we will walk through two ways of styling and prepping the data you collected for publishing: map summary and individual parcel reports.
+
+
+### Adding a Basemap
+
+If you'd like to add a little bit of background imagery to you newly-imported map data, then you can add a basemap layer using the OpenLayers plugin.
+
+You can install the plugin from `Plugins > Manage & Install Plugins`.
+
+Once installed, go to `Web > OpenLayers`, and then select the basemap you'd like to use. Below you can see Stamen's OSM watercolor map being used.
+
+![](/assets/qgis-plugin-04.png)
+
+It's not uncommon for the OpenLayer to appear above your map layer data, making it seem like your data has disappeared. 
+
+To fix, drag your basemap layer to the bottom of your layers. 
+
+
+
 
 connects parties and relationships to geometry
 
@@ -153,9 +157,9 @@ get party csv
 gqis - right click layers - join 
 
 
-
-
 #### (1) Map Summary
+
+Icons files?
 
 #### (2) Individual Reports
 
