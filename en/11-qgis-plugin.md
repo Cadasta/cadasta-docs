@@ -1,6 +1,6 @@
 # Cadasta QGIS Plugin
 
-_16 May 2017: please note that this page is in-progress; refresh to view any changes._
+_8 September 2017: Please note that this page is in-progress; refresh to view any changes._
 
 
 * [Overview](#overview})
@@ -145,9 +145,23 @@ You can learn basic styling skills through various other [guides](https://www.or
 
 ##### (1) Map Summary
 
-Land use planning 
+QGIS offers the ability to print overview maps for land use status and planning purposes. The steps you will need to follow for printing out a map overview are:
+
+1. Using the layer's "properties" setting: Style the layer in a way that is visible with the basemap (if you are using one)
+2. Using the layer's "properties" setting: Add labels in a neat manner (if you need access to the party's fields then you will need to [join](#joining) the layers)
+3. Head to the Print Composer. And under the "Composition" settings on the right, change the document to the correct position and size you require.
+4. Add the necessary scales, arrows and datum that you require (through drag and dropping the elements on the left of the document)
+5. Print!
 
 ##### (2) Individual Reports
+
+You can create dyanmic reports on individual parcels in QGIS through the Print Composer's "atlas composer" option. A great example of when you would want to do this is issuing land titles or documentations to individual land holders. 
+
+The best way to set up the individual resports is to get a png or svg copy of an empty report and to past that in the body of the Print Composer template. Once you have the image sized correctly in the Print Composer document then you can drag text fields to where the values will be answered. 
+
+
+
+To enable the Print Comoposer to go through 
 
 
 ### 5. Recommended Uploading Workflows
