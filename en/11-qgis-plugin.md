@@ -105,6 +105,8 @@ The settings should look something like this:
 
 ![](/assets/qgis-plugin-07.png)
 
+*Tip*: We recommend renaming your layer names if they are too long.  Also, in the join process you are able to edit the field names by clicking the bottom checkbox "Custom field name prefix". In checking that checkbox, you are able to delete all of the layer name information that you do not need. 
+
 Next, join your parties to the relationships using the following settings:
 
 * Join layer: use the option ending in `/parties`, such as `cadasta-foundation/concessions-in-liberia/parties`
@@ -117,8 +119,9 @@ These settings should look something like this:
 
 Repeat these steps for each map layer. Now, you can run analysis to see how these fields are joined together. 
 
-*Tip*: We recommend renaming your layer names if they are too long.  Also, in the join process you are able to edit the field names by clicking the bottom checkbox "Custom field name prefix". In checking that checkbox, you are able to delete all of the layer name information that you do not need. 
+*Troubleshooting*: Sometimes, the party table does not join correctly and you see `NULL` values in all of the party fields. I have found that by removing the "Memory cache" on the file, the fields join properly. To do so, go back into the Join settings and click on the pen icon to edit the party join. Uncheck the box for "Cache join layer in virtual memory".  Then hit "Apply" and view the layer's Attribute table.
 
+![](/assets/qgis-memory-cache.png)
 
 ### 4. Recommended Map Making/Printing Workflows {#map-making}
 
