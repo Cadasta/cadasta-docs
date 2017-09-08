@@ -61,9 +61,7 @@ Using the `demo` username and `password` password in `https://demo.cadasta.org/`
 
 If you're looking for a public project to download, select `Include all Cadasta public projects` from below the dropdown.
 
-Once you've selected your project, click **Next** to start downloading. 
-
-When you get a message that `Your data has been downloaded`, click **Close**.
+Once you have selected your project, click **Next** to start downloading. The window will auto-close once the layers have completed downloading.
 
 Now you should be able to see your map data in the main QGIS screen, with layers on the left.
 
@@ -129,7 +127,7 @@ Once your data is collected and stored in Cadasta, you may want to be able to pr
 
 ### Adding a Basemap
 
-If you'd like to add a little bit of background imagery to you newly-imported map data, then you can add a basemap layer using the OpenLayers plugin.
+If you would like to add a background map, such as satellite imagery or OpenStreetMap, as a reference layer you can add a basemap layer using the OpenLayers plugin.
 
 You can install the plugin from `Plugins > Manage & Install Plugins`.
 
@@ -137,31 +135,19 @@ Once installed, go to `Web > OpenLayers`, and then select the basemap you'd like
 
 ![](/assets/qgis-plugin-04.png)
 
-It's not uncommon for the OpenLayer to appear above your map layer data, making it seem like your data has disappeared. 
-
-To fix, drag your basemap layer to the bottom of your layers. 
+It is not uncommon for the OpenLayer to appear above your map layer data, making it seem like your data has disappeared. To fix, drag your basemap layer to the bottom of your layers. 
 
 
+#### Styling Boundary Lines
+
+You can learn basic styling skills through various other [guides](https://www.ordnancesurvey.co.uk/docs/user-guides/cartographic-stylesheet-user-guide.pdf). We will focus on the best way to style polygons so that you can print map summaries and/or individual boundary reports:
 
 
-connects parties and relationships to geometry
+##### (1) Map Summary
 
-use a different project
+Land use planning 
 
-used for one to one
-used for one to many
-
-download project
-get relationship csv
-get party csv
-gqis - right click layers - join 
-
-
-#### (1) Map Summary
-
-Icons files?
-
-#### (2) Individual Reports
+##### (2) Individual Reports
 
 
 ### 5. Recommended Uploading Workflows
