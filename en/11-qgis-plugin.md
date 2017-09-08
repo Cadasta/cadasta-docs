@@ -31,7 +31,7 @@ If you are wondering whether you should install the 32-bit or 64-bit version, yo
 
 Next, install and activate the Cadasta Plugin. Head to `Plugins` and click the first option `Manage and Install Plugins`. 
 
-![install cadasta plugin](/assets/qgis-plugin-install.png)
+![install cadasta plugin](/assets/qgis-plugin-install-01.png)
 
 A window will open up and you will have access to the list of plugins, or specialized libraries, that are available with QGIS. Scroll down until you see the "Cadasta" plugin. Click on that option and 
 
@@ -39,9 +39,11 @@ A window will open up and you will have access to the list of plugins, or specia
 
 ### 3. Connect to your Cadasta Account
 
+![connect to user account](/assets/qgis-plugin-install-03.png)
+
 Now, select `Vector > Cadasta > User Settings`. This is the window where you can switch accounts or platforms (demo vs platform).
 
-![User settings](/assets/qgis-plugin-01.png)
+![User settings](/assets/qgis-plugin-install-04.png)
 
 Enter the platform you are working on (either `https://demo.cadasta.org/` or `https://platform.cadasta.org/`) and your username and password. 
 
@@ -55,9 +57,11 @@ Once the Cadasta QGIS plugin is installed and you have connected it to your Cada
 
 #### Download a Public Project to Test
 
+![](/assets/qgis-image-01.png)
+
 Using the `demo` username and `password` password in `https://demo.cadasta.org/`, you can test out the plugin. To download the project, select `Vector > Cadasta > Download Project`. On the popup that follows, you can select any of the projects associated with your account. 
 
-![](/assets/qgis-plugin-02.png)
+![](/assets/qgis-image-02.png)
 
 If you're looking for a public project to download, select `Include all Cadasta public projects` from below the dropdown.
 
@@ -65,7 +69,13 @@ Once you have selected your project, click **Next** to start downloading. The wi
 
 Now you should be able to see your map data in the main QGIS screen, with layers on the left.
 
-![](/assets/qgis-plugin-03.png)
+![](/assets/qgis-image-03.png)
+
+If you do not see your map layer, right click on the polygon/point/line layer and click "Zoom to Layer". That setting is useful for being able to track down where your spatial layer is. 
+
+![](/assets/qgis-image-04.png)
+
+*Note*: For some layers that have parcels spread out, the "Zoom to Layer" may not work well and you may have to select a row in the Attribute Table and zoom to that selected parcel to see the geometries. 
 
 #### File Layers Overview
 
@@ -87,11 +97,11 @@ To do this, the parties and relationship data needs to be **joined** to each lay
 
 To link these layers, right click one of your map data layers and then select **Properties**.
 
-![](/assets/qgis-plugin-05.png)
+![](/assets/qgis-join-01.png)
 
 In the popup that appears, select Joins on the left, and the the green plus sign at the bottom. 
 
-![](/assets/qgis-plugin-06.png)
+![](/assets/qgis-join-02.png)
 
 This will take you to a new popup window where you can join the layers. 
 
@@ -103,7 +113,7 @@ First, join your relationships to the geometry by creating the following setting
 
 The settings should look something like this:
 
-![](/assets/qgis-plugin-07.png)
+![](/assets/qgis-join-03.png)
 
 *Tip*: We recommend renaming your layer names if they are too long.  Also, in the join process you are able to edit the field names by clicking the bottom checkbox "Custom field name prefix". In checking that checkbox, you are able to delete all of the layer name information that you do not need. 
 
@@ -115,13 +125,13 @@ Next, join your parties to the relationships using the following settings:
 
 These settings should look something like this:
 
-![](/assets/qgis-plugin-08.png)
+![](/assets/qgis-join-04.png)
 
 Repeat these steps for each map layer. Now, you can run analysis to see how these fields are joined together. 
 
 *Troubleshooting*: Sometimes, the party table does not join correctly and you see `NULL` values in all of the party fields. I have found that by removing the "Memory cache" on the file, the fields join properly. To do so, go back into the Join settings and click on the pen icon to edit the party join. Uncheck the box for "Cache join layer in virtual memory".  Then hit "Apply" and view the layer's Attribute table.
 
-![](/assets/qgis-memory-cache.png)
+![](/assets/qgis-join-05.png)
 
 ### 4. Recommended Map Making/Printing Workflows {#map-making}
 
