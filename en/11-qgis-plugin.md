@@ -57,13 +57,14 @@ Once the Cadasta QGIS plugin is installed and you have connected it to your Cada
 
 #### Download a Public Project to Test
 
-![](/assets/qgis-image-01.png)
 
 Using the `demo` username and `password` password in `https://demo.cadasta.org/`, you can test out the plugin. To download the project, select `Vector > Cadasta > Download Project`. On the popup that follows, you can select any of the projects associated with your account. 
 
-![](/assets/qgis-image-02.png)
+![](/assets/qgis-image-01.png)
 
 If you're looking for a public project to download, select `Include all Cadasta public projects` from below the dropdown.
+
+![](/assets/qgis-image-02.png)
 
 Once you have selected your project, click **Next** to start downloading. The window will auto-close once the layers have completed downloading.
 
@@ -75,15 +76,15 @@ If you do not see your map layer, right click on the polygon/point/line layer an
 
 ![](/assets/qgis-image-04.png)
 
-*Note*: For some layers that have parcels spread out, the "Zoom to Layer" may not work well and you may have to select a row in the Attribute Table and zoom to that selected parcel to see the geometries. 
+**Note**: For some layers that have parcels spread out, the "Zoom to Layer" may not work well and you may have to select a row in the Attribute Table and zoom to that selected parcel to see the geometries. 
 
 #### File Layers Overview
 
-Digital maps are made using a series of geometry layers (points, lines, polygons) – for example, roads may all be on one layer, while parcel polygons are on another. The basemap, providing background and context for this data, could be on its own layer at the very bottom. Organizing data this way makes it much easier to analyze and style. 
+<!-- Digital maps are made using a series of geometry layers (points, lines, polygons) – for example, roads may all be on one layer, while parcel polygons are on another. The basemap, providing background and context for this data, could be on its own layer at the very bottom. Organizing data this way makes it much easier to analyze and style. 
 
 QGIS uses this layering convention as part of its interface. You can see the layers in your project listed one the left of the platform (like in the above image). 
-
-Any basic Cadasta project comes with three different layers: one for parties data, one for relationship data, and one for each type of geographic data (the points, lines, and polygons you have stored on the Cadasta platform). 
+ -->
+Each Cadasta project comes with three different layers: one for parties data, one for relationship data, and one for each type of geographic data (the points, lines, and polygons you have stored on the Cadasta platform). 
 
 The parties and relationships layers are CSV files and do not have a visibility on the map; however, they have id fields that can be used to _join_ with the geometry layers. The relationship table can be unioned with the geometry layer and the party layer can be joined with the relationship layer. In other words, the  point, line, and polygon layers can access the party and relationship fields through a table join. _To learn more about joining data layers together, see [Joining Relationships and Parties to Location Geometry](#joining) below._
 
