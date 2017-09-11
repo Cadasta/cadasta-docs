@@ -131,7 +131,6 @@ Repeat these steps for each map layer. Now, you can run analysis to see how thes
 
 Once your data is collected and stored in Cadasta, you may want to be able to print out a summary map of all of the work that you have done or be able to print out individual reports on each parcel that you have collected information on. The Cadasta plugin allows you to do this using the power of QGIS' styling and print composer. In this section, we will walk through two ways of styling and prepping the data you collected for publishing: map summary and individual parcel reports.
 
-
 ### Adding a Basemap
 
 If you would like to add a background map, such as satellite imagery or OpenStreetMap, as a reference layer you can add a basemap layer using the OpenLayers plugin.
@@ -160,6 +159,8 @@ QGIS offers the ability to print overview maps for land use status and planning 
 4. Add the necessary scales, arrows and datum that you require (through drag and dropping the elements on the left of the document)
 5. Print!
 
+![](/assets/qgis-print-adding-grid.gif)
+
 ##### (2) Individual Reports
 
 You can create dyanmic reports on individual parcels in QGIS through the Print Composer's "atlas composer" option. A great example of when you would want to do this is issuing land titles or documentations to individual land holders. 
@@ -174,7 +175,7 @@ After installing the Cadasta plugin and downloading the Cadasta data collected i
 
 Change the “Composition” of the page with the settings on the right. For this example, change the “Orientation” to “Portrait”.
 
-![](/assets/qgis-print-00.png)
+![](/assets/qgis-print-01.png)
 
 ###### 2. Set up the layer that you will want to pull data from
 
@@ -184,7 +185,7 @@ Cadasta divides all of the data collected into three files (location, party and 
 
 If you are only using location data or if you have joined the party and relationship columns to the location layer, then you can choose that layer as the “coverage layer” for the reports. You can also choose a field to act as the page name for when you are looping through all of the rows in your data-- an “id” or “name” field will work. 
 
-![](/assets/qgis-print-00.png)
+![](/assets/qgis-print-02.png)
 
 ###### 3.  Create the Report
 
@@ -192,7 +193,7 @@ Using the “Print Composer” tools on the left, you can drag and drop text fie
 
 For values that need to be brought in dynamically, you will need to create a text box and in the “Main properties” section under the “items properties” tab, you will want to “Insert an expression…”. 
 
-![](/assets/qgis-print-00.png)
+![](/assets/qgis-print-03.png)
 
 This action opens up the “field calculator”, which lets you conduct math equations, write custom code and pull in values from your data. To pull in your data, you will want to open the “Fields and Values” then double click the field you would like to pull in and click “Save”. Alternatively, you could also write in the name of the value you wanted to pull in with this format “[% “name” %]”.
 
@@ -200,7 +201,7 @@ This action opens up the “field calculator”, which lets you conduct math equ
 
 Once you have completed the three steps you should have a report template that looks like this:
 
-![](/assets/qgis-print-00.png)
+![](/assets/qgis-print-04.png)
 
 ###### 4. Turn on the Atlas Preview
 
@@ -210,8 +211,7 @@ Once we have the “Atlas Preview” settings turned on, we can click through al
 
 Using the toggles on the top right, you can dynamically preview what each print off will look like (notice how the name of the party is what each page is named):
 
-![](/assets/qgis-print-00.png)
-
+![](/assets/qgis-print-05.png)
 
 ### 5. Recommended Uploading Workflows
 
