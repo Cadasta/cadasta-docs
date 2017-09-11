@@ -57,7 +57,6 @@ Once the Cadasta QGIS plugin is installed and you have connected it to your Cada
 
 #### Download a Public Project to Test
 
-
 Using the `demo` username and `password` password in `https://demo.cadasta.org/`, you can test out the plugin. To download the project, select `Vector > Cadasta > Download Project`. On the popup that follows, you can select any of the projects associated with your account. 
 
 ![](/assets/qgis-image-01.png)
@@ -96,13 +95,9 @@ One of the more powerful features of QGIS is its capacity for geographic analysi
 
 To do this, the parties and relationship data needs to be **joined** to each layer of geographic data. 
 
-To link these layers, right click one of your map data layers and then select **Properties**.
+To link these layers, right click one of your map data layers and then select **Properties**. In the popup that appears, select Joins on the left, and the the green plus sign at the bottom. 
 
 ![](/assets/qgis-join-01.png)
-
-In the popup that appears, select Joins on the left, and the the green plus sign at the bottom. 
-
-![](/assets/qgis-join-02.png)
 
 This will take you to a new popup window where you can join the layers. 
 
@@ -112,11 +107,11 @@ First, join your relationships to the geometry by creating the following setting
 * Join field: `spatial_id`
 * Target field: `id`
 
+*Tip*: We recommend renaming your layer names if they are too long.  Also, in the join process you are able to edit the field names by clicking the bottom checkbox "Custom field name prefix". In checking that checkbox, you are able to delete all of the layer name information that you do not need. 
+
 The settings should look something like this:
 
 ![](/assets/qgis-join-03.png)
-
-*Tip*: We recommend renaming your layer names if they are too long.  Also, in the join process you are able to edit the field names by clicking the bottom checkbox "Custom field name prefix". In checking that checkbox, you are able to delete all of the layer name information that you do not need. 
 
 Next, join your parties to the relationships using the following settings:
 
@@ -126,13 +121,11 @@ Next, join your parties to the relationships using the following settings:
 
 These settings should look something like this:
 
-![](/assets/qgis-join-04.png)
+![](/assets/qgis-join-05.png)
 
 Repeat these steps for each map layer. Now, you can run analysis to see how these fields are joined together. 
 
-*Troubleshooting*: Sometimes, the party table does not join correctly and you see `NULL` values in all of the party fields. I have found that by removing the "Memory cache" on the file, the fields join properly. To do so, go back into the Join settings and click on the pen icon to edit the party join. Uncheck the box for "Cache join layer in virtual memory".  Then hit "Apply" and view the layer's Attribute table.
-
-![](/assets/qgis-join-05.png)
+**Troubleshooting**: Sometimes, the party table does not join correctly and you see `NULL` values in all of the party fields. I have found that by removing the "Memory cache" on the file, the fields join properly. To do so, go back into the Join settings and click on the pen icon to edit the party join. Uncheck the box for "Cache join layer in virtual memory".  Then hit "Apply" and view the layer's Attribute table.
 
 ### 4. Recommended Map Making/Printing Workflows {#map-making}
 
@@ -171,11 +164,53 @@ QGIS offers the ability to print overview maps for land use status and planning 
 
 You can create dyanmic reports on individual parcels in QGIS through the Print Composer's "atlas composer" option. A great example of when you would want to do this is issuing land titles or documentations to individual land holders. 
 
-The best way to set up the individual resports is to get a png or svg copy of an empty report and to past that in the body of the Print Composer template. Once you have the image sized correctly in the Print Composer document then you can drag text fields to where the values will be answered. 
+The best way to set up the individual resports is to get a png or svg copy of an empty report and to past that in the body of the Print Composer template. Once you have the image sized correctly in the Print Composer document then you can drag text fields to where the values will be answered.
 
+###### 1. Open up the Print Composer.
 
+After installing the Cadasta plugin and downloading the Cadasta data collected into QGIS, open up the QGIS’ “Print Composer”. The Print Composer is a different environment than the regular QGIS view: 
 
-To enable the Print Comoposer to go through 
+![](/assets/qgis-print-00.png)
+
+Change the “Composition” of the page with the settings on the right. For this example, change the “Orientation” to “Portrait”.
+
+![](/assets/qgis-print-00.png)
+
+###### 2. Set up the layer that you will want to pull data from
+
+After setting up the document to have the paper size and orientation you require, click on the “Atlas Generation” tab on the right. This setting is where you can choose which layer of data you would like to bring in. 
+
+Cadasta divides all of the data collected into three files (location, party and relationship). If you want to create a report that accesses data from multiple files, it is recommended that you join the cadasta files (see more on how to do this here). 
+
+If you are only using location data or if you have joined the party and relationship columns to the location layer, then you can choose that layer as the “coverage layer” for the reports. You can also choose a field to act as the page name for when you are looping through all of the rows in your data-- an “id” or “name” field will work. 
+
+![](/assets/qgis-print-00.png)
+
+###### 3.  Create the Report
+
+Using the “Print Composer” tools on the left, you can drag and drop text fields, images and map screenshots to the page.  
+
+For values that need to be brought in dynamically, you will need to create a text box and in the “Main properties” section under the “items properties” tab, you will want to “Insert an expression…”. 
+
+![](/assets/qgis-print-00.png)
+
+This action opens up the “field calculator”, which lets you conduct math equations, write custom code and pull in values from your data. To pull in your data, you will want to open the “Fields and Values” then double click the field you would like to pull in and click “Save”. Alternatively, you could also write in the name of the value you wanted to pull in with this format “[% “name” %]”.
+
+![](/assets/qgis-print-field-calc.png)
+
+Once you have completed the three steps you should have a report template that looks like this:
+
+![](/assets/qgis-print-00.png)
+
+###### 4. Turn on the Atlas Preview
+
+We have one more step to wrap up everything: turning on the “Atlas Preview” settings. 
+
+Once we have the “Atlas Preview” settings turned on, we can click through all the different land titles that will print.  We are able to loop through each parcel/land.
+
+Using the toggles on the top right, you can dynamically preview what each print off will look like (notice how the name of the party is what each page is named):
+
+![](/assets/qgis-print-00.png)
 
 
 ### 5. Recommended Uploading Workflows
