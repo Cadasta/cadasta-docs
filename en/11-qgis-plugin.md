@@ -9,7 +9,6 @@ _8 September 2017: Please note that this page is in-progress; refresh to view an
 * [Recommended Uploading Workflows](#uploading)
 * [Other Tips and Tricks](#other)
 
-
 ## Overview {#overview}
 
 [Quantum GIS (QGIS)](http://www.qgis.org/en/site/) is a free and open source geographic information system. It's a powerful tool that's used by organizations all over the world to work with geographic data, without any cost. Now it can be used to analyze and update the data you've collected using the Cadasta platfom through a custom plugin.
