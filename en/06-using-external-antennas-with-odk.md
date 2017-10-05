@@ -2,6 +2,7 @@
 
 * [Overview](#overview)
 * [Catalyst Setup](#catalyst-setup)
+* [Garmin GLO Setup](#garmin-setup)
 
 ## External Antenna Overview {#overview}
 
@@ -56,5 +57,34 @@ You will know if it is working by the Catalyst icon on the top of your screen an
 3. Make sure your phone is sufficiently connected to data. The centimeter level accuracy only works when you have cellular data. 
 4. Make sure you are using the correct type of phone. The Catalyst, like ODK Collect and GeoODK, is only supported on Androids.
 
+
+### Garmin GLO Set-Up {#garmin-setup}
+
+1. Charge the battery (about three hours). Fully charged battery lasts about 12h according to manual. 
+2. Turn on the GPS
+3. Enable Bluetooth in the Android device
+4. Pair the GPS device with the Android device via Bluetooth
+5. Download Bluetooth GPS app in Google Play
+6. Open the Bluetooth GPS app
+7. Select “Garmin GLO” as the select paired GPS device, and enable “Mock GPS Provider”
+
+![](/assets/catalyst/garmin-1.png)
+
+8. You may be redirected to Android settings to enable “Allow mock locations”. I think this is different device by device. In mine was this process: 
+	A. Go to Settings > System > Device Information > Clicking 3 times in “Build Information”
+	B. Developer Menu appears under Settings > System > Developer Menu
+	C. There is an option to “Choose application to mock your location, and then you select "Bluetooth GPS". 
+	D. I have seen in the Garmin user manual and in some videos in youtube that in some cases it’s just a checkbox for enabling “Allow mock locations”
+9. Go back to the app and click on “Enable Mock GPS Provider” if needed
+
+![](/assets/catalyst/garmin-2.png)
+
+10. Click on the ellipsis menu on the top right corner 
+11. Tab on Settings
+12. Enable Reconnect Option 
+13. Setup Reconnect Interval to just the minimum option (5 seconds)
+14. Go back to the main menu of Bluetooth app and click on Connect
+15. Open ODK 
+16. Start collecting data and notice the greater accuracy on the coordinate collection!
 
 
