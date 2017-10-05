@@ -31,15 +31,15 @@ What you will need to get started:
 1. Open the Trimble Mobile Manager application to log in to the Trimble Catalyst app. This app is used to manage the antennae and the Catalyst subscription.
 2. Plug the Catalyst into USB charger/accessory port of your phone and wait for the Catalyst to pick up the satellites. The satellite icon will appear green (as shown below) when coverage is sufficient. 
 
-<img src="/assets/catalyst/developer-options-1.png" width="300" />
+	<img src="/assets/catalyst/developer-options-1.png" width="300" />
 
 3. Now for the trickiest part, click the “Setup” section in the app to view the instructions that describes how you can reprogram your phone to read the Catalyst coordinates instead of the smart phone receiver. This is when you will need to have the Developer Options enabled. 
 
-<img src="/assets/catalyst/developer-options-2.png" width="300" />
+	<img src="/assets/catalyst/developer-options-2.png" width="300" />
 
 4. To do so, you need to start by going to “Settings”, scroll down to “System”, click on “Developer Options” and scroll down until you find “Select mock location app”.  Once clicked, you should see “Trimble Mobile Manager” listed. 
 
-<img src="/assets/catalyst/developer-options-3.png" width="300" />
+	<img src="/assets/catalyst/developer-options-3.png" width="300" />
 
 5. Choose that option so that ODK can use the Catalyst to collect two to three meter accuracy.
 
