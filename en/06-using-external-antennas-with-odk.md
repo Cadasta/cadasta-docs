@@ -18,7 +18,7 @@ What you will need to get started:
 1. An Android smartphone or tablet that has a data plan (this is a potential weakness of the Trimble device - GPS corrections require an available network, which isn’t always possible in remote areas);
 2. A Trimble Catalyst antenna;
 
-![](/assets/catalyst/trimble-apps.png)
+	![](/assets/catalyst/trimble-apps.png)
 
 3. The Trimble Catalyst and Trimble Mobile Manager application (which can be downloaded from the Google Play Store);
 4. Your own Trimble account; 
