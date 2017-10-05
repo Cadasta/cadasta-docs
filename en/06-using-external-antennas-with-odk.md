@@ -29,11 +29,9 @@ What you will need to get started:
 ### How to Use the Catalyst with OpenDataKit:
 
 1. Open the Trimble Mobile Manager application to log in to the Trimble Catalyst app. This app is used to manage the antennae and the Catalyst subscription.
-
 2. Plug the Catalyst into USB charger/accessory port of your phone and wait for the Catalyst to pick up the satellites. The satellite icon will appear green (as shown below) when coverage is sufficient. 
 
 <img src="/assets/catalyst/developer-options-1.png" width="300" />
-
 
 3. Now for the trickiest part, click the “Setup” section in the app to view the instructions that describes how you can reprogram your phone to read the Catalyst coordinates instead of the smart phone receiver. This is when you will need to have the Developer Options enabled. 
 
@@ -43,12 +41,11 @@ What you will need to get started:
 
 <img src="/assets/catalyst/developer-options-3.png" width="300" />
 
-4. Choose that option so that ODK can use the Catalyst to collect two to three meter accuracy.
+5. Choose that option so that ODK can use the Catalyst to collect two to three meter accuracy.
 
 ![](/assets/catalyst/2m-accuracy.png)
 
-
-5. And finally, start mapping!
+6. And finally, start mapping!
 
 You will know if it is working by the Catalyst icon on the top of your screen and when you collect a point with ODK Collect and see that you have two meter accuracy!  Woot woot!
 
