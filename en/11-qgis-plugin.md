@@ -138,7 +138,7 @@ You can install the plugin from `Plugins > Manage & Install Plugins`.
 
 Once installed, go to `Web > OpenLayers`, and then select the basemap you'd like to use. Below you can see Stamen's OSM watercolor map being used.
 
-![](/assets/qgis-plugin-04.png)
+![](/assets/qgis-basemap.png)
 
 It is not uncommon for the OpenLayer to appear above your map layer data, making it seem like your data has disappeared. To fix, drag your basemap layer to the bottom of your layers. 
 
