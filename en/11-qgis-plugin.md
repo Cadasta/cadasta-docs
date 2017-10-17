@@ -40,11 +40,11 @@ A window will open up and you will have access to the list of plugins, or specia
 
 ![connect to user account](/assets/qgis-plugin-install-03.png)
 
-Now, select `Vector > Cadasta > User Settings`. This is the window where you can switch accounts or platforms (demo vs platform).
+Now, select `Vector > Cadasta > User Settings`. This is the window where you can switch accounts or platforms (`demo` vs `platform` vs `platform-staging`).
 
 ![User settings](/assets/qgis-plugin-install-04.png)
 
-Enter the platform you are working on (either `https://demo.cadasta.org/` or `https://platform.cadasta.org/`) and your username and password. 
+Enter the platform you are working on (either `https://demo.cadasta.org/`,`https://platform.cadasta.org/` or `https://platform-staging.cadasta.org/`) and your username and password. 
 
 Then, hit **Connect** in the lower left. Hitting "Connect" talks to the Cadasta server to make sure that If all has been done correctly, you'll get a `Success`message. 
 
