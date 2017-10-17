@@ -147,8 +147,11 @@ It is not uncommon for the OpenLayer to appear above your map layer data, making
 
 You can learn basic styling skills through various other [guides](https://www.ordnancesurvey.co.uk/docs/user-guides/cartographic-stylesheet-user-guide.pdf). We will focus on the best way to style polygons so that you can print map summaries and/or individual boundary reports:
 
+_work in progress_
 
-##### (1) Map Summary
+## Printing Titles and/or Reports with QGIS
+
+### (1) Map Summary Report
 
 QGIS offers the ability to print overview maps for land use status and planning purposes. The steps you will need to follow for printing out a map overview are:
 
@@ -160,7 +163,7 @@ QGIS offers the ability to print overview maps for land use status and planning 
 
 ![](/assets/qgis-print-adding-grid.gif)
 
-##### (2) Individual Reports
+### (2) Individual Reports
 
 You can create dyanmic reports on individual parcels in QGIS through the Print Composer's "atlas composer" option. A great example of when you would want to do this is issuing land titles or documentations to individual land holders. 
 
