@@ -126,6 +126,12 @@ Repeat these steps for each map layer. Now, you can run analysis to see how thes
 
 **Troubleshooting**: Sometimes, the party table does not join correctly and you see `NULL` values in all of the party fields. I have found that by removing the "Memory cache" on the file, the fields join properly. To do so, go back into the Join settings and click on the pen icon to edit the party join. Uncheck the box for "Cache join layer in virtual memory".  Then hit "Apply" and view the layer's Attribute table.
 
+### Reprojecting the layer {#reproject}
+
+Once your layers have been downloaded in QGIS, you will notice on the bottom right that the data is projected in web mercator, or WGS 84. To re-project the layer, you must know which coordinate system would work best for your data. That answer depends on where in the world your data is located. 
+
+If the data is located in a small area, such as a city, county, or even state/province, you should use a local coordinate system-- such as UTM. UTM Zones are designed to minimize distortions for the regions and zones that they cover.
+
 ### 4. Recommended Map Making/Printing Workflows {#map-making}
 
 Once your data is collected and stored in Cadasta, you may want to be able to print out a summary map of all of the work that you have done or be able to print out individual reports on each parcel that you have collected information on. The Cadasta plugin allows you to do this using the power of QGIS' styling and print composer. In this section, we will walk through two ways of styling and prepping the data you collected for publishing: map summary and individual parcel reports.
