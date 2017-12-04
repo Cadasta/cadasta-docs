@@ -4,9 +4,13 @@ _8 September 2017: Please note that this page is in-progress; refresh to view an
 
 
 * [Overview](#overview})
-* [Setting up the QGIS Plugin](#setup)
-* [Recommended Map Making/Printing Workflows](#map-making)
+* [Setting up the QGIS Plugin and downloading your data](#setup)
+	- File layers overview {#file-overview}
+* [Map Making and Printing Workflows](#map-making)
+	- Joining the party, relationship, and location layers {#joining}
+	- Reprojecting the location layer {#reproject}
 * [Recommended Uploading Workflows](#uploading)
+	- 
 	- [Georeferencing Paper Maps](#georeference)
 * [Other Tips and Tricks](#other)
 
@@ -77,7 +81,7 @@ If you do not see your map layer, right click on the polygon/point/line layer an
 
 **Note**: For some layers that have parcels spread out, the "Zoom to Layer" may not work well and you may have to select a row in the Attribute Table and zoom to that selected parcel to see the geometries. 
 
-#### File Layers Overview
+#### File Layers Overview {#file-overview}
 
 <!-- Digital maps are made using a series of geometry layers (points, lines, polygons) – for example, roads may all be on one layer, while parcel polygons are on another. The basemap, providing background and context for this data, could be on its own layer at the very bottom. Organizing data this way makes it much easier to analyze and style. 
 
@@ -129,11 +133,10 @@ Repeat these steps for each map layer. Now, you can run analysis to see how thes
 
 ### Reprojecting the layer {#reproject}
 
-Once your layers have been downloaded in QGIS, you will notice on the bottom right that the data is projected in web mercator, or WGS 84. To re-project the layer, you must know which coordinate system would work best for your data. That answer depends on where in the world your data is located. 
-
-_OTF means "On the Fly"_
+Once your layers have been downloaded in QGIS, you will notice on the bottom right that the data is projected in web mercator, or WGS 84 or EPSG:4326 (4326 is the EPSG identifier of WGS84 and WGS84 is the name for the standard coordinate frame for the Earth). To re-project the layer, you must know which coordinate system would work best for your data. And that answer depends on where in the world your data is located. 
 
 ![](/assets/reproject.png)
+_On the bottom right, you can see the projection of your layer in QGIS. In this instance, the layer is projected in the default "EPSG: 4326 (OTF)". OTF means "On the Fly"_
 
 If the data is located in a small area, such as a city, county, or even state/province, you should use a local coordinate system-- such as UTM. UTM Zones are designed to minimize distortions for the regions and zones that they cover.
 
@@ -142,7 +145,12 @@ _This is what the reproject UTM 15 looks like at the global scale. You need to z
 
 Note: Projections are important for area calculations. Cadasta uses the de facto web mercator projection. If you are calculating area, you are better of with a more localized projection, such as the UTM Zones. 
 
-### 4. Recommended Map Making/Printing Workflows {#map-making}
+Need to add more instructions for documentation
+For example, UTM Zone 1 minimizes distortion between -180 and -174 degrees longitude.   Remember that each coordinate system has its own unit of measurement. The Web Mercator coordinate system uses meters. If you project into State Plane to perform your measurements, your returned measurement could be in either meters or feet depending on the variation of the coordinate system you choose. Be careful not to report a mistaken unit in the labels or text in your application. You may need to add some basic conversion math to your code to get the unit you need.
+To change your projection you need to click on the projection on the right. That will bring up a window to change the coordinate system to what 
+
+
+### 4. Map Making/Printing Workflows {#map-making}
 
 Once your data is collected and stored in Cadasta, you may want to be able to print out a summary map of all of the work that you have done or be able to print out individual reports on each parcel that you have collected information on. The Cadasta plugin allows you to do this using the power of QGIS' styling and print composer. In this section, we will walk through two ways of styling and prepping the data you collected for publishing: map summary and individual parcel reports.
 
@@ -250,15 +258,11 @@ There are a number of rules that layers must follow to upload in Cadasta:
 #### Georeferencing {#georeference}
 
 
-Determine the datum and coordinate system of the map. 
+1. Determine the datum and coordinate system of the map. 
 Digitize the image (take a photo or scan the paper map)
 Open up QGIS and install the ‘Georeferencer GDAL’ plugin. This plugin was installed during the QGIS installation process, but you need to enable it in the “Manage and Install Plugins”
 
 4. Start the georeferencing process by going to “Raster” ‣ “Georeferencer” ‣ “Georeferencer” 
-
-
-
-
 
 
 5. You will see two sections of the plugin window: top section is where the paper map will be displayed and the bottom image is where a table of the ground coordinates will appear. 
@@ -280,16 +284,13 @@ Now we will open the JPG or PNG image. Go to File ‣ Open Raster. Browse to the
 
 13. Once you have enough points, go to Settings -> Transformation settings.
 
-14. In the Transformation settings dialog, choose the Transformation type as Thin Plate Spline. Name your output raster as 1870_southern_india_modified.tif. Choose EPSG:4326 as the target SRS so the resulting image is in a widely compatible datum. Make sure the Load in QGIS when done option is checked. CLick OK.
+14. In the Transformation settings dialog, choose the Transformation type as Thin Plate Spline. Name your output raster as 1870_southern_india_modified.tif. Choose EPSG:4326 as the target SRS so the resulting image is in a widely compatible datum. Make sure the Load in QGIS when done option is checked. Click OK.
 
 15. Back in the Georeferencer window, go to File ‣ Start georeferencing. This will start the process of warping the image using the GCPs and creating the target raster.
 
 16. Once the process finishes, you will see the georeferenced layer loaded in QGIS.
 
 17. The georeferencing is now complete. But as always, it’s a good practice to verify your work. How do we check if our georeferencing is accurate? In this case, load the country boundaries shapefile from a trusted source like the Natural Earth dataset and compare them. You will notice they match up pretty nicely. There is some error and it can be further improved by taking more control points, changing transformation parameters and trying a different datum.
-
-
-
 
 
 ### Other Tips and Tricks {#other}
