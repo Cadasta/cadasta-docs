@@ -10,7 +10,6 @@ _8 September 2017: Please note that this page is in-progress; refresh to view an
 	- Joining the party, relationship, and location layers {#joining}
 	- Reprojecting the location layer {#reproject}
 * [Recommended Uploading Workflows](#uploading)
-	- 
 	- [Georeferencing Paper Maps](#georeference)
 * [Other Tips and Tricks](#other)
 
@@ -138,17 +137,22 @@ Once your layers have been downloaded in QGIS, you will notice on the bottom rig
 ![](/assets/reproject.png)
 _On the bottom right, you can see the projection of your layer in QGIS. In this instance, the layer is projected in the default "EPSG: 4326 (OTF)". OTF means "On the Fly"_
 
-If the data is located in a small area, such as a city, county, or even state/province, you should use a local coordinate system-- such as UTM. UTM Zones are designed to minimize distortions for the regions and zones that they cover.
+If the data is located in a small area, such as a city, county, or even state/province, you should use a local coordinate system-- such as UTM Zone projection. UTM Zones are designed to minimize distortions for the regions and zones that they cover.
 
 ![](/assets/reproject-UTM.png)
 _This is what the reproject UTM 15 looks like at the global scale. You need to zoom in to see the difference_
 
-Note: Projections are important for area calculations. Cadasta uses the de facto web mercator projection. If you are calculating area, you are better of with a more localized projection, such as the UTM Zones. 
+Note: Coordinate Systems are important for area calculations. Cadasta uses the de facto Web Mercator coordinate system, which uses meters. Each coordinate system has its own unit of measurement. 
 
-Need to add more instructions for documentation
-For example, UTM Zone 1 minimizes distortion between -180 and -174 degrees longitude.   Remember that each coordinate system has its own unit of measurement. The Web Mercator coordinate system uses meters. If you project into State Plane to perform your measurements, your returned measurement could be in either meters or feet depending on the variation of the coordinate system you choose. Be careful not to report a mistaken unit in the labels or text in your application. You may need to add some basic conversion math to your code to get the unit you need.
-To change your projection you need to click on the projection on the right. That will bring up a window to change the coordinate system to what 
+If you are calculating area, you are better of with a more localized projection, such as the UTM Zones. 
 
+![](/assets/reproject-window.png)
+
+To change your projection you need to click on the projection on the right. That will bring up a window to change the coordinate system.
+
+For example, UTM Zone 1 minimizes distortion between -180 and -174 degrees longitude.
+
+If you project into State Plane to perform your measurements, your returned measurement could be in either meters or feet depending on the variation of the coordinate system you choose. Be careful not to report a mistaken unit in the labels or text in your application. You may need to add some basic conversion math to your code to get the unit you need.
 
 ### 4. Map Making/Printing Workflows {#map-making}
 
@@ -239,10 +243,9 @@ Using the toggles on the top right, you can dynamically preview what each print 
 
 ![](/assets/qgis-print-05.png)
 
-### 5. Recommended Uploading Workflows
+### 5. Recommended Uploading Workflows {#uploading}
 
 At the moment, the best way to upload data to Cadasta is through converting the data into a csv or XLS file and uploading it on the web. The QGIS plugin only supports uploading location attributes consistently. 
-
 
 #### (1) Data Prep
 
@@ -257,9 +260,11 @@ There are a number of rules that layers must follow to upload in Cadasta:
 
 #### Georeferencing {#georeference}
 
+Most organizations have conducted property surveys in the past. Usually, these have been collected and stored on paper maps. This section will walk you through how you can convert the paper map information into digital shapefiles so that you can use 
 
-1. Determine the datum and coordinate system of the map. 
-Digitize the image (take a photo or scan the paper map)
+1. Determine the datum and coordinate system of the paper map. Usually, you can find that in the legend of the map. It should look like  
+
+2. Digitize the image (take a photo or scan the paper map)
 Open up QGIS and install the ‘Georeferencer GDAL’ plugin. This plugin was installed during the QGIS installation process, but you need to enable it in the “Manage and Install Plugins”
 
 4. Start the georeferencing process by going to “Raster” ‣ “Georeferencer” ‣ “Georeferencer” 
