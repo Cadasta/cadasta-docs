@@ -3,12 +3,12 @@
 _8 September 2017: Please note that this page is in-progress; refresh to view any changes._
 
 
-* [Overview](#overview})
+* [Overview](#overview)
 * [Setting up the QGIS Plugin and downloading your data](#setup)
-	- File layers overview {#file-overview}
+	- [File layers overview](#file-overview)
 * [Map Making and Printing Workflows](#map-making)
-	- Joining the party, relationship, and location layers {#joining}
-	- Reprojecting the location layer {#reproject}
+	- [Joining the party, relationship, and location layers](#joining)
+	- [Reprojecting the location layer](#reproject)
 * [Recommended Uploading Workflows](#uploading)
 	- [Georeferencing Paper Maps](#georeference)
 * [Other Tips and Tricks](#other)
@@ -262,10 +262,14 @@ There are a number of rules that layers must follow to upload in Cadasta:
 
 Most organizations have conducted property surveys in the past. Usually, these have been collected and stored on paper maps. This section will walk you through how you can convert the paper map information into digital shapefiles so that you can use 
 
-1. Determine the datum and coordinate system of the paper map. Usually, you can find that in the legend of the map. It should look like  
+Preparation: Determine the datum and coordinate system of the paper map. Usually, you can find that in the legend of the map. It should look like ... 
+Digitize the image (take a photo or scan the paper map)
 
-2. Digitize the image (take a photo or scan the paper map)
-Open up QGIS and install the ‘Georeferencer GDAL’ plugin. This plugin was installed during the QGIS installation process, but you need to enable it in the “Manage and Install Plugins”
+
+Install the ‘Georeferencer GDAL’ plugin. This plugin was installed during the QGIS installation process, but you need to enable it in the “Manage and Install Plugins” 
+
+2. 
+
 
 4. Start the georeferencing process by going to “Raster” ‣ “Georeferencer” ‣ “Georeferencer” 
 
