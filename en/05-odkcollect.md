@@ -22,10 +22,10 @@ ODK is a free, open source mobile data collection application for Android device
 
 This section provides an overview of how ODK and Cadasta work together:
 
-1. First, you'll [set up ODK](#initial-setup) on an Android device.
-2. Then you'll [load the Cadasta XLSForm](#loading-your-form) you want to use for data collection.
-3. Finally, it's time to [collect your data](#data-collection)! 
-4. When you're back to WiFi, [upload your data](#uploading-data) to the Cadasta Platform.
+1. First, you'll [set up ODK](#odk-initial-setup) on an Android device.
+2. Then you'll [load the Cadasta XLSForm](#odk-loading-your-form) you want to use for data collection.
+3. Finally, it's time to [collect your data](#odk-data-collection)! 
+4. When you're back to WiFi, [upload your data](#odk-uploading-data) to the Cadasta Platform.
 
 **Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to [troubleshoot](#odk-troubleshooting) or make any changes. 
 
@@ -104,7 +104,7 @@ Once you've chosen your default language and set up your questions in all the la
 
 ##Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#odk-geotracing}
 
-During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
+During [data collection](#odk-data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
 ![](/assets/new-odk-geoshape-geotrace-geopoint.png)
 
@@ -206,7 +206,7 @@ ODK makes editing your forms relatively easy. From the main menu, select **Edit 
 
 You can also delete unwanted forms by selecting **Delete Data** from the main menu. On the page that follows, you can toggle between Saved Forms and Blank Forms to delete either one. 
 
-## ODK Troubleshooting {#odk-odk-troubleshooting}
+## ODK Troubleshooting {#odk-troubleshooting}
 
 If you're having trouble using ODK, the answer to your question may be here. If not, please [contact us](http://cadasta.org/contact/) and we'll do our best to help you work through the issue.
 
@@ -250,16 +250,16 @@ In the meantime, here are some alternatives:
 * [Deleting Forms](#geoodk-deleting-questionnaires)
 * [GeoODK Troubleshooting](#geoodk-troubleshooting)
 
-## GeoODK Overview {#geoodk-geoodk-overview}
+## GeoODK Overview {#geoodk-overview}
 
 Geographical Open Data Kit \(GeoODK Collect\) is a data collection application for Android devices (unfortunately not yet available for Apple devices). Like Open Data Kit (ODK Collect), GeoODK can be used for data collection projects in the Cadasta Platform. 
 
 This section provides an overview of how GeoODK and Cadasta work together:
 
-1. First, you'll [set up GeoODK](#initial-setup) on an Android device.
-2. Then you'll [load the Cadasta XLSForm](#loading-your-form) you want to use for data collection.
-3. Finally, it's time to [collect your data](#data-collection)! 
-4. When you're back to WiFi, [upload your data](#uploading-data) to the Cadasta Platform.
+1. First, you'll [set up GeoODK](#geoodk-initial-setup) on an Android device.
+2. Then you'll [load the Cadasta XLSForm](#geoodk-loading-your-form) you want to use for data collection.
+3. Finally, it's time to [collect your data](#geoodk-data-collection)! 
+4. When you're back to WiFi, [upload your data](#geoodk-uploading-data) to the Cadasta Platform.
 
 **Important!** Steps 1, 2, and 4 require being near WiFi. You may also want to test step 3 before heading out into the field, just in case you need to [troubleshoot](#geoodk-troubleshooting) or make any changes. 
 
@@ -338,7 +338,7 @@ Once you've chosen your default language and set up your questions in all the la
 
 ## Collecting Location Data: GeoTrace, GeoShape, and GeoPoint {#geoodk-geotracing}
 
-During [data collection](#data-collection), you'll be asked to collect data specifying your location using one of the following options.
+During [data collection](#geoodk-data-collection), you'll be asked to collect data specifying your location using one of the following options.
 
 * **[GeoTrace](#geotrace)** creates lines  (collections of two or more GPS coordinates) based on your location. In other words, you can use GeoTrace to walk an area, using automatic or manual mode.  GeoTrace is the default option provided. 
 

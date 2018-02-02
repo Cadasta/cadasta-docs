@@ -11,6 +11,7 @@ _8 September 2017: Please note that this page is in-progress; refresh to view an
 	- [Reprojecting the location layer](#reproject)
 * [Recommended Uploading Workflows](#uploading)
 	- [Georeferencing Paper Maps](#georeference)
+	- [Adding Digital Globe Imagery](#digital-globe)
 * [Other Tips and Tricks](#other)
 
 ## Overview {#overview}
@@ -253,10 +254,10 @@ If you would like to try uploading data via the plugin, we recommend that you on
 
 There are a number of rules that layers must follow to upload in Cadasta: 
 
-	#1. The layer must have a `location_type` field
-	#2. The layer must have a geometry in a supported projection (CRS EPSG: 3857)
-	#3. Data formats must be precise. If you are uploading a data, make sure that the field is a date field. 
-	#4. There must not be any white space in integer or date fields. 
+	# 1. The layer must have a `location_type` field
+	# 2. The layer must have a geometry in a supported projection (CRS EPSG: 3857)
+	# 3. Data formats must be precise. If you are uploading a data, make sure that the field is a date field. 
+	# 4. There must not be any white space in integer or date fields. 
 
 #### Georeferencing {#georeference}
 
@@ -266,41 +267,60 @@ Preparation: Determine the datum and coordinate system of the paper map. Usually
 Digitize the image (take a photo or scan the paper map)
 
 
-Install the ‘Georeferencer GDAL’ plugin. This plugin was installed during the QGIS installation process, but you need to enable it in the “Manage and Install Plugins” 
-
-2. 
+1. Install the ‘Georeferencer GDAL’ plugin. This plugin was installed during the QGIS installation process, but you need to enable it in the “Manage and Install Plugins” 
 
 
-4. Start the georeferencing process by going to “Raster” ‣ “Georeferencer” ‣ “Georeferencer” 
+2. Start the georeferencing process by going to “Raster” ‣ “Georeferencer” ‣ “Georeferencer” 
 
 
-5. You will see two sections of the plugin window: top section is where the paper map will be displayed and the bottom image is where a table of the ground coordinates will appear. 
+3. You will see two sections of the plugin window: top section is where the paper map will be displayed and the bottom image is where a table of the ground coordinates will appear. 
 Now we will open the JPG or PNG image. Go to File ‣ Open Raster. Browse to the downloaded image of the scanned map and click Open.
 
-6. Next, you will asked to choose the raster’s coordinate reference system (CRS). This is to specify the projection and datum of your control points. If you have collected the ground control points using a GPS device, you would have the WGS84 CRS. If you are geo-referencing a scanned map like this, you can obtain the CRS information from the map itself. Looking at our map image, the coordinates are in Lat/Long. There is no datum information given, so we have to assume an appropriate one. Since it is India and the map is quite old, we can bet the Everest 1830 datum would give us good results.
+4. Next, you will asked to choose the raster’s coordinate reference system (CRS). This is to specify the projection and datum of your control points. If you have collected the ground control points using a GPS device, you would have the WGS84 CRS. If you are geo-referencing a scanned map like this, you can obtain the CRS information from the map itself. Looking at our map image, the coordinates are in Lat/Long. There is no datum information given, so we have to assume an appropriate one. Since it is India and the map is quite old, we can bet the Everest 1830 datum would give us good results.
 
-7. You will see the image will be loaded on the top section.
+5. You will see the image will be loaded on the top section.
 
-8. You can use the zoom/pan controls in the toolbar to learn more about the map.
+6. You can use the zoom/pan controls in the toolbar to learn more about the map.
 
-9. Now we need to assign coordinates to some points on this map. If you look closely, you will see coordinate grid with markings. Using this grid, you can determine the X and Y coordinates of the points where the grids intersect. Click on Add Point in the toolbar.
+7. Now we need to assign coordinates to some points on this map. If you look closely, you will see coordinate grid with markings. Using this grid, you can determine the X and Y coordinates of the points where the grids intersect. Click on Add Point in the toolbar.
 
-10. In the pop-up window, enter the coordinates. Remember that X=longitude and Y=latitude. Click OK.
+8. In the pop-up window, enter the coordinates. Remember that X=longitude and Y=latitude. Click OK.
 
-11. You will notice the GCP table now has a row with details of your first GCP.
+9. You will notice the GCP table now has a row with details of your first GCP.
 
-12. Similarly, add at least 4 GCPs covering the entire image. The more points you have, the more accurate your image is registered to the target coordinates.
+10. Similarly, add at least 4 GCPs covering the entire image. The more points you have, the more accurate your image is registered to the target coordinates.
 
-13. Once you have enough points, go to Settings -> Transformation settings.
+11. Once you have enough points, go to Settings -> Transformation settings.
 
-14. In the Transformation settings dialog, choose the Transformation type as Thin Plate Spline. Name your output raster as 1870_southern_india_modified.tif. Choose EPSG:4326 as the target SRS so the resulting image is in a widely compatible datum. Make sure the Load in QGIS when done option is checked. Click OK.
+12. In the Transformation settings dialog, choose the Transformation type as Thin Plate Spline. Name your output raster as 1870_southern_india_modified.tif. Choose EPSG:4326 as the target SRS so the resulting image is in a widely compatible datum. Make sure the Load in QGIS when done option is checked. Click OK.
 
-15. Back in the Georeferencer window, go to File ‣ Start georeferencing. This will start the process of warping the image using the GCPs and creating the target raster.
+13. Back in the Georeferencer window, go to File ‣ Start georeferencing. This will start the process of warping the image using the GCPs and creating the target raster.
 
-16. Once the process finishes, you will see the georeferenced layer loaded in QGIS.
+14. Once the process finishes, you will see the georeferenced layer loaded in QGIS.
 
-17. The georeferencing is now complete. But as always, it’s a good practice to verify your work. How do we check if our georeferencing is accurate? In this case, load the country boundaries shapefile from a trusted source like the Natural Earth dataset and compare them. You will notice they match up pretty nicely. There is some error and it can be further improved by taking more control points, changing transformation parameters and trying a different datum.
+15. The georeferencing is now complete. But as always, it’s a good practice to verify your work. How do we check if our georeferencing is accurate? In this case, load the country boundaries shapefile from a trusted source like the Natural Earth dataset and compare them. You will notice they match up pretty nicely. There is some error and it can be further improved by taking more control points, changing transformation parameters and trying a different datum.
 
+
+### Adding Digital Globe Imagery {#digital-globe}
+
+You can use DigitalGlobe Maps API with OSGeo's QGIS Desktop application - a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS Desktop runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous vector, raster, and database formats and functionalities.
+
+Adding Maps API imagery and basemap content layers to QGIS Desktop is a snap with Maps API WMTS. Integration Steps below, using our Recent Imagery layer as example.
+
+1. Grab a Maps API Map Style from this page
+2. Open QGIS Desktop
+3. Add WMS/WMTS Layer
+4. Fill out the dialog box:
+	* Name: DG Maps API Recent Imagery
+	* URL: ```http://api.mapbox.com/styles/v1/digitalglobe/ciode6t5k0081aqm7k06dod4v/wmts?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNpaHhtenBmZjAzYW11a2tvY2p3MnpjcGcifQ.vF1gH0mGgK31yeHC1k1Tqw```
+
+5. Click OK ( no need for username or password)
+6. Click 'Connect' and then highlight the content layer
+7. Click 'Add'
+
+You should now see Maps API Recent Imagery in your QGIS desktop.
+
+![](/assets/digital-globe.png)
 
 ### Other Tips and Tricks {#other}
 
@@ -366,6 +386,7 @@ To add choices to `select_one` and/or `select_multiple` fields, you will need to
 ```
 
 Note: At the moment, updating and creating projects in QGIS does not support custom location type and tenure type values.  This is not the case when using the platform-- you are able to use custom values if you build a questionnaire with XLS.
+
 ##### Troubleshooting
 
 Sometimes the best steps to figure out an issue are to start with small data sets. 
