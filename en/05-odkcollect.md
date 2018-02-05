@@ -240,12 +240,12 @@ In the meantime, here are some alternatives:
 
 # Collecting Data with GeoODK Collect (Geographical Open Data Kit) 
 
-* [Overview](#geoodk-overview)
-* [Initial Setup](#geoodk-initial-setup)
-* [Loading Your Cadasta XLSForm](#geoodk-loading-your-form)
-* [Data Collection](#geoodk-data-collection)
-* [Uploading Data](#geoodk-uploading-data)
-* [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geoodk-geotracing)
+* [GeoODK Overview](#geoodk-overview)
+* [GeoODK Initial Setup](#geoodk-initial-setup)
+* [GeoODK Loading Your Cadasta XLSForm](#geoodk-loading-your-form)
+* [GeoODK Data Collection](#geoodk-data-collection)
+* [GeoODK Uploading Data](#geoodk-uploading-data)
+* [GeoODK Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#geoodk-geotracing)
 * [Editing Data](#geoodk-editing-data)
 * [Deleting Forms](#geoodk-deleting-questionnaires)
 * [GeoODK Troubleshooting](#geoodk-troubleshooting)
