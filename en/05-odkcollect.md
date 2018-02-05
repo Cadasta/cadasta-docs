@@ -1,16 +1,16 @@
-# Collecting Data with ODK or GeoODK Collect (Open Data Kit) 
+# Collecting Data with [ODK](#odk-overview) or [GeoODK](#geoodk-overview) Collect (Open Data Kit) 
 
 
 This chapter is divided into two parts: 
 
-* [Overview](#odk-overview)
-* [Initial Setup](#odk-initial-setup)
-* [Loading Your Cadasta XLSForm](#odk-loading-your-form)
-* [Data Collection](#odk-data-collection)
-* [Uploading Data](#odk-uploading-data)
-* [Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#odk-geotracing)
-* [Editing Data](#odk-editing-data)
-* [Deleting Forms](#odk-deleting-questionnaires)
+* [ODK Overview](#odk-overview)
+* [ODK Initial Setup](#odk-initial-setup)
+* [ODK Loading Your Cadasta XLSForm](#odk-loading-your-form)
+* [ODK Data Collection](#odk-data-collection)
+* [ODK Uploading Data](#odk-uploading-data)
+* [ODK Collecting Location Data: GeoTrace, GeoPoint and GeoShape](#odk-geotracing)
+* [ODK Editing Data](#odk-editing-data)
+* [ODK Deleting Forms](#odk-deleting-questionnaires)
 * [ODK Troubleshooting](#odk-troubleshooting)
 
 
