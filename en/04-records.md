@@ -7,7 +7,7 @@
 * [Searching Through Records](#search)
 * [Editing Records and its Polygons, Polylines and Points](#editing)
 
-## Overview{#overview}
+## Overview {#overview}
 
 Within any given project, you may be working with lots of different [locations](#project-locations). For example, within a forested area, there may be a national park boundary as well as a building that you'll need to track.
 
@@ -61,7 +61,7 @@ Now you can use those points to trace your new location.
 
 ### Location Types {#location-types}
 
-Location types define the type of location you're uploading:
+Location types define the type of location you are collecting.  Here is a _suggested_ list of location types that you could use:
 
 * **Parcel** - a plot of land.
 * **Community Boundary** - a formal or informal boundary between two groups of people.
@@ -72,24 +72,26 @@ Location types define the type of location you're uploading:
 * **National Park Boundary** - the boundary between a national park and another kind of land. 
 * **Miscellaneous** - another kind of location that doesn't fit into any of your categories.
 
-To change the location types that you're using, [edit your Cadasta XLSForm](09-XLSForms.md). 
+You can come up with your own list of location types in your custom form. To change the location types that you are using, [edit your Cadasta XLSForm](09-XLSForms.md). 
 
 ### Location Acquisition {#location-acquisition}
 
-You may also be asked to define how your location was acquired. You can choose from one of the following categories:
+Another suggested field is the land acquisition. It is useful to collect the history of how the land was acquired. Here are some recommended options: 
 
-* CS - Contractual Share Crop
-* CA - Customary Arrangement
-* GF - Gift
-* HS - Homestead
-* IO - Informal Occupant
-* IN - Inheritance
-* LH - Leasehold 
-* PF - Purchased Freehold
-* RN - Rental
-* OT - Other
+```
+* share_crop - Contractual Share Crop
+* cust_arg - Customary Arrangement
+* gift - Gift
+* homestead - Homestead
+* inf_occ - Informal Occupant
+* inherit - Inheritance
+* leasehold - Leasehold 
+* pur_freehold - Purchased Freehold
+* rental - Rental
+* other - Other
+```
 
-##People (a.k.a. Parties) and Their Relationship to a Location{#location-relationships}
+## People (a.k.a. Parties) and Their Relationship to a Location{#location-relationships}
 
 ### People (a.k.a Parties) {#Parties}
 
@@ -122,7 +124,7 @@ If you click on a name, it will take you to a detail page where you can see an o
 Any given location has a relationship to a number of parties. For example, a municipality may own a utility corridor, which a local community may use as a right-of-way. 
 
 
-###Adding a New Relationship {#adding-a-new-relationship}
+### Adding a New Relationship {#adding-a-new-relationship}
 
 To add a new relationship for a project location, click on the Relationships tab. Then, click on **Add relationship**. 
 
@@ -174,7 +176,7 @@ The Cadasta Platform is set up to handle this kind of complexity, organizing res
 * Resources pertaining to the project generally.
 
 
-###Adding a New Resource {#adding-new-resource}
+### Adding a New Resource {#adding-new-resource}
 
 There are a few ways to add a new resource, depending on what it pertains to.
 
@@ -208,6 +210,7 @@ From any of these starting points, you'll be led to a pop-up window. Here, you'l
 
 Acceptable file types are:
 
+```
 * .pdf
 * .mp3
 * .mp4
@@ -221,8 +224,9 @@ Acceptable file types are:
 * .xlsx
 * .xml 
 * .gpx
+```
 
-####.gpx Files as Project Resources
+#### .gpx Files as Project Resources
 
 ![](/assets/gpx.png)
 

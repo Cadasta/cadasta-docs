@@ -56,7 +56,6 @@ If this is the first time you've used ODK with the Cadasta Platform, you'll need
 _**Important!** Notice the `s` at the end of `https` in the URLs above. That's an important part of our URLs! Forgetting it will produce an error. `https` provides authentication of the website and associated web server, meaning that the information being sent and received is more secure than it would be as just `http`. <a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank">Read more.</a> _
 Here, you'll also want to enter your Cadasta username and password. This will connect you to your Cadasta account, where you can access your questionnaires for data collection.
 
-
 Click the back button twice to return to the main menu.
 
 ## Loading your Cadasta XLSForms {#odk-loading-your-form}
