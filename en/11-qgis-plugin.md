@@ -1,8 +1,5 @@
 # Cadasta QGIS Plugin
 
-_8 September 2017: Please note that this page is in-progress; refresh to view any changes._
-
-
 * [Overview](#overview)
 * [Setting up the QGIS Plugin and downloading your data](#setup)
 	- [File layers overview](#file-overview)

@@ -6,6 +6,7 @@
 * [Adding Organization Members](#adding-organization-members)
 * [Editing Organization Member Permissions](#editing-member-organization-permissions)
 * [Removing Organization Members](#removing-organization-members)
+* [Personal Dashboard](#personal-dashboard)
 
 ## Overview{#overview}
 
@@ -86,3 +87,13 @@ Administrators may also remove organization members by clicking the **Remove mem
 ![](/assets/organization-add-member-5.png)
 
 Note that this will not remove the user account from the Cadasta Platform; only from your organization.
+
+## Personal Dashboard {#personal-dashboard}
+
+You are able to access your organization and future projects through your personal dashboard. Click on your username on the top right to see a dropdown box. Click "My Dashboard".
+
+![](/assets/personal-dashboard-01.png)
+
+That action is the fastest way to get to your organizations and projects.  From here, you can click on any of your projects to view.
+
+![](/assets/personal-dashboard-02.png)

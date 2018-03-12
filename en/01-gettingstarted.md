@@ -75,3 +75,4 @@ To get started with Cadasta, the first thing you need to do to is create a user 
 From here, check your inbox for a verification email. You'll have 48 hours to verify account creation, or else your account will be deleted.
 
 Next, log into Cadasta, where you'll return to the home screen, where you can view public projects and organizations.
+
